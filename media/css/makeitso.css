@@ -1,0 +1,104 @@
+@import url('https://dokie.li/media/css/basic.css');
+
+body { padding: 0; margin: 0; width: 100%; }
+
+header hgroup {
+    float: left;
+}
+header object {
+    float: left;
+    margin-right: 2em;
+}
+nav {
+    width: 100%;
+    overflow: hidden;
+    padding-top: 0.4em;
+}
+nav ul {
+    list-style: none; padding: 0; margin: 0;
+}
+nav li {
+    float: left;
+}
+nav li a {
+    display: inline-block;
+    padding: 1em;
+}
+nav i {
+    font-family: Arial, sans-serif;
+}
+
+/* Homepage specific styles */
+#index header { 
+    background-color: black;
+    background-image: url('/media/images/nebula.jpg');
+    background-position: left; background-repeat: repeat;
+    color: white;
+    padding: 6em 3em 6em 2em;
+    overflow: hidden;
+}
+#index header h1 { 
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: left;
+    padding: 0; margin: 0.3em 0 0 0;
+}
+#index header h2 {
+    padding: 0; margin: 0;
+    margin-top: -0.4em;
+    font-size: 2.4em;
+    font-weight: normal;
+    letter-spacing: 0.1em;
+}
+#index #content ul {
+    list-style: none; padding: 0; margin: 0;
+    text-align: center;
+    background-color: #e4eee9;
+}
+#index #content li {
+    padding: 1em;
+}
+#index #content h3 {
+    font-size: 2em;
+    color: #153419; font-weight: normal;
+}
+#index #content ul i {
+    color: #153419;
+    margin-top: 0.5em;
+}
+#index #index #content ul p {
+    margin: 0; font-size: 1.2em;
+}
+
+#index #content ul p a:last-of-type { 
+    background-color: #153419; color: #e4eee9; 
+    padding: 0.4em; border-radius: 0.8em; margin-top: 0.4em;
+    white-space: nowrap; display: inline-block; 
+    text-decoration: none;
+    font-size: 0.8em;
+}
+#index #content ul p a:last-of-type:hover {
+    background-color: black;
+}
+
+#index #content section {
+    width: 100%;
+}
+#index #content section h2 {
+    margin-left: 1em;
+}
+#index #content section div {
+    margin: 0 2em 0 2em;
+}
+
+@media screen and (min-width: 768px){
+    #index #content ul { overflow: hidden; }
+    #index #content ul li { float:left; width:33%; margin-bottom:1em; padding: 0; }
+    #index #content ul li:nth-of-type(3n+4) { clear:both; }
+    #index #content ul li p { padding: 0 0.5em 0 0.5em; }
+
+    #index main { overflow: hidden; }
+    #index #content section {
+        float: left; width: 50%;
+    }
+}
