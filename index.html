@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="do-index">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta charset="utf-8" />
         <title>Linked Research</title>
@@ -14,89 +14,199 @@
         <script src="https://dokie.li/scripts/medium-editor.min.js"></script>
         <script src="https://dokie.li/scripts/medium-editor-tables.min.js"></script>
         <script src="https://dokie.li/scripts/do.js"></script>
+        <style>
+            body { padding: 0; margin: 0; width: 100%; }
+            header { 
+                background-color: black;
+                background-image: url('media/images/nebula.jpg');
+                background-position: left; background-repeat: repeat;
+                color: white;
+                padding: 6em 3em 6em 2em;
+                overflow: hidden;
+            }
+            header hgroup {
+                float: left;
+            }
+            header h1 { 
+                font-family: Arial, sans-serif;
+                font-weight: bold;
+                text-align: left;
+                padding: 0; margin: 0.3em 0 0 0;
+            }
+            header h2 {
+                padding: 0; margin: 0;
+                margin-top: -0.4em;
+                font-size: 2.4em;
+                font-weight: normal;
+                letter-spacing: 0.1em;
+            }
+            header object {
+                float: left;
+                margin-right: 2em;
+            }
+            nav {
+                width: 100%;
+                overflow: hidden;
+                padding-top: 0.4em;
+            }
+            nav ul {
+                list-style: none; padding: 0; margin: 0;
+            }
+            nav li {
+                float: left;
+            }
+            nav li a {
+                display: inline-block;
+                padding: 1em;
+            }
+            nav i {
+                font-family: Arial, sans-serif;
+            }
+            #content ul {
+                list-style: none; padding: 0; margin: 0;
+                text-align: center;
+                background-color: #e4eee9;
+            }
+            #content li {
+                padding: 1em;
+            }
+            #content h3 {
+                font-size: 2em;
+                color: #153419; font-weight: normal;
+            }
+            #content ul i {
+                color: #153419;
+                margin-top: 0.5em;
+            }
+            #content ul p {
+                margin: 0; font-size: 1.2em;
+            }
+
+            #content ul p a:last-of-type { 
+                background-color: #153419; color: #e4eee9; 
+                padding: 0.4em; border-radius: 0.8em; margin-top: 0.4em;
+                white-space: nowrap; display: inline-block;
+                text-decoration: none;
+            }
+            #content ul p a:last-of-type:hover {
+                background-color: black;
+            }
+
+            #content section {
+                width: 100%;
+            }
+            #content section h2 {
+                margin-left: 1em;
+            }
+            #content section div {
+                margin: 0 2em 0 2em;
+            }
+
+            @media screen and (min-width: 768px){
+                #content ul { overflow: hidden; }
+                #content ul li { float:left; width:33%; margin-bottom:1em; padding: 0; }
+                #content ul li:nth-of-type(3n+4) { clear:both; }
+                #content ul li p { padding: 0 0.5em 0 0.5em; }
+
+                main { overflow: hidden; }
+                #content section {
+                    float: left; width: 50%;
+                }
+            }
+        </style>
     </head>
 
     <body about="" typeof="schema:CreativeWork sioc:Post prov:Entity" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: http://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# schema: http://schema.org/ rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# solid: http://www.w3.org/ns/solid/terms#">
-        <header>
-            <address about="#i" typeof="schema:Organization doap:Project">
-                <object data="media/images/linkedresearch.svg" height="96" rel="schema:image" resource="media/images/linkedresearch.svg" type="image/svg+xml" width="96"><span property="schema:name" content="Linked Research logo"></span></object>
-                <a href="/" property="schema:name doap:name" rel="schema:url doap:homepage">Linked Research</a>
-            </address>
-        </header>
+        <nav>
+            <ul>
+                <li><a href="#"><i class="fa fa-align-left"> Articles</i></a></li>
+                <li><a href="#"><i class="fa fa-question-circle"> FAQ</i></a></li>
+                <li><a href="#"><i class="fa fa-puzzle-piece"> Resources</i></a></li>
+                <li><a href="#"><i class="fa fa-certificate"> Venues</i></a></li>
+                <li><a href="https://github.com/linkedresearch"><i class="fa fa-github"> Github</i></a></li>
+            </ul>
+        </nav>
 
         <main>
             <article about="" typeof="schema:Article">
-                <h1 property="schema:name">Call for Linked Research</h1>
-
-                <dl id="document-license">
-                    <dt>License</dt>
-                    <dd><a rel="schema:license" href="https://creativecommons.org/publicdomain/zero/1.0/" title="CC0 1.0 Universal Public Domain Dedication">CC0 1.0 Universal</a></dd>
-                </dl>
-
+                <header>
+                    <object data="media/images/linkedresearch_white.png" rel="schema:image" resource="media/images/linkedresearch.svg" type="image/svg+xml"><span property="schema:name" content="Linked Research logo"></span></object>
+                    <hgroup>
+                        <h1 property="schema:name">Linked Research</h1>
+                        <h2>Enabling accessible knowledge</h2>
+                    </hgroup>
+                </header>
+                
                 <div datatype="rdf:HTML" id="content" property="schema:description">
-                    <section id="motivation" rel="schema:hasPart" resource="#motivation">
-                        <h2 property="schema:name">Motivation</h2>
-                        <div datatype="rdf:HTML" property="schema:description">
-                            <p id="no-central-authority" about="#no-central-authority" typeof="deo:Motivation" property="schema:description doap:shortdesc"><strong>There is no central authority to judge the value of your contributions. You do not need permission to publish! Control your own research and communication.</strong></p>
-                        </div>
-                    </section>
-
+                    <ul id="parts">
+                        <li>
+                            <i class="fa fa-3x fa-universal-access"></i>
+                            <h3>Publications</h3>
+                            <p>Publish your research in a space you control, on your own terms. You do not need permission to make your work accessible to all.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-anchor"></i>
+                            <h3>Unique Identifiers</h3>
+                            <p>Create unique identifiers for everything you think is important, from data objects to sections of prose, so others can refer to and reuse them.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-link"></i>
+                            <h3>Reusability and Links</h3>
+                            <p>Reuse and link to other research and data so nothing goes to waste or is reinvented. Keep a machine-readable trace of inspirations and derivations.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-bullhorn"></i>
+                            <h3>Announcements</h3>
+                            <p>Publicise your work so that individuals, organisations and software can discover it.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-comments-o"></i>
+                            <h3>Feedback</h3>
+                            <p>Have an open comments policy so that anyone can review and generate discussion around your work.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-gift"></i>
+                            <h3>User experience</h3>
+                            <p>Create great UX for your readers. Consider tailoring how you present your work to different audiences and contexts, adding interactive elements and digital and print views.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-fire"></i>
+                            <h3>Question current practices</h3>
+                            <p>Reject information silos, paywalls, academic box-ticking, and archaic and artificial barriers. Be the change; publish your research with an open license, and openly review the work of others.</p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-plug"></i>
+                            <h3>Help and motivate</h3>
+                            <p>Encourage others to practice Linked Research. If you run a journal, conference or workshop, accept online, Web-friendly and interactive submission; publish your proceedings with machine-readable data; open up the review process. <a href="#">Who is doing this?</a></p>
+                        </li>
+                        <li>
+                            <i class="fa fa-3x fa-puzzle-piece"></i>
+                            <h3>Resources</h3>
+                            <p>Tools, techniques and resources for Linked Research are under ongoing development, and many venues are moving towards accepting work in non-traditional formats. <a href="#">Find out more</a></p>
+                        </li>
+                    </ul>
                     <section id="what-is-this" rel="schema:hasPart" resource="#what-is-this">
                         <h2 property="schema:name">What is this?</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            <p>Linked Research is set out to socially and technically enable researchers to take full control, ownership, and responsibility of their own knowledge, and have their contributions accessible to the society at maximum capacity, by dismantling the use of archaic and artificial barriers.</p>
-
-                            <p>This is a Call for <a href="http://csarven.ca/call-for-linked-research">Linked Research</a>!</p>
-
-                            <p>There is no central authority to judge the value of your contributions. You do not need permission to publish! Control your own research and communication. The Web already enables you to be the publisher!</p>
-
-                            <p>This is not something hypothetical or may happen in the future, it is completely possible today and there are ongoing initiatives and tooling to make it so.</p>
-
-                            <p>Linked Research’s core goals:</p>
-
-                            <ul>
-                                <li>Publishing and ownership of documents and data</li>
-                                <li>Discovery and reuse of knowledge and data</li>
-                                <li>User experience and tooling</li>
-                            </ul>
-
-                            <p>If you are a researcher e.g., in Web Science, reconsider and question the tooling or rules that you are asked to follow e.g:</p>
-
-                            <ul>
-                                <li>Academic paywalls</li>
-                                <li>Information silos e.g., third-party publishers</li>
-                                <li>Strictly desktop or “paper user interfaces” e.g., (La)TeX, PDF/Word</li>
-                                <li>Blind reviews</li>
-                            </ul>
-
-                            <p>We can work towards solutions where researchers can publish and consume research objects, as well as reviews and annotations that are both human and machine-friendly.</p>
+                            <p>Linked Research is an initative, a movement, and a manifesto. We believe that scholarly communication is stunted by current academic publishing platforms, and we aim to promote change for the greater good. This is not something hypothetical or may happen in the future, it is completely possible with today's technologies. A cultural shift is all it takes, and Linked Research is here to bring together like-minded people who want to push this forwards.</p>
+                            <p>Linked Research is not biased towards any particular tool or technology; we understand that different researchers and disciplines have different needs and desires around scholarly communication. We encourage the use of any technologies that comply with the Linked Research principles; we tend to find Web technologies work really well for this, but we'd love to hear about how you do it!</p>
                         </div>
                     </section>
-
-                    <section id="what-is-this" rel="schema:hasPart" resource="#what-is-this">
-                        <h2 property="schema:name">How to Linked Research</h2>
+                    <section id="join-in" rel="schema:hasPart" resource="#join-in">
+                        <h2 property="schema:name">Join in</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            <ul>
-                                <li id="access"><i class="fa fa-universal-access"></i> <em>Access</em>: Publish your work under a webspace that you control and trust e.g., your personal website, at your institution's webspace given to you, or library, or even at your company.</li>
-                                <li id="linked-open-data"><i class="fa fa-cloud"></i> <em>Linked Open Data</em>: Make sure your articles and annotations are human and machine-readable, interlinked with other information out there.</li>
-                                <li id="user-experience"><i class="fa fa-user"></i> <em>User Experience</em>: Take your articles further and enrich with user interactions to better communicate your ideas. Think beyond the boring fixed, non-interactive views.</li>
-                                <li id="open-communication"><i class="fa fa-bullhorn"></i> <em>Open communication</em>: Announce your ideas and invite your community to give feedback. Think beyond the minimal communication with organising or program committees. Encourage and help others to do the same.</li>
-                            </ul>
+                            <p><strong>Join the chat</strong> to get involved and help to push this initiative forward. Share your ideas, efforts, struggles and solutions. What stops you from publishing Linked Research? What challenges have you encountered? What examples of Linked Research are there in your field?</p><p><i class="fa fa-comments-o"></i> <a href="http://gitter.im/linkedresearch/chat">Gitter</a> <i class="fa fa-hashtag"></i> <a href="irc://irc.freenode.net/%23linkedresearch">IRC Freenode #linkedresearch</a> <i class="fa fa-twitter"></i> <a href="https://twitter.com/hashtag/LinkedResearch?src=hash">#LinkedResearch</a> <i class="fa fa-github"></i> <a about="" rel="doap:repository" href="https://github.com/linkedresearch">Linked Research</a>.</p>
+                            <p>This website is here to aggregate relevant <a href="#">articles</a> by the self-identifying Linked Research community, and from around the Web. We also list <a href="#">tools and techniques</a> for making your research more accessible, <a href="#">venues and platforms</a> who are accepting and promoting work which meets our principles, and <a href="#">examples</a> of Linked Research in the wild. If you have something to include, we'd love to hear from you: let us know in one of our chat channels, send an inbox notification to the appropriate article, or make a PR on github to add yourself.</p>
                         </div>
                     </section>
                 </div>
             </article>
         </main>
-
         <footer>
-            <section rel="schema:hasPart" resource="#help-and-shape">
-                <h2 property="schema:name">Help and shape dokieli</h2>
-                <div datatype="rdf:HTML" property="schema:description">
-                    <p><strong>Join the chat</strong> on <i class="fa fa-comments-o"></i> <a href="http://gitter.im/linkedresearch/chat">Gitter</a> or IRC Freenode <a href="irc://irc.freenode.net/%23linkedresearch">#linkedresearch</a> to get involved and help to push this initiative forward. Use hashtag: <i class="fa fa-twitter"></i> <a href="https://twitter.com/hashtag/LinkedResearch?src=hash">#LinkedResearch</a>.</p>
-
-                    <p>Help and shape: <a about="" rel="doap:repository" href="https://github.com/linkedresearch">Linked Research</a>, <a href="https://github.com/solid">Solid</a>, <a href="https://github.com/linkeddata/dokieli">dokieli</a>.</p>
-                </div>
-            </section>
+            <dl id="document-license">
+                <dt>License</dt>
+                <dd><a rel="schema:license" href="https://creativecommons.org/publicdomain/zero/1.0/" title="CC0 1.0 Universal Public Domain Dedication">CC0 1.0 Universal</a></dd>
+            </dl>
         </footer>
     </body>
 </html>
