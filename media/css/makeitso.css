@@ -2,17 +2,9 @@
 
 body { padding: 0; margin: 0; width: 100%; }
 
-header hgroup {
-    float: left;
-}
-header object {
-    float: left;
-    margin-right: 2em;
-}
 nav {
     width: 100%;
     overflow: hidden;
-    padding-top: 0.4em;
 }
 nav ul {
     list-style: none; padding: 0; margin: 0;
@@ -28,19 +20,32 @@ nav i {
     font-family: Arial, sans-serif;
 }
 
-/* Homepage specific styles */
-#index header { 
+header { 
     background-color: black;
     background-image: url('/media/images/nebula.jpg');
     background-position: left; background-repeat: repeat;
     color: white;
+}
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    text-align: left; 
+    font-size: 2em;
+    padding: 0.5em;
+    margin: 0;
+}
+header object {
+    float: left;
+    padding: 0.5em;
+}
+
+/* Homepage specific styles */
+#index header { 
     padding: 6em 3em 6em 2em;
     overflow: hidden;
 }
 #index header h1 { 
-    font-family: Arial, sans-serif;
-    font-weight: bold;
-    text-align: left;
+    font-size: 4em;
     padding: 0; margin: 0.3em 0 0 0;
 }
 #index header h2 {
@@ -49,6 +54,12 @@ nav i {
     font-size: 2.4em;
     font-weight: normal;
     letter-spacing: 0.1em;
+}
+#index header hgroup {
+    float: left;
+}
+#index header object {
+    margin-right: 2em;
 }
 #index #content ul {
     list-style: none; padding: 0; margin: 0;
