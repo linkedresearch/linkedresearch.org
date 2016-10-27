@@ -21,9 +21,11 @@
         <nav>
             <ul>
                 <li><a href="/articles/"><i class="fa fa-align-left"> Articles</i></a></li>
-                <li><a href="/faq/"><i class="fa fa-question-circle"> FAQ</i></a></li>
+                <li><a href="/call/"><i class="fa fa-bullhorn"> Call</i></a></li>
                 <li><a href="/resources/"><i class="fa fa-puzzle-piece"> Resources</i></a></li>
                 <li><a href="/venues/"><i class="fa fa-certificate"> Venues &amp; Publishers</i></a></li>
+                <li><a href="/events/"><i class="fa fa-globe"> Meetups and Events</i></a></li>
+                <li><a href="/faq/"><i class="fa fa-question-circle"> FAQ</i></a></li>
                 <li><a href="https://github.com/linkedresearch"><i class="fa fa-github"> Github</i></a></li>
             </ul>
         </nav>
