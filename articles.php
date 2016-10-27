@@ -1,8 +1,8 @@
 <? $title = "Linked Research articles"; ?>
 <? include 'top.php'; ?>
-<? include 'articles_data.php'; ?>
+<? include 'articles-data.php'; ?>
         <main>
-            <? include 'header_small.php'; ?>
+            <? include 'header-small.php'; ?>
             <article about="" typeof="as:Collection">
                 <section id="description" rel="schema:hasPart as:summary" resource="#description">
                     <div datatype="rdf:HTML" property="schema:description">
