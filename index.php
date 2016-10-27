@@ -4,7 +4,6 @@
         <main>
             <? include 'header-large.php'; ?>
             <article about="" typeof="schema:Article">
-                
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <ul id="parts">
                         <li>
@@ -54,6 +53,7 @@
                             <p>Tools, techniques and resources for Linked Research are under ongoing development, and many venues are moving towards accepting work in non-traditional formats.</p><p><a href="resources.html">Find out more</a></p>
                         </li>
                     </ul>
+
                     <section id="what-is-this" rel="schema:hasPart" resource="#what-is-this">
                         <h2 property="schema:name">What is this?</h2>
                         <div datatype="rdf:HTML" property="schema:description">

@@ -3,10 +3,8 @@
         <main>
             <? include 'header-small.php'; ?>
             <article about="" typeof="schema:Article">
-                
                 <div datatype="rdf:HTML" id="content" property="schema:description">
-                    
-                    <section id="call-for-lr" rel="schema:hasPart" resource="#call-for-lr">
+                    <section id="call-for-linked-research" rel="schema:hasPart" resource="#call-for-linked-research">
                         <h2 property="schema:name">Call for Linked Research</h2>
                         <div datatype="rdf:HTML" property="schema:description">
                             <section id="motivation" rel="schema:hasPart" resource="#motivation">
@@ -62,10 +60,9 @@
                         </div>
                     </section>
 
-                    <section id="enabling-lr" rel="schema:hasPart" resource="#enabling-lr">
+                    <section id="call-for-enabling-linked-research" rel="schema:hasPart" resource="#call-for-enabling-linked-research">
                         <h2 property="schema:name">Call for Enabling Linked Research</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-
                             <p>Want to help make Linked Research a reality for <em>everyone</em>?</p>
 
                             <p>The modern Web is ripe for use as a platform for academic publishing. Creating and hosting content is easier than ever, and social media has made sharing, critiquing and linking between things the norm. So why isn't everyone publishing their academic work online?</p>
@@ -77,7 +74,6 @@
                             <section id="enabling-lr-topics" rel="schema:hasPart" resource="#enabling-lr-topics">
                                 <h3 property="schema:name">Topics and Scope</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-
                                     <p>The scholarly communication process begins with conducting research and <strong>authoring</strong> reports, often collaboratively, including <strong>sourcing</strong> and <strong>citing</strong> related work, and <strong>reusing</strong> others’ data. <strong>Submitting</strong> reports for formal assessment by conference venues and journals permits <strong>verification</strong> and <strong>review</strong> of contributions, and allows a researcher to raise their <strong>profile</strong> and cement their expertise in the field. The review process allows academics to share their knowledge and remain abreast of work-in-progress and the current state of the art. <strong>Publications</strong> provide stable snapshots of projects and enable the <strong>aggregation</strong> of related work. Repositories and libraries provide persistent <strong>archives</strong> of work and interfaces for <strong>searching</strong>. Citation <strong>impact</strong> and <strong>altmetrics</strong> are used to determine the value of projects and the <strong>reputation</strong> of participants. <strong>Discoverability</strong> and reuse can be enhanced through adding machine readable <strong>semantics</strong> to published work, completing the cycle.</p>
 
                                     <p>We invite contributions around (but not exclusive to) the following areas:</p>
@@ -122,13 +118,12 @@
                                             </ul>
                                         </li>
                                     </ul>
-
                                 </div>
                             </section>
-                            <section id="enabling-lr-submissions" rel="schema:hasPart" resource="#enabling-lr-submissions">
+
+                            <section id="submissions-and-review" rel="schema:hasPart" resource="#submissions-and-review">
                                 <h3 property="schema:name">Submissions and Review</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-
                                     <p>Enabling Linked Research works best when <em><a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">dogfooded</a></em>; the most interesting projects are the ones where the authors can demonstrate that they use their tooling or techniques in their own practice.</p>
 
                                     <p>Researchers who are enabling Linked Research should also practice Linked Research. Decentralisation and data ownership are key, so you will submit your contribution by publishing a document at a domain you control (or have authority over), and sending us the URL. Submissions should be in a format which best conveys your message, and there are none of the constraints associated with paper or print. Write for the Web and make it as accessible as possible.</p>
@@ -140,6 +135,7 @@
                                     <!-- todo: not actually set up for receiving submissions or doing reviews, deal with this. -->
                                 </div>
                             </section>
+
                             <section id="enabling-lr-presenting" rel="schema:hasPart" resource="#enabling-lr-presenting">
                                 <h3 property="schema:name">Presenting your work</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
@@ -148,7 +144,6 @@
                             </section>
                         </div>
                     </section>
-                    
                 </div>
             </article>
         </main>

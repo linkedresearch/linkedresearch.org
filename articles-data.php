@@ -189,13 +189,13 @@ $articles = array(
   )
   ,array(
      "id" => "http://csarven.ca/this-paper-is-a-demo"
-    ,"name" => "This 'paper' is a demo"
+    ,"name" => "This ‘Paper’ is a Demo"
     ,"published" => new DateTime("2015-02-24")
     ,"author" => array(array(
          "id" => "http://csarven.ca/#i"
         ,"name" => "Sarven Capadisli"
       ))
-    ,"summary" => "<p>This 'paper'’', when viewed on the Web, is the demo itself, since the interactive and semantic features can be directly observed while reading and consuming. The demo showcases, how scholarly communication can adapt to the audience, whether the content is read on a screen or printed on paper, listen with a screen reader, watched as a movie, shown as a presentation, or even interacted with in the document.</p>"
+    ,"summary" => "<p>This ‘paper’, when viewed on the Web, is the demo itself, since the interactive and semantic features can be directly observed while reading and consuming. The demo showcases, how scholarly communication can adapt to the audience, whether the content is read on a screen or printed on paper, listen with a screen reader, watched as a movie, shown as a presentation, or even interacted with in the document.</p>"
     ,"slug" => "this-paper-is-a-demo"
     ,"root" => "csarven.ca"
   )
