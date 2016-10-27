@@ -105,6 +105,11 @@ header object {
     margin: 0 2em 0 2em;
 }
 
+article {
+    border-bottom: 1px solid #eee;
+}
+article:last-of-type { border: none; }
+
 @media screen and (min-width: 768px){
     #index #content ul { overflow: hidden; }
     #index #content ul li { float:left; width:33%; margin-bottom:1em; padding: 0; }
