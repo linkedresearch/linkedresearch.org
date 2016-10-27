@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" id="index">
     <head>
         <meta charset="utf-8" />
-        <title>Linked Research</title>
+        <title><?=isset($title) ? $title : "Linked Research"?></title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link href="media/css/makeitso.css" media="all" rel="stylesheet" title="MakeItSo" />
         <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
@@ -27,33 +27,3 @@
                 <li><a href="https://github.com/linkedresearch"><i class="fa fa-github"> Github</i></a></li>
             </ul>
         </nav>
-
-        <main>
-            <article about="" typeof="schema:Article">
-                <header>
-                    <object data="media/images/linkedresearch_white.png" rel="schema:image" resource="media/images/linkedresearch.svg" type="image/svg+xml" width="64px"><span property="schema:name" content="Linked Research logo"></span></object>
-                    <hgroup>
-                        <h1 property="schema:name">Linked Research</h1>
-                    </hgroup>
-                </header>
-                
-                <div datatype="rdf:HTML" id="content" property="schema:description">
-                    
-                    <section id="resources" rel="schema:hasPart" resource="#resources">
-                        <h2 property="schema:name">Resources</h2>
-                        <div datatype="rdf:HTML" property="schema:description">
-                            <p>Stuff</p>
-                        </div>
-                    </section>
-                    
-                </div>
-            </article>
-        </main>
-        <footer>
-            <dl id="document-license">
-                <dt>License</dt>
-                <dd><a rel="schema:license" href="https://creativecommons.org/publicdomain/zero/1.0/" title="CC0 1.0 Universal Public Domain Dedication">CC0 1.0 Universal</a></dd>
-            </dl>
-        </footer>
-    </body>
-</html>
