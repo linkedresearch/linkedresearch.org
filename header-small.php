@@ -1,5 +1,3 @@
 <header>
-    <hgroup>
-        <h1 property="schema:name">Linked Research</h1>
-    </hgroup>
+    <h1 property="schema:name"><?=$title;?></h1>
 </header>

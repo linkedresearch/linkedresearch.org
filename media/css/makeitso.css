@@ -3,18 +3,15 @@
 body { padding: 0; margin: 0; width: 100%; }
 
 nav {
-    width: 100%;
+    width: calc(100% - 6em);
+    margin-left: 3em;
     overflow: hidden;
 }
 nav ul {
     list-style: none; padding: 0; margin: 0;
 }
-nav li {
-    float: left;
-}
 nav li a {
     display: inline-block;
-    padding: 1em;
     color: black;
 }
 nav i {
@@ -22,34 +19,31 @@ nav i {
 }
 
 header { 
-    background-color: black;
+    background-color: #000;
     background-image: url('/media/images/nebula.jpg');
-    background-position: left; background-repeat: repeat;
+    background-position: 50%;
+    background-repeat: no-repeat;
     color: white;
+    text-align: center;
 }
 header a { text-decoration: none; }
 h1 {
     font-family: Arial, sans-serif;
     font-weight: bold;
-    text-align: left; 
     font-size: 2em;
     padding: 0.5em;
     margin: 0;
     color: white;
 }
-header object {
-    float: left;
-    padding: 0.5em;
-}
 
 /* Homepage specific styles */
-#index header { 
-    padding: 6em 3em 6em 2em;
+#index header {
+    padding: 8em 0;
     overflow: hidden;
 }
 #index header h1 { 
     font-size: 4em;
-    padding: 0; margin: 0.3em 0 0 0;
+    padding:0;
 }
 #index header h2 {
     padding: 0; margin: 0;
@@ -67,7 +61,7 @@ header object {
 #index #content ul {
     list-style: none; padding: 0; margin: 0;
     text-align: center;
-    background-color: #e4eee9;
+    background-color: rgba(228, 238, 233, 0.9);
 }
 #index #content li {
     padding: 1em;
@@ -110,14 +104,20 @@ article {
 }
 article:last-of-type { border: none; }
 
+footer { text-align: center; }
+footer dl { width: 100%; }
+#document-license dt { display: none; }
+
 @media screen and (min-width: 768px){
+    nav { text-align: center; }
+    nav li { display: inline; }
+    nav li a { padding: 1.25em; }
+
     #index #content ul { overflow: hidden; }
-    #index #content ul li { float:left; width:33%; margin-bottom:1em; padding: 0; }
     #index #content ul li:nth-of-type(3n+4) { clear:both; }
-    #index #content ul li p { padding: 0 0.5em 0 0.5em; }
+    #index #content ul li { float:left; width: 33.33%; padding: 0; margin-bottom:1em; }
+    #index #content ul li p { width:calc(100% - 6em); padding: 0 3em; }
 
     #index main { overflow: hidden; }
-    #index #content section {
-        float: left; width: 50%;
-    }
+    #index #content section { float: left; width: 50%; }
 }
