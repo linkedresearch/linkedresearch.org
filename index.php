@@ -2,8 +2,8 @@
 <? include 'top.php'; ?>
 
         <main>
+            <? include 'header_large.php'; ?>
             <article about="" typeof="schema:Article">
-                <? include 'header_large.php'; ?>
                 
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <ul id="parts">

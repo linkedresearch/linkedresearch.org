@@ -1,8 +1,8 @@
 <? $title = "Linked Research FAQ"; ?>
 <? include 'top.php'; ?>
         <main>
+            <? include 'header_small.php'; ?>
             <article about="" typeof="schema:Article">
-                <? include 'header_small.php'; ?>
                 
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     
