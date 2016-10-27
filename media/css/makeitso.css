@@ -15,6 +15,7 @@ nav li {
 nav li a {
     display: inline-block;
     padding: 1em;
+    color: black;
 }
 nav i {
     font-family: Arial, sans-serif;
@@ -33,6 +34,7 @@ h1 {
     font-size: 2em;
     padding: 0.5em;
     margin: 0;
+    color: white;
 }
 header object {
     float: left;
