@@ -54,7 +54,7 @@
                                         <li id="open-communication"><i class="fa fa-bullhorn"></i> <em>Open communication</em>: Announce your ideas and invite your community to give feedback. Give constructive feedback to others, publicly.</li>
                                     </ul>
 
-                                    <p>If you are publishing in accordance with Linked Research, add yourself to our <a href="/venues/#publishers">list of examples</a>!</p>
+                                    <p>If you are publishing in accordance with Linked Research, add yourself to our <a href="/venues#publishers">list of examples</a>!</p>
                                 </div>
                             </section>
                         </div>
@@ -71,7 +71,7 @@
 
                             <p>The Call for Enabling Linked Research sets out to encourage researchers and developers to work on tools, techniques and strategies for overcoming these barriers. There are many ways you can contribute. If your field of interest touches in any way the academic publishing or knowledge dissemination pipelines, you may already be helping to make Linked Research a easier for others. Our key interest is in taking these brilliant solutions to specific problems with the publishing process, and finding ways to make them interoperable and useful to everyone; to build a full Linked Research friendly <em>workflow</em>.</p> 
 
-                            <section id="enabling-lr-topics" rel="schema:hasPart" resource="#enabling-lr-topics">
+                            <section id="topics-and-scope" rel="schema:hasPart" resource="#topics-and-scope">
                                 <h3 property="schema:name">Topics and Scope</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <p>The scholarly communication process begins with conducting research and <strong>authoring</strong> reports, often collaboratively, including <strong>sourcing</strong> and <strong>citing</strong> related work, and <strong>reusing</strong> others’ data. <strong>Submitting</strong> reports for formal assessment by conference venues and journals permits <strong>verification</strong> and <strong>review</strong> of contributions, and allows a researcher to raise their <strong>profile</strong> and cement their expertise in the field. The review process allows academics to share their knowledge and remain abreast of work-in-progress and the current state of the art. <strong>Publications</strong> provide stable snapshots of projects and enable the <strong>aggregation</strong> of related work. Repositories and libraries provide persistent <strong>archives</strong> of work and interfaces for <strong>searching</strong>. Citation <strong>impact</strong> and <strong>altmetrics</strong> are used to determine the value of projects and the <strong>reputation</strong> of participants. <strong>Discoverability</strong> and reuse can be enhanced through adding machine readable <strong>semantics</strong> to published work, completing the cycle.</p>
@@ -139,7 +139,7 @@
                             <section id="enabling-lr-presenting" rel="schema:hasPart" resource="#enabling-lr-presenting">
                                 <h3 property="schema:name">Presenting your work</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>The Call for Enabling Linked Research is an ongoing and online effort. However, watch the <a href="/events/">events</a> list for upcoming opportunities to present your work in person. The next one (pending acceptance) is: <em><a href="/events/#www2017">Enabling Decentralised Scholarly Communication at WWW2017</a></em>.</p>
+                                    <p>The Call for Enabling Linked Research is an ongoing and online effort. However, watch the <a href="/events">events</a> list for upcoming opportunities to present your work in person. The next one (pending acceptance) is: <em><a href="/events#www2017">Enabling Decentralised Scholarly Communication at WWW2017</a></em>.</p>
                                 </div>
                             </section>
                         </div>
