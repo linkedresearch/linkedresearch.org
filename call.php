@@ -55,6 +55,8 @@
                                         <li id="user-experience"><i class="fa fa-user"></i> <em>User Experience</em>: Take your articles further and enrich with user interactions to better communicate your ideas. Think beyond the boring fixed, non-interactive views.</li>
                                         <li id="open-communication"><i class="fa fa-bullhorn"></i> <em>Open communication</em>: Announce your ideas and invite your community to give feedback. Think beyond the minimal communication with organising or program committees. Encourage and help others to do the same.</li>
                                     </ul>
+
+                                    <p>If you are publishing in accordance with Linked Research, add yourself to our <a href="/venues/#publishers">list of examples</a>!</p>
                                 </div>
                             </section>
                         </div>
