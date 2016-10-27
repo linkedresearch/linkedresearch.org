@@ -55,6 +55,18 @@ $articles = array(
     ,"root" => "eff.org"
   )
   ,array(
+     "id" => "https://elifesciences.org/content/5/e16800"
+    ,"name" => "Point of view: How open science helps researchers succeed"
+    ,"published" => new DateTime("2017-07-07")
+    ,"author" => array(array(
+         "id" => "http://orcid.org/0000-0002-9430-5221"
+        ,"name" => "Erin C McKiernan"
+      ))
+    ,"summary" => "<p>We review literature demonstrating that open research is associated with increases in citations, media attention, potential collaborators, job opportunities and funding opportunities. These findings are evidence that open research practices bring significant benefits to researchers relative to more traditional closed practices.</p>"
+    ,"slug" => "open-science-helps-researchers-succeed"
+    ,"root" => "elifesciences.org"
+  )
+  ,array(
      "id" => "http://rufuspollock.org/2016/05/16/open-scholarly-publishing/"
     ,"name" => "Open Scholarly Publishing"
     ,"published" => new DateTime("2016-05-15")
