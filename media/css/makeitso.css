@@ -128,4 +128,16 @@ footer dl { width: 100%; }
 
     #index main { overflow: hidden; }
     #index #content section { float: left; width: 50%; }
+
+    #reviewers ul {
+        list-style-type: none;
+    }
+    #reviewers ul li {
+        overflow: hidden;
+    }
+
+    #reviewers ul li p:first-of-type {
+        float: left;
+        width: 300px
+    }
 }
