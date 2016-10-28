@@ -111,6 +111,8 @@ article {
 }
 article:last-of-type { border: none; }
 
+h3 { line-height: 1.2; }
+
 footer { text-align: center; }
 footer dl { width: 100%; }
 #document-license dt { display: none; }
