@@ -65,7 +65,7 @@
 
                             <p>
                                 <a href="/call/#call-for-linked-research">Call for Linked Research</a>
-                                <a href="/call/#enabling-lr">Call for Enabling Linked Research</a>
+                                <a href="/call/#call-for-enabling-linked-research">Call for Enabling Linked Research</a>
                             </p>
                         </div>
                     </section>

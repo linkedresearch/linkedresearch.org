@@ -1,9 +1,15 @@
-<? $title = "Linked Research meetups and IRL events"; ?>
+<? $title = "Calls for Linked Research"; ?>
 <? include 'top.php'; ?>
         <main>
             <article about="" typeof="schema:Article">
                 <? include 'header-small.php'; ?>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
+                <section id="introduction" rel="schema:hasPart" resource="#introduction">
+                    <div datatype="rdf:HTML" property="schema:description">
+                        <p>The <a href="#call-for-linked-research">Call for Linked Research</a> if for <em>everyone</em>, in any field, who believes in publishing and promoting open, accessible and reusable  academic knowledge. But if your research or development touches any part of the scholarly communication or knowledge dissemination process (or you want to start), check out the <a href="#call-for-enabling-linked-research">Call for Enabling Linked Research</a> to see what you can do to improve the state of things for others.</p> 
+                    </div>
+                </section>
+
                     <section id="call-for-linked-research" rel="schema:hasPart" resource="#call-for-linked-research">
                         <h2 property="schema:name">Call for Linked Research</h2>
                         <div datatype="rdf:HTML" property="schema:description">
@@ -44,7 +50,7 @@
                                 </div>
                             </section>
 
-                            <section id="what-is-this" rel="schema:hasPart" resource="#what-is-this">
+                            <section id="how-to-lr" rel="schema:hasPart" resource="#how-to-lr">
                                 <h3 property="schema:name">How to Linked Research</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
