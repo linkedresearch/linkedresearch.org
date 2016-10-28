@@ -37,7 +37,7 @@
                             <p>Create great UX for your readers. Consider tailoring how you present your work to different audiences and contexts, adding interactive elements and digital and print views.</p>
                         </li>
                         <li>
-                            <i class="fa fa-3x fa-fire"></i>
+                            <i class="fa fa-3x fa-rocket"></i>
                             <h3>Question current practices</h3>
                             <p>Reject information silos, paywalls, academic box-ticking, and archaic and artificial barriers. Be the change; publish your research with an open license, and openly review the work of others.</p>
                             <p><a href="/venues#people">You are not alone</a></p>
