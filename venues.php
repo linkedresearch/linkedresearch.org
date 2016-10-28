@@ -1,9 +1,8 @@
 <? $title = "Linked Research venues"; ?>
 <? include 'top.php'; ?>
-
         <main>
-            <? include 'header-small.php'; ?>
             <article about="" typeof="schema:Article">
+                <? include 'header-small.php'; ?>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="venues" rel="schema:hasPart" resource="#venues">
                         <h2 property="schema:name">Venues</h2>

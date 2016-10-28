@@ -1,9 +1,8 @@
 <? $index = true; ?>
 <? include 'top.php'; ?>
-
         <main>
-            <? include 'header-large.php'; ?>
             <article about="" typeof="schema:Article">
+                <? include 'header-large.php'; ?>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <ul id="parts">
                         <li>

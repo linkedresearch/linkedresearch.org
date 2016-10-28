@@ -2,31 +2,38 @@
 
 body { padding: 0; margin: 0; width: 100%; }
 
-nav {
+body > header {
+    margin-top:0;
     width: calc(100% - 6em);
     margin-left: 3em;
-    overflow: hidden;
 }
-nav ul {
-    list-style: none; padding: 0; margin: 0;
+body > header nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
-nav li a {
+body > header nav li {
+    margin:0;
+    padding:0;
+    display:block;
+    text-align:left;
+}
+body > header nav li:before,
+body > header nav li:after {
+    content:"";
+}
+body > header nav li a {
     display: inline-block;
     color: black;
-}
-nav i {
-    font-family: Arial, sans-serif;
+    text-decoration: none;
 }
 
-header { 
+main > article > header {
     background-color: #000;
     background-image: url('/media/images/nebula.jpg');
     background-position: 50%;
     background-repeat: no-repeat;
-    color: white;
-    text-align: center;
 }
-header a { text-decoration: none; }
 h1 {
     font-family: Arial, sans-serif;
     font-weight: bold;
@@ -37,26 +44,20 @@ h1 {
 }
 
 /* Homepage specific styles */
-#index header {
+#index article > header {
     padding: 8em 0;
     overflow: hidden;
 }
-#index header h1 { 
+#index article header h1 {
     font-size: 4em;
     padding:0;
 }
-#index header h2 {
+#index article header h2 {
     padding: 0; margin: 0;
     margin-top: -0.4em;
     font-size: 2.4em;
     font-weight: normal;
     letter-spacing: 0.1em;
-}
-#index header hgroup {
-    float: left;
-}
-#index header object {
-    margin-right: 2em;
 }
 #index #content ul {
     list-style: none; padding: 0; margin: 0;
@@ -109,9 +110,8 @@ footer dl { width: 100%; }
 #document-license dt { display: none; }
 
 @media screen and (min-width: 768px){
-    nav { text-align: center; }
-    nav li { display: inline; }
-    nav li a { padding: 1.25em; }
+    body > header nav li { display:inline-block; text-align:center; }
+    body > header nav li a { padding: 1.25em 0.75em; }
 
     #index #content ul { overflow: hidden; }
     #index #content ul li:nth-of-type(3n+4) { clear:both; }

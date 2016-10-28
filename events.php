@@ -1,8 +1,8 @@
 <? $title = "Linked Research meetups and events"; ?>
 <? include 'top.php'; ?>
         <main>
-            <? include 'header-small.php'; ?>
             <article about="" typeof="schema:Article">
+                <? include 'header-small.php'; ?>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="meetups-and-events" rel="schema:hasPart" resource="#meetups-and-events">
                         <h2 property="schema:name">Meetups and Events</h2>

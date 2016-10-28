@@ -1,8 +1,8 @@
 <? $title = "Linked Research FAQ"; ?>
 <? include 'top.php'; ?>
         <main>
-            <? include 'header-small.php'; ?>
             <article about="" typeof="schema:Article">
+                <? include 'header-small.php'; ?>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="faq" rel="schema:hasPart" resource="#faq">
                         <h2 property="schema:name">FAQ</h2>

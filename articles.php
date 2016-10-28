@@ -2,8 +2,8 @@
 <? include 'top.php'; ?>
 <? include 'articles-data.php'; ?>
         <main>
-            <? include 'header-small.php'; ?>
             <article about="" typeof="as:Collection">
+                <? include 'header-small.php'; ?>
                 <section id="description" rel="schema:hasPart as:summary" resource="#description">
                     <div datatype="rdf:HTML" property="schema:description">
                         <p>Here we collect notes and articles about efforts towards and challenges with achieving the Linked Research principles, or making it easier for others to do so, from around the Web.</p>
