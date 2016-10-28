@@ -126,6 +126,13 @@
                                     <p>LR is about publishing in a format that is as widely accessible as possible. If RASH or Scholarly HTML works for your report, that's absolutely fine! But you might want to ask the venue who this constraint benefits - is it for the authors, or is it to make things easier for the third-party publishers who ultimately want to gatekeep your content?</p>
                                 </div>
                             </section>
+
+                            <section id="faq-where-meet" rel="schema:hasPart" resource="#faq-where-meet">
+                                <h3>Where can I go to meet other people who support this effort?</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Digitally, check the <a href="https://gitter.im/linkedresearch">Linked Research Gitter chat</a>. <abbr title="In real life">IRL</abbr>, keep an eye on our <a href="/events">events</a> page to see where we might be holding a meetup or workshop next. Alternatively, arrange one yourself!</p>
+                                </div>
+                            </section>
                                 
                         </div>
                     </section>
