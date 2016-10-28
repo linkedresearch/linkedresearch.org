@@ -27,6 +27,9 @@ body > header nav li a {
     color: black;
     text-decoration: none;
 }
+body > header nav li a:hover {
+    color: #009000;
+}
 
 main > article > header {
     background-color: #000;
