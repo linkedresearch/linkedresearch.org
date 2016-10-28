@@ -59,9 +59,14 @@
                     <section id="what-is-this" rel="schema:hasPart" resource="#what-is-this">
                         <h2 property="schema:name">What is this?</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            <p>Linked Research is an initative, a movement, and a manifesto. We believe that scholarly communication is stunted by current academic publishing practices, and we aim to promote change for the greater good. This is not something hypothetical or may happen in the future, it is completely possible with today's technologies. A cultural shift is all it takes, and Linked Research is here to bring together like-minded people who want to push this forwards.</p>
+                            <p>Linked Research is an initative, a movement, and a manifesto. We believe that scholarly communication is stunted by current academic publishing practices, and we aim to promote change for the greater good. This is not something hypothetical or a dream for the future, it is completely possible with today's technologies. A cultural shift is needed, and Linked Research is here to bring together like-minded people who want to push this forwards.</p>
 
                             <p>Linked Research is not biased towards any particular tool or technology; we understand that different researchers and disciplines have different needs and desires around scholarly communication. We encourage the use of any technologies that comply with the Linked Research principles; we tend to find Web technologies work really well for this, but we'd love to hear about how you do it!</p>
+
+                            <p>
+                                <a href="/call/#call-for-linked-research">Call for Linked Research</a>
+                                <a href="/call/#enabling-lr">Call for Enabling Linked Research</a>
+                            </p>
                         </div>
                     </section>
 

@@ -79,14 +79,14 @@ h1 {
     margin: 0; font-size: 1.2em;
 }
 
-#index #content ul p a:last-of-type { 
+#index #content ul p a:last-of-type, #index #content #what-is-this p a { 
     background-color: #153419; color: #e4eee9; 
     padding: 0.4em; border-radius: 0.8em; margin-top: 0.4em;
     white-space: nowrap; display: inline-block; 
-    text-decoration: none;
+    text-decoration: none; border: none;
     font-size: 0.8em;
 }
-#index #content ul p a:last-of-type:hover {
+#index #content ul p a:last-of-type:hover, #index #content #what-is-this p a:hover {
     background-color: black;
 }
 
@@ -98,6 +98,9 @@ h1 {
 }
 #index #content section div {
     margin: 0 2em 0 2em;
+}
+#index #content #what-is-this p a {
+    font-size: 1em;
 }
 
 article {
