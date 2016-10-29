@@ -2,7 +2,7 @@ Options +FollowSymLinks
 RewriteEngine On
 
 #This is temp.. at least not to confuse the initial PCs
-Redirect ^/event/www2017/proposal "https://linkedresearch.org/events/www2017/workshop-proposal" [R=301,L]
+Redirect /event/www2017/proposal /events/www2017/workshop-proposal
 
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
