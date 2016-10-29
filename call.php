@@ -4,12 +4,8 @@
             <article about="" typeof="schema:Article">
                 <? include 'header-small.php'; ?>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
-                <section id="introduction" rel="schema:hasPart" resource="#introduction">
-                    <div datatype="rdf:HTML" property="schema:description">
-                        <p>The <a href="#call-for-linked-research">Call for Linked Research</a> if for <em>everyone</em>, in any field, who believes in publishing and promoting open, accessible and reusable  academic knowledge. But if your research or development touches any part of the scholarly communication or knowledge dissemination process (or you want to start), check out the <a href="#call-for-enabling-linked-research">Call for Enabling Linked Research</a> to see what you can do to improve the state of things for others.</p> 
-                        <p>If you answer either of these calls, you won't be publishing into a void. <a href="#reviewers">Many people</a> are interested in providing transparent and open reviews for your work!</p>
-                    </div>
-                </section>
+                    <p>The <a href="#call-for-linked-research">Call for Linked Research</a> if for <em>everyone</em>, in any field, who believes in publishing and promoting open, accessible and reusable  academic knowledge. But if your research or development touches any part of the scholarly communication or knowledge dissemination process (or you want to start), check out the <a href="#call-for-enabling-linked-research">Call for Enabling Linked Research</a> to see what you can do to improve the state of things for others.</p> 
+                    <p>If you answer either of these calls, you won't be publishing into a void. <a href="#reviewers">Many people</a> are interested in providing transparent and open reviews for your work!</p>
 
                     <section id="call-for-linked-research" rel="schema:hasPart" resource="#call-for-linked-research">
                         <h2 property="schema:name">Call for Linked Research</h2>
@@ -153,7 +149,7 @@
                     </section>
 
                     <section id="reviewers" rel="schema:hasPart" resource="#reviewers">
-                        <h2 property="schema:name">Reviewers</h3>
+                        <h2 property="schema:name">Reviewers</h2>
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>These top folks have stepped up to pledge to provide public, open reviews on work that interests them, published according to Linked Research principles.</p>
                             <ul>
@@ -166,6 +162,8 @@
                                     <p>Decentralisation, digital ethnography, Web standards, interoperability, Linked Data, data on the Web.</p>
                                 </li>
                             </ul>
+                        </div>
+                    </section>
                 </div>
             </article>
         </main>
