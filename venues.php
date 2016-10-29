@@ -10,7 +10,7 @@
                             <p>Here we maintain a list of academic publication venues which have a positive attitude towards one or more Linked Research princples.</p>
 
                             <section id="conferences-and-workshops" rel="schema:hasPart" resource="#conferences-and-workshops">
-                                <h3 property="schema:name">Conferences and workshops</h2>
+                                <h3 property="schema:name">Conferences and workshops</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <h4>Name</h4>
                                     <p><em>Year(s), discipline</em></p>
@@ -19,7 +19,7 @@
                             </section>
 
                             <section id="journals" rel="schema:hasPart" resource="#journals">
-                                <h3 property="schema:name">Journals</h2>
+                                <h3 property="schema:name">Journals</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <h4>Name</h4>
                                     <p><em>Year(s), discipline</em></p>
