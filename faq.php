@@ -7,7 +7,6 @@
                     <section id="faq" rel="schema:hasPart" resource="#faq">
                         <h2 property="schema:name">FAQ</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            
                             <section id="faq-reliable" rel="schema:hasPart" resource="#faq-reliable">
                                 <h3>If anyone can publish, how do we tell what's reliable or solid work?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
@@ -120,20 +119,19 @@
                                 </div>
                             </section>
 
-                            <section id="faq-rash" rel="schema:hasPart" resource="#faq-rash">
-                                <h3>I found a conference that accepts HTML, but it says it must be RASH or Scholarly HTML, is this still Linked Research?</h3>
+                            <section id="faq-html-profiles" rel="schema:hasPart" resource="#faq-html-profiles">
+                                <h3>I found a conference that accepts HTML, but it says it must use particular HTML profile, subset or a variation on it, is this still Linked Research?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>LR is about publishing in a format that is as widely accessible as possible. If RASH or Scholarly HTML works for your report, that's absolutely fine! But you might want to ask the venue who this constraint benefits - is it for the authors, or is it to make things easier for the third-party publishers who ultimately want to gatekeep your content?</p>
+                                    <p>LR is about publishing in a format that is as widely accessible as possible. If those HTML patterns work for your report, that's absolutely fine! But you might want to ask the venue who this constraint benefits - is it for the authors, or is it to make things easier for the third-party publishers who ultimately want to gatekeep your content?</p>
                                 </div>
                             </section>
 
                             <section id="faq-where-meet" rel="schema:hasPart" resource="#faq-where-meet">
                                 <h3>Where can I go to meet other people who support this effort?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>Digitally, check the <a href="https://gitter.im/linkedresearch">Linked Research Gitter chat</a>. <abbr title="In real life">IRL</abbr>, keep an eye on our <a href="/events">events</a> page to see where we might be holding a meetup or workshop next. Alternatively, arrange one yourself!</p>
+                                    <p>Digitally, check the <a href="https://gitter.im/linkedresearch/chat">Linked Research Gitter chat</a>. <abbr title="In real life">IRL</abbr>, keep an eye on our <a href="/events">events</a> page to see where we might be holding a meetup or workshop next. Alternatively, arrange one yourself!</p>
                                 </div>
                             </section>
-                                
                         </div>
                     </section>
                 </div>

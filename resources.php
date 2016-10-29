@@ -12,7 +12,7 @@
                                 <h2 property="schema:name">Authoring Tools</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li><a href="https://dokie.li">dokieli</a>: A decentralised semantic document editor.</li>
+                                        <li><a href="https://dokie.li/">dokieli</a>: a decentralised semantic document editor.</li>
                                     </ul>
                                 </div>
                             </section>
@@ -21,8 +21,8 @@
                                 <h2 property="schema:name">Reviews and Annotation</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li><a href="https://dokie.li">dokieli</a>: decentralised marginalia annotations.</li>
-                                        <li><a href="https://hypothes.is">Hypothesis</a></li>
+                                        <li><a href="https://dokie.li/">dokieli</a>: decentralised marginalia annotations.</li>
+                                        <li><a href="https://hypothes.is/">Hypothesis</a></li>
                                     </ul>
                                 </div>
                             </section>
@@ -44,7 +44,10 @@
                                 <h2 property="schema:name">Converting to Web-friendly formats</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li>RASH Converter</li>
+                                        <li><a href="https://github.com/smarr/latex-to-html5">LaTeX to HTML5</a></li>
+                                        <li><a href="https://github.com/tetherless-world/markdown-rdfa">Markdown to RDFa</a> (Python extension)</li>
+                                        <li><a href="http://pandoc.org/">Pandoc</a> (universal document converter)</li>
+                                        <li><a href="https://github.com/essepuntato/rash">RASH</a> / <a href="http://dasplab.cs.unibo.it/rocs">ROCS</a></li>
                                     </ul>
                                 </div>
                             </section>
@@ -53,8 +56,13 @@
                                 <h2 property="schema:name">Semantic markup and ontologies</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li>CiTO</li>
-                                        <li>Dataset things</li>
+                                        <li>General-purpose: <a href="https://schema.org/">schema.org</a></li>
+                                        <li>Publishing and referencing: <a href="http://purl.org/spar">SPAR Ontologies</a></li>
+                                        <li>Annotations: <a href="http://www.w3.org/ns/oa">Web Annotations</a></li>
+                                        <li>Notifications: <a href="http://www.w3.org/ns/ldp">Linked Data Platform (Inbox)</a></li>
+                                        <li>Social notifications: <a href="http://www.w3.org/ns/activitystreams">ActivityStreams</a> and <a href="http://purl.org/net/pingback/">Pingback</a></li>
+                                        <li>Links to personal storage and user preferences: <a href="http://www.w3.org/ns/ldp">LDP</a> and <a href="https://github.com/solid/vocab">Solid</a></li>
+                                        <li>Access control: <a href="https://www.w3.org/wiki/WebAccessControl">WebAccessControl</a>/<a href="http://www.w3.org/ns/auth/acl">ACL</a></li>
                                     </ul>
                                 </div>
                             </section>
@@ -64,8 +72,8 @@
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
                                         <li><a href="https://dokie.li">dokieli</a>: sharing and sending of notifications to document authors about interactions.</li>
-                                        <li><a href="https://linkedresearch.org/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for  notifications in RDF.</li>
-                                        <li><a href="https://webmention.net">Webmention</a>: A W3C standard for notifying of links between documents.</li>
+                                        <li><a href="https://linkedresearch.org/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for notifications in RDF.</li>
+                                        <li><a href="https://webmention.net">Webmention</a>: A W3C standard for notifying mentions between documents.</li>
                                     </ul>
                                 </div>
                             </section>
