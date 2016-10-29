@@ -158,7 +158,7 @@
                         <h2 property="schema:name">Reviewers</h2>
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>These top folks have stepped up to pledge to provide public, open reviews on work that interests them, published according to Linked Research principles.</p>
-                            <ul>
+                            <ul id="program-committee">
                                 <li><a href="http://www.uebertext.org/">Adrian Pohl</a></li>
                                 <li><a href="http://aidanhogan.com/">Aidan Hogan</a></li>
                                 <li><a href="https://www.linkedin.com/in/alexgarciac">Alexander Garcia Castro</a></li>
