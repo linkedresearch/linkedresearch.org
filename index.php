@@ -64,8 +64,8 @@
                             <p>Linked Research is not biased towards any particular tool or technology; we understand that different researchers and disciplines have different needs and desires around scholarly communication. We encourage the use of any technologies that comply with the Linked Research principles; we tend to find Web technologies work really well for this, but we'd love to hear about how you do it!</p>
 
                             <p>
-                                <a href="/call/#call-for-linked-research">Call for Linked Research</a>
-                                <a href="/call/#call-for-enabling-linked-research">Call for Enabling Linked Research</a>
+                                <a href="/calls#call-for-linked-research">Call for Linked Research</a>
+                                <a href="/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a>
                             </p>
                         </div>
                     </section>
