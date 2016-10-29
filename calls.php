@@ -159,14 +159,63 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>These top folks have stepped up to pledge to provide public, open reviews on work that interests them, published according to Linked Research principles.</p>
                             <ul>
-                                <li>
-                                    <p><a href="http://csarven.ca/#i">Sarven Capadisli</a>, University of Bonn</p>
-                                    <p>Decentralisation, HCI, user experience, Social Web, scholarly communication, statistical dataspaces, Linked Data, Semantic Web, systems.</p>
-                                </li>
-                                <li>
-                                    <p><a href="https://rhiaro.co.uk/#me">Amy Guy</a>, University of Edinburgh</p>
-                                    <p>Decentralisation, digital ethnography, Web standards, interoperability, Linked Data, data on the Web.</p>
-                                </li>
+                                <li><a href="http://www.uebertext.org/">Adrian Pohl</a></li>
+                                <li><a href="http://aidanhogan.com/">Aidan Hogan</a></li>
+                                <li><a href="https://www.linkedin.com/in/alexgarciac">Alexander Garcia Castro</a></li>
+                                <li><a href="http://hublog.hubmed.org/">Alf Eaton</a></li>
+                                <li><a href="http://ali1k.com/">Ali Khalili</a></li>
+                                <li><a href="https://rhiaro.co.uk/#me">Amy Guy</a></li>
+                                <li><a href="http://www.aucegypt.edu/fac/anchaleepanigabutra-roberts">Anchalee Panigabutra-Roberts</a></li>
+                                <li><a href="http://www.andrea-perego.name/">Andrea Perego</a></li>
+                                <li><a href="http://www.ehumanities.nl/andrea-scharnhorst/">Andrea Scharnhorst</a></li>
+                                <li><a href="http://www.armin-haller.com/">Armin Haller</a></li>
+                                <li><a href="http://polleres.net/">Axel Polleres</a></li>
+                                <li><a href="http://aksw.org/AxelNgonga">Axel-Cyrille Ngonga Ngomo</a></li>
+                                <li><a href="http://brembs.net/">Björn Brembs</a></li>
+                                <li><a href="http://boris.villazon.terrazas.name/">Boris Villazón-Terrazas</a></li>
+                                <li><a href="http://christinaharlow.com/">Christina Harlow</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/ChristophLange">Christoph Lange</a></li>
+                                <li><a href="http://cgueret.github.io/">Christophe Gueret</a></li>
+                                <li><a href="https://danieldmm.github.io/">Daniel Duma</a></li>
+                                <li><a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
+                                <li><a href="http://antbase.org/agosticv_2003.html">Donat Agosti</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/FabrizioOrlandi">Fabrizio Orlandi</a></li>
+                                <li><a href="http://www.atemezing.org/">Ghislain Atemezing</a></li>
+                                <li><a href="http://hectorcorrea.com/">Hector Correa</a></li>
+                                <li><a href="http://public.lanl.gov/herbertv/home/">Herbert Van de Sompel</a></li>
+                                <li><a href="http://www.ecs.soton.ac.uk/people/hg">Hugh Glaser</a></li>
+                                <li><a href="http://people.csail.mit.edu/ilaria/">Ilaria Liccardi</a></li>
+                                <li><a href="http://zbw.eu/labs/en/user/joachim-neubert">Joachim Neubert</a></li>
+                                <li><a href="http://jodischneider.com/">Jodi Schneider</a></li>
+                                <li><a href="http://uncle-kaveh.com/">Kaveh Bazargan</a></li>
+                                <li><a href="http://karimarafes.me/">Karima Refes</a></li>
+                                <li><a href="http://kjetil.kjernsmo.net/">Kjetil Kjernsmo</a></li>
+                                <li><a href="https://people.csail.mit.edu/lkagal/">Lalana Kagal</a></li>
+                                <li><a href="http://biblionik.de/">Lambert Heller</a></li>
+                                <li><a href="http://lora-aroyo.org/">Lora Aroyo</a></li>
+                                <li><a href="http://matienzo.org/">Mark A. Matienzo</a></li>
+                                <li><a href="http://hip.cat/emax/">Max van Kleek</a></li>
+                                <li><a href="http://vafopoulos.org/">Michalis Vafopoulos</a></li>
+                                <li><a href="https://twitter.com/Miel_vds">Miel Vander Sande</a></li>
+                                <li><a href="https://newtoncalegari.com.br/">Newton Calegari</a></li>
+                                <li><a href="http://olafhartig.de/">Olaf Hartig</a></li>
+                                <li><a href="http://www.paolociccarese.info/">Paolo Ciccarese</a></li>
+                                <li><a href="http://pgroth.com/">Paul Groth</a></li>
+                                <li><a href="https://exascale.info/phil/">Philippe Cudre-Mauroux</a></li>
+                                <li><a href="http://pieter.pm/">Pieter Colpaert</a></li>
+                                <li><a href="http://www.eurecom.fr/~troncy/">Raphaël Troncy</a></li>
+                                <li><a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/SaharVahdati">Sahar Vahdati</a></li>
+                                <li><a href="http://csarven.ca/#i">Sarven Capadisli</a></li>
+                                <li><a href="http://www.stefandecker.org/">Stefan Decker</a></li>
+                                <li><a href="http://stefandietze.net/">Stefan Dietze</a></li>
+                                <li><a href="http://library.harvard.edu/users/stevenfolsom">Steven Folsom</a></li>
+                                <li><a href="http://soiland-reyes.com/stian/">Stian Soiland-Reyes</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/SoerenAuer">Sören Auer</a></li>
+                                <li><a href="https://twitter.com/no_reply">Tom Johnson</a></li>
+                                <li><a href="https://twitter.com/CaptSolo">Uldis Bojars</a></li>
+                                <li><a href="https://twitter.com/valexiev1">Vladimir Alexiev</a></li>
+                                <li><a href="http://wouterbeek.com/">Wouter Beek</a></li>
                             </ul>
                         </div>
                     </section>

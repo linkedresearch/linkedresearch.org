@@ -232,59 +232,63 @@
                             <p>The following people have expressed interest in being on the program committee:</p>
 
                             <ul id="program-committee">
-                                <li>Adrian Pohl</li>
-                                <li>Aidan Hogan</li>
-                                <li>Alexander Garcia Castro</li>
-                                <li>Alf Eaton</li>
-                                <li>Ali Khalili</li>
-                                <li>Anchalee Panigabutra-Roberts</li>
-                                <li>Andrea Perego</li>
-                                <li>Andrea Scharnhorst</li>
-                                <li>Armin Haller</li>
-                                <li>Axel Polleres</li>
-                                <li>Axel-Cyrille Ngonga Ngomo</li>
-                                <li>Björn Brembs</li>
-                                <li>Boris Villazón-Terrazas</li>
-                                <li>Christina Harlow</li>
-                                <li>Christoph Lange</li>
-                                <li>Christophe Gueret</li>
-                                <li>Daniel Duma</li>
-                                <li>Donat Agosti</li>
-                                <li>Fabrizio Orlandi</li>
-                                <li>Ghislain Atemezing</li>
-                                <li>Hector Correa</li>
-                                <li>Herbert Van de Sompel</li>
-                                <li>Hugh Glaser</li>
-                                <li>Ilaria Liccardi</li>
-                                <li>Joachim Neubert</li>
-                                <li>Jodi Schneider</li>
-                                <li>Kaveh Bazargan</li>
-                                <li>Kjetil Kjernsmo</li>
-                                <li>Lalana Kagal</li>
-                                <li>Lambert Heller</li>
-                                <li>Lora Aroyo</li>
-                                <li>Mark A. Matienzo</li>
-                                <li>Max van Kleek</li>
-                                <li>Michalis Vafopoulos</li>
-                                <li>Miel Vander Sande</li>
-                                <li>Newton Calegari</li>
-                                <li>Olaf Hartig</li>
-                                <li>Paolo Ciccarese</li>
-                                <li>Paul Groth</li>
-                                <li>Philippe Cudre-Mauroux</li>
-                                <li>Pieter Colpaert</li>
-                                <li>Raphaël Troncy</li>
-                                <li>Ruben Verborgh</li>
-                                <li>Sahar Vahdati</li>
-                                <li>Stefan Decker</li>
-                                <li>Stefan Dietze</li>
-                                <li>Steven Folsom</li>
-                                <li>Stian Soiland-Reyes</li>
-                                <li>Sören Auer</li>
-                                <li>Tom Johnson</li>
-                                <li>Uldis Bojars</li>
-                                <li>Vladimir Alexiev</li>
-                                <li>Wouter Beek</li>
+                                <li><a href="http://www.uebertext.org/">Adrian Pohl</a></li>
+                                <li><a href="http://aidanhogan.com/">Aidan Hogan</a></li>
+                                <li><a href="https://www.linkedin.com/in/alexgarciac">Alexander Garcia Castro</a></li>
+                                <li><a href="http://hublog.hubmed.org/">Alf Eaton</a></li>
+                                <li><a href="http://ali1k.com/">Ali Khalili</a></li>
+                                <li><a href="https://rhiaro.co.uk/#me">Amy Guy</a></li>
+                                <li><a href="http://www.aucegypt.edu/fac/anchaleepanigabutra-roberts">Anchalee Panigabutra-Roberts</a></li>
+                                <li><a href="http://www.andrea-perego.name/">Andrea Perego</a></li>
+                                <li><a href="http://www.ehumanities.nl/andrea-scharnhorst/">Andrea Scharnhorst</a></li>
+                                <li><a href="http://www.armin-haller.com/">Armin Haller</a></li>
+                                <li><a href="http://polleres.net/">Axel Polleres</a></li>
+                                <li><a href="http://aksw.org/AxelNgonga">Axel-Cyrille Ngonga Ngomo</a></li>
+                                <li><a href="http://brembs.net/">Björn Brembs</a></li>
+                                <li><a href="http://boris.villazon.terrazas.name/">Boris Villazón-Terrazas</a></li>
+                                <li><a href="http://christinaharlow.com/">Christina Harlow</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/ChristophLange">Christoph Lange</a></li>
+                                <li><a href="http://cgueret.github.io/">Christophe Gueret</a></li>
+                                <li><a href="https://danieldmm.github.io/">Daniel Duma</a></li>
+                                <li><a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
+                                <li><a href="http://antbase.org/agosticv_2003.html">Donat Agosti</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/FabrizioOrlandi">Fabrizio Orlandi</a></li>
+                                <li><a href="http://www.atemezing.org/">Ghislain Atemezing</a></li>
+                                <li><a href="http://hectorcorrea.com/">Hector Correa</a></li>
+                                <li><a href="http://public.lanl.gov/herbertv/home/">Herbert Van de Sompel</a></li>
+                                <li><a href="http://www.ecs.soton.ac.uk/people/hg">Hugh Glaser</a></li>
+                                <li><a href="http://people.csail.mit.edu/ilaria/">Ilaria Liccardi</a></li>
+                                <li><a href="http://zbw.eu/labs/en/user/joachim-neubert">Joachim Neubert</a></li>
+                                <li><a href="http://jodischneider.com/">Jodi Schneider</a></li>
+                                <li><a href="http://uncle-kaveh.com/">Kaveh Bazargan</a></li>
+                                <li><a href="http://karimarafes.me/">Karima Refes</a></li>
+                                <li><a href="http://kjetil.kjernsmo.net/">Kjetil Kjernsmo</a></li>
+                                <li><a href="https://people.csail.mit.edu/lkagal/">Lalana Kagal</a></li>
+                                <li><a href="http://biblionik.de/">Lambert Heller</a></li>
+                                <li><a href="http://lora-aroyo.org/">Lora Aroyo</a></li>
+                                <li><a href="http://matienzo.org/">Mark A. Matienzo</a></li>
+                                <li><a href="http://hip.cat/emax/">Max van Kleek</a></li>
+                                <li><a href="http://vafopoulos.org/">Michalis Vafopoulos</a></li>
+                                <li><a href="https://twitter.com/Miel_vds">Miel Vander Sande</a></li>
+                                <li><a href="https://newtoncalegari.com.br/">Newton Calegari</a></li>
+                                <li><a href="http://olafhartig.de/">Olaf Hartig</a></li>
+                                <li><a href="http://www.paolociccarese.info/">Paolo Ciccarese</a></li>
+                                <li><a href="http://pgroth.com/">Paul Groth</a></li>
+                                <li><a href="https://exascale.info/phil/">Philippe Cudre-Mauroux</a></li>
+                                <li><a href="http://pieter.pm/">Pieter Colpaert</a></li>
+                                <li><a href="http://www.eurecom.fr/~troncy/">Raphaël Troncy</a></li>
+                                <li><a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/SaharVahdati">Sahar Vahdati</a></li>
+                                <li><a href="http://csarven.ca/#i">Sarven Capadisli</a></li>
+                                <li><a href="http://www.stefandecker.org/">Stefan Decker</a></li>
+                                <li><a href="http://stefandietze.net/">Stefan Dietze</a></li>
+                                <li><a href="http://library.harvard.edu/users/stevenfolsom">Steven Folsom</a></li>
+                                <li><a href="http://soiland-reyes.com/stian/">Stian Soiland-Reyes</a></li>
+                                <li><a href="http://eis.iai.uni-bonn.de/SoerenAuer">Sören Auer</a></li>
+                                <li><a href="https://twitter.com/no_reply">Tom Johnson</a></li>
+                                <li><a href="https://twitter.com/CaptSolo">Uldis Bojars</a></li>
+                                <li><a href="https://twitter.com/valexiev1">Vladimir Alexiev</a></li>
+                                <li><a href="http://wouterbeek.com/">Wouter Beek</a></li>
                             </ul>
 <!--
                             <p>Considering:</p>
