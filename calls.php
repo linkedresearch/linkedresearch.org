@@ -161,7 +161,7 @@
                             <ul>
                                 <li>
                                     <p><a href="http://csarven.ca/#i">Sarven Capadisli</a>, University of Bonn</p>
-                                    <p>HCI, decentralisation, social web, user experience, scholarly communication, Linked Data, Semantic Web, statistical data, data on the Web, Web technologies.</p>
+                                    <p>Decentralisation, HCI, user experience, Social Web, scholarly communication, statistical dataspaces, Linked Data, Semantic Web, systems.</p>
                                 </li>
                                 <li>
                                     <p><a href="https://rhiaro.co.uk/#me">Amy Guy</a>, University of Edinburgh</p>
