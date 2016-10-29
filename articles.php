@@ -4,8 +4,8 @@
         <main>
             <article about="" typeof="as:Collection">
                 <? include 'header-small.php'; ?>
-                <section id="description" rel="schema:hasPart as:summary" resource="#description">
-                    <div datatype="rdf:HTML" property="schema:description">
+                <section id="description" rel="schema:hasPart" resource="#description">
+                    <div datatype="rdf:HTML" property="schema:description as:summary">
                         <p>Here we collect notes and articles about efforts towards and challenges with achieving the Linked Research principles, or making it easier for others to do so, from around the Web.</p>
 
                         <p>If we missed one, please do <a href="https://github.com/linkedresearch/linkedresearch.org/">make a pull request</a>.</p>
