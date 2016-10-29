@@ -145,7 +145,7 @@
                                 </div>
                             </section>
 
-                            <section id="enabling-lr-presenting" rel="schema:hasPart" resource="#enabling-lr-presenting">
+                            <section id="presenting-your-work" rel="schema:hasPart" resource="#presenting-your-work">
                                 <h3 property="schema:name">Presenting your work</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <p>The Call for Enabling Linked Research is an ongoing and online effort. However, watch the <a href="/events">events</a> list for upcoming opportunities to present your work in person. The next one (pending acceptance) is: <em><a href="/events#www2017">Enabling Decentralised Scholarly Communication at WWW2017</a></em>.</p>
