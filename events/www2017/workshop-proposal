@@ -98,7 +98,6 @@
                     <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
                         <h2 about="#introduction" property="schema:name" typeof="deo:Introduction">Introduction</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-
                             <p>The modern Web is ripe for use as a platform for academic publishing. Creating and hosting content is easier than ever, and social media has made sharing, critiquing and linking between things the norm. On the other hand, the connection to vast amounts of research globally makes it difficult to filter out relevant work, and the role of <em>authoritative</em> third-party gatekeepers has remained, despite the potential for greater publishing control and reach brought by new technologies. Dependence on these third-parties for demonstrating academic <em>impact</em> (and thus funding and career advancement) increases the urgency to publish, resulting in “publish or perish” and the shortened time horizon it brings [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-15">15</a>].</p>
 
                             <p>There are many ways in which <strong>existing</strong> Web technology can be optimised for the scholarly communication use case, and allow researchers to take back control of the knowledge sharing pipeline. Open Web standards and their implementations for instance can be combined with cutting edge academic research and industry practices in other fields. However, stakeholders from all parts of the academic world are yet to cohesively express their requirements, and coordinate their efforts with specialists from relevant technical and scientific fields in order to materialise coherent and interoperable solutions.</p>
@@ -119,12 +118,18 @@
                     <section id="topics-and-scope" inlist="" rel="schema:hasPart" resource="#topics-and-scope">
                         <h2 property="schema:name">Topics and Scope</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-
                             <!-- <p class="todo">A two-paragraph description of the workshop topic and themes.</p> -->
 
                             <p>The existing efforts mentioned previously are in line with our principles, but we seek to build on them with the position that taking advantage of the decentralised nature of the Web is key to truly open scholarly communication. Integral to successful decentralisation is <em>interoperability</em> of diverse and independently created tools, so that individuals have the freedom to choose without being locked-in to particular systems.</p>
 
                             <p>As such, we discuss the whole academic publishing and knowledge dissemination pipeline in the context of the Web. While many smaller parts of this process are not specific or native to the Web, and we are interested in contributions from those who who want to integrate their solutions into a Web-based ecosystem for scholarly communication, and to find ways to connect and interoperate with solutions for other parts of the pipeline.</p>
+
+                            <p>The Linked Research concepts and how they relate to one another is shown in the <a href="#figure-linked-research-ecosystem">Linked Research ecosystem</a> figure [<a class="ref" href="#ref-16">16</a>].</p>
+
+                            <figure id="figure-linked-research-ecosystem" rel="schema:hasPart" resource="http://csarven.ca/dokieli#figure-linked-research-ecosystem">
+                                <object data="http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" rel="schema:image" type="image/svg+xml" width="480"></object>
+                                <figcaption property="schema:name">Linked Research ecosystem.</figcaption>
+                            </figure>
 
                             <p>The scholarly communication process begins with conducting research and <strong>authoring</strong> reports, often collaboratively, including <strong>sourcing</strong> and <strong>citing</strong> related work, and <strong>reusing</strong> others’ data. <strong>Submitting</strong> reports for formal assessment by conference venues and journals permits <strong>verification</strong> and <strong>review</strong> of contributions, and allows a researcher to raise their <strong>profile</strong> and cement their expertise in the field. The review process allows academics to share their knowledge and remain abreast of work-in-progress and the current state of the art. <strong>Publications</strong> provide stable snapshots of projects and enable the <strong>aggregation</strong> of related work. Repositories and libraries provide persistent <strong>archives</strong> of work and interfaces for <strong>searching</strong>. Citation <strong>impact</strong> and <strong>altmetrics</strong> are used to determine the value of projects and the <strong>reputation</strong> of participants. <strong>Discoverability</strong> and reuse can be enhanced through adding machine readable <strong>semantics</strong> to published work, completing the cycle.</p>
 
@@ -341,6 +346,7 @@
                                 <li id="ref-13">Suber, P., Brown, P. O., Cabell, D., Chakravarti, A., Cohen, B., Delamothe, T., Eisen, M., Grivell, L., Guédon, J-C., Hawley, R. S., Johnson, R. K., Kirschner, M. W., Lipman, D., Lutzker, A. P., Marincola, E., Roberts, R. J., Rubin, G. M., Schloegl, R., Siegel, V., So, A. D., Varmus, H. E., Velterop, J., Walport, M. J., Watson, L.: Bethesda Statement on Open Access Publishing, 2003, <a about="" href="https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm" rel="schema:citation">https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm</a></li>
                                 <li id="ref-14">Dunn, K.: MIT Libraries can help researchers become "open in action", 2016, <a about="" href="https://libraries.mit.edu/news/access-2/23377/" rel="schema:citation">https://libraries.mit.edu/news/access-2/23377/</a></li>
                                 <li id="ref-15">Powell, K.: Young, talented and fed-up: scientists tell their stories, Nature News, 2016, <a about="" href="http://www.nature.com/news/young-talented-and-fed-up-scientists-tell-their-stories-1.20872" rel="schema:citation">http://www.nature.com/news/young-talented-and-fed-up-scientists-tell-their-stories-1.20872</a></li>
+                                <li id="ref-16">Capadisli, S., Guy, A., Lange, C., Auer, S., Greco, N.: Linked Research: An Approach for Scholarly Communication, 2016, <a about="#figure-linked-research-ecosystem" href="http://csarven.ca/linked-research-scholarly-communication#figure-linked-research-ecosystem" rel="schema:citation">http://csarven.ca/linked-research-scholarly-communication#figure-linked-research-ecosystem</a></li>
                             </ol>
                         </div>
                     </section>
