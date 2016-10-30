@@ -127,7 +127,7 @@
                             <p>The Linked Research concepts and how they relate to one another is shown in the <a href="#figure-linked-research-ecosystem">Linked Research ecosystem</a> figure [<a class="ref" href="#ref-16">16</a>].</p>
 
                             <figure id="figure-linked-research-ecosystem" rel="schema:hasPart" resource="http://csarven.ca/dokieli#figure-linked-research-ecosystem">
-                                <object data="http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" rel="schema:image" type="image/svg+xml" width="480"></object>
+                                <object data="https://linkedresearch.org/proxy?uri=http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" width="480"></object>
                                 <figcaption property="schema:name">Linked Research ecosystem.</figcaption>
                             </figure>
 
