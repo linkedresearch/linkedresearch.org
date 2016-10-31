@@ -2,7 +2,7 @@
 function list_authors($authors){
   $list = array();
   foreach($authors as $a){
-     $list[] = '<a href="'.$a['id'].'">'.$a['name'].'</a>';
+    $list[] = (isset($a['id'])) ? '<a href="'.$a['id'].'">'.$a['name'].'</a>' : $a['name'];
   }
   if(count($authors) > 1) {
     $list[count($authors)-1] = "&amp; ".$list[count($authors)-1];
@@ -26,6 +26,18 @@ function list_authors($authors){
 //   )
 $articles = array(
   array(
+     "id" => "https://www.whitehouse.gov/blog/2016/10/28/federally-funded-research-results-are-becoming-more-open-and-accessible"
+    ,"name" => "Federally Funded Research Results Are Becoming More Open and Accessible"
+    ,"published" => new DateTime("2016-10-28")
+    ,"author" => array(array(
+         "id" => "https://www.whitehouse.gov/"
+        ,"name" => "Jerry Sheehan"
+      ))
+    ,"summary" => "<p> Significant strides in improving public access to scholarly publications and digital data help usher in an era of open science</p>"
+    ,"slug" => "federally-funded-research-open-and-accessible"
+    ,"root" => "whitehouse.gov"
+  )
+  ,array(
      "id" => "https://rhiaro.co.uk/2016/10/580f529169a52"
     ,"name" => "On the 'small effort' of self-archiving"
     ,"published" => new DateTime("2016-10-25")
