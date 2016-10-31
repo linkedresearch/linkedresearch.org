@@ -166,6 +166,7 @@
                                 <li><a href="http://ali1k.com/">Ali Khalili</a></li>
                                 <li><a href="https://sites.google.com/site/amrapalizaveri/">Amrapali Zaveri</a></li>
                                 <li><a href="https://rhiaro.co.uk/#me">Amy Guy</a></li>
+                                <li><a href="http://www.ancad.ro/">Anca Dumitrache</a></li>
                                 <li><a href="http://www.aucegypt.edu/fac/anchaleepanigabutra-roberts">Anchalee Panigabutra-Roberts</a></li>
                                 <li><a href="http://www.andrea-perego.name/">Andrea Perego</a></li>
                                 <li><a href="http://www.ehumanities.nl/andrea-scharnhorst/">Andrea Scharnhorst</a></li>
