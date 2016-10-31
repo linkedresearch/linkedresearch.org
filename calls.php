@@ -78,7 +78,7 @@
 
                             <p>Clearly there are still a variety of barriers still to overcome, both technical and social.</p>
 
-                            <p>The Call for Enabling Linked Research sets out to encourage researchers and developers to work on tools, techniques and strategies for overcoming these barriers. There are many ways you can contribute. If your field of interest touches in any way the academic publishing or knowledge dissemination pipelines, you may already be helping to make Linked Research a easier for others. Our key interest is in taking these brilliant solutions to specific problems with the publishing process, and finding ways to make them interoperable and useful to everyone; to build a full Linked Research friendly <em>workflow</em>.</p> 
+                            <p>The Call for Enabling Linked Research sets out to encourage researchers and developers to work on tools, techniques and strategies for overcoming these barriers. There are many ways you can contribute. If your field of interest touches in any way the academic publishing or knowledge dissemination pipelines, you may already be helping to make Linked Research easier for others. Our key interest is in taking these brilliant solutions to specific problems with the publishing process, and finding ways to make them interoperable and useful to everyone; to build a full Linked Research friendly <em>workflow</em>.</p>
 
                             <section id="topics-and-scope" rel="schema:hasPart" resource="#topics-and-scope">
                                 <h3 property="schema:name">Topics and Scope</h3>
@@ -139,7 +139,7 @@
 
                                     <p>We are not gatekeepers, nor do we 'decide' if your work is worthy to be 'published'. You have already published it! Mission accomplished.</p>
 
-                                    <p>Many people have pledged to dedicate their time and expertise to reviewing work on this topic and providing feedback. All reviews will be transparent and open. In the interest of promoting dialogue and collaboration, as well as making sure reviewers get the acknolwedgement they deserver, there will be no anonymity in the process.</p>
+                                    <p>Many people have pledged to dedicate their time and expertise to reviewing work on this topic and providing feedback. All reviews will be transparent and open. In the interest of promoting dialogue and collaboration, as well as making sure reviewers get the acknolwedgement they deserve, there will be no anonymity in the process.</p>
 
                                     <!-- todo: not actually set up for receiving submissions or doing reviews, deal with this. -->
                                 </div>
