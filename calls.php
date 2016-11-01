@@ -178,6 +178,7 @@
                                 <li><a href="http://christinaharlow.com/">Christina Harlow</a></li>
                                 <li><a href="http://eis.iai.uni-bonn.de/ChristophLange">Christoph Lange</a></li>
                                 <li><a href="http://cgueret.github.io/">Christophe Gueret</a></li>
+                                <li><a href="http://danbri.org/">Dan Brickley</a></li>
                                 <li><a href="https://danieldmm.github.io/">Daniel Duma</a></li>
                                 <li><a href="https://about.me/daniel.mietchen">Daniel Mietchen</a></li>
                                 <li><a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
