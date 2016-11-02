@@ -161,6 +161,7 @@
                             <ul id="program-committee">
                                 <li><a href="http://www.uebertext.org/">Adrian Pohl</a></li>
                                 <li><a href="http://aidanhogan.com/">Aidan Hogan</a></li>
+                                <li><a href="https://www.albertmeronyo.org/">Albert Meroño Peñuela</a></li>
                                 <li><a href="https://www.linkedin.com/in/alexgarciac">Alexander Garcia Castro</a></li>
                                 <li><a href="http://hublog.hubmed.org/">Alf Eaton</a></li>
                                 <li><a href="http://ali1k.com/">Ali Khalili</a></li>
