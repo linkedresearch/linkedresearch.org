@@ -64,7 +64,7 @@
 
                 <dl id="document-modified">
                     <dt>Modified</dt>
-                    <dd><time datetime="2016-10-29" property="schema:dateModified" content="2016-10-29T00:00:00Z" datatype="xsd:dateTime">2016-10-29</time></dd>
+                    <dd><time datetime="2016-11-03" property="schema:dateModified" content="2016-11-03T00:00:00Z" datatype="xsd:dateTime">2016-11-03</time></dd>
                 </dl>
 
                 <dl id="document-license">
@@ -133,7 +133,7 @@
 
                             <p>The scholarly communication process begins with conducting research and <strong>authoring</strong> reports, often collaboratively, including <strong>sourcing</strong> and <strong>citing</strong> related work, and <strong>reusing</strong> others’ data. <strong>Submitting</strong> reports for formal assessment by conference venues and journals permits <strong>verification</strong> and <strong>review</strong> of contributions, and allows a researcher to raise their <strong>profile</strong> and cement their expertise in the field. The review process allows academics to share their knowledge and remain abreast of work-in-progress and the current state of the art. <strong>Publications</strong> provide stable snapshots of projects and enable the <strong>aggregation</strong> of related work. Repositories and libraries provide persistent <strong>archives</strong> of work and interfaces for <strong>searching</strong>. Citation <strong>impact</strong> and <strong>altmetrics</strong> are used to determine the value of projects and the <strong>reputation</strong> of participants. <strong>Discoverability</strong> and reuse can be enhanced through adding machine readable <strong>semantics</strong> to published work, completing the cycle.</p>
 
-                            <p>All parts of the process raise technical and social challenges. We expand the area of discussion beyond the research artefacts, to the infrastructure and culture which supports it. We also welcome challenges (and solutions) particular to specific academic fields (eg. beyond the chairs’ own experiences in Web Science).</p>
+                            <p>All parts of the process raise technical and social challenges. We expand the area of discussion beyond the research artefacts, to the infrastructure and culture which supports it.</p>
 
                             <p>We invite contributions around (but not exclusive to) the following areas:</p>
 
@@ -146,6 +146,7 @@
                                         <li>Authentication and access control</li>
                                         <li>Personal data stores and information management</li>
                                         <li>Offline and online access</li>
+                                        <li>Profiles and identity</li>
                                     </ul>
                                 </li>
 
@@ -168,9 +169,9 @@
                                         <li>Social and cultural aspects of academic publishing</li>
                                         <li>Promotion of and broadening access to academic research</li>
                                         <li>Profiles, attribution, qualifications and reputation</li>
-                                        <li>Licensing</li>
+                                        <li>Rights and licensing</li>
                                         <li>Feedback and reviews of academic work</li>
-                                        <li>Connecting scholarly data with other data, resources and contexts</li>
+                                        <li>Connecting scholarly data with other data</li>
                                         <li>Analysis of argumentation and prose</li>
                                         <li>Incentives and altmetrics</li>
                                         <li>Semantics and Linked Data; Human and machine-readability</li>
@@ -218,7 +219,7 @@
                                 <li>Discussion and plenary (50 minutes)</li>
                             </ul>
                             <p>We hope to present five research reports at approx 15-20 minutes each (including questions), or four research reports and two 10 minute demos or position statements.</p>
-                            <p>The discussion session will be structured around the submitted blog posts as ‘talking points’, whether or not the authors are in attendance.</p>
+                            <p>The discussion session will be structured around the submitted blog posts as talking points, whether or not the authors are in attendance.</p>
                         </div>
                     </section>
 
@@ -227,11 +228,11 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>The workshop organisers are as follows:</p>
                             <ul>
-                                <li><a href="http://csarven.ca/">Sarven Capadisli</a>: a PhD student at the University of Bonn. His research involves statistical linked dataspaces (<a href="http://270a.info/">http://270a.info/</a>), Linked Research (<a href="https://linkedresearch.org/">https://linkedresearch.org/</a>), and dokieli (<a href="https://dokie.li/">https://dokie.li/</a>). He co-chaired the tutorial for <cite>Building Decentralized Social Web Applications</cite> at WWW2016; and continues to co-chair the <cite>SemStats</cite> workshop series at ISWC since 2013. He is currently a co-editor of the W3C <cite>Linked Data Notifications</cite> specification. He publishes his research work on his website for all to access and to interact with, and works on tooling to enable other researchers. Over the past years, his advocacy for Webby submissions contributed towards a shift in accepting HTML and/or RDF based ‘paper’ submissions to conferences and workshops.</li>
+                                <li><a href="http://csarven.ca/">Sarven Capadisli</a>: a PhD student at the University of Bonn. His research involves <a href="http://270a.info/">statistical linked dataspaces</a>, <a href="https://linkedresearch.org/">Linked Research</a>, and <a href="https://dokie.li/">dokieli</a>. He is a co-chair of the <cite><a href="http://semstats.org/">SemStats</a></cite> workshop series at ISWC since 2013; and recently co-chaired the tutorial for <cite><a href="http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web-2">Building Decentralized Social Web Applications</a></cite> at WWW2016. He is currently a co-editor of the W3C <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> specification. His research work is publicly accessible on his website. Over the past years, his advocacy to establish <em>Webby</em> research contributed towards a shift in conferences accepting ‘paper’ submissions in native Web formats.</li>
 
                                 <li><a href="https://rhiaro.co.uk/">Amy Guy</a>: a PhD student researching decentralised Web technologies, in particular pertaining to the Social Web. She is working on standards and protocols for federating social interactions at the W3C. She co-chaired the tutorial for <cite>Building Decentralized Social Web Applications</cite> at WWW2016; regularly convened meetings of the <cite>Open Knowledge Foundation Scotland</cite> branch during 2014 and 2015; organised the University of Edinburgh <cite>Smart Data Hack</cite> annually from 2013 to 2015; and was local coordinator for the <cite>BCS Lovelace Colloquium</cite> in 2015. She publishers her research papers and thesis on her website, and invites input through open standard protocols for decentralised communication.</li>
 
-                                 <li><a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a>: is a Professor of e-Research at the University of Oxford, Director of the Oxford e-Research Centre and Co-Director of the Institute for the Future of Computing in the Oxford Martin School. From 2009 to 2013 he held the post of National Strategic Director for e-Social Science. He is a member of the FORCE11 board of directors.</li>
+                                <li><a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a>: is a Professor of <cite>e-Research</cite> at the University of Oxford, Director of the <cite>Oxford e-Research Centre</cite> and Co-Director of the <cite>Institute for the Future of Computing</cite> in the Oxford Martin School. From 2009 to 2013 he held the post of National Strategic Director for <cite>e-Social Science</cite>. He is currently a member of the <cite>FORCE11</cite> board of directors.</li>
                             </ul>
 
                             <p>The following people have expressed interest in being on the program committee:</p>
