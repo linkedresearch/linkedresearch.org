@@ -229,9 +229,11 @@
                                 <li><a href="https://exascale.info/phil/">Philippe Cudre-Mauroux</a></li>
                                 <li><a href="http://pieter.pm/">Pieter Colpaert</a></li>
                                 <li><a href="http://www.eurecom.fr/~troncy/">Raphaël Troncy</a></li>
+                                <li><a href="http://aksw.org/RicardoUsbeck">Ricardo Usbeck</a></li>
                                 <li><a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
                                 <li><a href="http://eis.iai.uni-bonn.de/SaharVahdati">Sahar Vahdati</a></li>
                                 <li><a href="http://csarven.ca/#i">Sarven Capadisli</a></li>
+                                <li><a href="http://www.essepuntato.it/">Silvio Peroni</a></li>
                                 <li><a href="http://www.stefandecker.org/">Stefan Decker</a></li>
                                 <li><a href="http://stefandietze.net/">Stefan Dietze</a></li>
                                 <li><a href="http://library.harvard.edu/users/stevenfolsom">Steven Folsom</a></li>
