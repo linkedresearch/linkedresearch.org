@@ -4,6 +4,7 @@
         <meta charset="utf-8" />
         <title>Enabling Decentralised Scholarly Communication</title>
         <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="https://dokie.li/media/css/basic.css" media="all" rel="stylesheet alternate" title="Basic" />
         <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
         <link href="https://dokie.li/media/css/acm.css" media="all" rel="stylesheet" title="ACM" />
         <link href="https://dokie.li/media/css/do.css" media="all" rel="stylesheet" />
