@@ -4,6 +4,13 @@
             <article about="" typeof="schema:Article">
                 <? include 'header-small.php'; ?>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
+                    <section id="document-status" rel="schema:hasPart" resource="#document-status">
+                        <h2 about="#document-status" property="schema:name" typeof="bibo:DocumentStatus">Document Status</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Draft</p>
+                        </div>
+                    </section>
+
                     <section id="faq" rel="schema:hasPart" resource="#faq">
                         <h2 property="schema:name">FAQ</h2>
                         <div datatype="rdf:HTML" property="schema:description">
