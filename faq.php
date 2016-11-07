@@ -119,8 +119,8 @@
                                 </div>
                             </section>
 
-                            <section id="faq-linked-science" rel="schema:hasPart" resource="#faq-linked-science">
-                                <h3>How does LR relate to Linked Science?</h3>
+                            <section id="faq-open-science" rel="schema:hasPart" resource="#faq-open-science">
+                                <h3>How does LR relate to Open Science?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <p>..</p>
                                 </div>
