@@ -158,6 +158,28 @@
                                     <p>Many people have pledged to dedicate their time and expertise to reviewing work on this topic and providing feedback. All reviews will be transparent and open. In the interest of promoting dialogue and collaboration, as well as making sure reviewers get the acknolwedgement they deserve, there will be no anonymity in the process.</p>
 
                                     <!-- todo: not actually set up for receiving submissions or doing reviews, deal with this. -->
+
+<p>It wouldn't be a "Web first Call" if you didn't announce your work in response to the call with the state of the art eg:</p>
+
+<figure id="figure-ldn-research-article" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article">
+<pre>
+<code>curl -i -X POST -H'Content-Type: text/turtle' https://linkedresearch.org/inbox/ \</code>
+<code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
+<code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt;> .</code>
+<code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
+<code>&lt;> a as:Announce ;</code>
+<code>  &lt;http://schema.org/license> &lt;https://creativecommons.org/licenses/by/4.0/&gt; ;</code>
+<code>  as:actor &lt;http://csarven.ca/#i&gt; ;</code>
+<code>  as:object &lt;http://example.org/research-article&gt; ;</code>
+<code>  as:target &lt;https://linkedresearch.org/calls#call-for-enabling-linked-research&gt; ;</code>
+<code>  as:updated "2016-11-07T11:47:52.852Z"^^xsd:dateTime .</code>
+<code>&lt;http://example.org/research-article&gt;</code>
+<code>  a oa:Annotation ;</code>
+<code>  oa:motivation oa:replying .</code>
+<code>'</code>
+</pre>
+<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article using <code>curl</code>.</figcaption>
+</figure>
                                 </div>
                             </section>
 
