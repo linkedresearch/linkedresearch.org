@@ -26,6 +26,18 @@ function list_authors($authors){
 //   )
 $articles = array(
   array(
+     "id" => "https://rhiaro.co.uk/2016/11/the-virtue-of-paywalls"
+    ,"name" => "The Virtue of Paywalls"
+    ,"published" => new DateTime("2016-11-04")
+    ,"author" => array(array(
+         "id" => "https://rhiaro.co.uk/#me"
+        ,"name" => "Amy Guy"
+      ))
+    ,"summary" => "<p>Gatekeepers are required in academic publishing to enforce quality, coherance and to lend authority. When anyone can publish anything, as is the case on the Web today, lies and misinformation spread much faster than the truth. People publish opinions as facts, distorted interpretations of data, make general statements based on samples and take things out of context.</p>"
+    ,"slug" => "the-virtue-of-paywalls"
+    ,"root" => "rhiaro.co.uk"
+  )
+  ,array(
      "id" => "https://www.whitehouse.gov/blog/2016/10/28/federally-funded-research-results-are-becoming-more-open-and-accessible"
     ,"name" => "Federally Funded Research Results Are Becoming More Open and Accessible"
     ,"published" => new DateTime("2016-10-28")
@@ -113,6 +125,18 @@ $articles = array(
     ,"summary" => "<p>On April 17th, the Annotating all Knowledge coalition gathered in Portland to begin the work of defining, designing, and implementing a common framework for scholarly collaboration. Members of the coalition include publishers, platform providers, librarians, standards makers, and technologists who share a common interest in annotation of all scholarly content for the benefit of scientists, humanists, students, teachers, and citizens.</p>"
     ,"slug" => "a-coalition-of-scholarly-annotators"
     ,"root" => "hypothes.is"
+  )
+  ,array(
+     "id" => "http://blog.scienceopen.com/2016/04/what-if-you-could-peer-review-the-arxiv/"
+    ,"name" => "What if you could peer review the arXiv?"
+    ,"published" => new DateTime("2016-04-06")
+    ,"author" => array(array(
+         "id" => "http://blog.scienceopen.com/author/jon-tennant/"
+        ,"name" => "Jon Tennant"
+      ))
+    ,"summary" => "<p>The arXiv is a server that hosts ‘eprints’ or ‘preprints’ of research papers, and is a key publishing platform for many fields, particularly physics and mathematics. Founded back in 1991 by Paul Ginsparg, it currently hosts over 1 million research articles, with more than 8000 submissions per month!</p>"
+    ,"slug" => "what-if-you-could-peer-review-the-arxiv"
+    ,"root" => "http://blog.scienceopen.com"
   )
   ,array(
      "id" => "https://www.force11.org/fairprinciples"
