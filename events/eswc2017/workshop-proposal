@@ -136,45 +136,11 @@
                             <p>We invite contributions around (but not exclusive to) the following areas:</p>
 
                             <ul>
-                                <li><strong>Architecture and Decentralisation</strong>
-                                    <ul>
-                                        <li>Identifiers and versioning</li>
-                                        <li>Provenance and accountability</li>
-                                        <li>Persistence and permanence</li>
-                                        <li>Authentication and access control</li>
-                                        <li>Personal data stores and information management</li>
-                                        <li>Offline and online access</li>
-                                        <li>Profiles and identity</li>
-                                    </ul>
-                                </li>
+                                <li><strong>Architecture and Decentralisation</strong>: Identifiers and versioning; Provenance and accountability; Persistence and permanence; Authentication and access control; Personal data stores and information management; Offline and online access; Profiles and identity.</li>
 
-                                <li><strong>Interfaces and Interactions</strong>
-                                    <ul>
-                                        <li>Authoring and collaboration</li>
-                                        <li>Web-based presentation of research</li>
-                                        <li>Data and metadata integration</li>
-                                        <li>Citation management, analysis, generation and prediction</li>
-                                        <li>Integration of semantics in prose and datasets</li>
-                                        <li>Learnability and adaptation to audiences and contexts</li>
-                                        <li>Search and query of research objects and social interactions</li>
-                                        <li>Domain-specific publishing challenges/solutions</li>
-                                    </ul>
-                                </li>
+                                <li><strong>Interfaces and Interactions</strong>: Authoring and collaboration; Web-based presentation of research; Data and metadata integration; Citation management, analysis, generation and prediction; Integration of semantics in prose and datasets; Learnability and adaptation to audiences and contexts; Search and query of research objects and social interactions; Domain-specific publishing challenges/solutions.</li>
 
-                                <li><strong>Create, Reuse, Remix, and Share</strong>
-                                    <ul>
-                                        <li>Social Web paradigms applied to scholarly communication</li>
-                                        <li>Social and cultural aspects of academic publishing</li>
-                                        <li>Promotion of and broadening access to academic research</li>
-                                        <li>Profiles, attribution, qualifications and reputation</li>
-                                        <li>Rights and licensing</li>
-                                        <li>Feedback and reviews of academic work</li>
-                                        <li>Connecting scholarly data with other data</li>
-                                        <li>Analysis of argumentation and prose</li>
-                                        <li>Incentives and altmetrics</li>
-                                        <li>Semantics and Linked Data; Human and machine-readability</li>
-                                    </ul>
-                                </li>
+                                <li><strong>Create, Reuse, Remix, and Share</strong>: Social Web paradigms applied to scholarly communication; Social and cultural aspects of academic publishing; Promotion of and broadening access to academic research; Profiles, attribution, qualifications and reputation; Rights and licensing; Feedback and reviews of academic work; Connecting scholarly data with other data; Analysis of argumentation and prose; Incentives and altmetrics; Semantics and Linked Data; Human and machine-readability.</li>
                             </ul>
 
                             <!-- <p>What is the role of the publisher if we can all publish? Aggregators, search engines, metadata, collaborative platforms, link-makers, knowledge presenters.</p> -->
