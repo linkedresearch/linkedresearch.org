@@ -146,12 +146,12 @@
                                 </div>
                             </section>
 
-                            <section id="submissions-and-review" rel="schema:hasPart" resource="#submissions-and-review">
-                                <h3 property="schema:name">Submissions and Review</h3>
+                            <section id="contributions-and-review" rel="schema:hasPart" resource="#contributions-and-review">
+                                <h3 property="schema:name">Contributions and Review</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <p>Enabling Linked Research works best when <em><a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">dogfooded</a></em>; the most interesting projects are the ones where the authors can demonstrate that they use their tooling or techniques in their own practice.</p>
 
-                                    <p>Researchers who are enabling Linked Research should also practice Linked Research. Decentralisation and data ownership are key, so you will submit your contribution by publishing a document at a domain you control (or have authority over), and sending us the URL. Submissions should be in a format which best conveys your message, and there are none of the constraints associated with paper or print. Write for the Web and make it as accessible as possible.</p>
+                                    <p>Researchers who are enabling Linked Research should also practice Linked Research. Decentralisation and data ownership are key, so you will share your contribution by publishing a document at a domain you control (or have authority over), and sending us the URL. Contributions should be in a format which best conveys your message, and there are none of the constraints associated with paper or print. Write for the Web; accessible, social and interactive articles are encouraged.</p>
 
                                     <p>We are not gatekeepers, nor do we 'decide' if your work is worthy to be 'published'. You have already published it! Mission accomplished.</p>
 
