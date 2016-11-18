@@ -95,12 +95,14 @@
                         </div>
                     </section>
 
-                    <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
-                        <h2 about="#introduction" property="schema:name" typeof="deo:Introduction">Introduction</h2>
+                    <section id="goals-and-motivations   " inlist="" rel="schema:hasPart" resource="#goals-and-motivations">
+                        <h2 about="#goals-and-motivations" property="schema:name" typeof="deo:Introduction">Goals and Motivations</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            <p>The modern Web is ripe for use as a platform for academic publishing. Creating and hosting content is easier than ever, and social media has made sharing, critiquing and linking between things the norm. On the other hand, the connection to vast amounts of research globally makes it difficult to filter out relevant work, and the role of <em>authoritative</em> third-party gatekeepers has remained, despite the potential for greater publishing control and reach brought by new technologies. Dependence on these third-parties for demonstrating academic <em>impact</em> (and thus funding and career advancement) increases the urgency to publish, resulting in “publish or perish” and the shortened time horizon it brings [<a class="ref" href="#ref-1">1</a>, <a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-15">15</a>].</p>
 
-                            <p>There are many ways in which <strong>existing</strong> Web technology can be optimised for the scholarly communication use case, and allow researchers to take back control of the knowledge sharing pipeline. Open Web standards and their implementations for instance can be combined with cutting edge academic research and industry practices in other fields. However, stakeholders from all parts of the academic world are yet to cohesively express their requirements, and coordinate their efforts with specialists from relevant technical and scientific fields in order to materialise coherent and interoperable solutions.</p>
+                            <p>This workshop focuses on how academic researchers can leverage the Web as a platform for academic publishing, using <strong>existing</strong> Web technologies and standards. Despite the potential of the Web for greater control over publishing formats and reach to wider (non-academic) audiences, paper-based constraints and dependence on centralised third-parties for demonstrating academic impact remain.</p>
+
+                            <p>We aim to bring together researchers in Web Science and related field to explore the reasons why this is the case, and discuss the work that still needs to be done in order to materialise coherent and interoperable solutions to these problems.</p>
+
                         </div>
                     </section>
 
@@ -178,7 +180,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>We propose a half-day workshop divided into three sections:</p>
                             <ul>
-                                <li>Introduction and keynote (40 minutes)</li>
+                                <li>goals-and-motivations and keynote (40 minutes)</li>
                                 <li>Paper presentations (1 hour 30 minutes; punctuated by coffee break)</li>
                                 <li>Discussion and plenary (50 minutes)</li>
                             </ul>
