@@ -95,14 +95,12 @@
                         </div>
                     </section>
 
-                    <section id="goals-and-motivations   " inlist="" rel="schema:hasPart" resource="#goals-and-motivations">
+                    <section id="goals-and-motivations" inlist="" rel="schema:hasPart" resource="#goals-and-motivations">
                         <h2 about="#goals-and-motivations" property="schema:name" typeof="deo:Introduction">Goals and Motivations</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-
                             <p>This workshop focuses on how academic researchers can leverage the Web as a <em>technical</em> platform for academic publishing, using existing Web technologies and standards, as well as take advantage of contemporary <em>cultural</em> norms around interacting, sharing and linking thanks to social media. Despite the potential of the Web for greater control over publishing formats and reach to wider (non-academic) audiences, paper-based constraints and dependence on centralised third-parties for demonstrating academic impact remain.</p>
 
                             <p>We aim to bring together researchers in Web Science and related field to explore the reasons why this is the case, and discuss the work that still needs to be done in order to materialise coherent and interoperable solutions to these problems.</p>
-
                         </div>
                     </section>
 
