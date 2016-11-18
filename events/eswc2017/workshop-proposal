@@ -133,14 +133,14 @@
 
                             <p>All parts of the process raise technical and social challenges. We expand the area of discussion beyond the research artefacts, to the infrastructure and culture which supports it. We are interested in input from those interested to integrate solutions (whether or not originally intended to interact with the Web) into a Web-based ecosystem for scholarly communication, and to find ways to connect and interoperate with solutions for other parts of the pipeline.</p>
 
-                            <p>We invite contributions to the Semantic Web, with strong emphasis on interoperability, decentralisation, open access and science. Topics of interest in the following areas:</p>
+                            <p>We invite contributions to the Semantic Web, with strong emphasis on interoperability, decentralisation, open access and science. Some topics of interest:</p>
 
                             <ul>
-                                <li><strong>Architecture and Decentralisation</strong>: Identifiers and versioning; Provenance and accountability; Persistence and permanence; Personal data stores and information management.</li>
+                                <li><strong>Architecture and Decentralisation</strong>: Identifiers and versioning; Provenance and accountability; Persistence and permanence; Personal data stores; Information management.</li>
 
                                 <li><strong>Interfaces and Interactions</strong>: Authoring and collaboration; Web-based presentation of research; Data and metadata integration; Citation management, analysis, generation and prediction; Integration of semantics in prose and datasets; Adaptation to audiences and contexts; Search and query of research objects and social interactions; Domain-specific publishing challenges/solutions.</li>
 
-                                <li><strong>Create, Reuse, Remix, and Share</strong>: Social Web paradigms applied to scholarly communication; Social and cultural aspects of academic publishing; Profiles, identity, attribution, qualifications and reputation; Rights and licensing; Feedback and reviews; Connecting scholarly data with other data; Analysis of argumentation and prose; Incentives and altmetrics; Human and machine-readability.</li>
+                                <li><strong>Create, Reuse, Remix, and Share</strong>: Social Web paradigms applied to scholarly communication; Social and cultural aspects of academic publishing; Profiles, identity, attribution; Rights and licensing; Feedback and reviews; Connecting scholarly data with other data; Analysis of argumentation and prose; Incentives and altmetrics; Human and machine-readability.</li>
                             </ul>
 
                             <!-- <p>What is the role of the publisher if we can all publish? Aggregators, search engines, metadata, collaborative platforms, link-makers, knowledge presenters.</p> -->
@@ -152,17 +152,16 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>Contributions will be evaluated according to how well they support advancing the state of the Web towards becoming a fully-fledged ecosystem for scholarly communication. We strongly promote <em><a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">self-dogfooding</a></em>, and will prioritise contributions from authors who can demonstrate that they use their tooling or techniques in their own practice.</p>
 
-                            <p>We also promote decentralisation and data ownership, and encourage participants to share their contribution by publishing a document at a domain they control or have sufficient authority on the URL. Contributions <strong>should be</strong> in a format which best conveys the authors’ message. Accessible, social and interactive articles are encouraged.</p>
+                            <p>We also promote decentralisation and data ownership, and encourage participants to share their contribution by publishing a document at a domain they control or have sufficient authority on the URL. Contributions <strong>should be</strong> in a format which best conveys the authors’ message. Accessible, social and interactive articles are encouraged. We welcome:</p>
 
-                            <p id="acceptable-contributions">We are accepting:</p>
                             <ul>
-                                <li>research reports (20 minutes);</li>
-                                <li>demos of in-use tooling, techniques or solutions (10 minutes);</li>
-                                <li>position statements outlining requirements or highlighting needs not met along a particular axis or in a particular domain, and proposed solutions (10 minutes);</li>
+                                <li>research reports (20m)</li>
+                                <li>demos of in-use tooling, techniques or solutions (10m)</li>
+                                <li>position statements outlining requirements or highlighting needs not met along a particular axis or in a particular domain, and proposed solutions (10m)</li>
                                 <li>Short blog post style responses to <em>“I can’t use the Web to publish my research because...”</em> which we will use to seed discussion during the open session.</li>
                             </ul>
 
-                            <p id="important-dates">Our call for contributions and review process is ongoing throughout the year. For in-person presentation during the ESWC 2017 workshop we propose the following deadlines:</p>
+                            <p id="important-dates">Our call for contributions and review process is ongoing throughout the year. We propose the following dates for in-person presentation at ESWC 2017:</p>
 
                             <ul>
                                 <li><strong>Contributions due:</strong> 2017-03-03</li>
