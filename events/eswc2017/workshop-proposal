@@ -152,7 +152,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>Contributions will be evaluated according to how well they support advancing the state of the Web towards becoming a fully-fledged ecosystem for scholarly communication. We strongly promote <em><a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">self-dogfooding</a></em>, and will prioritise contributions from authors who can demonstrate that they use their tooling or techniques in their own practice.</p>
 
-                            <p>We also promote decentralisation and data ownership, and encourage participants to share their contribution by publishing a document at a domain they control or have sufficient authority on the URL. Contributions <strong>should be</strong> in a format which best conveys the authors’ message. Accessible and interactive articles are encouraged.</p>
+                            <p>We also promote decentralisation and data ownership, and encourage participants to share their contribution by publishing a document at a domain they control or have sufficient authority on the URL. Contributions <strong>should be</strong> in a format which best conveys the authors’ message. Accessible, social and interactive articles are encouraged.</p>
 
                             <p id="acceptable-contributions">We are accepting:</p>
                             <ul>
