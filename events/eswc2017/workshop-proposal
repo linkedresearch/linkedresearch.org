@@ -99,7 +99,7 @@
                         <h2 about="#goals-and-motivations" property="schema:name" typeof="deo:Introduction">Goals and Motivations</h2>
                         <div datatype="rdf:HTML" property="schema:description">
 
-                            <p>This workshop focuses on how academic researchers can leverage the Web as a <em>technical</em> platform for academic publishing, using <strong>existing</strong> Web technologies and standards, as well as take advantage of contemporary <em>cultural</em> norms around interacting, sharing and linking thanks to social media. Despite the potential of the Web for greater control over publishing formats and reach to wider (non-academic) audiences, paper-based constraints and dependence on centralised third-parties for demonstrating academic impact remain.</p>
+                            <p>This workshop focuses on how academic researchers can leverage the Web as a <em>technical</em> platform for academic publishing, using existing Web technologies and standards, as well as take advantage of contemporary <em>cultural</em> norms around interacting, sharing and linking thanks to social media. Despite the potential of the Web for greater control over publishing formats and reach to wider (non-academic) audiences, paper-based constraints and dependence on centralised third-parties for demonstrating academic impact remain.</p>
 
                             <p>We aim to bring together researchers in Web Science and related field to explore the reasons why this is the case, and discuss the work that still needs to be done in order to materialise coherent and interoperable solutions to these problems.</p>
 
@@ -124,7 +124,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <!-- <p class="todo">A two-paragraph description of the workshop topic and themes.</p> -->
 
-                            <p>The existing efforts mentioned previously are in line with our principles, but we seek to build on them with the position that taking advantage of the decentralised nature of the Web is key to truly open scholarly communication. Integral to successful decentralisation is <em>interoperability</em> of diverse and independently created tools, so that individuals have the freedom to choose without being locked-in to particular systems.</p>
+                            <p>The existing efforts mentioned previously are in line with our principles, but we build on them with the position that the decentralised nature of the Web is key to truly open scholarly communication. Integral to successful decentralisation is <em>interoperability</em> of diverse and independently created tools, so that individuals need not be locked-in to particular systems, which can be acheived in part through standard protocols for data representation and distribution.</p>
 
                             <p>As such, we discuss the whole academic publishing and knowledge dissemination pipeline in the context of the Web. While many smaller parts of this process are not specific or native to the Web, and we are interested in contributions from those who who want to integrate their solutions into a Web-based ecosystem for scholarly communication, and to find ways to connect and interoperate with solutions for other parts of the pipeline.</p>
 
