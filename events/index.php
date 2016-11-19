@@ -17,6 +17,14 @@
                         <h2 property="schema:name">Events in planning</h2>
                         <div datatype="rdf:HTML" property="schema:description">
                             <ul>
+                                <li id="eswc2017">
+                                    <h3>ESWC 2017 Workshop (end of May 2017)</h3>
+
+                                    <p>Three Linked Research advocates (<a href="http://csarven.ca/#i">Sarven Capadisli</a>, <a href="https://rhiaro.co.uk/#me">Amy Guy</a> and <a href="http://www.oerc.ox.ac.uk/people/David%20De%20Roure">Dave de Roure</a>) have submitted a <a href="/events/eswc2017/workshop-proposal">workshop proposal</a> to <a href="http://2017.eswc-conferences.org/">ESWC 2017</a> entitled <em>Enabling Decentralised Scholarly Communication</em>. We invite all those who are interested to volunteer for our program committee.</p>
+
+                                    <p>We also invite those who are thinking about submitting to our <a href="/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a> to submit by the workshop deadline if you would like to present your work in person at ESWC 2017.</p>
+                                </li>
+
                                 <li id="www2017">
                                     <h3>WWW 2017 Workshop (early April 2017)</h3>
 
