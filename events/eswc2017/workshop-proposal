@@ -30,7 +30,7 @@
                     </dl>
 
                     <ul id="author-org">
-                        <li id="author-org-1"><sup>1</sup>Enterprise Information Systems Department, <a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Bonn, Germany</li>
+                        <li id="author-org-1"><sup>1</sup><!--Enterprise Information Systems-->EIS Department, <a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Bonn, Germany</li>
                         <li id="author-org-2"><sup>2</sup>School of Informatics, <a about="http://dbpedia.org/resource/University_of_Edinburgh" href="http://www.ed.ac.uk/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Edinburgh</a>, Edinburgh, UK</li>
                         <li id="author-org-1"><sup>3</sup>Oxford e-Research Centre, <a about="http://dbpedia.org/resource/University_of_Oxford" href="http://www.ox.ac.uk/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Oxford</a>, Oxford, UK</li>
                     </ul>
@@ -43,7 +43,7 @@
                 </div>
 
                 <dl id="document-identifier">
-                    <dt>Document ID</dt>
+                    <dt>Identifier</dt>
                     <dd><a href="https://linkedresearch.org/events/eswc2017/workshop-proposal">https://linkedresearch.org/events/eswc2017/workshop-proposal</a></dd>
                 </dl>
 
@@ -52,7 +52,7 @@
                     <dd><a href="http://2017.eswc-conferences.org/call-workshops" rel="sioc:reply_of">ESWC 2017 Call for Workshops</a></dd>
                 </dl>
 
-                <dl id="document-inbox">
+<!--                 <dl id="document-inbox">
                     <dt>Notifications Inbox</dt>
                     <dd><a href="https://linkedresearch.org/inbox/" rel="ldp:inbox">inbox/</a></dd>
                 </dl>
@@ -64,13 +64,13 @@
 
                 <dl id="document-modified">
                     <dt>Modified</dt>
-                    <dd><time datetime="2016-11-05" property="schema:dateModified" content="2016-11-05T00:00:00Z" datatype="xsd:dateTime">2016-11-05</time></dd>
+                    <dd><time datetime="2016-11-18" property="schema:dateModified" content="2016-11-18T00:00:00Z" datatype="xsd:dateTime">2016-11-18</time></dd>
                 </dl>
 
                 <dl id="document-license">
                     <dt>License</dt>
                     <dd><a rel="schema:license" href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
-                </dl>
+                </dl> -->
 
                 <div id="content">
                     <section id="abstract">
@@ -100,7 +100,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>This workshop focuses on how academic researchers can leverage the Web as a <em>technical</em> platform for academic publishing, using existing Web technologies and standards, as well as take advantage of contemporary <em>cultural</em> norms around interacting, sharing and linking thanks to social media. Despite the potential of the Web for greater control over publishing formats and reach to wider (non-academic) audiences, paper-based constraints and dependence on centralised third-parties for demonstrating academic impact remain.</p>
 
-                            <p>We aim to bring together researchers in Web Science and related field to explore the reasons why this is the case, and discuss the work that still needs to be done in order to materialise coherent and interoperable solutions to these problems.</p>
+                            <p>We aim to bring together researchers in Web science and related field to explore the reasons why this is the case, and discuss work and challenges ahead in order to materialise coherent and interoperable solutions to these problems.</p>
                         </div>
                     </section>
 
@@ -221,16 +221,16 @@
                         <div>
                             <ol>
                                 <li id="ref-1">Decentralized Web Summit: Locking the Web Open, 2016, <a about="" href="http://www.decentralizedweb.net/">http://www.decentralizedweb.net/</a></li>
-                                <li id="ref-2">W3C Social Web Working Group Charter, 2014, <a about="" href="https://www.w3.org/2013/socialweb/social-wg-charter.html">https://www.w3.org/2013/socialweb/social-wg-charter.html</a></li>
-                                <li id="ref-3">W3C Web Annotation Working Group Charter, 2014, <a about="" href="https://www.w3.org/annotation/charter/">https://www.w3.org/annotation/charter/</a></li>
-                                <li id="ref-4">Borgman, C.: Scholarship in the Digital Age: Information, Infrastructure, and the Internet, 2007, ISBN 9780262026192, <a about="" href="https://mitpress.mit.edu/books/scholarship-digital-age" rel="schema:citation">https://mitpress.mit.edu/books/scholarship-digital-age</a></li>
+                                <li id="ref-2">W3C Social Web <abbr title="Working Group">WG</abbr> Charter, 2014, <a about="" href="https://www.w3.org/2013/socialweb/social-wg-charter.html">https://www.w3.org/2013/socialweb/social-wg-charter.html</a></li>
+                                <li id="ref-3">W3C Web Annotation WG Charter, 2014, <a about="" href="https://www.w3.org/annotation/charter/">https://www.w3.org/annotation/charter/</a></li>
+                                <li id="ref-4">Borgman, C.: Scholarship in the Digital Age: Information, Infrastructure, and the Internet, 2007, <a about="" href="https://mitpress.mit.edu/books/scholarship-digital-age" rel="schema:citation">https://mitpress.mit.edu/books/scholarship-digital-age</a></li>
                                 <li id="ref-5">Capadisli, S., Cotton, F., Haller, A., Kalampokis, E., Scannapieco, M., Troncy, R.: Semantic Statistics (SemStats), <a about="" href="http://semstats.org/">http://semstats.org/</a></li>
                                 <li id="ref-6">Gonzalez-Beltran, A., Osborne, F., Peroni, S.: Semantics, Analytics, Visualisation: Enhancing Scholarly Data (SAVE-SD), <a about="" href="http://cs.unibo.it/save-sd/">http://cs.unibo.it/save-sd/</a></li>
                                 <li id="ref-7">Gentile, A., Zhang, Z., d'Amato, C., Paulheim, H.: Linked Data for Information Extraction (LD4IE), <a about="" href="http://web.informatik.uni-mannheim.de/ld4ie2016/">http://web.informatik.uni-mannheim.de/ld4ie2016/</a></li>
                                 <li id="ref-8">Bizer, C., Heath, T., Auer, S., Berners-Lee, T.: Linked Data on the Web (LDOW), <a about="" href="http://events.linkeddata.org/ldow2016/">http://events.linkeddata.org/ldow2016/</a></li>
                                 <li id="ref-9">Gil, Y.: International Semantic Web Conference (ISWC), <a about="" href="http://iswc2016.semanticweb.org/pages/calls/html-submission.html">http://iswc2016.semanticweb.org/pages/calls/html-submission.html</a></li>
                                 <li id="ref-10">Hartig, O., Sequeda, J., Hogan, A.: Consuming Linked Data (COLD), <a about="" href="https://www.dcc.uchile.cl/cold2016/">https://www.dcc.uchile.cl/cold2016/</a></li>
-                                <li id="ref-11">Suber, P., Brown, P. O., Cabell, D., Chakravarti, A., Cohen, B., Delamothe, T., Eisen, M., Grivell, L., Guédon, J-C., Hawley, R. S., Johnson, R. K., Kirschner, M. W., Lipman, D., Lutzker, A. P., Marincola, E., Roberts, R. J., Rubin, G. M., Schloegl, R., Siegel, V., So, A. D., Varmus, H. E., Velterop, J., Walport, M. J., Watson, L.: Bethesda Statement on Open Access Publishing, 2003, <a about="" href="https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm" rel="schema:citation">https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm</a></li>
+                                <li id="ref-11">Suber, P.,<!--Brown, P. O., Cabell, D., Chakravarti, A., Cohen, B., Delamothe, T., Eisen, M., Grivell, L., Guédon, J-C., Hawley, R. S., Johnson, R. K., Kirschner, M. W., Lipman, D., Lutzker, A. P., Marincola, E., Roberts, R. J., Rubin, G. M., Schloegl, R., Siegel, V., So, A. D., Varmus, H. E., Velterop, J., Walport, M. J., Watson, L.-->et al: Bethesda Statement on Open Access Publishing, 2003, <a about="" href="https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm" rel="schema:citation">https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm</a></li>
                                 <li id="ref-12">Dunn, K.: MIT Libraries can help researchers become "open in action", 2016, <a about="" href="https://libraries.mit.edu/news/access-2/23377/" rel="schema:citation">https://libraries.mit.edu/news/access-2/23377/</a></li>
                                 <li id="ref-13">Capadisli, S., Guy, A., Lange, C., Auer, S., Greco, N.: Linked Research: An Approach for Scholarly Communication, 2016, <a about="#figure-linked-research-ecosystem" href="http://csarven.ca/linked-research-scholarly-communication#figure-linked-research-ecosystem" rel="schema:citation">http://csarven.ca/linked-research-scholarly-communication#figure-linked-research-ecosystem</a></li>
                             </ol>
