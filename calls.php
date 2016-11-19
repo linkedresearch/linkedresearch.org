@@ -186,7 +186,7 @@
                             <section id="presenting-your-work" rel="schema:hasPart" resource="#presenting-your-work">
                                 <h3 property="schema:name">Presenting your work</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>The Call for Enabling Linked Research is an ongoing and online effort. However, watch the <a href="/events">events</a> list for upcoming opportunities to present your work in person. The next one (pending acceptance) is: <em><a href="/events#www2017">Enabling Decentralised Scholarly Communication at WWW2017</a></em>.</p>
+                                    <p>The Call for Enabling Linked Research is an ongoing and online effort. However, watch the <a href="/events">events</a> list for upcoming opportunities to present your work in person. The next (pending acceptance) are: <em><a href="/events#www2017">Enabling Decentralised Scholarly Communication at WWW2017</a></em>, and <em><a href="/events#eswc2017">Enabling Decentralised Scholarly Communication at ESWC 2017</a></em>.</p>
                                 </div>
                             </section>
                         </div>
