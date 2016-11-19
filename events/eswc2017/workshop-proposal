@@ -122,7 +122,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <!-- <p class="todo">A two-paragraph description of the workshop topic and themes.</p> -->
 
-                            <p>The existing efforts mentioned previously are in line with our principles, but we build on them with the position that the decentralised nature of the Web is key to truly open scholarly communication. Integral to successful decentralisation is <em>interoperability</em> of diverse and independently created tools, so that individuals need not be locked-in to particular systems, which can be acheived in part through standard protocols for data representation and distribution.</p>
+                            <p>We build one prior efforts with the position that the decentralised nature of the Web is key to truly open scholarly communication. Integral to successful decentralisation is <em>interoperability</em> of diverse and independently created tools, so that individuals need not be locked-in to particular systems, which can be acheived in part through standard protocols for data representation and distribution.</p>
 
                             <p>The various parts of the schlarly communication ecosystem and how they relate to one another are shown in the <a href="#figure-linked-research-ecosystem">ecosystem</a> figure [<a class="ref" href="#ref-13">13</a>].</p>
 
