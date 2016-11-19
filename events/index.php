@@ -26,7 +26,7 @@
                                 </li>
 
                                 <li id="www2017">
-                                    <h3>WWW 2017 Workshop (early April 2017)</h3>
+                                    <h3>WWW2017 Workshop (early April 2017)</h3>
 
                                     <p>Three Linked Research advocates (<a href="http://csarven.ca/#i">Sarven Capadisli</a>, <a href="https://rhiaro.co.uk/#me">Amy Guy</a> and <a href="http://www.oerc.ox.ac.uk/people/David%20De%20Roure">Dave de Roure</a>) have submitted a <a href="/events/www2017/workshop-proposal">workshop proposal</a> to <a href="http://www2017.com.au/">The World Wide Web Conference 2017</a> entitled <em>Enabling Decentralised Scholarly Communication</em>. We invite all those who are interested to volunteer for our program committee.</p>
 
