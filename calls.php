@@ -231,6 +231,7 @@
                                 <li><a href="http://www.ecs.soton.ac.uk/people/hg">Hugh Glaser</a></li>
                                 <li><a href="http://people.csail.mit.edu/ilaria/">Ilaria Liccardi</a></li>
                                 <li><a href="http://zbw.eu/labs/en/user/joachim-neubert">Joachim Neubert</a></li>
+                                <li><a href="https://joerenhees.de/">Jörn Hees</a></li>
                                 <li><a href="https://libraryofbabel.info/">Jonathan Basile</a></li>
                                 <li><a href="http://jodischneider.com/">Jodi Schneider</a></li>
                                 <li><a href="http://umbrich.org/">Jürgen Umbrich</a></li>
