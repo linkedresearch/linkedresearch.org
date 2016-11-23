@@ -22,7 +22,7 @@
                                 <h2 property="schema:name">Reviews and Annotation</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li><a href="https://dokie.li/">dokieli</a>: decentralised annotations (replies, peer-reviews, liking, resharing, bookmarking); allows annotations to be optionally stored at presonal storage, assigning Creative Commons license to contributions, granular semantics and identifiers. Uses <a href="https://www.w3.org/TR/annotation-model/">W3C Web Annotation Model</a> and sends <a href="https://www.w3.org/TR/ldn/">W3C Linked Data Notifications</a>.</li>
+                                        <li><a href="https://dokie.li/">dokieli</a>: decentralised annotations (replies, peer-reviews, liking, resharing, bookmarking); allows annotations to be optionally stored at personal storage, assigning Creative Commons license to contributions, granular semantics and identifiers. Uses <a href="https://www.w3.org/TR/annotation-model/">W3C Web Annotation Model</a> and sends <a href="https://www.w3.org/TR/ldn/">W3C Linked Data Notifications</a>.</li>
                                         <li><a href="https://hypothes.is/">Hypothesis</a></li>
                                     </ul>
                                 </div>
@@ -74,7 +74,6 @@
                                     <ul>
                                         <li><a href="https://dokie.li/">dokieli</a>: sharing and sending of notifications to document authors about interactions.</li>
                                         <li><a href="https://linkedresearch.org/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for notifications in RDF.</li>
-                                        <li><a href="https://webmention.net/">Webmention</a>: A W3C standard for notifying mentions between documents.</li>
                                     </ul>
                                 </div>
                             </section>
