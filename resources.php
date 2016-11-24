@@ -39,7 +39,7 @@
                                         <li>TODO: a guide to publishing on your institutions hosting</li>
                                     </ul>
                                 </div>
-                            </section>                        
+                            </section>
 
                             <section id="converting-to-web-friendly-formats" rel="schema:hasPart" resource="#converting-to-web-friendly-formats">
                                 <h2 property="schema:name">Converting to Web-friendly formats</h2>
@@ -72,7 +72,7 @@
                                 <h2 property="schema:name">Interactions and notifications</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li><a href="https://dokie.li/">dokieli</a>: sharing and sending of notifications to document authors about interactions.</li>
+                                        <li><a href="https://dokie.li/">dokieli</a>: sharing and sending of notifications to document authors about interactions (e.g., reviews, citations).</li>
                                         <li><a href="https://linkedresearch.org/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for notifications in RDF.</li>
                                     </ul>
                                 </div>
