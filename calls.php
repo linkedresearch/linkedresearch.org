@@ -254,6 +254,7 @@
                                 <li><a href="http://www.eurecom.fr/~troncy/">Raphaël Troncy</a></li>
                                 <li><a href="http://aksw.org/RicardoUsbeck">Ricardo Usbeck</a></li>
                                 <li><a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
+                                <li><a href="http://sabrinakirrane.com/">Sabrina Kirrane</a></li>
                                 <li><a href="http://eis.iai.uni-bonn.de/SaharVahdati">Sahar Vahdati</a></li>
                                 <li><a href="http://csarven.ca/#i">Sarven Capadisli</a></li>
                                 <li><a href="http://www.essepuntato.it/">Silvio Peroni</a></li>
