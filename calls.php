@@ -247,6 +247,7 @@
                                 <li><a href="http://vafopoulos.org/">Michalis Vafopoulos</a></li>
                                 <li><a href="https://twitter.com/Miel_vds">Miel Vander Sande</a></li>
                                 <li><a href="https://newtoncalegari.com.br/">Newton Calegari</a></li>
+                                <li><a href="http://monikasolanki.uk/">Monika Solanki</a></li>
                                 <li><a href="http://olafhartig.de/">Olaf Hartig</a></li>
                                 <li><a href="http://www.paolociccarese.info/">Paolo Ciccarese</a></li>
                                 <li><a href="http://pgroth.com/">Paul Groth</a></li>
