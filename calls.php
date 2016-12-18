@@ -22,11 +22,6 @@
                     <section id="call-for-linked-research" rel="schema:hasPart" resource="#call-for-linked-research">
                         <h2 property="schema:name">Call for Linked Research</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            <dl class="inbox">
-                                <dt>Notifications Inbox</dt>
-                                <dd><a href="https://linkedresearch.org/inbox/aHR0cHM6Ly9saW5rZWRyZXNlYXJjaC5vcmcvY2FsbHMjY2FsbC1mb3ItbGlua2VkLXJlc2VhcmNo/" rel="ldp:inbox">inbox/</a></dd>
-                            </dl>
-
                             <section id="motivation" rel="schema:hasPart" resource="#motivation">
                                 <h3 property="schema:name">Motivation</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
@@ -83,11 +78,6 @@
                     <section id="call-for-enabling-linked-research" rel="schema:hasPart" resource="#call-for-enabling-linked-research">
                         <h2 property="schema:name">Call for Enabling Linked Research</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            <dl class="inbox">
-                                <dt>Notifications Inbox</dt>
-                                <dd><a href="https://linkedresearch.org/inbox/aHR0cHM6Ly9saW5rZWRyZXNlYXJjaC5vcmcvY2FsbHMjY2FsbC1mb3ItZW5hYmxpbmctbGlua2VkLXJlc2VhcmNo/" rel="ldp:inbox">inbox/</a></dd>
-                            </dl>
-
                             <p>Want to help make Linked Research a reality for <em>everyone</em>?</p>
 
                             <p>The modern Web is ripe for use as a platform for academic publishing. Creating and hosting content is easier than ever, and social media has made sharing, critiquing and linking between things the norm. So why isn't everyone publishing their academic work online?</p>
