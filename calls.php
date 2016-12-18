@@ -156,7 +156,7 @@
 <code>curl -i -X POST -H'Content-Type: text/turtle' \</code>
 <code>https://linkedresearch.org/inbox/aHR0cHM6Ly9saW5rZWRyZXNlYXJjaC5vcmcvY2FsbHM=/ \</code>
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
-<code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt;> .</code>
+<code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt; .</code>
 <code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
 <code>&lt;> a as:Announce ;</code>
 <code>  &lt;http://schema.org/license> &lt;https://creativecommons.org/licenses/by/4.0/&gt; ;</code>
