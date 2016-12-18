@@ -153,7 +153,7 @@
 
 <figure id="figure-ldn-research-article" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article">
 <pre>
-<code>curl -i -X POST -H'Content-Type: text/turtle' https://linkedresearch.org/inbox/ \</code>
+<code>curl -i -X POST -H'Content-Type: text/turtle' https://linkedresearch.org/inbox/aHR0cHM6Ly9saW5rZWRyZXNlYXJjaC5vcmcvY2FsbHM=/ \</code>
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
 <code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt;> .</code>
 <code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
