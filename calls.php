@@ -162,7 +162,7 @@
 <code>  &lt;http://schema.org/license> &lt;https://creativecommons.org/licenses/by/4.0/&gt; ;</code>
 <code>  as:actor &lt;http://csarven.ca/#i&gt; ;</code>
 <code>  as:object &lt;http://example.org/research-article&gt; ;</code>
-<code>  as:target &lt;https://linkedresearch.org/calls#call-for-enabling-linked-research&gt; ;</code>
+<code>  as:target &lt;https://linkedresearch.org/calls&gt; ;</code>
 <code>  as:updated "2016-11-07T11:47:52.852Z"^^xsd:dateTime .</code>
 <code>&lt;http://example.org/research-article&gt;</code>
 <code>  a oa:Annotation ;</code>
