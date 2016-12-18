@@ -6,7 +6,7 @@
 
                 <dl id="document-inbox">
                     <dt>Notifications Inbox</dt>
-                    <dd><a href="https://linkedresearch.org/inbox/" rel="ldp:inbox">inbox/</a></dd>
+                    <dd><a href="https://linkedresearch.org/inbox/aHR0cHM6Ly9saW5rZWRyZXNlYXJjaC5vcmcvY2FsbHM=/" rel="ldp:inbox">inbox/</a></dd>
                 </dl>
 
                 <div datatype="rdf:HTML" id="content" property="schema:description">
@@ -24,7 +24,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <dl class="inbox">
                                 <dt>Notifications Inbox</dt>
-                                <dd><a href="https://linkedresearch.org/inbox/" rel="ldp:inbox">inbox/</a></dd>
+                                <dd><a href="https://linkedresearch.org/inbox/aHR0cHM6Ly9saW5rZWRyZXNlYXJjaC5vcmcvY2FsbHMjY2FsbC1mb3ItbGlua2VkLXJlc2VhcmNo/" rel="ldp:inbox">inbox/</a></dd>
                             </dl>
 
                             <section id="motivation" rel="schema:hasPart" resource="#motivation">
@@ -85,7 +85,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <dl class="inbox">
                                 <dt>Notifications Inbox</dt>
-                                <dd><a href="https://linkedresearch.org/inbox/" rel="ldp:inbox">inbox/</a></dd>
+                                <dd><a href="https://linkedresearch.org/inbox/aHR0cHM6Ly9saW5rZWRyZXNlYXJjaC5vcmcvY2FsbHMjY2FsbC1mb3ItZW5hYmxpbmctbGlua2VkLXJlc2VhcmNo/" rel="ldp:inbox">inbox/</a></dd>
                             </dl>
 
                             <p>Want to help make Linked Research a reality for <em>everyone</em>?</p>
