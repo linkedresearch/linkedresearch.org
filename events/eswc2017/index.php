@@ -1,0 +1,80 @@
+<? $title = "Linked Research at ESWC 2017"; ?>
+<? include '../../top.php'; ?>
+        <main>
+            <article about="" typeof="schema:Article">
+                <? include '../../header-small.php'; ?>
+                <div datatype="rdf:HTML" id="content" property="schema:description">
+                    <section id="enabling-decentralised-scholarly-communication" rel="schema:hasPart" resource="#enabling-decentralised-scholarly-communication">
+                        <h2 property="schema:name">Enabling Decentralised Scholarly Communication</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Linked Research is coming to <a href="http://2017.eswc-conferences.org">ESWC</a>! This means that if you respond to the <a href="https://linkedresearch.org/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a> and indicate that you wish to present on our workshop day we will ensure your contribution is reviewed accordingly.</p>
+
+                            <section id="when" rel="schema:hasPart" resource="#when">
+                                <h3>When?</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Half a day, on 28th or 29th of May 2017 (exact day of workshop to be scheduled)</p>
+                                </div>
+                            </section>
+
+                            <section id="where" rel="schema:hasPart" resource="#where">
+                                <h3>Where?</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Portoroz, Slovenia</p>
+                                </div>
+                            </section>
+
+                            <section id="how" rel="schema:hasPart" resource="#how">
+                                <h3>How?</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Publish an article on the Web, and send us the URL. On the 3 March 2017 we will snapshot the articles with Archive.org, and ensure they get at least two reviews each by members of our <a href="https://linkedresearch.org/calls#reviewers">open 'programme committee'</a>. Of course, because your article is public, anyone else can give you feedback too. We'll let you know if you're invited to present in person by 31 March.</p>
+                                </div>
+                            </section>
+
+                            <section id="what" rel="schema:hasPart" resource="#what">
+                                <h3>What?</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    
+                                    <p>We're soliciting responses to the <a href="https://linkedresearch.org/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a>, which emphasises interoperability, decentralisation, open access, and dogfooding (using your own tools). Topics of particular interest to ESWC attendees include:</p>
+
+                                    <ul>
+                                        <li><strong>Architecture and Decentralisation</strong>: Identifiers and versioning; Provenance and accountability; Persistence and permanence; Personal data stores; Information management.</li>
+
+                                        <li><strong>Interfaces and Interactions</strong>: Authoring and collaboration; Web-based presentation of research; Data and metadata integration; Citation management, analysis, generation and prediction; Integration of semantics in prose and datasets; Adaptation to audiences and contexts; Search and query of research objects and social interactions; Domain-specific publishing challenges.</li>
+
+                                        <li><strong>Create, Reuse, Remix, and Share</strong>: Social Web paradigms applied to scholarly communication; Social and cultural aspects of academic publishing; Profiles, identity, attribution; Rights and licensing; Feedback and reviews; Connecting scholarly data with other data; Incentives and altmetrics; Human and machine-readability.</li>
+                                    </ul>
+
+                                </div>
+                            </section>
+
+                            <section id="format" rel="schema:hasPart" resource="#format">
+                                <h3>Format</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+
+                                    <p>The format of your contribution is up to you to decide how best to convey your message. Use the presentation timing as a guideline for how much content you want to submit.</p>
+
+                                    <ul>
+                                        <li>research reports (20 minutes)</li>
+                                        <li>demos of in-use tooling, techniques or solutions (10 minutes)</li>
+                                        <li>position statements outlining requirements or highlighting needs not met along a particular axis or in a particular domain, and proposed solutions (10 minutes)</li>
+                                    </ul>
+
+                                    <p>The workshop will include an open dicussion session. We invite short blog post style responses to <em>“I can’t use the Web to publish my research because...”</em> which we will use to seed the open session.</p>
+
+                                </div>
+                            </section>
+
+                            <section id="who" rel="schema:hasPart" resource="#who">
+                                <h2>Who?</h2>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <p>The workshop organisers are <a href="http://csarven.ca/#i">Sarven Capadisli</a> (University of Bonn), <a href="https://rhiaro.co.uk/#me">Amy Guy</a> (University of Edinburgh) and <a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a> (University of Oxford).</p>
+                                    <p>Submissions will be reviewed by pioneering, non-anonymous individuals from <a href="https://linkedresearch.org/calls#reviewers">this list of reviewers</a>.</p>
+                                </div>
+                            </section>
+
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </main>
+<? include 'end.php'; ?>
