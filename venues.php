@@ -7,7 +7,7 @@
                     <section id="venues" rel="schema:hasPart" resource="#venues">
                         <h2 property="schema:name">Venues</h2>
                         <div datatype="rdf:HTML" property="schema:description">
-                            <p>Here we maintain a list of academic publication venues which have a positive attitude towards one or more Linked Research princples.</p>
+                            <p>Here we maintain a list of academic publication venues which have a positive attitude towards one or more Linked Research princples. If you're looking for events which are specifically <em>about</em> Linked Research, see <a href="/events/">Meetups &amp; Events</a>.</p>
 
                             <section id="conferences-and-workshops" rel="schema:hasPart" resource="#conferences-and-workshops">
                                 <h3 property="schema:name">Conferences and workshops</h3>
