@@ -26,6 +26,45 @@ function list_authors($authors){
 //   )
 $articles = array(
   array(
+     "id" => "http://www.natureindex.com/news-blog/i-made-my-grant-application-public-heres-why-you-should-too-"
+    ,"name" => "I made my grant application public, here's why you should too"
+    ,"published" => new DateTime("2016-01-04")
+    ,"author" => array(
+        array(
+          "name" => "Adrian Barnett"
+        )
+      )
+    ,"summary" => "<p><q>If funding applications were open access, science would benefit from more universal scrutiny. I have unsuccessfully applied for this kind of grant funding nine times before. On this occasion, I took the unusual step of making my successful application publicly available for others to read.</q></p>"
+    ,"slug" => "i-made-my-grant-application-public-heres-why-you-should-too"
+    ,"root" => "natureindex.com"
+  ),
+  array(
+     "id" => "http://csarven.ca/linked-data-notifications"
+    ,"name" => "Linked Data Notifications: a resource-centric communication protocol"
+    ,"published" => new DateTime("2016-12-15")
+    ,"author" => array(
+        array(
+           "id" => "http://csarven.ca/#i"
+          ,"name" => "Sarven Capadisli"
+        ),
+        array(
+           "id" => "https://rhiaro.co.uk/#me"
+          ,"name" => "Amy Guy"
+        ),
+        array(
+           "id" => "http://eis.iai.uni-bonn.de/SoerenAuer.html"
+          ,"name" => "Sören Auer"
+        ),
+        array(
+           "id" => "https://www.w3.org/People/Berners-Lee/#i"
+          ,"name" => "Tim Berners-Lee"
+        )
+      )
+    ,"summary" => "<p>In this article we describe the Linked Data Notifications (LDN) protocol, which is a W3C Candidate Recommendation. Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated it in the first place. In the spirit of Linked Data, we propose that notifications should be reusable by multiple authorised applications. Through separating the concepts of senders, receivers and consumers of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised💬 Web applications. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination. We situate LDN alongside related initiatives, and discuss additional considerations such as security and abuse prevention measures. We evaluate the protocol’s effectiveness by analysing multiple, independent implementations, which pass a suite of formal tests and can be demonstrated interoperating with each other.</p>"
+    ,"slug" => "linked-data-notifications"
+    ,"root" => "csarven.ca"
+  ),
+  array(
      "id" => "https://rhiaro.co.uk/2016/11/the-virtue-of-paywalls"
     ,"name" => "The Virtue of Paywalls"
     ,"published" => new DateTime("2016-11-04")
@@ -211,15 +250,19 @@ $articles = array(
           ,"name" => "Amy Guy"
         ),
         array(
+           "id" => "https://langec.wordpress.com/about/"
+          ,"name" => "Christoph Lange"
+        ),
+        array(
            "id" => "http://eis.iai.uni-bonn.de/SoerenAuer.html"
           ,"name" => "Sören Auer"
         ),
         array(
-           "id" => "https://www.w3.org/People/Berners-Lee/"
+           "id" => "https://www.w3.org/People/Berners-Lee/#i"
           ,"name" => "Tim Berners-Lee"
         )
       )
-    ,"summary" => "<p>In this article we present an architecture for progressively enhanced user-facing linked data applications and demonstrate this architecture through an open source example implementation: dokieli. dokieli is a general purpose client-side application for document authoring, publication and interaction. Capabilities of the tool are enabled according to the needs and technical resources of the user. The editor is built on open Web standards and the documents are compliant with Linked Data best practices, allowing: decentralised storage and data ownership; fine-grained semantic structure through HTML+RDFa; direct in-browser editing from an LDP-based personal data store; social interactions with documents (such as annotations and replies), and notifications thereof. </p>"
+    ,"summary" => "<p>In this article we present an architecture for progressively enhanced user-facing linked data applications and demonstrate this architecture through an open source example implementation: dokieli. dokieli is a general purpose client-side application for document authoring, publication and interaction. Capabilities of the tool are enabled according to the needs and technical resources of the user. The editor is built on open Web standards and the documents are compliant with Linked Data best practices, allowing: decentralised storage and data ownership; fine-grained semantic structure through HTML+RDFa; direct in-browser editing from an LDP-based personal data store; social interactions with documents (such as annotations and replies), and notifications thereof.</p>"
     ,"slug" => "dokieli"
     ,"root" => "csarven.ca"
   )
