@@ -52,6 +52,10 @@ $articles = array(
           ,"name" => "Amy Guy"
         ),
         array(
+           "id" => "https://langec.wordpress.com/about/"
+          ,"name" => "Christoph Lange"
+        ),
+        array(
            "id" => "http://eis.iai.uni-bonn.de/SoerenAuer.html"
           ,"name" => "Sören Auer"
         ),
@@ -60,7 +64,7 @@ $articles = array(
           ,"name" => "Tim Berners-Lee"
         )
       )
-    ,"summary" => "<p>In this article we describe the Linked Data Notifications (LDN) protocol, which is a W3C Candidate Recommendation. Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated it in the first place. In the spirit of Linked Data, we propose that notifications should be reusable by multiple authorised applications. Through separating the concepts of senders, receivers and consumers of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised💬 Web applications. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination. We situate LDN alongside related initiatives, and discuss additional considerations such as security and abuse prevention measures. We evaluate the protocol’s effectiveness by analysing multiple, independent implementations, which pass a suite of formal tests and can be demonstrated interoperating with each other.</p>"
+    ,"summary" => "<p>In this article we describe the Linked Data Notifications (LDN) protocol, which is a W3C Candidate Recommendation. Notifications are sent over the Web for a variety of purposes, for example, by social applications. The information contained within a notification is structured arbitrarily, and typically only usable by the application which generated it in the first place. In the spirit of Linked Data, we propose that notifications should be reusable by multiple authorised applications. Through separating the concepts of senders, receivers and consumers of notifications, and leveraging Linked Data principles of shared vocabularies and URIs, LDN provides a building block for decentralised Web applications. This permits end users more freedom to switch between the online tools they use, as well as generating greater value when notifications from different sources can be used in combination. We situate LDN alongside related initiatives, and discuss additional considerations such as security and abuse prevention measures. We evaluate the protocol’s effectiveness by analysing multiple, independent implementations, which pass a suite of formal tests and can be demonstrated interoperating with each other.</p>"
     ,"slug" => "linked-data-notifications"
     ,"root" => "csarven.ca"
   ),
@@ -248,10 +252,6 @@ $articles = array(
         array(
            "id" => "https://rhiaro.co.uk/#me"
           ,"name" => "Amy Guy"
-        ),
-        array(
-           "id" => "https://langec.wordpress.com/about/"
-          ,"name" => "Christoph Lange"
         ),
         array(
            "id" => "http://eis.iai.uni-bonn.de/SoerenAuer.html"
