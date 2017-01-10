@@ -26,6 +26,18 @@ function list_authors($authors){
 //   )
 $articles = array(
   array(
+    "id" => "http://discoversociety.org/2017/01/03/social-science-social-futures-fast-scholarship-emerging-technologies-the-future-of-inquiry/"
+    ,"name" => "Social Science & Social Futures: Fast Scholarship, Emerging Technologies & the Future of Inquiry"
+    ,"published" => new DateTime("2017-01-03")
+    ,"author" => array(
+        array("id" => "https://markcarrigan.net/", "name" => "Mark Carrigan"),
+        array("name" => "Will Housley")
+      )
+    ,"summary" => "<p>Distributed networked technologies have transformed communication, produced new forms of ‘data’ and have had a significant effect on the way in which knowledge is produced. From crowdsourcing data annotation and the feature identification of massive data sets as an aspect of ‘citizen science’ to the use of Twitter to exchange ideas and links to recently published papers with other scholars and scientists around the world; initial analyses and thought pieces can also be shared and promoted quickly with networked scholarly communities (and beyond) at little cost. These and related developments generate a number of issues including how, in this case, social scientists communicate with wider publics through digital means and how the social science community reacts and responds to the opportunities, risks, and challenges presented by the digital revolution.</p>"
+    ,"slug" => "social-science-social-futures-fast-scholarship-emerging-technologies-the-future-of-inquiry"
+    ,"root" => "discoversociety.org"
+  ),
+  array(
      "id" => "http://www.natureindex.com/news-blog/i-made-my-grant-application-public-heres-why-you-should-too-"
     ,"name" => "I made my grant application public, here's why you should too"
     ,"published" => new DateTime("2016-01-04")
