@@ -56,7 +56,6 @@
                             <section id="format" rel="schema:hasPart" resource="#format">
                                 <h3>Format</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-
                                     <p>The format of your contribution is up to you to decide how best to convey your message. Use the presentation timing as a guideline for how much content you want to submit.</p>
 
                                     <ul>
@@ -83,4 +82,4 @@
                 </div>
             </article>
         </main>
-<? include 'end.php'; ?>
+<? include '../../end.php'; ?>
