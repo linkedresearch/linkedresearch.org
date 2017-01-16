@@ -3,6 +3,12 @@
         <main>
             <article about="" typeof="schema:Article">
                 <? include '../../header-small.php'; ?>
+
+                <dl id="document-inbox">
+                    <dt>Notifications Inbox</dt>
+                    <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/events/eswc2017/" rel="ldp:inbox">inbox/</a></dd>
+                </dl>
+
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="enabling-decentralised-scholarly-communication" rel="schema:hasPart" resource="#enabling-decentralised-scholarly-communication">
                         <h2 property="schema:name">Enabling Decentralised Scholarly Communication</h2>
