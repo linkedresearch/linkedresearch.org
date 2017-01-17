@@ -13,7 +13,10 @@
                                 <h2 property="schema:name">Authoring Tools</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li><a href="https://dokie.li/">dokieli</a>: a clientside editor for decentralised article publishing, annotations and social interactions</li>
+                                        <li><a href="https://dokie.li/">dokieli</a>: a clientside editor for decentralised article publishing, annotations and social interactions.</li>
+                                        <li><a href="http://etherpad.org/">etherpad</a>: a highly customizable Open Source online editor providing collaborative editing in really real-time.</li>
+                                        <li><a href="https://www.fiduswriter.org/">Fidus Writer</a>: collaborative academic writing.</li>
+                                        <li><a href="http://substance.io/">Substance</a>: A JavaScript library for web-based content editing.</li>
                                     </ul>
                                 </div>
                             </section>
