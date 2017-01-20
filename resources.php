@@ -92,6 +92,8 @@
                                         <li>Access control: <a href="https://www.w3.org/wiki/WebAccessControl">WebAccessControl</a>, <a href="http://www.w3.org/ns/auth/acl">ACL</a></li>
                                         <li>Provenance: <a href="http://www.w3.org/ns/prov">PROV Ontology</a></li>
                                         <li>Rights and License: <a href="http://creativecommons.org/ns">Creative Commons</a></li>
+                                        <li>Life Sciences: <a href="http://www.ontobee.org/">Ontobee</a></li>
+                                        <li>Design Lifecycle: <a href="https://w3id.org/dio">Design Intent Ontology</a></li>
                                     </ul>
 
                                     <p>This is not meant to be a complete list. See also the <a href="http://lov.okfn.org/dataset/lov/">Linked Open Vocabularies</a>.</p>
