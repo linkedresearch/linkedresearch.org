@@ -154,7 +154,7 @@
 <figure id="figure-ldn-research-article" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article">
 <pre>
 <code>curl -i -X POST -H'Content-Type: text/turtle' \</code>
-<code>https://linkedresearch.org/inbox/linkedreseach.org/calls/ \</code>
+<code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
 <code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt; .</code>
 <code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
