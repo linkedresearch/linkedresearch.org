@@ -19,6 +19,20 @@
                         </div>
                     </section>
 
+                    <section id="keywords">
+                        <h2>Keywords</h2>
+                        <div>
+                            <ul rel="schema:about">
+                                <li><a href="https://en.wikipedia.org/wiki/Decentralization" resource="http://dbpedia.org/resource/Decentralization">Decentralisation</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Open_access" resource="http://dbpedia.org/resource/Open_access">Open Access</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Semantic_publishing" resource="http://dbpedia.org/resource/Semantic_publishing">Semantic publishing</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Social_machine" resource="http://dbpedia.org/resource/Social_machine">Social machine</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Social_web" resource="http://dbpedia.org/resource/Social_web">Social web</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Web_science" resource="http://dbpedia.org/resource/Web_science">Web Science</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
                     <section id="call-for-linked-research" rel="schema:hasPart" resource="#call-for-linked-research">
                         <h2 property="schema:name">Call for Linked Research</h2>
                         <div datatype="rdf:HTML" property="schema:description">
