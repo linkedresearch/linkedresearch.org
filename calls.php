@@ -38,8 +38,8 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <section id="motivation" rel="schema:hasPart" resource="#motivation">
                                 <h3 property="schema:name">Motivation</h3>
-                                <div datatype="rdf:HTML" property="schema:description">
-                                    <p id="no-central-authority" about="#no-central-authority" typeof="deo:Motivation" property="schema:description doap:shortdesc">There is no central authority to judge the value of your contributions. You do not need permission to publish! Control your own research and communication.</p>
+                                <div datatype="rdf:HTML" property="schema:description doap:shortdesc" resource="#motivation" typeof="deo:Motivation">
+                                    <p>There is no central authority to judge the value of your contributions. You do not need permission to publish! Control your own research and communication.</p>
                                 </div>
                             </section>
 
