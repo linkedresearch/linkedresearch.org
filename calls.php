@@ -166,7 +166,7 @@
 <p>It wouldn't be a "Web first Call" if you didn't announce your work in response to the call with the state of the art eg:</p>
 
 <figure id="figure-ldn-research-article" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article">
-<pre>
+<pre property="schema:description" resource="#figure-ldn-research-article" typeof="fabio:Script">
 <code>curl -i -X POST -H'Content-Type: text/turtle' \</code>
 <code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
