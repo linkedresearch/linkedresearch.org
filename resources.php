@@ -127,7 +127,7 @@
                                 <h2 property="schema:name">Various tools</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li>Various <a href="https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=1519702055">tools and innovations in scholarly communication</li>
+                                        <li>Various <a href="https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=1519702055">tools and innovations in scholarly communication</a></li>
                                     </ul>
                                 </div>
                             </section>
