@@ -94,6 +94,7 @@
                                         <li>Dataset metadata: <a href="rdf-vocabulary.ddialliance.org/discovery.html">DDI-RDF Discovery Vocabulary</a> (Disco)</li>
                                         <li>Life Sciences: <a href="http://www.ontobee.org/">Ontobee</a></li>
                                         <li>Design Lifecycle: <a href="https://w3id.org/dio">Design Intent Ontology</a></li>
+                                        <li>Workflow-centric Research Objects: <a href="https://w3id.org/ro/">Wf4Ever Research Object Model</a></li>
                                     </ul>
 
                                     <p>This is not meant to be a complete list. See also the <a href="http://lov.okfn.org/dataset/lov/">Linked Open Vocabularies</a>.</p>
