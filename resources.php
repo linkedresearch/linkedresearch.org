@@ -52,6 +52,16 @@
                                 </div>
                             </section>
 
+                            <section id="interactions-and-notifications" rel="schema:hasPart" resource="#interactions-and-notifications">
+                                <h2 property="schema:name">Interactions and notifications</h2>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <ul>
+                                        <li><a href="https://dokie.li/">dokieli</a>: sharing and sending of notifications to document authors about interactions (e.g., reviews, citations).</li>
+                                        <li><a href="https://linkedresearch.org/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for notifications in RDF.</li>
+                                    </ul>
+                                </div>
+                            </section>
+
                             <section id="rights-and-license" rel="schema:hasPart" resource="#rights-and-license">
                                 <h2 property="schema:name">Rights and licence</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
@@ -64,18 +74,6 @@
                                     </ul>
 
                                     <p>See more at <a href="https://en.wikipedia.org/wiki/Free_software_license">free software licenses</a> (and <a href="https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses">comparisons</a>)</p>
-                                </div>
-                            </section>
-
-                            <section id="converting-to-web-friendly-formats" rel="schema:hasPart" resource="#converting-to-web-friendly-formats">
-                                <h2 property="schema:name">Converting to Web-friendly formats</h2>
-                                <div datatype="rdf:HTML" property="schema:description">
-                                    <ul>
-                                        <li><a href="https://github.com/smarr/latex-to-html5">LaTeX to HTML5</a></li>
-                                        <li><a href="https://github.com/tetherless-world/markdown-rdfa">Markdown to RDFa</a> (Python extension)</li>
-                                        <li><a href="http://pandoc.org/">Pandoc</a> (universal document converter)</li>
-                                        <li><a href="https://github.com/essepuntato/rash">RASH</a>, <a href="http://dasplab.cs.unibo.it/rocs">ROCS</a></li>
-                                    </ul>
                                 </div>
                             </section>
 
@@ -92,6 +90,8 @@
                                         <li>Access control: <a href="https://www.w3.org/wiki/WebAccessControl">WebAccessControl</a>, <a href="http://www.w3.org/ns/auth/acl">ACL</a></li>
                                         <li>Provenance: <a href="http://www.w3.org/ns/prov">PROV Ontology</a></li>
                                         <li>Rights and License: <a href="http://creativecommons.org/ns">Creative Commons</a></li>
+                                        <li>Multi-dimensional data: <a href="https://www.w3.org/TR/vocab-data-cube/">RDF Data Cube vocabulary</a></li>
+                                        <li>Dataset metadata: <a href="rdf-vocabulary.ddialliance.org/discovery.html">DDI-RDF Discovery Vocabulary</a> (Disco)</li>
                                         <li>Life Sciences: <a href="http://www.ontobee.org/">Ontobee</a></li>
                                         <li>Design Lifecycle: <a href="https://w3id.org/dio">Design Intent Ontology</a></li>
                                     </ul>
@@ -100,20 +100,23 @@
                                 </div>
                             </section>
 
-                            <section id="interactions-and-notifications" rel="schema:hasPart" resource="#interactions-and-notifications">
-                                <h2 property="schema:name">Interactions and notifications</h2>
+                            <section id="best-practices" rel="schema:hasPart" resource="#best-practices">
+                                <h2 property="schema:name">Best practices</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
-                                        <li><a href="https://dokie.li/">dokieli</a>: sharing and sending of notifications to document authors about interactions (e.g., reviews, citations).</li>
-                                        <li><a href="https://linkedresearch.org/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for notifications in RDF.</li>
+                                        <li><a href="https://www.w3.org/TR/dwbp/">Data on the Web Best Practices</a></li>
                                     </ul>
                                 </div>
                             </section>
 
-                            <section id="interactions-and-notifications" rel="schema:hasPart" resource="#interactions-and-notifications">
-                                <h2 property="schema:name">Citations</h2>
+                            <section id="converting-to-web-friendly-formats" rel="schema:hasPart" resource="#converting-to-web-friendly-formats">
+                                <h2 property="schema:name">Converting to Web-friendly formats</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <ul>
+                                        <li><a href="https://github.com/smarr/latex-to-html5">LaTeX to HTML5</a></li>
+                                        <li><a href="https://github.com/tetherless-world/markdown-rdfa">Markdown to RDFa</a> (Python extension)</li>
+                                        <li><a href="http://pandoc.org/">Pandoc</a> (universal document converter)</li>
+                                        <li><a href="https://github.com/essepuntato/rash">RASH</a>, <a href="http://dasplab.cs.unibo.it/rocs">ROCS</a></li>
                                         <li><a href="https://github.com/pietercolpaert/jekyll-refs">jekyll-refs</a> (bibliography references in RDFa using CiTO and BIBO ontologies</li>
                                     </ul>
                                 </div>
