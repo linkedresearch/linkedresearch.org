@@ -9,6 +9,15 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>Please make <a href="https://github.com/linkedresearch/linkedresearch.org/">pull requests</a> or <a href="http://linkedresearch.org/#join-in">join the chat</a> to make recommendations and updates to this document. The list here in essence <em>SHOULD</em> conform with open standards, free and open access. See also <a href="http://csarven.ca/linked-research-scholarly-communication#user-stories-assumption">acid test assumptions</a>.</p>
 
+                            <section id="best-practices" rel="schema:hasPart" resource="#best-practices">
+                                <h2 property="schema:name">Best practices</h2>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <ul>
+                                        <li><a href="https://www.w3.org/TR/dwbp/">Data on the Web Best Practices</a></li>
+                                    </ul>
+                                </div>
+                            </section>
+
                             <section id="authoring-tools" rel="schema:hasPart" resource="#authoring-tools">
                                 <h2 property="schema:name">Authoring Tools</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
@@ -101,15 +110,6 @@
                                 </div>
                             </section>
 
-                            <section id="best-practices" rel="schema:hasPart" resource="#best-practices">
-                                <h2 property="schema:name">Best practices</h2>
-                                <div datatype="rdf:HTML" property="schema:description">
-                                    <ul>
-                                        <li><a href="https://www.w3.org/TR/dwbp/">Data on the Web Best Practices</a></li>
-                                    </ul>
-                                </div>
-                            </section>
-
                             <section id="converting-to-web-friendly-formats" rel="schema:hasPart" resource="#converting-to-web-friendly-formats">
                                 <h2 property="schema:name">Converting to Web-friendly formats</h2>
                                 <div datatype="rdf:HTML" property="schema:description">
@@ -119,6 +119,15 @@
                                         <li><a href="http://pandoc.org/">Pandoc</a> (universal document converter)</li>
                                         <li><a href="https://github.com/essepuntato/rash">RASH</a>, <a href="http://dasplab.cs.unibo.it/rocs">ROCS</a></li>
                                         <li><a href="https://github.com/pietercolpaert/jekyll-refs">jekyll-refs</a> (bibliography references in RDFa using CiTO and BIBO ontologies</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <section id="various-tools" rel="schema:hasPart" resource="#various-tools">
+                                <h2 property="schema:name">Various tools</h2>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <ul>
+                                        <li>Various <a href="https://docs.google.com/spreadsheets/d/1KUMSeq_Pzp4KveZ7pb5rddcssk1XBTiLHniD0d3nDqo/edit#gid=1519702055">tools and innovations in scholarly communication</li>
                                     </ul>
                                 </div>
                             </section>
