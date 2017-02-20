@@ -32,7 +32,7 @@
                             <section id="how" rel="schema:hasPart" resource="#how">
                                 <h3>How?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>Publish an article on the Web, and send us the URL. On the 3 March 2017 we will snapshot the articles with Archive.org, and ensure they get at least two reviews each by members of our <a href="https://linkedresearch.org/calls#reviewers">open 'programme committee'</a>. Of course, because your article is public, anyone else can give you feedback too. We'll let you know if you're invited to present in person by 31 March.</p>
+                                    <p>Publish an article on the Web, and send us the URL. On the 3 April 2017 we will snapshot the articles with Archive.org, and ensure they get at least two reviews each by members of our <a href="https://linkedresearch.org/calls#reviewers">open 'programme committee'</a>. Of course, because your article is public, anyone else can give you feedback too. We'll let you know if you're invited to present in person by 30 April.</p>
                                 </div>
                             </section>
 
