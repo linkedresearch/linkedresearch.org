@@ -163,7 +163,27 @@
 
                                     <!-- todo: not actually set up for receiving submissions or doing reviews, deal with this. -->
 
-<p>It wouldn't be a "Web first Call" if you didn't announce your work in response to the call with the state of the art eg:</p>
+<p>It wouldn't be a “Web first Call” if you didn't announce your work in response to the call with the state of the art eg:</p>
+
+<figure id="figure-ldn-research-article-rdfa" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
+<pre property="schema:description" resource="#figure-ldn-research-article-rdfa" typeof="fabio:Script">
+<code>curl -i -X POST -H'Content-Type: text/html' \</code>
+<code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
+<code>--data-raw '<code>&lt;!DOCTYPE html&gt;</code>
+<code>&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;</code>
+<code>  &lt;head&gt;</code>
+<code>    &lt;title&gt;“Title of Research Article” is a reply of “Call for Linked Research”&lt;/title&gt;</code>
+<code>    &lt;meta charset="utf-8" /&gt;</code>
+<code>  &lt;/head&gt;</code>
+<code>  &lt;body&gt;</code>
+<code>    &lt;p&gt;&lt;cite&gt;&lt;a href="http://example.org/research-article"&gt;Title of Research Article&lt;/a&gt;&lt;/cite&gt; is a reply of &lt;a about="http://example.org/research-article" rel="http://rdfs.org/sioc/ns#reply_of" href="https://linkedresearch.org/calls"&gt;Call for Linked Research&lt;/a&gt;.&lt;/p&gt;</code>
+<code>  &lt;/body&gt;</code>
+<code>&lt;/html&gt;</code>
+<code>'</code>
+</pre>
+<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article with <code>curl</code> in HTML+RDFa.</figcaption>
+</figure>
+
 
 <figure id="figure-ldn-research-article" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article">
 <pre property="schema:description" resource="#figure-ldn-research-article" typeof="fabio:Script">
@@ -183,7 +203,7 @@
 <code>  oa:motivation oa:replying .</code>
 <code>'</code>
 </pre>
-<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="https:/www.w3.org/TR/annotation-vocab">Web Annotation vocabulary</a>) with <code>curl</code>.</figcaption>
+<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="https:/www.w3.org/TR/annotation-vocab">Web Annotation vocabulary</a>) with <code>curl</code> in Turtle.</figcaption>
 </figure>
 
 <figure id="figure-ldn-research-article-json-ld" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article-json-ld">
@@ -197,7 +217,7 @@
 <code>}</code>
 <code>'</code>
 </pre>
-<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code>.</figcaption>
+<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
 </figure>
                                 </div>
                             </section>
