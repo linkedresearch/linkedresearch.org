@@ -169,7 +169,7 @@
 <pre property="schema:description" resource="#figure-ldn-research-article-rdfa" typeof="fabio:Script">
 <code>curl -i -X POST -H'Content-Type: text/html' \</code>
 <code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
-<code>--data-raw '<code>&lt;!DOCTYPE html&gt;</code>
+<code>--data-raw '&lt;!DOCTYPE html&gt;</code>
 <code>&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;</code>
 <code>  &lt;head&gt;</code>
 <code>    &lt;title&gt;“Title of Research Article” is a reply of “Call for Linked Research”&lt;/title&gt;</code>
