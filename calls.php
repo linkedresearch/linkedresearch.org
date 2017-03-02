@@ -163,7 +163,7 @@
 
                                     <!-- todo: not actually set up for receiving submissions or doing reviews, deal with this. -->
 
-<p>It wouldn't be a “Web first Call” if you didn't announce your work in response to the call with the state of the art eg:</p>
+                                    <p id="web-first-call">It wouldn't be a “Web first Call” if you didn't announce your work in response to the call with the state of the art eg:</p>
 
 <figure id="figure-ldn-research-article-rdfa" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
 <pre property="schema:description" resource="#figure-ldn-research-article-rdfa" typeof="fabio:Script">
