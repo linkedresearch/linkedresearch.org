@@ -183,7 +183,19 @@
 <code>  oa:motivation oa:replying .</code>
 <code>'</code>
 </pre>
-<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article using <code>curl</code>.</figcaption>
+<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="https:/www.w3.org/TR/annotation-vocab">Web Annotation vocabulary</a>) with <code>curl</code>.</figcaption>
+</figure>
+
+<figure id="figure-ldn-research-article-json-ld" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article-json-ld">
+<pre property="schema:description" resource="#figure-ldn-research-article-json-ld" typeof="fabio:Script">
+<code>curl -i -X POST -H'Content-Type: application/ld+json' \</code>
+<code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
+<cdode>--data-raw '{"@id":"http://example.org/research-article",</code>
+<code>  "http://rdfs.org/sioc/ns#reply_of":</code>
+<code>    { "@id": "https://linkedresearch.org/calls" }</code>
+<code>}</code>
+<code>'</code>
+<figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code>.</figcaption>
 </figure>
                                 </div>
                             </section>
