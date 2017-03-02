@@ -190,7 +190,8 @@
 <pre property="schema:description" resource="#figure-ldn-research-article-json-ld" typeof="fabio:Script">
 <code>curl -i -X POST -H'Content-Type: application/ld+json' \</code>
 <code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
-<cdode>--data-raw '{"@id":"http://example.org/research-article",</code>
+<code>--data-raw '{</code>
+<code>  "@id":"http://example.org/research-article",</code>
 <code>  "http://rdfs.org/sioc/ns#reply_of":</code>
 <code>    { "@id": "https://linkedresearch.org/calls" }</code>
 <code>}</code>
