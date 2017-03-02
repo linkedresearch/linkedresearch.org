@@ -195,6 +195,7 @@
 <code>    { "@id": "https://linkedresearch.org/calls" }</code>
 <code>}</code>
 <code>'</code>
+</pre>
 <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code>.</figcaption>
 </figure>
                                 </div>
