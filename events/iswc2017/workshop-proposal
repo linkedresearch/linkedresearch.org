@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title>Enabling Decentralised Scholarly Communication</title>
+        <meta content="width=device-width, initial-scale=1" name="viewport" />
+        <link href="https://dokie.li/media/css/basic.css" media="all" rel="stylesheet alternate" title="Basic" />
+        <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet" title="LNCS" />
+        <link href="https://dokie.li/media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
+        <link href="https://dokie.li/media/css/do.css" media="all" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" media="all" rel="stylesheet" />
+        <link href="https://dokie.li/media/css/editor.css" media="all" rel="stylesheet" />
+        <script src="https://dokie.li/scripts/simplerdf.js"></script>
+        <script src="https://dokie.li/scripts/medium-editor.min.js"></script>
+        <script src="https://dokie.li/scripts/medium-editor-tables.min.js"></script>
+        <script src="https://dokie.li/scripts/do.js"></script>
+    </head>
+
+    <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: http://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms#" typeof="schema:CreativeWork sioc:Post prov:Entity">
+        <main>
+            <article about="" typeof="schema:Article">
+                <h1 property="schema:name">Enabling Decentralised Scholarly Communication (EDSC)</h1>
+
+                <div id="authors">
+                    <dl id="author-name">
+                        <dt>Authors</dt>
+                        <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:contributor schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person">Sarven Capadisli</a></span><sup><a about="http://csarven.ca/#i" href="#author-org-1" rel="schema:memberOf" resource="http://dbpedia.org/resource/University_of_Bonn">1</a></sup><sup><a href="#author-email-1">✊</a></sup></dd>
+                        <dd id="Amy-Guy" inlist="" rel="bibo:authorList" resource="http://rhiaro.co.uk/about#me"><span about="" rel="schema:contributor schema:creator schema:author"><a about="http://rhiaro.co.uk/about#me" href="http://rhiaro.co.uk/" property="schema:name" rel="schema:url" typeof="schema:Person">Amy Guy</a></span><sup><a about="http://rhiaro.co.uk/about#me" href="#author-org-2" rel="schema:memberOf" resource="http://dbpedia.org/resource/University_of_Edinburgh">2</a></sup><sup><a href="#author-email-2">🐦</a></sup></dd>
+                        <dd id="David-De-Roure" inlist="" rel="bibo:authorList" resource="http://orcid.org/0000-0001-9074-3016"><span about="" rel="schema:contributor"><a about="http://orcid.org/0000-0001-9074-3016" href="http://www.oerc.ox.ac.uk/people/David%20De%20Roure" property="schema:name" rel="schema:url" typeof="schema:Person">David De Roure</a></span><sup><a about="http://orcid.org/0000-0001-9074-3016" href="#author-org-3" rel="schema:memberOf" resource="http://dbpedia.org/resource/University_of_Oxford">3</a></sup><sup><a href="#author-email-3">🎸</a></sup></dd>
+                    </dl>
+
+                    <ul id="author-org">
+                        <li id="author-org-1"><sup>1</sup>EIS Department, <a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Bonn, Germany</li>
+                        <li id="author-org-2"><sup>2</sup>School of Informatics, <a about="http://dbpedia.org/resource/University_of_Edinburgh" href="http://www.ed.ac.uk/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Edinburgh</a>, Edinburgh, UK</li>
+                        <li id="author-org-1"><sup>3</sup>Oxford e-Research Centre, <a about="http://dbpedia.org/resource/University_of_Oxford" href="http://www.ox.ac.uk/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Oxford</a>, Oxford, UK</li>
+                    </ul>
+
+                    <ul id="author-email">
+                        <li id="author-email-1"><sup>✊</sup><a about="http://csarven.ca/#i" href="mailto:info@csarven.ca" rel="schema:email">info@csarven.ca</a></li>
+                        <li id="author-email-2"><sup>🐦</sup><a about="http://rhiaro.co.uk/about#me" href="mailto:amy@rhiaro.co.uk" rel="schema:email">amy@rhiaro.co.uk</a></li>
+                        <li id="author-email-3"><sup>🎸</sup><a about="http://orcid.org/0000-0001-9074-3016" href="mailto:david.deroure@oerc.ox.ac.uk" rel="schema:email">david.deroure@oerc.ox.ac.uk</a></li>
+                    </ul>
+                </div>
+
+                <dl id="document-identifier">
+                    <dt>Identifier</dt>
+                    <dd><a href="https://linkedresearch.org/events/iswc2017/workshop-proposal">https://linkedresearch.org/events/iswc2017/workshop-proposal</a></dd>
+                </dl>
+
+                <dl id="document-in-reply-to">
+                    <dt>In Reply To</dt>
+                    <dd><a href="http://iswc2017.semanticweb.org/calls/call-for-workshop-proposals/" rel="sioc:reply_of">ISWC 2017 Call for Workshops</a></dd>
+                </dl>
+
+                <dl id="document-inbox">
+                    <dt>Notifications Inbox</dt>
+                    <dd><a href="https://linkedresearch.org/inbox/" rel="ldp:inbox">inbox/</a></dd>
+                </dl>
+
+                <dl id="document-published">
+                    <dt>Published</dt>
+                    <dd><time datetime="2017-03-17" property="schema:datePublished" content="2017-03-17T00:00:00Z" datatype="xsd:dateTime">2017-03-17</time></dd>
+                </dl>
+
+                <dl id="document-modified">
+                    <dt>Modified</dt>
+                    <dd><time datetime="2017-03-17" property="schema:dateModified" content="2016-03-17T00:00:00Z" datatype="xsd:dateTime">2017-03-17</time></dd>
+                </dl>
+
+                <dl id="document-license">
+                    <dt>License</dt>
+                    <dd><a rel="schema:license" href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
+                </dl>
+
+                <div id="content">
+                    <section id="abstract">
+                        <h2>Abstract</h2>
+                        <div datatype="rdf:HTML" property="schema:abstract">
+                            <p>The Web is increasingly being used to enable fair access to scholarly work, but bringing this to its full potential requires understanding of, and change in, a number of interrelated areas. Semantic Web technologies are key when it comes to authoring and publishing research and data, as well as feedback and commentary, reputation and impact, long-term archival of work, and searching and linking across projects and domains.</p>
+                            <!-- TODO 200 words summary of workshop purpose -->
+                        </div>
+                    </section>
+
+                    <section id="keywords">
+                        <h2>Keywords</h2>
+                        <div>
+                            <ul rel="schema:about">
+                                <li><a href="https://en.wikipedia.org/wiki/Decentralization" resource="http://dbpedia.org/resource/Decentralization">Decentralization</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Linked_Data" resource="http://dbpedia.org/resource/Linked_Data">Linked Data</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Open_access" resource="http://dbpedia.org/resource/Open_access">Open Access</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Semantic_publishing" resource="http://dbpedia.org/resource/Semantic_publishing">Semantic publishing</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Social_machine" resource="http://dbpedia.org/resource/Social_machine">Social machine</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Social_web" resource="http://dbpedia.org/resource/Social_web">Social web</a></li>
+                                <li><a href="https://en.wikipedia.org/wiki/Web_science" resource="http://dbpedia.org/resource/Web_science">Web science</a></li>
+                            </ul>
+                        </div>
+                    </section>
+
+                    <section id="introduction" inlist="" rel="schema:hasPart" resource="#introduction">
+                        <h2 about="#introduction" property="schema:name" typeof="deo:Introduction">Introduction</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>This workshop focuses on how academic researchers can leverage the Web as a technical platform for academic publishing using existing Web technologies and standards, whilst taking advantage of contemporary <em>cultural</em> Social Web norms around interacting, sharing and linking. Despite the potential of the Web for greater control over publishing formats and reach to wider (non-academic) audiences, paper-based constraints and dependencies on centralised third-parties for demonstrating academic impact persist.</p>
+
+                            <p>We aim to bring together researchers in Web science and related fields to explore why, and discuss the latest efforts and challenges in creating coherent and interoperable solutions to these problems.</p>
+
+                            <p>This would be the 2nd occurance of this workshop; the 1st is scheduled for ESWC2017 in May. For the purposes of this proposal we consider it 'emerging'.</p>
+                        </div>
+                    </section>
+
+                    <section id="relevance" inlist="" rel="schema:hasPart" resource="#relevance">
+                        <h2 property="schema:name">Relevance and Motivations</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>This workshop topic is timely due to increasing awareness of the power and control wielded by centralised actors in the online space. We take advantage of a wave of interest in <em>redecentralizing the Web</em> to highlight its importance in the academic domain. High profile events on the topic [<a class="ref" href="#ref-1">1</a>] and formal Web standards around decentralised social interactions and annotations - many using Semantic Web technologies - have emerged in the past year [<a class="ref" href="#ref-2">2</a>, <a class="ref" href="#ref-3">3</a>].</p>
+
+                            <p>Further, the Web has already radically changed the processes of scholarship [<a class="ref" href="#ref-4">4</a>], and an increasing number of venues are accepting contributions and reviews in native Web formats, <em>including</em> ISWC itself<!-- [<a class="ref" href="#ref-5">5</a>, <a class="ref" href="#ref-6">6</a>, <a class="ref" href="#ref-7">7</a>, <a class="ref" href="#ref-8">8</a>, <a class="ref" href="#ref-9">9</a>, <a class="ref" href="#ref-10">10</a>] -->. Commitments to Open Access publishing made by institutions and venues is growing [<a class="ref" href="#ref-11">16</a>, <a class="ref" href="#ref-12">6</a>]. Previous workshops e.g., <a href="https://www.force11.org/">FORCE11</a>, <a href="http://cs.unibo.it/save-sd/">SAVE-SD</a>, <a href="http://msclab.org/bigscholar/2016/">BigScholar</a>, <a href="http://linkedscience.org/">Linked Science</a>, SePublica <span class="todo">Update this list for ISWC</span> focused on interlinking of scientific assets, reuse of datasets, analysis and visualisations, but not on the publishing pipeline as a whole nor the critical connection with academic culture.</p>
+
+                            <p>Semantic Web researchers are experts in topics around data alignment and interoperability, and Linked Data principles are tightly in line with those of Open Access. It is pertinent that we apply this knowledge to take a comprehensive look at what works and what is missing in order for researchers to seamlessly take full advantage of the Web as an empowering publication and collaboration platform.</p>
+
+                            <p>The focus with regard to technology is on <em>connecting</em> partial or specialised solutions together in order to advance the publishing pipeline as a whole. For this, bringing people together to discuss their work in person is crucial.</p>
+<!-- 
+                            <p>This workshop is of interest to researchers whose work contributes towards some aspect enabling open and accessible academic publishing (see topics list below) as well as those who are interested in how they can start to publish their own work effectively on the Web today.</p> -->
+                        </div>
+                    </section>
+
+                    <section id="topics-and-scope" inlist="" rel="schema:hasPart" resource="#topics-and-scope">
+                        <h2 property="schema:name">Topics and Scope</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <!-- <p class="todo">A two-paragraph description of the workshop topic and themes.</p> -->
+
+                            <p>We build on prior efforts with the position that the decentralised nature of the Web is key to truly open scholarly communication. Integral to successful decentralisation is <em>interoperability</em> of diverse and independently created tools, so that individuals need not be locked-in to particular systems. This may be acheived in part through standard protocols for data representation and distribution.</p>
+
+                            <p>The various parts of the schlarly communication ecosystem and how they relate to one another are shown in the <a href="#figure-linked-research-ecosystem">ecosystem</a> figure [<a class="ref" href="#ref-13">5</a>].</p>
+
+                            <figure id="figure-linked-research-ecosystem" rel="schema:hasPart" resource="http://csarven.ca/dokieli#figure-linked-research-ecosystem">
+                                <object data="https://linkedresearch.org/proxy?uri=http://csarven.ca/media/images/articles/linked-research-ecosystem.svg" height="243" width="480"></object>
+                                <figcaption property="schema:name">Scholarly communication ecosystem.</figcaption>
+                            </figure>
+
+                            <p>All parts of the process raise technical and social challenges. We expand the area of discussion beyond the research artefacts, to the infrastructure and culture which supports it. We are interested in input from those interested to integrate existing or in-progress technologies (whether or not originally intended to interact with the Web) into a Web-based ecosystem for scholarly communication, and to find ways to connect and interoperate with solutions for other parts of the pipeline.</p>
+
+                            <p>We invite contributions with strong emphasis on interoperability, decentralisation, and open access. Some topics of interest when applied specifically to scholarly communication:</p>
+
+                            <ul>
+                                <li><strong>Architecture and Decentralisation</strong>: <ul><li>Identifiers and versioning; </li><li>Provenance and accountability; </li><li>Persistence and permanence; </li><li>Personal data stores; </li><li>Information management.</li></ul></li>
+
+                                <li><strong>Interfaces and Interactions</strong>: <ul><li>Authoring and collaboration; </li><li>Web-based presentation of research; </li><li>Data and metadata integration; </li><li>Citation management, analysis, generation and prediction; </li><li>Integration of semantics in prose and datasets; </li><li>Adaptation to audiences and contexts; </li><li>Search and query of research objects and social interactions; </li><li>Domain-specific publishing challenges.</li></ul></li>
+
+                                <li><strong>Create, Reuse, Remix, and Share</strong>: <ul><li>Social Web paradigms applied to scholarly communication; </li><li>Social and cultural aspects of academic publishing; </li><li>Profiles, identity, attribution; </li><li>Rights and licensing; </li><li>Feedback and reviews; </li><li>Connecting scholarly data with other data; </li><li>Incentives and altmetrics; </li><li>Human and machine-readability.</li></ul></li>
+                            </ul>
+
+                            <!-- <p>What is the role of the publisher if we can all publish? Aggregators, search engines, metadata, collaborative platforms, link-makers, knowledge presenters.</p> -->
+                        </div>
+                    </section>
+
+                    <section id="audience-and-community" inlist="" rel="schema:hasPart" resource="#audience-and-community">
+                        <h2 property="schema:name">Audience and Community</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>We anticipate attendance of 15 to 20 people, including people who are interested in learning about tools and techniques for publishing their research online; we particularly anticipate this to be of interest to students and early-stage researchers who are looking for best-practice workflows for publishing. We also expect to attract folks who have grievences with or want to improve the academic publishing industry in general.</p>
+
+                            <p>Existing communities with related publications include Open Access / Open Science [<a href="#ref-kuhn">8</a>, <a href="#ref-citation">9</a>, <a href="#ref-fivestars">15</a>, <a href="#ref-11">16</a>] and semantic publishing [<a href="#ref-nano">10</a>, <a href="#ref-spar">12</a>, <a href="#ref-rash">13</a>, <a href="#ref-web2">14</a>, <a href="#ref-hyper">17</a>], as well as seeking to better understand and improve academic publishing or research landscapes [<a href="#ref-rot">7</a>, <a href="#ref-osborne">11</a>, <a href="#ref-peer">18</a>].</p>
+                        </div>
+                    </section>
+
+                    <section id="workshop-format" inlist="" rel="schema:hasPart" resource="#workshop-format">
+                        <h2 property="schema:name">Workshop Format</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>Contributions will be evaluated according to how well they support advancing the state of the Web towards becoming a fully-fledged ecosystem for scholarly communication. We strongly promote <em><a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">self-dogfooding</a></em>, and will prioritise contributions from authors who can demonstrate that they use their tooling or techniques in their own practice. We welcome:</p>
+
+                            <ul>
+                                <li>short research reports</li>
+                                <li>demos of in-use tooling, techniques or solutions</li>
+                                <li>position statements outlining requirements or highlighting needs not met along a particular axis or in a particular domain, and proposed solutions</li>
+                                <li>Short blog post style responses to <em>“I can’t use the Web to publish my research because...”</em> which we will use to seed discussion during the open session.</li>
+                            </ul>
+
+                            <p>We propose a half-day workshop divided into three sections:</p>
+                            <ul>
+                                <li>Introduction and keynote (40 minutes)</li>
+                                <li>Presentations (1 hour 30 minutes; punctuated by coffee break)</li>
+                                <li>Discussion and plenary (50 minutes)</li>
+                            </ul>
+
+                            <!-- <p id="important-dates">Our call for contributions and review process is ongoing throughout the year. The following dates apply for in-person presentation at ISWC 2017:</p>
+
+                            <ul>
+                                <li><strong>Contributions due:</strong> 2017-07-21</li>
+                                <li><strong>Notifications:</strong> 2017-08-24</li>
+                                <li><strong>Deadline for minor revisions:</strong> 2017-09-21</li>
+                                <li><strong>Blogposts accepted until:</strong> end of day before workshop day</li>
+                            </ul> -->
+                        </div>
+                    </section>
+
+                    <section id="organisation" inlist="" rel="schema:hasPart" resource="#organisation">
+                        <h2 property="schema:name">Organisation</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p>The workshop organisers are as follows:</p>
+                            <ul>
+                                <li><a href="http://csarven.ca/">Sarven Capadisli</a>: a PhD student researching <a href="http://270a.info/">statistical linked dataspaces</a>, <a href="https://linkedresearch.org/">Linked Research</a>, and <a href="https://dokie.li/">dokieli</a>. He is a co-chair of the <cite><a href="http://semstats.org/">SemStats</a></cite> workshop series at ISWC since 2013; recently co-chaired the tutorial for <cite><a href="http://www2016.ca/program/program-by-track/tutorials.html#building-decentralized-applications-for-the-social-web-2">Building Decentralized Social Web Applications</a></cite> at WWW2016. His advocacy to establish <em>Webby</em> research contributed towards a shift in conferences accepting ‘paper’ contributions in native Web formats.</li>
+
+                                <li><a href="https://rhiaro.co.uk/">Amy Guy</a>: a PhD student researching decentralised Social Web technologies and standards. She co-chaired the tutorial for <cite>Building Decentralized Social Web Applications</cite> at WWW2016; and has regularly convened meetings of the <cite><abbr title="Open Knowledge Foundation">OKF</abbr> Scotland</cite>, and related hackathons and workshops. She publishers her research papers and thesis on her website, and invites input through open standard protocols for decentralised communication.</li>
+
+                                <li><a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a>: is a Professor of <cite>e-Research</cite> at the University of Oxford, Director of the <cite>Oxford e-Research Centre</cite> and Co-Director of the <cite>Institute for the Future of Computing</cite> in the Oxford Martin School. From 2009 to 2013 he held the post of National Strategic Director for <cite>e-Social Science</cite>. He is currently a member of the <cite>FORCE11</cite> board of directors.</li>
+                            </ul>
+
+                            <p>As of 2017-03-16 74 people, listed at <a href="https://linkedresearch.org/calls#reviewers">https://linkedresearch.org/calls#reviewers</a>, have expressed interest in reviewing articles on this topic on an ongoing basis.</p>
+                        </div>
+                    </section>
+
+
+<!--                     <section id="situating-linked-research" inlist="" rel="schema:hasPart" resource="#situating-linked-research">
+                        <h2 property="schema:name">Content to sort</h2>
+                        <div datatype="rdf:HTML" property="schema:description">
+                            <p><mark>TODO: find these words a new home</mark></p>
+                            <p>Another form of scholarly output that is critical to the Linked Research vision is annotation.
+                              The recent announcement of the <a href="http://doi.org/10.1038/528153a">Annotating All Knowledge Coalition</a> is a major step towards a set of linked annotations that are openly available.
+                              The coalition is embracing <a href="https://www.w3.org/blog/2015/12/annotation-coalition-launched/">W3C open annotation standards</a> for interchanging standards.</p>
+
+                            <p>Other groups are focused on reforming the traditional structure and content of narrative papers into more technically accessible and reusable content.
+                              For example, <a href="http://rescience.github.io">The ReScience Journal</a> makes available the various portions of a paper on GitHub to be accessed and re-executed if possible.
+                              Likewise, the <a href="https://www.w3.org/community/scholarlyhtml/">W3C Scholarly HTML working group</a> is focused on the better support of scholarly documents on the web.</p>
+                        </div>
+                    </section> -->
+
+                    <section id="references">
+                        <h2>References</h2>
+                        <div>
+                            <ol>
+                                <li id="ref-1">Decentralized Web Summit: Locking the Web Open, 2016, <a about="" href="http://www.decentralizedweb.net/">http://www.decentralizedweb.net/</a></li>
+                                <li id="ref-2">W3C Social Web <abbr title="Working Group">WG</abbr> Charter, 2014, <a about="" href="https://www.w3.org/2013/socialweb/social-wg-charter.html">https://www.w3.org/2013/socialweb/social-wg-charter.html</a></li>
+                                <li id="ref-3">W3C Web Annotation WG Charter, 2014, <a about="" href="https://www.w3.org/annotation/charter/">https://www.w3.org/annotation/charter/</a></li>
+                                <li id="ref-4">Borgman, C.: Scholarship in the Digital Age: Information, Infrastructure, and the Internet, 2007, <a about="" href="https://mitpress.mit.edu/books/scholarship-digital-age" rel="schema:citation">https://mitpress.mit.edu/books/scholarship-digital-age</a></li>
+                                <!-- <li id="ref-5">Capadisli, S., Cotton, F., Haller, A., Kalampokis, E., Scannapieco, M., Troncy, R.: Semantic Statistics (SemStats), <a about="" href="http://semstats.org/">http://semstats.org/</a></li>
+                                <li id="ref-6">Gonzalez-Beltran, A., Osborne, F., Peroni, S.: Semantics, Analytics, Visualisation: Enhancing Scholarly Data (SAVE-SD), <a about="" href="http://cs.unibo.it/save-sd/">http://cs.unibo.it/save-sd/</a></li>
+                                <li id="ref-7">Gentile, A., Zhang, Z., d'Amato, C., Paulheim, H.: Linked Data for Information Extraction (LD4IE), <a about="" href="http://web.informatik.uni-mannheim.de/ld4ie2016/">http://web.informatik.uni-mannheim.de/ld4ie2016/</a></li>
+                                <li id="ref-8">Bizer, C., Heath, T., Auer, S., Berners-Lee, T.: Linked Data on the Web (LDOW), <a about="" href="http://events.linkeddata.org/ldow2016/">http://events.linkeddata.org/ldow2016/</a></li>
+                                <li id="ref-9">Gil, Y.: International Semantic Web Conference (ISWC), <a about="" href="http://iswc2016.semanticweb.org/pages/calls/html-submission.html">http://iswc2016.semanticweb.org/pages/calls/html-submission.html</a></li>
+                                <li id="ref-10">Hartig, O., Sequeda, J., Hogan, A.: Consuming Linked Data (COLD), <a about="" href="https://www.dcc.uchile.cl/cold2016/">https://www.dcc.uchile.cl/cold2016/</a></li>
+                                 -->
+                                <li id="ref-13">Capadisli, S., Guy, A., Lange, C., Auer, S., Greco, N.: Linked Research: An Approach for Scholarly Communication, 2016, <a about="#figure-linked-research-ecosystem" href="http://csarven.ca/linked-research-scholarly-communication#figure-linked-research-ecosystem" rel="schema:citation">http://csarven.ca/linked-research-scholarly-communication#figure-linked-research-ecosystem</a></li>
+                                <li id="ref-12">Dunn, K.: MIT Libraries can help researchers become "open in action", 2016, <a about="" href="https://libraries.mit.edu/news/access-2/23377/" rel="schema:citation">https://libraries.mit.edu/news/access-2/23377/</a></li>
+                                <li id="ref-rot">Klein M., Van de Sompel, H., Sanderson, R., Shankar, H., Balakireva, L., Zhou, K., Tobin, R.: Scholarly Context Not Found: One in Five Articles Suffers from Reference Rot, PLoS ONE, 2014, DOI: 10.1371/journal.pone.0115253, http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0115253</li>
+                                <li id="ref-kuhn">Kuhn, T., Chichester, C., Krauthammer, M., Dumontier, M.: Publishing without Publishers: a Decentralized Approach to Dissemination, Retrieval, and Archiving of Data, ISWC 2015, http://iswc2015.semanticweb.org/sites/iswc2015.semanticweb.org/files/93660593.pdf</li>
+                                <li id="ref-citation">Martone M. (ed.): Data Citation Synthesis Group: Joint Declaration of Data Citation Principles. FORCE11, https://www.force11.org/datacitation</li>
+                                <li id="ref-nano">Mons, B., Velterop, J.: Nano-Publication in the e-science era, Semantic Web Applications in Scientific Discourse, 2009, http://ceur-ws.org/Vol-523/Mons.pdf</li>
+                                <li id="ref-osborne">Osborne, F., Scavo, G., Motta, E.: Identifying diachronic topic-based research communities by clustering shared research trajectories, Research Track, ESWC (2014), http://oro.open.ac.uk/39666/3/ESWC2014_CR</li>
+                                <li id="ref-spar">Peroni, S: The Semantic Publishing and Referencing Ontologies. In Semantic Web Technologies and Legal Scholarly Publishing: 121-193. Cham, Switzerland: Springer. http://dx.doi.org/10.1007/978-3-319-04777-5_5</li>
+                                <li id="ref-rash">Peroni, S., Osborne, F., Di Iorio, A., Nuzzolese, A. G., Poggi, F., Vitali, F., Motta, E. (2016). Research Articles in Simplified HTML: a Web-first format for HTML-based scholarly articles. PeerJ PrePrints 4: e2513. http://dx.doi.org/10.7287/peerj.preprints.2513</li>
+                                <li id="ref-web2">Procter, R., Williams, R., Steward, J., Poschen, M., Snee, H., Voss, A., Asgari-Targhi, M.: Adoption and use of Web 2.0 in scholarly communications. Philosophical Transactions of the Royal Society of London A: Mathematical, Physical and Engineering Sciences 2010(368):4039-4056, DOI: 10.1098/rsta.2010.0155, http://rsta.royalsocietypublishing.org/content/368/1926/4039</li>
+                                <li id="ref-fivestars">Shotton, D.: The Five Stars of Online Journal Articles - a Framework for Article Evaluation, 2012, <a href="http://www.dlib.org/dlib/january12/shotton/01shotton.html" rel="schema:citation">D-Lib Magazine, Volume 18, Number 1/2</a></li>
+                                <li id="ref-11">Suber, P.,Brown, P. O., Cabell, D., Chakravarti, A., Cohen, B., Delamothe, T., Eisen, M., Grivell, L., Guédon, J-C., Hawley, R. S., Johnson, R. K., Kirschner, M. W., Lipman, D., Lutzker, A. P., Marincola, E., Roberts, R. J., Rubin, G. M., Schloegl, R., Siegel, V., So, A. D., Varmus, H. E., Velterop, J., Walport, M. J., Watson, L.: Bethesda Statement on Open Access Publishing, 2003, <a about="" href="https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm" rel="schema:citation">https://dash.harvard.edu/bitstream/handle/1/4725199/suber_bethesda.htm</a></li>
+                                <li id="ref-hyper">de Waard, A., Buckingham Shum, S., Carusi, A., Park, J., Samwald, M. and Sándor, Á.: Hypotheses, Evidence and Relationships: The HypER Approach for Representing Scientific Knowledge Claims, Semantic Web Applications in Scientific Discourse, 2009, http://ceur-ws.org/Vol-523/</li>
+                                <li id="ref-peer">Wicherts, J. M.: Peer Review Quality and Transparency of the Peer-Review Process in Open Access and Subscription Journals, 2016, DOI: 10.1371/journal.pone.0147913, http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0147913</li>
+                              
+
+                            </ol>
+                        </div>
+                    </section>
+                </div>
+            </article>
+        </main>
+    </body>
+</html>
