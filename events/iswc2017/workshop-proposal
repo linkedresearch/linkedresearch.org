@@ -19,7 +19,7 @@
     <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ v: http://www.w3.org/2006/vcard/ns# pimspace: http://www.w3.org/ns/pim/space# cc: http://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# cal: http://www.w3.org/2002/12/cal/ical# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# org: http://www.w3.org/ns/org# biblio: http://purl.org/net/biblio# bibo: http://purl.org/ontology/bibo/ book: http://purl.org/NET/book/vocab# ov: http://open.vocab.org/terms/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms#" typeof="schema:CreativeWork sioc:Post prov:Entity">
         <main>
             <article about="" typeof="schema:Article">
-                <h1 property="schema:name">Enabling Decentralised Scholarly Communication (EDSC)</h1>
+                <h1 property="schema:name">Enabling Decentralised Scholarly Communication</h1>
 
                 <div id="authors">
                     <dl id="author-name">
@@ -54,7 +54,7 @@
 
                 <dl id="document-inbox">
                     <dt>Notifications Inbox</dt>
-                    <dd><a href="https://linkedresearch.org/inbox/" rel="ldp:inbox">inbox/</a></dd>
+                    <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/events/iswc2017/" rel="ldp:inbox">inbox/</a></dd>
                 </dl>
 
                 <dl id="document-published">
@@ -77,7 +77,6 @@
                         <h2>Abstract</h2>
                         <div datatype="rdf:HTML" property="schema:abstract">
                             <p>The Web is increasingly being used to enable fair access to scholarly work, but bringing this to its full potential requires understanding of, and change in, a number of interrelated areas. Semantic Web technologies are key when it comes to authoring and publishing research and data, as well as feedback and commentary, reputation and impact, long-term archival of work, and searching and linking across projects and domains. This workshop seeks to bring together people working on different parts of the academic publishing pipeline with the specific goal of enabling interoperability between disparate projects through semantics and native Web standards. We also provide a forum for articulating concrete problems with the current academic publishing model, and proposing solutions.</p>
-                            
                         </div>
                     </section>
 
@@ -103,7 +102,7 @@
 
                             <p>We aim to bring together researchers in Web science and related fields to explore why, and discuss the latest efforts and challenges in creating coherent and interoperable solutions to these problems.</p>
 
-                            <p>This would be the 2nd occurance of this workshop; the 1st is scheduled for ESWC2017 in May. For the purposes of this proposal we consider it 'emerging'.</p>
+                            <p>This would be the 2nd occurance of this workshop; <a href="https://linkedresearch.org/events/eswc2017/">the 1st is scheduled for ESWC2017 in May</a>. For the purposes of this proposal we consider it 'emerging'.</p>
                         </div>
                     </section>
 

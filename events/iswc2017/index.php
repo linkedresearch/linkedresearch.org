@@ -6,7 +6,7 @@
 
                 <dl id="document-inbox">
                     <dt>Notifications Inbox</dt>
-                    <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/events/eswc2017/" rel="ldp:inbox">inbox/</a></dd>
+                    <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/events/iswc2017/" rel="ldp:inbox">inbox/</a></dd>
                 </dl>
 
                 <div datatype="rdf:HTML" id="content" property="schema:description">
