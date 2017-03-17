@@ -76,8 +76,8 @@
                     <section id="abstract">
                         <h2>Abstract</h2>
                         <div datatype="rdf:HTML" property="schema:abstract">
-                            <p>The Web is increasingly being used to enable fair access to scholarly work, but bringing this to its full potential requires understanding of, and change in, a number of interrelated areas. Semantic Web technologies are key when it comes to authoring and publishing research and data, as well as feedback and commentary, reputation and impact, long-term archival of work, and searching and linking across projects and domains.</p>
-                            <!-- TODO 200 words summary of workshop purpose -->
+                            <p>The Web is increasingly being used to enable fair access to scholarly work, but bringing this to its full potential requires understanding of, and change in, a number of interrelated areas. Semantic Web technologies are key when it comes to authoring and publishing research and data, as well as feedback and commentary, reputation and impact, long-term archival of work, and searching and linking across projects and domains. This workshop seeks to bring together people working on different parts of the academic publishing pipeline with the specific goal of enabling interoperability between disparate projects through semantics and native Web standards. We also provide a forum for articulating concrete problems with the current academic publishing model, and proposing solutions.</p>
+                            
                         </div>
                     </section>
 
