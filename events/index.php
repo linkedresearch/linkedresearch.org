@@ -20,9 +20,7 @@
                                 <li id="iswc-2017">
                                     <h3>DeSemWeb (Workshop on Decentralizing the Semantic Web) at ISWC 2017 (end of October 2017)</h3>
 
-                                    <p>DeSemWeb takes a radical perspective by focusing solely on decentralized and client-side applications, to counterbalance the centralized discourse of other tracks.</p>
-
-                                    <p><a href="http://iswc2017.desemweb.org/" rel="rdfs:seeAlso">Read more</a>.</p>
+                                    <p><a href="http://iswc2017.desemweb.org/" rel="rdfs:seeAlso">DeSemWeb</a> takes a radical perspective by focusing solely on decentralized and client-side applications, to counterbalance the centralized discourse of other tracks.</p>
                                 </li>
 
                                 <li id="eswc-2017">
