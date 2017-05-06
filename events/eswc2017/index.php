@@ -18,7 +18,7 @@
                             <section id="when" rel="schema:hasPart" resource="#when">
                                 <h3>When?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>Half a day, on 28th or 29th of May 2017 (exact day of workshop to be scheduled)</p>
+                                    <p>Half a day, morning of 29th of May 2017.</p>
                                 </div>
                             </section>
 
@@ -39,7 +39,6 @@
                             <section id="what" rel="schema:hasPart" resource="#what">
                                 <h3>What?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    
                                     <p>We're soliciting responses to the <a href="https://linkedresearch.org/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a>, which emphasises interoperability, decentralisation, open access, and dogfooding (using your own tools). Topics of particular interest to ESWC attendees include:</p>
 
                                     <ul>
@@ -49,7 +48,6 @@
 
                                         <li><strong>Create, Reuse, Remix, and Share</strong>: Social Web paradigms applied to scholarly communication; Social and cultural aspects of academic publishing; Profiles, identity, attribution; Rights and licensing; Feedback and reviews; Connecting scholarly data with other data; Incentives and altmetrics; Human and machine-readability.</li>
                                     </ul>
-
                                 </div>
                             </section>
 
@@ -65,7 +63,6 @@
                                     </ul>
 
                                     <p>The workshop will include an open dicussion session. We invite short blog post style responses to <em>“I can’t use the Web to publish my research because...”</em> which we will use to seed the open session.</p>
-
                                 </div>
                             </section>
 
@@ -76,7 +73,6 @@
                                     <p>Submissions will be reviewed by pioneering, non-anonymous individuals from <a href="https://linkedresearch.org/calls#reviewers">this list of reviewers</a>.</p>
                                 </div>
                             </section>
-
                         </div>
                     </section>
                 </div>
