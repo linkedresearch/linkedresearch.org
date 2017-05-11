@@ -30,9 +30,9 @@
                                     <ul>
                                         <li>Hello world!</li>
                                         <li>Keynote</li>
-                                        <li><cite>Scholarly Social Machines</cite>, David De Roure</li>
-                                        <li><cite>Utilising Semantic Web Ontologies to Publish Experimental Workflows</cite>, Harshvardhan J Pandit, Ensar Hadziselimovic, Dave Lewis</li>
-                                        <li><cite>Best practices for self-publishing scholarly metadata</cite>, Ruben Verborgh</li>
+                                        <li><cite>Scholarly Social Machines</cite>, <a hjref="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
+                                        <li><cite>Utilising Semantic Web Ontologies to Publish Experimental Workflows</cite>, <a href="https://research.harshp.com/">Harshvardhan J Pandit</a>, Ensar Hadziselimovic, Dave Lewis</li>
+                                        <li><cite>Best practices for self-publishing scholarly metadata</cite>, <a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
                                     </ul>
                                 </div>
                             </section>
