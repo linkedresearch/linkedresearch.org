@@ -9,20 +9,20 @@
                     <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/events/eswc2017/" rel="ldp:inbox">inbox/</a></dd>
                 </dl>
 
+                <dl id="document-event" rel="bibo:presentedAt" resource="#event">
+                    <dt resource="#event" typeof="schema:Event">Event</dt>
+                    <dd property="schema:description"><span property="schema:name">Enabling Decentralised Scholarly Communication</span> co-located with the Extended Semantic Web Conference (<a rel="schema:isPartOf" href="http://2017.eswc-conferences.org/">ESWC 2017</a>)</dd>
+                    <dt>Location</dt>
+                    <dd rel="schema:location" resource="http://dbpedia.org/resource/Portorož">Portorož, Slovenia</dd>
+                    <dt>Date</dt>
+                    <dd><time content="2017-05-29" datatype="xsd:date" datetime="2017-05-29" property="dcterms:date">May 29, 2017</time></dd>
+                </dl>
+
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="enabling-decentralised-scholarly-communication" rel="schema:hasPart" resource="#enabling-decentralised-scholarly-communication">
                         <h2 property="schema:name">Enabling Decentralised Scholarly Communication</h2>
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>Linked Research is coming to <a href="http://2017.eswc-conferences.org">ESWC</a>! This means that if you respond to the <a href="https://linkedresearch.org/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a> and indicate that you wish to present on our workshop day we will ensure your contribution is reviewed accordingly.</p>
-
-                            <dl id="document-event" rel="bibo:presentedAt" resource="#event">
-                                <dt resource="#event" typeof="schema:Event">Event</dt>
-                                <dd property="schema:description"><span property="schema:name">Enabling Decentralised Scholarly Communication</span> co-located with the Extended Semantic Web Conference (<a rel="schema:isPartOf" href="http://2017.eswc-conferences.org/">ESWC 2017</a>)</dd>
-                                <dt>Location</dt>
-                                <dd rel="schema:location" resource="http://dbpedia.org/resource/Portorož">Portorož, Slovenia</dd>
-                                <dt>Date</dt>
-                                <dd><time content="2017-05-29" datatype="xsd:date" datetime="2017-05-29" property="dcterms:date">May 29, 2017</time></dd>
-                            </dl>
 
                             <section id="how" rel="schema:hasPart" resource="#how">
                                 <h3>How?</h3>
