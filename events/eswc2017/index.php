@@ -24,6 +24,21 @@
                         <div datatype="rdf:HTML" property="schema:description">
                             <p>Linked Research is coming to <a href="http://2017.eswc-conferences.org">ESWC</a>! This means that if you respond to the <a href="https://linkedresearch.org/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a> and indicate that you wish to present on our workshop day we will ensure your contribution is reviewed accordingly.</p>
 
+                            <section id="program" rel="schema:hasPart" resource="#program">
+                                <h3>Program</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <ul>
+                                        <li>Hello world!</li>
+                                        <li>Keynote</li>
+                                        <li><cite>Scholarly Social Machines</cite>, David De Roure</li>
+                                        <li><cite>Utilising Semantic Web Ontologies to Publish Experimental Workflows</cite>, Harshvardhan J Pandit, Ensar Hadziselimovic, Dave Lewis</li>
+                                        <li><cite>Best practices for self-publishing scholarly metadata</cite>, Ruben Verborgh</li>
+                                    </ul>
+                                </div>
+                            </section>
+
+                            <hr />
+
                             <section id="how" rel="schema:hasPart" resource="#how">
                                 <h3>How?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
