@@ -33,6 +33,7 @@
                                         <li><cite>Scholarly Social Machines</cite>, <a hjref="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
                                         <li><cite>Utilising Semantic Web Ontologies to Publish Experimental Workflows</cite>, <a href="https://research.harshp.com/">Harshvardhan J Pandit</a>, Ensar Hadziselimovic, Dave Lewis</li>
                                         <li><cite>Best practices for self-publishing scholarly metadata</cite>, <a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
+                                        <li><cite><a href="https://marco-brambilla.com/2017/05/11/instrumenting-continuous-knowledge-extraction-sharing-and-benchmarking/">Instrumenting Continuous Knowledge Extraction, Sharing, and Benchmarking</a></cite>, <a href="https://marco-brambilla.com/">Marco Brambilla</a>, Emanuele Della Valle, Andrea Mauri, Riccardo Tommasini</li>
                                     </ul>
                                 </div>
                             </section>
