@@ -27,6 +27,7 @@
                             <section id="program" rel="schema:hasPart" resource="#program">
                                 <h3>Program</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
+                                    <p>Draft:</p>
                                     <ul>
                                         <li>Hello world!</li>
                                         <li>Keynote</li>
@@ -34,6 +35,7 @@
                                         <li><cite><a href="https://openscience.adaptcentre.ie/publications/2017/eswc/">Utilising Semantic Web Ontologies to Publish Experimental Workflows</a></cite>, <a href="https://research.harshp.com/">Harshvardhan J Pandit</a>, Ensar Hadziselimovic, Dave Lewis</li>
                                         <li><cite>Best practices for self-publishing scholarly metadata</cite>, <a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
                                         <li><cite><a href="https://marco-brambilla.com/2017/05/11/instrumenting-continuous-knowledge-extraction-sharing-and-benchmarking/">Instrumenting Continuous Knowledge Extraction, Sharing, and Benchmarking</a></cite>, <a href="https://marco-brambilla.com/">Marco Brambilla</a>, Emanuele Della Valle, Andrea Mauri, Riccardo Tommasini</li>
+                                        <li>...</li>
                                     </ul>
                                 </div>
                             </section>
