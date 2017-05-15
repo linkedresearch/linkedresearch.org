@@ -100,7 +100,7 @@
                                         <li>Provenance: <a href="http://www.w3.org/ns/prov">PROV Ontology</a></li>
                                         <li>Rights and License: <a href="http://creativecommons.org/ns">Creative Commons</a></li>
                                         <li>Multi-dimensional data: <a href="https://www.w3.org/TR/vocab-data-cube/">RDF Data Cube vocabulary</a></li>
-                                        <li>Dataset metadata: <a href="rdf-vocabulary.ddialliance.org/discovery.html">DDI-RDF Discovery Vocabulary</a> (Disco)</li>
+                                        <li>Dataset metadata: <a href="http://rdf-vocabulary.ddialliance.org/discovery.html">DDI-RDF Discovery Vocabulary</a> (Disco)</li>
                                         <li>Life Sciences: <a href="http://www.ontobee.org/">Ontobee</a></li>
                                         <li>Design Lifecycle: <a href="https://w3id.org/dio">Design Intent Ontology</a></li>
                                         <li>Workflow-centric Research Objects: <a href="https://w3id.org/ro/">Wf4Ever Research Object Model</a></li>
