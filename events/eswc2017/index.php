@@ -30,11 +30,11 @@
                                     <p>Draft:</p>
                                     <ul>
                                         <li>09:00 — 09:10: Hello world!</li>
-                                        <li>09:10 — 09:30: Keynote</li>
+                                        <li>09:10 — 09:30: ?</li>
 
                                         <li>09:30 — 09:45: <cite>Scholarly Social Machines</cite>, <a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
                                         <li>09:45 — 10:00: <cite><a href="https://gist.github.com/RubenVerborgh/caa5d9784b584b0f6aea0a1469f73b70">Best practices for self-publishing scholarly metadata</a></cite>, <a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
-                                        <li>10:00 — 10:30: Discussion: Decentralisation - why do we need third-party publishers?)</li>
+                                        <li>10:00 — 10:30: Discussion: Decentralisation - why do we need third-party publishers?</li>
 
                                         <li>10:30 — 11:00: Take a break</li>
 
@@ -43,6 +43,7 @@
                                         <li>11:30 — 12:00: Discussion: Tooling - what does the authoring/publishing pipeline look like, and how do we piece each stage together?</li>
 
                                         <li>12:00 — 12:30: Open demos, position statements (5mins, sign up in coffee break) and other topics</li>
+
                                         <li>12:30 — ∞: Make it so!</li>
                                     </ul>
                                 </div>
