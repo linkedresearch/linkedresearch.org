@@ -29,8 +29,8 @@
                                 <div datatype="rdf:HTML" property="schema:description">
                                     <p>Draft:</p>
                                     <ul>
-                                        <li>09:00 — 09:10: Hello world!</li>
-                                        <li>09:10 — 09:30: <cite>Scholarly Social Machines</cite>, <a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
+                                        <li>09:00 — 09:15: Hello world!</li>
+                                        <li>09:15 — 09:30: <cite>Scholarly Social Machines</cite>, <a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
 
                                         <li>09:30 — 10:00: Discussion: <cite><a href="https://gist.github.com/RubenVerborgh/caa5d9784b584b0f6aea0a1469f73b70">Best practices for self-publishing scholarly metadata</a></cite>, led by <a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
                                         <li>10:00 — 10:30: Discussion: Decentralisation - why do we need third-party publishers?</li>
@@ -39,7 +39,10 @@
 
                                         <li>11:00 — 11:15: <cite><a href="https://openscience.adaptcentre.ie/publications/2017/eswc/">Utilising Semantic Web Ontologies to Publish Experimental Workflows</a></cite>, <a href="https://research.harshp.com/">Harshvardhan J Pandit</a>, Ensar Hadziselimovic, Dave Lewis</li>
                                         <li>11:15 — 11:30: <cite><a href="https://marco-brambilla.com/2017/05/11/instrumenting-continuous-knowledge-extraction-sharing-and-benchmarking/">Instrumenting Continuous Knowledge Extraction, Sharing, and Benchmarking</a></cite>, <a href="https://marco-brambilla.com/">Marco Brambilla</a>, Emanuele Della Valle, Andrea Mauri, Riccardo Tommasini</li>
-                                        <li>11:30 — 12:00: Discussion: Tooling - what does the authoring/publishing pipeline look like, and how do we piece each stage together?</li>
+
+                                        <li>11:30 — 11:45: <cite><a href="https://www.fiduswriter.org/2017/05/24/decentralized-creation-of-academic-documents-using-a-network-attached-storage-nas-server/">Decentralized creation of academic documents using a Network Attached Storage (NAS) server</a></cite>, <a href="https://www.johanneswilm.org/">Johannes Wilm</a>, Afshin Sadeghi, Christoph Lange, Philipp Mayr</li>
+
+                                        <li>11:45 — 12:00: Discussion: Tooling - what does the authoring/publishing pipeline look like, and how do we piece each stage together?</li>
 
                                         <li>12:00 — 12:30: Open demos, position statements (5mins, sign up in coffee break) and other topics</li>
 
