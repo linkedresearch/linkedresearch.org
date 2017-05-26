@@ -11,10 +11,13 @@ body > header nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    display:flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
 }
 body > header nav li {
     margin:0;
-    padding:0;
+    padding:0.5em;
     display:block;
     text-align:left;
 }
@@ -24,7 +27,7 @@ body > header nav li:after {
 }
 body > header nav li a {
     display: inline-block;
-    color: black;
+    color: #000;
     text-decoration: none;
 }
 body > header nav li a:hover {
@@ -118,9 +121,6 @@ body > footer dl { width: 100%; }
 #document-license dt { display: none; }
 
 @media screen and (min-width: 768px){
-    body > header nav li { display:inline-block; text-align:center; }
-    body > header nav li a { padding: 1.25em 0.75em; }
-
     #index #content ul { overflow: hidden; }
     #index #content ul li:nth-of-type(3n+4) { clear:both; }
     #index #content ul li { float:left; width: 33.33%; padding: 0; margin-bottom:1em; }
