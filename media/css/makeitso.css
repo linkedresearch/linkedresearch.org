@@ -3,9 +3,7 @@
 body { padding: 0; margin: 0; width: 100%; }
 
 body > header {
-    margin-top:0;
-    width: calc(100% - 6em);
-    margin-left: 3em;
+    margin: 0 0 0 3em;
 }
 body > header nav ul {
     list-style-type: none;
@@ -13,11 +11,13 @@ body > header nav ul {
     margin: 0;
     display:flex;
     flex-flow: row wrap;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
 }
 body > header nav li {
     margin:0;
-    padding:0.5em;
+    padding:1em;
     display:block;
     text-align:left;
 }
