@@ -3,23 +3,19 @@
 body { padding: 0; margin: 0; width: 100%; }
 
 body > header {
-    margin: 0 0 0 3em;
+    margin: 0 6em 0 0;
+    text-align: center;
 }
 body > header nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: center;
-    align-content: space-around;
+    text-align:left;
 }
 body > header nav li {
     margin:0;
     padding:1em;
-    display:block;
-    text-align:left;
+    display:inline-block;
 }
 body > header nav li:before,
 body > header nav li:after {
@@ -32,6 +28,9 @@ body > header nav li a {
 }
 body > header nav li a:hover {
     color: #009000;
+}
+body > header nav li .fa {
+    line-height:1.4;
 }
 
 main > article > header {
