@@ -3,19 +3,20 @@
 body { padding: 0; margin: 0; width: 100%; }
 
 body > header {
-    margin: 0 6em 0 0;
-    text-align: center;
+    margin-top:0;
+    width: calc(100% - 6em);
+    margin-left: 3em;
 }
 body > header nav ul {
     list-style-type: none;
     padding: 0;
     margin: 0;
-    text-align:left;
 }
 body > header nav li {
     margin:0;
     padding:1em;
     display:inline-block;
+    text-align:left;
 }
 body > header nav li:before,
 body > header nav li:after {
@@ -120,6 +121,8 @@ body > footer dl { width: 100%; }
 #document-license dt { display: none; }
 
 @media screen and (min-width: 768px){
+    body > header nav li { text-align:center; }
+
     #index #content ul { overflow: hidden; }
     #index #content ul li:nth-of-type(3n+4) { clear:both; }
     #index #content ul li { float:left; width: 33.33%; padding: 0; margin-bottom:1em; }
