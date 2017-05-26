@@ -14,8 +14,8 @@ body > header nav ul {
 }
 body > header nav li {
     margin:0;
-    padding:1em;
-    display:inline-block;
+    padding:0;
+    display:block;
     text-align:left;
 }
 body > header nav li:before,
@@ -121,7 +121,8 @@ body > footer dl { width: 100%; }
 #document-license dt { display: none; }
 
 @media screen and (min-width: 768px){
-    body > header nav li { text-align:center; }
+    body > header nav li { display:inline-block; text-align:center; }
+    body > header nav li a { padding: 1.25em 0.75em; }
 
     #index #content ul { overflow: hidden; }
     #index #content ul li:nth-of-type(3n+4) { clear:both; }
