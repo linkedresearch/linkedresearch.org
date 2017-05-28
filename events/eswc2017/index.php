@@ -33,7 +33,7 @@
                                         <li>09:15 — 09:30: <cite><a href="http://www.oerc.ox.ac.uk/sites/default/files/users/user384/scholarly-social-machines.html">Scholarly Social Machines</a></cite>, <a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
 
                                         <li>09:30 — 10:00: Discussion: <cite><a href="https://gist.github.com/RubenVerborgh/caa5d9784b584b0f6aea0a1469f73b70">Best practices for self-publishing scholarly metadata</a></cite>, led by <a href="https://ruben.verborgh.org/">Ruben Verborgh</a></li>
-                                        <li>10:00 — 10:30: Discussion: Decentralisation - why do we need third-party publishers?</li>
+                                        <li>10:00 — 10:30: Discussion: Decentralisation - what did third-party publishers ever do for us?</li>
 
                                         <li>10:30 — 11:00: Take a break</li>
 
@@ -42,9 +42,7 @@
 
                                         <li>11:30 — 11:45: <cite><a href="https://www.fiduswriter.org/2017/05/24/decentralized-creation-of-academic-documents-using-a-network-attached-storage-nas-server/">Decentralized creation of academic documents using a Network Attached Storage (NAS) server</a></cite>, <a href="https://www.johanneswilm.org/">Johannes Wilm</a>, Afshin Sadeghi, Christoph Lange, Philipp Mayr</li>
 
-                                        <li>11:45 — 12:00: Discussion: Tooling - what does the authoring/publishing pipeline look like, and how do we piece each stage together?</li>
-
-                                        <li>12:00 — 12:30: Open demos, position statements (5mins, sign up in coffee break) and other topics</li>
+                                        <li>11:45 — 12:30: Open demos, position statements (5mins, sign up in coffee break) and other topics</li>
 
                                         <li>12:30 — ∞: Make it so!</li>
                                     </ul>
