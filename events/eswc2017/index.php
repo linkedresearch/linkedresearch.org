@@ -27,7 +27,7 @@
                             <section id="program" rel="schema:hasPart" resource="#program">
                                 <h3>Program</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>Talks and discussions will be transcribed <a href="https://public.etherpad-mozilla.org/p/edsc2017">on Etherpad</a>, and a static copy will be available here later. If you wish to speak off the record, please let the organisers know not to scribe you in advance. All are welcome to contribute and correct notes to the Etherpad.</p>
+                                    <p>Talks and discussions will be transcribed <a href="https://public.etherpad-mozilla.org/p/edsc2017">on Etherpad</a>, and a static copy will be available here later. If you wish to speak off the record, please let the organisers know not to scribe you in advance. All are welcome to contribute and correct notes. Also use this to sign up for a demo or lightning talk slot, or to suggest discussion topics in advance.</p>
                                     <p>Draft:</p>
                                     <ul>
                                         <li>09:00 — 09:15: Hello world!</li>
@@ -43,7 +43,7 @@
 
                                         <li>11:30 — 11:45: <cite><a href="https://www.fiduswriter.org/2017/05/24/decentralized-creation-of-academic-documents-using-a-network-attached-storage-nas-server/">Decentralized creation of academic documents using a Network Attached Storage (NAS) server</a></cite>, <a href="https://www.johanneswilm.org/">Johannes Wilm</a>, Afshin Sadeghi, Christoph Lange, Philipp Mayr</li>
 
-                                        <li>11:45 — 12:30: Open demos, position statements (5mins, <a href="https://public.etherpad-mozilla.org/p/edsc2017">sign up here</a>) and other topics</li>
+                                        <li>11:45 — 12:30: Open demos, position statements, lightning talks (5mins, <a href="https://public.etherpad-mozilla.org/p/edsc2017">sign up here</a>) and other topics</li>
 
                                         <li>12:30 — ∞: Make it so!</li>
                                     </ul>
