@@ -27,7 +27,7 @@
                             <section id="program" rel="schema:hasPart" resource="#program">
                                 <h3>Program</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>Talks and discussions will be transcribed <a href="https://public.etherpad-mozilla.org/p/edsc2017">on Etherpad</a>, and a static copy will be available here later. If you wish to speak off the record, please let the organisers know not to scribe you in advance. All are welcome to contribute and correct notes. Also use this to sign up for a demo or lightning talk slot, or to suggest discussion topics in advance.</p>
+                                    <p>Talks and discussions will be transcribed <a href="https://public.etherpad-mozilla.org/p/edsc2017">on Etherpad</a>, and a static copy will be available here later. All are welcome to contribute and correct notes. Also use this to sign up for a demo or lightning talk slot, or to suggest discussion topics in advance. If you wish to speak off the record, please let the organisers know not to scribe you in advance.</p>
                                     <p>Draft:</p>
                                     <ul>
                                         <li>09:00 — 09:15: Hello world!</li>
