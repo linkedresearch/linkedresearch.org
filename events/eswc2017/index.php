@@ -70,7 +70,13 @@
                                             </dl>
                                         </li>
 
-                                        <li>11:45 — 12:30: Open demos, position statements, lightning talks, and other topics</li>
+                                        <li>11:45 — 12:30: Open demos, position statements, lightning talks, and other topics
+                                            <ul>
+                                                <li><cite><a href="https://docs.google.com/presentation/d/1eyHltHpXtVzy_DarGkVO15PDyda09kh-OqzSMzbXjG4">Where is the ledger for science?</a></cite>, <a href="https://www.linkedin.com/in/alexgarciac">Alexander Garcia</a></li>
+                                                <li><cite><a href="https://linkedsoftwaredependencies.org/articles/reproducibility/">Reproducible software experiments through semantic configurations</a></cite>, <a href="http://www.rubensworks.net/">Ruben Taelman</a></li>
+                                                <li>Panel with Alexander Garcia, RUben Taelman, Riccardo Tommasini, Ensar Hadziselimovic on tools, documentation, and the scholarly ecosystem</li>
+                                            </ul>
+                                        </li>
 
                                         <li>12:30 — ∞: Make it so!</li>
                                     </ul>
