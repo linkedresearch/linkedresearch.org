@@ -4,11 +4,6 @@
             <article about="" typeof="schema:Article">
                 <? include '../../header-small.php'; ?>
 
-                <dl id="document-inbox">
-                    <dt>Notifications Inbox</dt>
-                    <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/events'eswc2017/" rel="ldp:inbox">inbox/</a></dd>
-                </dl>
-
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="edsc-summary" rel="schema:hasPart" resource="#edsc-summary">
                         <h2 property="schema:name">Summary</h2>
