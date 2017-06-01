@@ -15,7 +15,7 @@
                         <div datatype="rdf:HTML" property="schema:description">
                           <p>The first <em>Enabling Decentralised Scholarly Communication</em> (aka #LinkedResearch) workshop took place at the Extended Semantic Web Conference, on 29th May 2017, from 09:00 to 12:30. We had four pre-scheduled presentations, two ad-hoc lightning talks, and three discussion sessions, and the session attracted around 25 participants.</p>
 
-                          <p><img src="room.jpg" alt="A conference room full of chairs occupied by people" title="full house!" /></p>
+                          <p><img src="event-attendees.jpg" alt="A conference room full of chairs occupied by people" title="full house!" /></p>
                         </div>
                       </section>
 
