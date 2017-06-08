@@ -73,7 +73,7 @@
                             <section id="faq-tooling" rel="schema:hasPart" resource="#faq-tooling">
                                 <h3>Everything you say sounds great, but I can't find any tools to help me do this. Help?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>..</p>
+                                    <p>See <cite><a href="resources">Resources</a></cite> for a starter.</p>
                                 </div>
                             </section>
 
