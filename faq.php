@@ -31,7 +31,7 @@
                             <section id="faq-publishers" rel="schema:hasPart" resource="#faq-publishers">
                                 <h3>What is the role of academic publishers in the LR world?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>..</p>
+                                    <p>Researchers ultimately decide if and how they use third-party publishers.</p>
                                 </div>
                             </section>
 
