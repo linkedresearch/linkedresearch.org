@@ -101,7 +101,7 @@
                             <section id="faq-license" rel="schema:hasPart" resource="#faq-license">
                                 <h3>How do licenses fit into all this?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>..</p>
+                                    <p>The creators of a work can decide on the most suitable license. Creative Commons is encouraged but additional rights may need to be declared.</p>
                                 </div>
                             </section>
 
