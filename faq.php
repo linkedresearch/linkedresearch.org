@@ -129,7 +129,7 @@
                             <section id="faq-html-profiles" rel="schema:hasPart" resource="#faq-html-profiles">
                                 <h3>I found a conference that accepts HTML, but it says it must use particular HTML profile, subset or a variation on it, is this still Linked Research?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
-                                    <p>LR is about publishing in (a) format(s) that is as widely accessible as possible. If specific HTML patterns work for your report, that's absolutely fine! But you might want to ask the venue who this constraint benefits - is it for the authors (proof?), or is it to make things easier for the third-party publishers who ultimately want to gatekeep your content? Follow-up by asking why you are forbidden to use your own HTML or tooling, and restricted to use theirs.</p>
+                                    <p>Publishing is more so about the author's needs, and less so about LR's. LR is not here to quality check or rule out options for you. Authors should however consider asking the venue who the specific constraint benefit - is it for the authors (proof?), or is it to make things easier for the third-party publishers or individuals that further process your work? Follow-up by asking why you are forbidden to use your own HTML or tooling, and restricted to use theirs. Generally speaking, it is not a healthy sign of a community that forbids your HTML needs.</p>
                                 </div>
                             </section>
 
