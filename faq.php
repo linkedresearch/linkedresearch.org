@@ -14,6 +14,31 @@
                     <section id="faq" rel="schema:hasPart" resource="#faq">
                         <h2 property="schema:name">FAQ</h2>
                         <div datatype="rdf:HTML" property="schema:description">
+                            <section id="faq-acid-test" rel="schema:hasPart" resource="#faq-acid-test-assumptions">
+                                <h3>How to verify the openness, accessibility, decentralisation, interoperability of approaches in scholarly communication?</h3>
+                                <div datatype="rdf:HTML" property="schema:description">
+                                    <blockquote cite="http://csarven.ca/linked-research-scholarly-communication#user-stories-assumption">
+                                        <dl id="acid-test-assumptions">
+                                            <dt>Acid Test Assumptions</dt>
+                                            <dd>
+                                                <ul>
+                                                    <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-open-standards" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
+
+                                                    <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-publishing" typeof="doco:Sentence">Any mechanisms are available through at least two different interoperable tool stacks.</span></li>
+
+                                                    <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-free-and-open-access" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
+
+                                                    <li id="acid-test-assumptions-human-and-machine-readable" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-human-and-machine-readable" typeof="doco:Sentence">Information is both human and machine-readable.</span></li>
+
+                                                    <li id="acid-test-assumptions-prior-knowledge" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-prior-knowledge" typeof="doco:Sentence">All interactions are possible without prior out-of-band knowledge of the user’s environment or configuration.</span></li>
+                                                </ul>
+                                                <span rel="schema:hasPart"><span content="There is no spoon." property="schema:description" resource="#acid-test-assumptions-spoon" typeof="doco:Sentence"></span></span>
+                                            </dd>
+                                        </dl>
+                                    </blockquote>
+                                </div>
+                            </section>
+
                             <section id="faq-reliable" rel="schema:hasPart" resource="#faq-reliable">
                                 <h3>If anyone can publish, how do we tell what's reliable or solid work?</h3>
                                 <div datatype="rdf:HTML" property="schema:description">
