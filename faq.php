@@ -24,7 +24,7 @@
                                                 <ul>
                                                     <li id="acid-test-assumptions-open-standards" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-open-standards" typeof="doco:Sentence">All interactions conform with open standards, with 1) no dependency on proprietary APIs, protocols, or formats, and 2) no commercial dependency or priori relationship between the groups using the workflows and tools involved.</span></li>
 
-                                                    <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-publishing" typeof="doco:Sentence">Any mechanisms are available through at least two different interoperable tool stacks.</span></li>
+                                                    <li id="acid-test-assumptions-publishing" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-publishing" typeof="doco:Sentence">Any mechanisms are available through at least two independent interoperable tool stacks.</span></li>
 
                                                     <li id="acid-test-assumptions-free-and-open-access" rel="schema:hasPart"><span property="schema:description" about="#acid-test-assumptions-free-and-open-access" typeof="doco:Sentence">Information and interactions are available for free and open access with suitable licensing and attribution for retrieval and reuse.</span></li>
 
