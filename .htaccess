@@ -8,4 +8,4 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
 RewriteRule ^events/(.*?)/(.*?)$ /events/$1/$2.php [L,NC,QSA]
-RewriteRule ^(articles|calls|resources|venues|faq)$ /$1.php [L,NC,QSA]
+RewriteRule ^(articles|calls|resources|venues|faq|rfc)$ /$1.php [L,NC,QSA]
