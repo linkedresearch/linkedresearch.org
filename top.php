@@ -19,14 +19,12 @@
         <header>
             <nav>
                 <ul>
-                    <li><a href="/"><i class="fa fa-home"> Home</i></a></li>
-                    <li><a href="/articles"><i class="fa fa-align-left"> Articles</i></a></li>
-                    <li><a href="/calls"><i class="fa fa-bullhorn"> Calls</i></a></li>
-                    <li><a href="/resources"><i class="fa fa-puzzle-piece"> Resources</i></a></li>
-                    <li><a href="/venues"><i class="fa fa-certificate"> Venues &amp; Publishers</i></a></li>
-                    <li><a href="/events/"><i class="fa fa-globe"> Meetups &amp; Events</i></a></li>
-                    <li><a href="/faq"><i class="fa fa-question-circle"> FAQ</i></a></li>
-                    <li><a href="https://github.com/linkedresearch"><i class="fa fa-github"> Github</i></a></li>
+                    <li><a href="/"><i class="fa fa-home">Home</i></a></li>
+                    <li><a href="/calls"><i class="fa fa-bullhorn">Calls</i></a></li>
+                    <li><a href="/resources"><i class="fa fa-puzzle-piece">Resources</i></a></li>
+                    <li><a href="/events/"><i class="fa fa-globe">Meetups &amp; Events</i></a></li>
+                    <li><a href="/faq"><i class="fa fa-question-circle">FAQ</i></a></li>
+                    <li><a href="https://github.com/linkedresearch"><i class="fa fa-github">Github</i></a></li>
                 </ul>
             </nav>
         </header>
