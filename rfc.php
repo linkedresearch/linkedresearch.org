@@ -42,6 +42,13 @@
           </section>
 
 
+          <section id="freedom-of-expression" rel="schema:hasPart" resource="#freedom-of-expression">
+            <h2 property="schema:name">Freedom of Expression</h2>
+
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
+
           <section id="acid-test" rel="schema:hasPart" resource="#acid-test">
             <h2>Acid Test</h2>
             <div datatype="rdf:HTML" property="schema:description">
