@@ -122,6 +122,19 @@
           </section>
 
 
+          <section id="web-of-things" rel="schema:hasPart" resource="#web-of-things">
+            <h2 property="schema:name">Web of Things</h2>
+
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
+
+          <section id="web-of-trust" rel="schema:hasPart" resource="#web-of-trust">
+            <h2 property="schema:name">Web of Trust</h2>
+
+            <div datatype="rdf:HTML" property="schema:description">
+            </div>
+          </section>
 
         </div>
       </article>
