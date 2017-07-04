@@ -14,7 +14,7 @@
           <section id="abstract">
             <h2>Abstract</h2>
             <div datatype="rdf:HTML" property="schema:abstract">
-              <p>Linked Research is a communication protocol that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans, machines, and anything in between.</p>
+              <p>Linked Research is a conceptual framework that describes how implementations in scholarly communication can interoperate. Its philosophy is influenced by the social machinery to build a knowledge Web for humans, machines, and anything in between.</p>
             </div>
           </section>
 
