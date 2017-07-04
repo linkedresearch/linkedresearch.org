@@ -4,6 +4,16 @@
       <article about="" typeof="schema:Article">
         <? include 'header-small.php'; ?>
         <div datatype="rdf:HTML" id="content" property="schema:description">
+          <dl id="document-published">
+            <dt>Published</dt>
+            <dd><time content="2017-07-04T00:00:00Z" datatype="xsd:dateTime" datetime="2017-07-04T00:00:00Z" property="schema:datePublished">2017-07-04</time></dd>
+          </dl>
+
+          <dl id="document-modified">
+            <dt>Modified</dt>
+            <dd><time content="2017-07-04T00:00:00Z" datatype="xsd:dateTime" datetime="2017-07-04T00:00:00Z" property="schema:dateModified">2017-07-04</time></dd>
+          </dl>
+
           <section id="document-status" rel="schema:hasPart" resource="#document-status">
             <h2 about="#document-status" property="schema:name" typeof="bibo:DocumentStatus">Document Status</h2>
             <div datatype="rdf:HTML" property="schema:description">
