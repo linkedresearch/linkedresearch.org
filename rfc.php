@@ -14,6 +14,11 @@
             <dd><time content="2017-07-12T00:00:00Z" datatype="xsd:dateTime" datetime="2017-07-12T00:00:00Z" property="schema:dateModified">2017-07-12</time></dd>
           </dl>
 
+          <dl id="document-inbox">
+            <dt>Notifications Inbox</dt>
+            <dd><a href="https://linkedresearch.org/inbox/linkeresearch.org/rfc/" rel="ldp:inbox">inbox/</a></dd>
+          </dl>
+
           <section id="document-status" rel="schema:hasPart" resource="#document-status">
             <h2 about="#document-status" property="schema:name" typeof="bibo:DocumentStatus">Document Status</h2>
             <div datatype="rdf:HTML" property="schema:description">
