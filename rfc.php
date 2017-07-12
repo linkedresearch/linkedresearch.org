@@ -16,7 +16,7 @@
 
           <dl id="document-inbox">
             <dt>Notifications Inbox</dt>
-            <dd><a href="https://linkedresearch.org/inbox/linkeresearch.org/rfc/" rel="ldp:inbox">inbox/</a></dd>
+            <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/rfc/" rel="ldp:inbox">inbox/</a></dd>
           </dl>
 
           <section id="document-status" rel="schema:hasPart" resource="#document-status">
