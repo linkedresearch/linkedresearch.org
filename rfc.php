@@ -92,6 +92,8 @@
               <aside id="challenges" rel="rdfs:seeAlso" resource="#challenges">
                 <h3>Challenges</h3>
                 <div datatype="rdf:HTML" property="schema:description">
+                  <p>Example challenges to meet with the <a rel="rdfs:seeAlso" href="#acid-test-assumptions">acid test assumptions</a> in place:</p>
+
                   <ul>
                     <li id="challenge-availability" rel="schema:hasPart"><span property="schema:description" about="#challenge-availability" typeof="doco:Sentence">Alexander makes his article available on the Web with the research objects available at fine granularity, e.g., variables of a hypothesis.</span></li>
 
@@ -107,7 +109,7 @@
 
                     <li id="challenge-peer-review" rel="schema:hasPart"><span property="schema:description" about="#challenge-peer-review" typeof="doco:Sentence">Frank assigns Herman, Inigo, and Jean-Luc to peer-review Guinan’s work. Herman and Inigo both write their reviews so that only Frank and Guinan may read them; meanwhile Jean-Luc makes his review public.</span></li>
 
-                    <li id="challenge-proceedings" rel="schema:hasPart"><span property="schema:description" about="#challenge-proceedings" typeof="doco:Sentence">Keiko is assisting Frank, and compiles a list of articles which meet the requirements and standards of Frank’s call for contributions based on reviews and public feedback. She sends alerts to various institutions that the proceedings are ready to be archived.</span></li>
+                    <li id="challenge-proceedings" rel="schema:hasPart"><span property="schema:description" about="#challenge-proceedings" typeof="doco:Sentence">Keiko is assisting Frank, and compiles a list of articles which meet the requirements and standards of Frank’s call for contributions based on reviews and public feedback. She sends notifications to various institutions that the proceedings are ready to be archived.</span></li>
 
                     <li id="challenge-library" rel="schema:hasPart"><span property="schema:description" about="#challenge-library" typeof="doco:Sentence">Liz manages scholarly archiving at her institution; she retrieves and catalogues the articles which were mentioned for library indexing.</span></li>
 
