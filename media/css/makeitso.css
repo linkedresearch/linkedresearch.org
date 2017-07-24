@@ -26,7 +26,7 @@ body > header nav li a {
     display: inline-block;
     color: #000;
     text-decoration: none;
-    padding-left:0.25em;
+    padding-left:0.5em;
 }
 body > header nav li a:hover {
     color: #009000;
@@ -123,7 +123,7 @@ body > footer dl { width: 100%; }
 
 @media screen and (min-width: 768px){
     body > header nav li { display:inline-block; text-align:center; }
-    body > header nav li a { padding: 1.25em 1em 1.25em 0.25em; }
+    body > header nav li a { padding: 1.25em 0.25em 1.25em 1.25em; margin:0 0.7em 0 -1em; }
 
     #index #content ul { overflow: hidden; }
     #index #content ul li:nth-of-type(3n+4) { clear:both; }
