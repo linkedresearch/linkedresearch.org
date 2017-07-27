@@ -131,5 +131,5 @@ body > footer dl { width: 100%; }
     #index #content ul li p { width:calc(100% - 6em); padding: 0 3em; }
 
     #index main { overflow: hidden; }
-    #index #content section { float: left; width: 50%; }
+    #index #content section { float: left; width: 50%; padding:0; }
 }
