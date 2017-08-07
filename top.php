@@ -20,6 +20,7 @@
             <nav>
                 <ul>
                     <li><i class="fa fa-home"></i><a href="/">Home</a></li>
+                    <li><i class="fa fa-certificate"></i><a href="/rfc">RFC</a></li>
                     <li><i class="fa fa-bullhorn"></i><a href="/calls">Calls</a></li>
                     <li><i class="fa fa-puzzle-piece"></i><a href="/resources">Resources</a></li>
                     <li><i class="fa fa-globe"></i><a href="/events/">Events</a></li>
