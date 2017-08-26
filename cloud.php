@@ -114,7 +114,7 @@
 <code>'</code></pre>
                 <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
               </figure>
-t
+
               <p>Alternatively, there are applications that are capable of sending. There is a list of conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN senders</a> which you can use.</p>
 
               <h3 id="faq">You have some questions, so here are some answers:</h3>
