@@ -1,4 +1,4 @@
-<? $index = true; ?>
+<? $index = true; $title = "Linked Research"; ?>
 <? include 'top.php'; ?>
         <main>
             <article about="" typeof="schema:Article">
