@@ -129,7 +129,7 @@
                 <dd>What about them? What is their coverage and are they referring to publicly accessible things? LORC focuses on building the graph from the ground-level, ie. individuals, groups or labs taking the initiative to build the <q>Web We Want</q>. It is <em>not</em> collecting or processing second-hand datadumps. We are strictly not interested in <q>metadata</q> aggregates, cooperation with for-profits in any shape or form, or anything that is not initially meant to have <em>universal access</em> on the Web. If the original work and activities in full are not out in the wild or part of the <q>commons</q>, then they do not exist as far as LORC is concerned.</dd>
 
                 <dt id="data-license">What's the license on the graph and notifications?</dt>
-                <dd>The graph is CC BY 4.0. Notifications have their own license - whatever the sender set it to be.</dd>
+                <dd>The graph is <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Notifications have their own license - whatever assigned by the sender.</dd>
 
                 <dt id="integrity-and-persistence">Notification integrity and persistence</dt>
                 <dd>We promise not to alter the notification payload. We may remove notifications if it does not meet the criteria or if we are in a really bad mood.</dd>
