@@ -83,7 +83,6 @@
                 <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article with <code>curl</code> in HTML+RDFa.</figcaption>
               </figure>
 
-
               <figure class="listing" id="figure-ldn-research-article-announce" rel="schema:hasPart" resource="#figure-ldn-research-article-announce">
                 <pre property="schema:description" resource="#figure-ldn-research-article-announce" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/turtle' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
@@ -113,6 +112,13 @@
 <code>'</code></pre>
                 <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
               </figure>
+
+              <div class="note">
+                <h4>Note</h4>
+                <div>
+                  <p>We will release a notifications data shape so that you know exactly what can be sent, as well as help us to verify your notification.</p>
+                </div>
+              </div>
 
               <h3 id="faq">You have some questions, so here are some answers:</h3>
               <dl>
