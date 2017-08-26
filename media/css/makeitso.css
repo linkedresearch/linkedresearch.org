@@ -35,7 +35,7 @@ body > header nav li .fa {
     line-height:1.4;
 }
 
-main > article > header {
+main > article h1 {
     background-color: #000;
     background-image: url('/media/images/nebula.jpg');
     background-position: 50%;
@@ -124,7 +124,7 @@ body > footer dl { width: 100%; }
 
 @media screen and (min-width: 768px){
     body > header nav li { display:inline-block; text-align:center; }
-    body > header nav li a { padding: 1.25em 0.25em 1.25em 1.25em; margin:0 0.7em 0 -1em; }
+    body > header nav li a { padding: 1.25em 0.25em 1.25em 1.25em; margin:0 1em 0 -1em; }
 
     #index #content ul { overflow: hidden; }
     #index #content ul li:nth-of-type(3n+4) { clear:both; }
