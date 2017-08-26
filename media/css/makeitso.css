@@ -53,7 +53,7 @@ h1 {
 /* Homepage specific styles */
 #index main > article h1,
 #index main > article h2 {
-    padding: 8em 0;
+    padding: 2em 0;
     overflow: hidden;
 }
 #index main > article h1 {
