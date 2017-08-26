@@ -192,8 +192,8 @@
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
 <code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt; .</code>
 <code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
-<code>&lt;> a as:Announce ;</code>
-<code>  &lt;http://schema.org/license> &lt;https://creativecommons.org/licenses/by/4.0/&gt; ;</code>
+<code>&lt;&gt; a as:Announce ;</code>
+<code>  &lt;http://schema.org/license&gt; &lt;https://creativecommons.org/licenses/by/4.0/&gt; ;</code>
 <code>  as:actor &lt;http://csarven.ca/#i&gt; ;</code>
 <code>  as:object &lt;http://example.org/research-article&gt; ;</code>
 <code>  as:target &lt;https://linkedresearch.org/calls&gt; ;</code>

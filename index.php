@@ -2,7 +2,7 @@
 <? include 'top.php'; ?>
         <main>
             <article about="" typeof="schema:Article">
-                <? include 'header-large.php'; ?>
+                <h1 property="schema:name"><?=$title;?></h1>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <ul id="parts">
                         <li>

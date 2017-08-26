@@ -3,7 +3,7 @@
 <? include 'articles-data.php'; ?>
         <main>
             <article about="" typeof="as:Collection">
-                <? include 'header-small.php'; ?>
+                <h1 property="schema:name"><?=$title;?></h1>
                 <section id="description" rel="schema:hasPart" resource="#description">
                     <div datatype="rdf:HTML" property="schema:description as:summary">
                         <p>Here we collect notes and articles about efforts towards and challenges with achieving the Linked Research principles, or making it easier for others to do so, from around the Web.</p>

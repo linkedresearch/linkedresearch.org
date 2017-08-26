@@ -2,7 +2,7 @@
 <? include 'top.php'; ?>
         <main>
             <article about="" typeof="schema:Article">
-                <? include 'header-small.php'; ?>
+                <h1 property="schema:name"><?=$title;?></h1>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="document-status" rel="schema:hasPart" resource="#document-status">
                         <h2 about="#document-status" property="schema:name" typeof="bibo:DocumentStatus">Document Status</h2>

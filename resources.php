@@ -2,7 +2,7 @@
 <? include 'top.php'; ?>
         <main>
             <article about="" typeof="schema:Article">
-                <? include 'header-small.php'; ?>
+                <h1 property="schema:name"><?=$title;?></h1>
                 <div datatype="rdf:HTML" id="content" property="schema:description">
                     <section id="resources" rel="schema:hasPart" resource="#resources">
                         <h2 property="schema:name">Resources and tools</h2>
