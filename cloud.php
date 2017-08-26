@@ -120,7 +120,7 @@
                 <dd>LORC is only meant to put emphasis on a the scholarly domain with its own requirements. If the LOD Cloud wants to incorporate LORC, there are no constraints from this end.</dd>
 
                 <dt id="related-work">What about the all those other related initiatives and attempts?</dt>
-                <dd>What about them? What is their coverage and are they referring to accessible things? This is not strictly about citations or reference systems. LORC focuses on building the graph from the ground-level, ie. individuals, groups or labs taking the initiative to build the <q>Web We Want</q>. It is collecting datadumps. We are strictly not interested in <q>metadata</q> aggregates, cooperation with for-profits, or anything that is not initially meant for the Web with <em>universal access</em> in mind. If the original work and activities in full are not out there on the Web, they do not exist or in the <q>commons</q> as far as LORC is concerned.</dd>
+                <dd>What about them? What is their coverage and are they referring to publicly accessible things? LORC focuses on building the graph from the ground-level, ie. individuals, groups or labs taking the initiative to build the <q>Web We Want</q>. It is <em>not</em> collecting or processing second-hand datadumps. We are strictly not interested in <q>metadata</q> aggregates, cooperation with for-profits in any shape or form, or anything that is not initially meant to have <em>universal access</em> on the Web. If the original work and activities in full are not out in the wild or part of the <q>commons</q>, then they do not exist as far as LORC is concerned.</dd>
 
                 <dt id="data-license">What's the license on the graph and notifications?</dt>
                 <dd>The graph is CC BY 4.0. Notifications have their own license - whatever the sender set it to be.</dd>
@@ -136,8 +136,8 @@
 
                 <dt id="support">Who supports this initiative?</dt>
                 <dd>The assumption here is that the Linked Research community implicitly supports this initiative.</dd>
-                <dt id="contact">I have something else to ask or say</dt>
-                <dd>You can say it in public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a>.</dd>
+                <dt id="contact">Can I say, ask or do something?</dt>
+                <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a>.</dd>
               </dl>
             </div>
           </section>
