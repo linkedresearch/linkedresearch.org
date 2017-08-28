@@ -137,17 +137,14 @@
                 <dt id="success-or-fail">Will this succeed or fail?</dt>
                 <dd>It depends on us as a community. Do <em>you</em> want it to succeed? Do <em>you</em> want to use it? What are <em>you</em> going to do for it?</dd>
 
-                <dt id="funding">Who is funding this initiative?</dt>
-                <dd>Funded by <a href="http://csarven.ca/#i">Sarven Capadisli</a> to run the server and conduct Web plumbing. If you have better ideas, <a href="#contact">mention it publicly</a>.</dd>
-
                 <dt id="support">Who supports this initiative?</dt>
                 <dd>The assumption here is that the Linked Research community implicitly supports this initiative.</dd>
+
                 <dt id="contact">Can I say, ask or do something?</dt>
                 <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a> to be part of the party.</dd>
               </dl>
             </div>
           </section>
-
         </div>
       </article>
     </main>
