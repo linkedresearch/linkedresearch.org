@@ -166,7 +166,7 @@
                   <p id="web-first-call">It wouldn't be a “Web first Call” if you didn't announce your work in response to the call with the state of the art eg:</p>
 
 <figure id="figure-ldn-research-article-rdfa" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
-<pre property="schema:description" resource="#figure-ldn-research-article-rdfa" typeof="fabio:Script">
+<pre about="#figure-ldn-research-article-rdfa" property="schema:description" typeof="fabio:Script">
 <code>curl -i -X POST -H'Content-Type: text/html' \</code>
 <code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
 <code>--data-raw '&lt;!DOCTYPE html&gt;</code>
@@ -186,7 +186,7 @@
 
 
 <figure id="figure-ldn-research-article" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article">
-<pre property="schema:description" resource="#figure-ldn-research-article" typeof="fabio:Script">
+<pre about="#figure-ldn-research-article" property="schema:description" typeof="fabio:Script">
 <code>curl -i -X POST -H'Content-Type: text/turtle' \</code>
 <code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
@@ -207,7 +207,7 @@
 </figure>
 
 <figure id="figure-ldn-research-article-json-ld" class="listing" rel="schema:hasPart" resource="#figure-ldn-research-article-json-ld">
-<pre property="schema:description" resource="#figure-ldn-research-article-json-ld" typeof="fabio:Script">
+<pre about="#figure-ldn-research-article-json-ld" property="schema:description" typeof="fabio:Script">
 <code>curl -i -X POST -H'Content-Type: application/ld+json' \</code>
 <code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
 <code>--data-raw '{</code>
