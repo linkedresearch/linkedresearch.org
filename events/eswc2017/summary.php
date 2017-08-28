@@ -1,52 +1,52 @@
 <? $title = "Linked Research at ESWC 2017"; ?>
 <? include '../../top.php'; ?>
-        <main>
-            <article about="" typeof="schema:Article">
-                <? include '../../header-small.php'; ?>
+    <main>
+      <article about="" typeof="schema:Article">
+        <h1 property="schema:name"><?=$title;?></h1>
 
-                <div datatype="rdf:HTML" id="content" property="schema:description">
-                    <section id="edsc-summary" rel="schema:hasPart" resource="#edsc-summary">
-                        <h2 property="schema:name">Summary</h2>
-                        <div datatype="rdf:HTML" property="schema:description">
-                          <p>The first <em>Enabling Decentralised Scholarly Communication</em> (aka #LinkedResearch) workshop took place at the Extended Semantic Web Conference, on 29th May 2017, from 09:00 to 12:30. We had four pre-scheduled presentations, two ad-hoc lightning talks, and three discussion sessions, and the session attracted around 25 participants.</p>
+        <div datatype="rdf:HTML" id="content" property="schema:description">
+          <section id="edsc-summary" rel="schema:hasPart" resource="#edsc-summary">
+            <h2 property="schema:name">Summary</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <p>The first <em>Enabling Decentralised Scholarly Communication</em> (aka #LinkedResearch) workshop took place at the Extended Semantic Web Conference, on 29th May 2017, from 09:00 to 12:30. We had four pre-scheduled presentations, two ad-hoc lightning talks, and three discussion sessions, and the session attracted around 25 participants.</p>
 
-                          <p><img src="event-attendees.jpg" alt="A conference room full of chairs occupied by people" title="full house!" /></p>
-                        </div>
-                      </section>
+              <p><img src="event-attendees.jpg" alt="A conference room full of chairs occupied by people" title="full house!" /></p>
+            </div>
+            </section>
 
-                    <section id="edsc-participants" rel="schema:hasPart" resource="#edsc-participants">
-                        <h2 property="schema:name">Participants</h2>
-                        <div datatype="rdf:HTML" property="schema:description">
+          <section id="edsc-participants" rel="schema:hasPart" resource="#edsc-participants">
+            <h2 property="schema:name">Participants</h2>
+            <div datatype="rdf:HTML" property="schema:description">
 
-                          <ul>
-                            <li><strong>SC:</strong> Sarven Capadisli (chair)</li>
-                            <li><strong>AG:</strong> Amy Guy (chair)</li>
-                            <li><strong>DDR:</strong> Dave de Roure (chair, author)</li>
-                            <li><strong>RV:</strong> Ruben Verborgh (author)</li>
-                            <li><strong>EH:</strong> Ensar Hadziselimovic (author)</li>
-                            <li><strong>RT:</strong> Riccardo Tommasini (author)</li>
-                            <li><strong>JW:</strong> Johannes Wilm (author)</li>
-                            <li><strong>SK:</strong> Sabrina Kirrane</li>
-                            <li><strong>RTa:</strong> Ruben Taelman</li>
-                            <li><strong>AGa:</strong> Alexander Garcia</li>
-                            <li><strong>HvdS:</strong> Herbert van de Sompel</li>
-                            <li><strong>AT:</strong> Anna Tordai</li>
-                            <li><strong>ATh:</strong> Allan Third</li>
-                            <li><strong>FN:</strong> Finn Årup Nielsen</li>
-                            <li>A?: Astrid</li>
-                            <li>L?: Luis</li>
-                            <li>D?: Dennis</li>
-                            <li>M?: Martin</li>
-                            <li>K?: Karl</li>
-                            <li>... we didn't take names, so if you're missing <a href="https://github.com/linkedresearch/linkedresearch.org">PR to add yourself</a> or contact <a href="https://rhiaro.co.uk">rhiaro</a> or <a href="http://csarven.ca">csarven</a></li>
-                          </ul>
+              <ul>
+              <li><strong>SC:</strong> Sarven Capadisli (chair)</li>
+              <li><strong>AG:</strong> Amy Guy (chair)</li>
+              <li><strong>DDR:</strong> Dave de Roure (chair, author)</li>
+              <li><strong>RV:</strong> Ruben Verborgh (author)</li>
+              <li><strong>EH:</strong> Ensar Hadziselimovic (author)</li>
+              <li><strong>RT:</strong> Riccardo Tommasini (author)</li>
+              <li><strong>JW:</strong> Johannes Wilm (author)</li>
+              <li><strong>SK:</strong> Sabrina Kirrane</li>
+              <li><strong>RTa:</strong> Ruben Taelman</li>
+              <li><strong>AGa:</strong> Alexander Garcia</li>
+              <li><strong>HvdS:</strong> Herbert van de Sompel</li>
+              <li><strong>AT:</strong> Anna Tordai</li>
+              <li><strong>ATh:</strong> Allan Third</li>
+              <li><strong>FN:</strong> Finn Årup Nielsen</li>
+              <li>A?: Astrid</li>
+              <li>L?: Luis</li>
+              <li>D?: Dennis</li>
+              <li>M?: Martin</li>
+              <li>K?: Karl</li>
+              <li>... we didn't take names, so if you're missing <a href="https://github.com/linkedresearch/linkedresearch.org">PR to add yourself</a> or contact <a href="https://rhiaro.co.uk">rhiaro</a> or <a href="http://csarven.ca">csarven</a></li>
+              </ul>
 
-                        </div>
-                      </section>
+            </div>
+            </section>
 
-                      <section id="edsc-transcript" rel="schema:hasPart" resource="#edsc-transcript">
-                          <h2 property="schema:name">Complete transcript of talks and discussions</h2>
-                          <div datatype="rdf:HTML" property="schema:description">
+            <section id="edsc-transcript" rel="schema:hasPart" resource="#edsc-transcript">
+              <h2 property="schema:name">Complete transcript of talks and discussions</h2>
+              <div datatype="rdf:HTML" property="schema:description">
 
 <p><strong>SC:</strong> one of the limitations we find with current events in the WebSci/SemWeb community is that there are limitations that need not be there, such as a max number of acceptances per event. We figured that why not just have an open ongoing call throughout the whole year, and we have period face-to-face meetings to exchange ideas. That way people can make their contributions, put it up on line, and it will get peer reviewed. They can decide which conference they want to present it at. So if they can't make it to one, and we hold an event at another, they can do it there. Don't have to wait a whole year round, it's on the Web and available. It's an ongoing call. We ask the contributors to make it a reply to the call. The theme of this is decentralisation, so we are asking what people would like to share. Along with that, we wanted to leave the format open for everyone. The main reason is that we want to let people express their contribution as best as they see fit. If they want to do it in PDF, video, HTML, interactivity, however that allows them to communicate and help others to learn. So they have the Web at their disposal, they can use it however they wish. Along with that of course the works have to be publicly accessible at a URL of their choice. Can be their homepage or university website or github, doesn't matter, the author's call. If they want their work to persist and be around long term, they need to make those sort of decisions. Related is the reviews. They are public, open, transparent, attributed, and the community can verify the reviews as well. All the contributions made to this workshop are all public and archived. At archive.org/archive.is, we have a copy of it. It's not perfect but it's a start.</p>
 
@@ -336,8 +336,8 @@
 <p><strong>SC:</strong> We should leave the breadcrumbs as well.</p>
 
 </div>
-                    </section>
-                </div>
-            </article>
-        </main>
+          </section>
+        </div>
+      </article>
+    </main>
 <? include '../../end.php'; ?>

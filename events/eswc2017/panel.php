@@ -1,23 +1,23 @@
 <? $title = "ESWC 2017 Panel"; ?>
 <? include '../../top.php'; ?>
-        <main>
-            <article about="" typeof="schema:Article">
-                <? include '../../header-small.php'; ?>
+    <main>
+      <article about="" typeof="schema:Article">
+        <h1 property="schema:name"><?=$title;?></h1>
 
-                <div datatype="rdf:HTML" id="content" property="schema:description">
-                    <section id="future-of-proceedings" rel="schema:hasPart" resource="#future-of-proceedings">
-                        <h2 property="schema:name">Future of Proceedings Publication</h2>
-                        <div datatype="rdf:HTML" property="schema:description">
+        <div datatype="rdf:HTML" id="content" property="schema:description">
+          <section id="future-of-proceedings" rel="schema:hasPart" resource="#future-of-proceedings">
+            <h2 property="schema:name">Future of Proceedings Publication</h2>
+            <div datatype="rdf:HTML" property="schema:description">
 
-                          <p>On the 30th of May 2017, at the end of the first day of the Extended Semantic Web Conference, a panel was convened to discuss the Semantic Web Community's perspective on scholarly communication. The session opened with statements (ordered as pictured) from Aldo Gangemi (AG), John Domingue (JD), Sarven Capadisli, Aliaksandr Birukou (AB), Ruben Verborgh (RV) and Pascal Hitzler (PH) and continued with statements, questions and discussion from the audience, for an hour and a half.</p>
-                          <p><img src="panel-future-proceedings.jpg" alt="Some men on a stage with a slideshow." /></p>
-                          <p><em>Photo credit: <a href="https://twitter.com/lysander07">Harald Sack</a>; pilfered from <a href="https://twitter.com/lysander07/status/869578929341956096">Twitter</a>.</em></p>
-                        </div>
-                    </section>
+              <p>On the 30th of May 2017, at the end of the first day of the Extended Semantic Web Conference, a panel was convened to discuss the Semantic Web Community's perspective on scholarly communication. The session opened with statements (ordered as pictured) from Aldo Gangemi (AG), John Domingue (JD), Sarven Capadisli, Aliaksandr Birukou (AB), Ruben Verborgh (RV) and Pascal Hitzler (PH) and continued with statements, questions and discussion from the audience, for an hour and a half.</p>
+              <p><img src="panel-future-proceedings.jpg" alt="Some men on a stage with a slideshow." /></p>
+              <p><em>Photo credit: <a href="https://twitter.com/lysander07">Harald Sack</a>; pilfered from <a href="https://twitter.com/lysander07/status/869578929341956096">Twitter</a>.</em></p>
+            </div>
+          </section>
 
-                    <section id="complete-transcript" rel="schema:hasPart" resource="#complete-transcript">
-                        <h2 property="schema:name">Complete transcript</h2>
-                        <div datatype="rdf:HTML" property="schema:description">
+          <section id="complete-transcript" rel="schema:hasPart" resource="#complete-transcript">
+            <h2 property="schema:name">Complete transcript</h2>
+            <div datatype="rdf:HTML" property="schema:description">
 <p><em>(Transcribed by <a href="https://rhiaro.co.uk/#me">rhiaro</a>, corrections welcome via PR or direct request).</em></p>
 <p><strong>AG:</strong> Intro.. the sides of scientific literature (list on slide)</p>
 <p>Currently there is complexity to scholarly research. Dave de Roure described the scholarly social machine two days ago. With new technologies we have new opportunities. How do we preserve goodness of current situation while we work for the next generation? Balance between research and society?</p>
@@ -86,8 +86,8 @@
 <p>We can have the discussion with our publishers about what to do with diverse requests that may come up. We'll think about that next year.</p>
 <p>Not necessarily having a panel ever year, but having a review every year about ever-improving our publication process.</p>
 </div>
-                    </section>
-                </div>
-            </article>
-        </main>
+          </section>
+        </div>
+      </article>
+    </main>
 <? include '../../end.php'; ?>

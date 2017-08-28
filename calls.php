@@ -2,7 +2,7 @@
 <? include 'top.php'; ?>
     <main>
       <article about="" typeof="schema:Article">
-        <? include 'header-small.php'; ?>
+        <h1 property="schema:name"><?=$title;?></h1>
 
         <dl id="document-inbox">
           <dt>Notifications Inbox</dt>
