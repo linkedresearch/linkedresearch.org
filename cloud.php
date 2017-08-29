@@ -12,7 +12,7 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-08-26T00:00:00Z" datatype="xsd:dateTime" datetime="2017-08-26T00:00:00Z" property="schema:dateModified">2017-08-26</time></dd>
+            <dd><time content="2017-08-29T00:00:00Z" datatype="xsd:dateTime" datetime="2017-08-29T00:00:00Z" property="schema:dateModified">2017-08-28</time></dd>
           </dl>
 
           <dl id="document-inbox">
@@ -133,12 +133,6 @@
 
                 <dt id="integrity-and-persistence">Notification integrity and persistence</dt>
                 <dd>We promise not to alter the notification payload. We may remove notifications if it does not meet the Webby criteria.</dd>
-
-                <dt id="success-or-fail">Will this succeed or fail?</dt>
-                <dd>It depends on us as a community. Do <em>you</em> want it to succeed? Do <em>you</em> want to use it? What are <em>you</em> going to do for it?</dd>
-
-                <dt id="support">Who supports this initiative?</dt>
-                <dd>The assumption here is that the Linked Research community implicitly supports this initiative.</dd>
 
                 <dt id="contact">Can I say, ask or do something?</dt>
                 <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a> to be part of the party.</dd>
