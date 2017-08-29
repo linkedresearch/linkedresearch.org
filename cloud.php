@@ -12,7 +12,7 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-08-29T00:00:00Z" datatype="xsd:dateTime" datetime="2017-08-29T00:00:00Z" property="schema:dateModified">2017-08-28</time></dd>
+            <dd><time content="2017-08-29T00:00:00Z" datatype="xsd:dateTime" datetime="2017-08-29T00:00:00Z" property="schema:dateModified">2017-08-29</time></dd>
           </dl>
 
           <dl id="document-inbox">
@@ -43,8 +43,7 @@
             <h2 propert="schema:name">Graph</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>Let's <strong>make it so!</strong></p>
-
-              <object>Super soon to appear here...</object>
+              <script>document.addEventListener('DOMContentLoaded', function(){ DO.U.showInboxGraph(null, '#graph div', null); });</script>
             </div>
           </section>
 
