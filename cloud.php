@@ -46,6 +46,13 @@
                 <script>document.addEventListener('DOMContentLoaded', function(){ DO.U.showInboxGraph(null, '#linked-open-research-cloud', null); });</script>
                 <figcaption property="schema:name">Linked Open Research Cloud</figcaption>
               </figure>
+
+              <div class="note">
+                <h4>Note</h4>
+                <div>
+                  <p>We are just starting out here. Making the LORC look comprehensible is an ongoing work. If you would like to make your ideas tangible, please get involved!</p>
+                </div>
+              </div>
             </div>
           </section>
 
