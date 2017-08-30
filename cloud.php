@@ -70,6 +70,13 @@
               <h3 id="notification-payload">What do notifications contain?</h3>
               <p>A notification's payload can be in HTML+RDFa (human and machine-readable), JSON-LD (minimum requirement for LDN), or Turtle (widely considered to be human-readable in addition to being machine-readable). Besides whatever is announced in the notification (like something cited something) we recommend that they use the Creative Commons license, include the senders profile URI, and a datestamp. Reminder that the license you use determines how it can be reused or remixed by consumers.</p>
 
+              <div class="note">
+                <h4>Note</h4>
+                <div>
+                  <p>We will release a notifications data shape so that you know exactly what can be sent, as well as help us to verify your notification.</p>
+                </div>
+              </div>
+
               <h3 id="how-to-send-notifications">How to send notifications?</h3>
               <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender's application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications. However, sending notifications directly into this article's inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. Here are some examples using <cite>curl</cite>:</p>
 
@@ -120,13 +127,6 @@
 <code>'</code></pre>
                 <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
               </figure>
-
-              <div class="note">
-                <h4>Note</h4>
-                <div>
-                  <p>We will release a notifications data shape so that you know exactly what can be sent, as well as help us to verify your notification.</p>
-                </div>
-              </div>
 
               <h3 id="faq">You have some questions, so here are some answers:</h3>
               <dl>
