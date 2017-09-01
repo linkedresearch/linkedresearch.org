@@ -23,7 +23,7 @@
           <section id="abstract">
             <h2>Abstract</h2>
             <div datatype="rdf:HTML" property="schema:abstract">
-              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) is an initiative to increase the awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web. It accepts and serves notifications about scholarly activities, and generates a graph. The notifications can be</p>
+              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) is an initiative to increase the awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web. It accepts and serves notifications about scholarly activities, and generates a graph.</p>
             </div>
           </section>
 
