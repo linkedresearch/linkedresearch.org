@@ -23,7 +23,9 @@
           <section id="abstract">
             <h2>Abstract</h2>
             <div datatype="rdf:HTML" property="schema:abstract">
-              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web. It accepts notifications about scholarly activities, and generates an interactive visualisation.</p>
+              <p>There is an abundance of scientific information on the Web, yet they predominantly have some restricted authorization for humans and machines, require payment, or do not use native Web technologies for sharing and reuse.</p>
+
+              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web in the form of Linked Data. It accepts notifications about those scholarly activities, makes them available for reuse, and generates an interactive visualisation.</p>
 
               <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles (in any status), <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. Essentially anything along the lines of the Linked Research <a href="rfc#challenges">challenges</a>.</p>
             </div>
@@ -70,7 +72,7 @@
               </ul>
 
               <h3 id="what-are-notifications">What are notifications?</h3>
-              <p>LDN notifications tend to be information snippets about some object or activity. The notifications are Linked Data resources, so they can be discovered and consumed by applications which comply with that stack of Web technologies. Currently the graph is dynamically constructed (although user-agents may cache it) on the client-side with JavaScript. Notifications only <em>refer</em> to complete works and activities rather than collecting them. There is no automatic verification system to determine whether an object contains the full article for instance, but if it does not and we find out, we will remove it 😉. Stored notifications can be discovered and accessed from the inbox (via <code>ldp:contains</code>). Each notification will have a dereferenceable HTTP URL.</p>
+              <p>LORC uses the LDN protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. Currently the graph is dynamically constructed on the client-side with JavaScript. For LORC, notifications only need to <em>refer</em> to complete works and activities. Stored notifications can be discovered and accessed from the Inbox (via <code>ldp:contains</code>) where each notification will have a dereferenceable HTTP URL with its content represented in RDF.</p>
 
               <h3 id="notification-payload">Notification payload</h3>
               <p>A notification's payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle. A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a>. The license determines how it can be reused or remixed by consumers.</p>
@@ -142,14 +144,17 @@
                 <dt id="lod-cloud">What about the <cite><a href="http://lod-cloud.net/">LOD Cloud</a></cite>?</dt>
                 <dd>LORC is only meant to put emphasis on a the scholarly domain with its own requirements. If the LOD Cloud wants to incorporate LORC, there are no constraints from this end.</dd>
 
-                <dt id="related-work">What about all those other related initiatives?</dt>
-                <dd>What is their coverage and are they referring to publicly accessible things? LORC focuses on building the graph from the ground-level, ie. individuals, groups or labs taking the initiative to build the <q>Web We Want</q>. It is <em>not</em> collecting or processing second-hand datadumps. We are strictly not interested in <q>metadata</q> aggregates or anything that is not initially meant to have <em>universal access</em> on the Web. If the original work and activities in full are not out in the wild or part of the <q>commons</q>, then they do not exist as far as LORC is concerned.</dd>
+                <dt id="related-work">How is it different than related projects?</dt>
+                <dd>You tell us 😉 LORC focuses on building the scholarly graph from the ground-level, ie. individuals, groups or labs taking the initiative. LORC is aimed to be composed of mentions of original Linked Data resources available in full and free of charge. For example, metadata of an article, citations of content with restricted access, or simply desktop/print-centric resources, would not qualify. Hence, if the works are not available in the wild or part of the commons, then they do not exist as far as LORC is concerned.</dd>
 
                 <dt id="data-license">What's the license of the LORC visualisation and notifications?</dt>
                 <dd>The notifications have their own license assigned by the sender. The LORC visualisation is <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</dd>
 
                 <dt id="integrity-and-persistence">Notification integrity and persistence</dt>
                 <dd>We have no reason to alter a notification as long as it meets the required shape. If a notification is found to refer to things that do not meet the requirements, they will be removed.</dd>
+
+                <dt id="data-verification">How do you verify if a resource is accessible or free of charge?</dt>
+                <dd>At this time, there is no automatic verification system to check this criteria. However, if we find out that it does not meet the criteria, it will be removed</dd>
 
                 <dt id="contact">Can I say, ask or do something?</dt>
                 <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a>.</dd>
