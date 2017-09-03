@@ -61,18 +61,14 @@
           <section id="requirements" rel="schema:hasPart" resource="#requirements">
             <h2 property="schema:name">Requirements</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The requirements for the notifications to be included in LORC's Inbox and the graph are as follows:</p>
+              <p>The requirements for a notification to be included in LORC's Inbox and the graph are as follows:</p>
 
               <ul>
-                <li>Notifications <em class="rfc2119">MUST</em> refer to works that follow the <cite><a about="" href="https://www.w3.org/DesignIssues/LinkedData">Linked Data design principles</a></cite>.</li>
-                <li>Notifications <em class="rfc2119">MUST</em> refer to complete works and activities that are accessible to anyone free of charge.</li>
+                <li>A notification <em class="rfc2119">MUST</em> conform to a data shape.</li>
+                <li>A notification <em class="rfc2119">MUST</em> refer to resources that implement the <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data design principles</a></cite>.</li>
+                <li>A notification <em class="rfc2119">MUST</em> refer to resources that are accessible to anyone free of charge.</li>
               </ul>
-            </div>
-          </section>
 
-          <section id="notifications" rel="schema:hasPart" resource="#notifications">
-            <h2>Notifications</h2>
-            <div datatype="rdf:HTML" property="schema:description">
               <h3 id="what-are-notifications">What are notifications?</h3>
               <p>LDN notifications tend to be information snippets about some object or activity. The notifications are Linked Data resources, so they can be discovered and consumed by applications which comply with that stack of Web technologies. Currently the graph is dynamically constructed (although user-agents may cache it) on the client-side with JavaScript. Notifications only <em>refer</em> to complete works and activities rather than collecting them. There is no automatic verification system to determine whether an object contains the full article for instance, but if it does not and we find out, we will remove it 😉. Stored notifications can be discovered and accessed from the inbox (via <code>ldp:contains</code>). Each notification will have a dereferenceable HTTP URL.</p>
 
@@ -136,8 +132,12 @@
 <code>'</code></pre>
                 <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
               </figure>
+            </div>
+          </section>
 
-              <h3 id="faq">You have some questions, so here are some answers:</h3>
+          <section id="faq" rel="schema:hasPart" resource="#faq">
+            <h2>You have some questions, so here are some answers:</h2>
+            <div datatype="rdf:HTML" property="schema:description">
               <dl>
                 <dt id="lod-cloud">What about the <cite><a href="http://lod-cloud.net/">LOD Cloud</a></cite>?</dt>
                 <dd>LORC is only meant to put emphasis on a the scholarly domain with its own requirements. If the LOD Cloud wants to incorporate LORC, there are no constraints from this end.</dd>
@@ -156,6 +156,7 @@
               </dl>
             </div>
           </section>
+
         </div>
       </article>
     </main>
