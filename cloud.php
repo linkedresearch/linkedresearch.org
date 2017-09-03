@@ -64,7 +64,7 @@
               <p>The requirements for a notification to be included in LORC's Inbox and the graph are as follows:</p>
 
               <ul>
-                <li>A notification <em class="rfc2119">MUST</em> conform to a data shape.</li>
+                <li>A notification <em class="rfc2119">MUST</em> conform to one of the specified data shapes.</li>
                 <li>A notification <em class="rfc2119">MUST</em> refer to resources that implement the <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data design principles</a></cite>.</li>
                 <li>A notification <em class="rfc2119">MUST</em> refer to resources that are accessible to anyone free of charge.</li>
               </ul>
@@ -72,8 +72,8 @@
               <h3 id="what-are-notifications">What are notifications?</h3>
               <p>LDN notifications tend to be information snippets about some object or activity. The notifications are Linked Data resources, so they can be discovered and consumed by applications which comply with that stack of Web technologies. Currently the graph is dynamically constructed (although user-agents may cache it) on the client-side with JavaScript. Notifications only <em>refer</em> to complete works and activities rather than collecting them. There is no automatic verification system to determine whether an object contains the full article for instance, but if it does not and we find out, we will remove it 😉. Stored notifications can be discovered and accessed from the inbox (via <code>ldp:contains</code>). Each notification will have a dereferenceable HTTP URL.</p>
 
-              <h3 id="notification-payload">What do notifications contain?</h3>
-              <p>A notification's payload can be in HTML+RDFa, JSON-LD, or Turtle. Besides whatever is announced in the notification (like something cited something) we recommend that they use the Creative Commons license, include the senders profile URI, and a datestamp. Reminder that the license you use determines how it can be reused or remixed by consumers.</p>
+              <h3 id="notification-payload">Notification payload</h3>
+              <p>A notification's payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle. A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a>. The license determines how it can be reused or remixed by consumers.</p>
 
               <div class="note">
                 <h4>Note</h4>
