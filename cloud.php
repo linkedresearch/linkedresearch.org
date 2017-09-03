@@ -45,7 +45,7 @@
             <h2 propert="schema:name">Graph</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <figure id="linked-open-research-cloud" rel="schema:hasPart" resource="#figure-centralised-decentralised-architectures">
-                <script>document.addEventListener('DOMContentLoaded', function(){ DO.U.showInboxGraph(null, '#linked-open-research-cloud', null); });</script>
+                <script>document.addEventListener('DOMContentLoaded', function(){ DO.U.showInboxGraph(null, '#linked-open-research-cloud', {'license': 'https://creativecommons.org/publicdomain/zero/1.0/'}); });</script>
                 <figcaption property="schema:name">Linked Open Research Cloud</figcaption>
               </figure>
 
@@ -143,16 +143,16 @@
                 <dd>LORC is only meant to put emphasis on a the scholarly domain with its own requirements. If the LOD Cloud wants to incorporate LORC, there are no constraints from this end.</dd>
 
                 <dt id="related-work">What about all those other related initiatives?</dt>
-                <dd>What about them? What is their coverage and are they referring to publicly accessible things? LORC focuses on building the graph from the ground-level, ie. individuals, groups or labs taking the initiative to build the <q>Web We Want</q>. It is <em>not</em> collecting or processing second-hand datadumps. We are strictly not interested in <q>metadata</q> aggregates or anything that is not initially meant to have <em>universal access</em> on the Web. If the original work and activities in full are not out in the wild or part of the <q>commons</q>, then they do not exist as far as LORC is concerned.</dd>
+                <dd>What is their coverage and are they referring to publicly accessible things? LORC focuses on building the graph from the ground-level, ie. individuals, groups or labs taking the initiative to build the <q>Web We Want</q>. It is <em>not</em> collecting or processing second-hand datadumps. We are strictly not interested in <q>metadata</q> aggregates or anything that is not initially meant to have <em>universal access</em> on the Web. If the original work and activities in full are not out in the wild or part of the <q>commons</q>, then they do not exist as far as LORC is concerned.</dd>
 
-                <dt id="data-license">What's the license on the graph and notifications?</dt>
-                <dd>The LORC graph is <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Notifications have their own license assigned by the sender.</dd>
+                <dt id="data-license">What's the license of the LORC visualisation and notifications?</dt>
+                <dd>The notifications have their own license assigned by the sender. The LORC visualisation is <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</dd>
 
                 <dt id="integrity-and-persistence">Notification integrity and persistence</dt>
                 <dd>We have no reason to alter a notification as long as it meets the required shape. If a notification is found to refer to things that do not meet the requirements, they will be removed.</dd>
 
                 <dt id="contact">Can I say, ask or do something?</dt>
-                <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a> to be part of the party.</dd>
+                <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a>.</dd>
               </dl>
             </div>
           </section>
