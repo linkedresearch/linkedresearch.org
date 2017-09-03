@@ -12,7 +12,7 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-08-30T00:00:00Z" datatype="xsd:dateTime" datetime="2017-08-30T00:00:00Z" property="schema:dateModified">2017-08-30</time></dd>
+            <dd><time content="2017-09-03T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-03T00:00:00Z" property="schema:dateModified">2017-09-03</time></dd>
           </dl>
 
           <dl id="document-inbox">
@@ -23,7 +23,9 @@
           <section id="abstract">
             <h2>Abstract</h2>
             <div datatype="rdf:HTML" property="schema:abstract">
-              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) is an initiative to increase the awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web. It accepts and serves notifications about scholarly activities, and generates a graph.</p>
+              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project supports the goal to increase awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web. It accepts notifications about scholarly activities, and generates an interactive <q>cloud</q>.</p>
+
+              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles (in any status), <cite><a href="https://www.w3.org/TR/annotation-model">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. Essentially anything along the lines of the Linked Research <a href="rfc#challenges">challenges</a>.<p>
             </div>
           </section>
 
@@ -56,13 +58,23 @@
             </div>
           </section>
 
-          <section id="about" rel="schema:hasPart" resource="#about">
-            <h2 property="schema:name">About</h2>
+          <section id="requirements" rel="schema:hasPart" resource="#requirements">
+            <h2 property="schema:name">Requirements</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles (in any status), <cite><a href="https://www.w3.org/TR/annotation-model">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, scientific observations, workflows, funding information etc. Practically anything along the lines of the Linked Research <a href="rfc#challenges">challenges</a>. The notifications refer to actual works which are expected to follow the <cite><a about="" href="https://www.w3.org/DesignIssues/LinkedData" rel="cito:givesSupportTo">Linked Data design principles</a></cite>. <strong>Only mentions about complete works and activities that are free and open are welcome</strong> for inclusion in the graph. The notifications are used towards constructing the <q>cloud</q>.</p>
+              <p>The requirements for the notifications to be included in LORC's Inbox and the graph are as follows:</p>
 
+              <ul>
+                <li>Notifications <em class="rfc2119">MUST</em> refer to works that follow the <cite><a about="" href="https://www.w3.org/DesignIssues/LinkedData">Linked Data design principles</a></cite>.</li>
+                <li>Notifications <em class="rfc2119">MUST</em> refer to complete works and activities that are accessible to anyone free of charge.</li>
+              </ul>
+            </div>
+          </section>
+
+          <section id="notifications" rel="schema:hasPart" resource="#notifications">
+            <h2>Notifications</h2>
+            <div datatype="rdf:HTML" property="schema:description">
               <h3 id="what-are-notifications">What are notifications?</h3>
-              <p>LDN notifications tend to be information snippets about some object or activity. The notifications are Linked Data resources, so they can be discovered and consumed by applications which comply with that stack of Web technologies. Currently the diagram is dynamically constructed (although user-agents may cache it) on the client-side with JavaScript. Notifications only <em>refer</em> to complete works and activities rather than collecting them. There is no automatic verification system to determine whether an object contains the full article for instance, but if it does not and we find out, we will remove it 😉. Stored notifications can be discovered and accessed from the inbox (via <code>ldp:contains</code>). Each notification will have a dereferenceable HTTP URL.</p>
+              <p>LDN notifications tend to be information snippets about some object or activity. The notifications are Linked Data resources, so they can be discovered and consumed by applications which comply with that stack of Web technologies. Currently the graph is dynamically constructed (although user-agents may cache it) on the client-side with JavaScript. Notifications only <em>refer</em> to complete works and activities rather than collecting them. There is no automatic verification system to determine whether an object contains the full article for instance, but if it does not and we find out, we will remove it 😉. Stored notifications can be discovered and accessed from the inbox (via <code>ldp:contains</code>). Each notification will have a dereferenceable HTTP URL.</p>
 
               <h3 id="notification-payload">What do notifications contain?</h3>
               <p>A notification's payload can be in HTML+RDFa, JSON-LD, or Turtle. Besides whatever is announced in the notification (like something cited something) we recommend that they use the Creative Commons license, include the senders profile URI, and a datestamp. Reminder that the license you use determines how it can be reused or remixed by consumers.</p>
@@ -70,7 +82,7 @@
               <div class="note">
                 <h4>Note</h4>
                 <div>
-                  <p>We will release a notifications data shape so that you know exactly what can be sent, as well as help us to verify your notification.</p>
+                  <p>We will release data shapes for notifications so that you know exactly what can be sent, as well as help us to verify your notification.</p>
                 </div>
               </div>
 
@@ -134,10 +146,10 @@
                 <dd>What about them? What is their coverage and are they referring to publicly accessible things? LORC focuses on building the graph from the ground-level, ie. individuals, groups or labs taking the initiative to build the <q>Web We Want</q>. It is <em>not</em> collecting or processing second-hand datadumps. We are strictly not interested in <q>metadata</q> aggregates or anything that is not initially meant to have <em>universal access</em> on the Web. If the original work and activities in full are not out in the wild or part of the <q>commons</q>, then they do not exist as far as LORC is concerned.</dd>
 
                 <dt id="data-license">What's the license on the graph and notifications?</dt>
-                <dd>The LORC graph is <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Notifications have their own license - whatever assigned by the sender. Notification payloads without a license will be assigned with <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a> license.</dd>
+                <dd>The LORC graph is <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Notifications have their own license assigned by the sender.</dd>
 
                 <dt id="integrity-and-persistence">Notification integrity and persistence</dt>
-                <dd>We promise not to alter the notification payload. We will remove notifications that do not meet the payload criteria.</dd>
+                <dd>We have no reason to alter a notification as long as it meets the required shape. If a notification is found to refer to things that do not meet the requirements, they will be removed.</dd>
 
                 <dt id="contact">Can I say, ask or do something?</dt>
                 <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a> to be part of the party.</dd>
