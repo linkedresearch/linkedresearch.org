@@ -25,7 +25,7 @@
             <div datatype="rdf:HTML" property="schema:abstract">
               <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project supports the goal to increase awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web. It accepts notifications about scholarly activities, and generates an interactive <q>cloud</q>.</p>
 
-              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles (in any status), <cite><a href="https://www.w3.org/TR/annotation-model">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. Essentially anything along the lines of the Linked Research <a href="rfc#challenges">challenges</a>.<p>
+              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles (in any status), <cite><a href="https://www.w3.org/TR/annotation-model">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. Essentially anything along the lines of the Linked Research <a href="rfc#challenges">challenges</a>.</p>
             </div>
           </section>
 
