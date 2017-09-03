@@ -80,7 +80,7 @@
               <div class="note">
                 <h4>Note</h4>
                 <div>
-                  <p>We will release data shapes for notifications so that you know exactly what can be sent, as well as help us to verify your notification.</p>
+                  <p>We will release data shapes for notifications so that you know exactly what can be sent, as well as help us to verify your notification. See also <a href="https://github.com/linkedresearch/linkedresearch.org/labels/cloud">open issues</a>.</p>
                 </div>
               </div>
 
