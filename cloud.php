@@ -150,18 +150,17 @@
                 <dt id="data-license">What's the license of the LORC notifications and visualisations?</dt>
                 <dd>The notifications have their own license assigned by the sender. The LORC visualisation is <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</dd>
 
-                <dt id="integrity-and-persistence">Notification integrity and persistence</dt>
-                <dd>We have no reason to alter a notification as long as it meets the required shape. If a notification is found to refer to things that do not meet the requirements, they will be removed.</dd>
+                <dt id="notification-integrity">Will notifications be modified?</dt>
+                <dd>We have no reason to alter a notification as long as it meets the required shape.</dd>
 
                 <dt id="data-verification">How do you verify if a resource is accessible or free of charge?</dt>
-                <dd>At this time, there is no automatic verification system to check this criteria. However, if we find out that it does not meet the criteria, it will be removed</dd>
+                <dd>At this time, there is no automatic verification system to check this criteria. However, if we find out that it does not meet the criteria, it will be removed.</dd>
 
                 <dt id="contact">Can I say, ask or do something?</dt>
                 <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a>.</dd>
               </dl>
             </div>
           </section>
-
         </div>
       </article>
     </main>
