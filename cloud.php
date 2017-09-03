@@ -75,7 +75,7 @@
               <p>LORC uses the LDN protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. Currently the graph is dynamically constructed on the client-side with JavaScript. For LORC, notifications only need to <em>refer</em> to complete works and activities. Stored notifications can be discovered and accessed from the Inbox (via <code>ldp:contains</code>) where each notification will have a dereferenceable HTTP URL with its content represented in RDF.</p>
 
               <h3 id="notification-payload">Notification payload</h3>
-              <p>A notification's payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle. A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a>. The license determines how it can be reused or remixed by consumers.</p>
+              <p>A notification's payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle. A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>. The license determines how it can be reused or remixed by consumers.</p>
 
               <div class="note">
                 <h4>Note</h4>
