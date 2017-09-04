@@ -12,7 +12,7 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-09-03T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-03T00:00:00Z" property="schema:dateModified">2017-09-03</time></dd>
+            <dd><time content="2017-09-04T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-04T00:00:00Z" property="schema:dateModified">2017-09-04</time></dd>
           </dl>
 
           <dl id="document-inbox">
@@ -63,7 +63,7 @@
           <section id="requirements" rel="schema:hasPart" resource="#requirements">
             <h2 property="schema:name">Requirements</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The requirements for a notification to be included in LORC's Inbox and the graph are as follows:</p>
+              <p>The requirements for a notification to be included in LORC’s Inbox and the graph are as follows:</p>
 
               <ul>
                 <li>A notification <em class="rfc2119">MUST</em> conform to one of the specified data shapes.</li>
@@ -75,7 +75,7 @@
               <p>LORC uses the LDN protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. Currently the graph is dynamically constructed on the client-side with JavaScript. For LORC, notifications only need to <em>refer</em> to complete works and activities. Stored notifications can be discovered and accessed from the Inbox (via <code>ldp:contains</code>) where each notification will have a dereferenceable HTTP URL with its content represented in RDF.</p>
 
               <h3 id="notification-payload">Notification payload</h3>
-              <p>A notification's payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle. A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>. The license determines how it can be reused or remixed by consumers.</p>
+              <p>A notification’s payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle. A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>. The license determines how it can be reused or remixed by consumers.</p>
 
               <div class="note">
                 <h4>Note</h4>
@@ -85,7 +85,7 @@
               </div>
 
               <h3 id="how-to-send-notifications">How to send notifications?</h3>
-              <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender's application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications. However, sending notifications directly into this article's inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. Here are some examples using <cite>curl</cite>:</p>
+              <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications. However, sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. Here are some examples using <cite>curl</cite>:</p>
 
               <figure class="listing" id="figure-ldn-research-article-rdfa" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
                 <pre about="#figure-ldn-research-article-rdfa" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
@@ -147,7 +147,7 @@
                 <dt id="related-work">How is it different than related projects?</dt>
                 <dd>You tell us 😉 LORC focuses on building the scholarly graph from the ground-level, ie. individuals, groups or labs taking the initiative. LORC is aimed to be composed of mentions of original Linked Data resources available in full and free of charge. For example, metadata of an article, citations of content with restricted access, or simply desktop/print-centric resources, would not qualify. Hence, if the works are not available in the wild or part of the commons, then they do not exist as far as LORC is concerned.</dd>
 
-                <dt id="data-license">What's the license of the LORC notifications and visualisations?</dt>
+                <dt id="data-license">What is the license of LORC notifications and visualisations?</dt>
                 <dd>The notifications have their own license assigned by the sender. The LORC visualisation is <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</dd>
 
                 <dt id="notification-integrity">Will notifications be modified?</dt>
