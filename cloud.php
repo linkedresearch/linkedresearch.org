@@ -25,7 +25,7 @@
             <div datatype="rdf:HTML" property="schema:abstract">
               <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted authorization access, required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
 
-              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of <cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data</a></cite>. It does this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation.</p>
+              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data</a></cite>. It does this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation.</p>
 
               <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. By enabling scientific knowledge better findable and accessible, we can potentially increase their effectiveness and efficiency.</p>
             </div>
@@ -72,10 +72,20 @@
               </ul>
 
               <h3 id="what-are-notifications">What are notifications?</h3>
-              <p>LORC uses the LDN protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. Currently the graph is dynamically constructed on the client-side with JavaScript. For LORC, notifications only need to <em>refer</em> to complete works and activities. Stored notifications can be discovered and accessed from the Inbox (via <code>ldp:contains</code>) where each notification will have a dereferenceable HTTP URL with its content represented in RDF.</p>
+              <p>LORC uses the LDN protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. The visualisation in this article is dynamically constructed (with JavaScript and SVG) by consuming LORC’s Inbox. For LORC, notifications only need to <em>refer</em> to complete works and activities. Different applications can discover and get the contents of the Inbox, where each notification has a dereferenceable HTTP URL with its content represented in RDF.</p>
 
               <h3 id="notification-payload">Notification payload</h3>
-              <p>A notification’s payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle. A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>. The license determines how it can be reused or remixed by consumers.</p>
+              <ul>
+                <li>A notification’s payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle.</li>
+                <li>A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>.</li>
+              </ul>
+
+              <div class="note">
+                <h4>Note</h4>
+                <div>
+                  <p>Note that the LDN protocol requires JSON-LD as baseline, and encourages content-negotiation with the server for the other serializations. In addition to JSON-LD, LORC's Inbox also accepts HTML+RDFa and Turtle serializations. Sender applications that wants to provide a both human and machine-readable serialization may want to use HTML+RDFa.</p>
+                </div>
+              </div>
 
               <div class="note">
                 <h4>Note</h4>
