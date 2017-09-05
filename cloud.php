@@ -95,12 +95,12 @@
               </div>
 
               <h3 id="how-to-send-notifications">How to send notifications?</h3>
-              <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications. However, sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. Here are some examples using <cite>curl</cite>:</p>
+              <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own. However, sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. Here are some examples using <cite>curl</cite>:</p>
 
               <figure class="listing" id="figure-ldn-research-article-rdfa" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
                 <pre about="#figure-ldn-research-article-rdfa" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
 <code>--data-raw '&lt;!DOCTYPE html&gt;</code>
-<code>&lt;html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"&gt;</code>
+<code>&lt;html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;</code>
 <code>  &lt;head&gt;</code>
 <code>    &lt;title&gt;“Title of Research Article” is a reply of “Call for Linked Research”&lt;/title&gt;</code>
 <code>    &lt;meta charset="utf-8" /&gt;</code>
