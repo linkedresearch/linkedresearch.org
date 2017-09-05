@@ -23,11 +23,11 @@
           <section id="abstract">
             <h2>Abstract</h2>
             <div datatype="rdf:HTML" property="schema:abstract">
-              <p>There is an abundance of scientific information on the Web, yet they predominantly have some restricted authorization for humans and machines, require payment, or do not use native Web technologies for sharing and reuse.</p>
+              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted authorization access, required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
 
-              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of <cite>free culture</cite> resources about scholarly communication on the Web in the form of Linked Data. It accepts notifications about those scholarly activities, makes them available for reuse, and generates an interactive visualisation.</p>
+              <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of <cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Data</a></cite>. It does this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation.</p>
 
-              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles (in any status), <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. Essentially anything along the lines of the Linked Research <a href="rfc#challenges">challenges</a>.</p>
+              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. By enabling scientific knowledge better findable and accessible, we can potentially increase their effectiveness and efficiency.</p>
             </div>
           </section>
 
