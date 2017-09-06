@@ -108,7 +108,7 @@
 <code>  &lt;body about="" prefix="as: https://www.w3.org/ns/activitystreams#" typeof="as:Announce"&gt;</code>
 <code>    &lt;p&gt;&lt;cite&gt;&lt;a href="http://example.org/research-article"&gt;Title of Research Article&lt;/a&gt;&lt;/cite&gt; is a reply of &lt;a about="http://example.org/research-article" rel="http://rdfs.org/sioc/ns#reply_of" href="https://linkedresearch.org/calls"&gt;Call for Linked Research&lt;/a&gt;.&lt;/p&gt;</code>
 <code>    &lt;p&gt;&lt;Announced by &lt;a href="http://csarven.ca/#i" rel="as:actor"&gt;Sarven&lt;/a&gt;&lt;/p&gt;</code>
-<code>    &lt;p&gt;&lt;Using &lt;a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license"&gt;CC BY 4.0&lt;/a&gt; license&lt;/p&gt;</code>
+<code>    &lt;p&gt;&lt;Using &lt;a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="schema:license"&gt;CC BY 4.0&lt;/a&gt; license&lt;/p&gt;</code>
 <code>  &lt;/body&gt;</code>
 <code>&lt;/html&gt;</code>
 <code>'</code></pre>
@@ -122,7 +122,7 @@
 <code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
 <code>@prefix schema: &lt;http://schema.org/&gt; .</code>
 <code>&lt;&gt; a as:Announce ;</code>
-<code>  schema:license &lt;https://creativecommons.org/licenses/by/4.0/&gt; ;</code>
+<code>  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
 <code>  as:actor &lt;http://csarven.ca/#i&gt; ;</code>
 <code>  as:object &lt;http://example.org/research-article&gt; ;</code>
 <code>  as:target &lt;https://linkedresearch.org/calls&gt; ;</code>
@@ -158,7 +158,7 @@
                 <dd>You tell us 😉 LORC focuses on building the scholarly graph from the ground-level, ie. individuals, groups or labs taking the initiative. LORC is aimed to be composed of mentions of original Linked Data resources available in full and free of charge. For example, metadata of an article, citations of content with restricted access, or simply desktop/print-centric resources, would not qualify. Hence, if the works are not available in the wild or part of the commons, then they do not exist as far as LORC is concerned.</dd>
 
                 <dt id="data-license">What is the license of LORC notifications and visualisations?</dt>
-                <dd>The notifications have their own license assigned by the sender. The LORC visualisation is <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</dd>
+                <dd>Both the LORC notifications and the visualisation is <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</dd>
 
                 <dt id="notification-integrity">Will notifications be modified?</dt>
                 <dd>We have no reason to alter a notification as long as it meets the required shape.</dd>
