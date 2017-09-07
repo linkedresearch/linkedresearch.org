@@ -235,13 +235,6 @@
                       </ul>
                     </dd>
                   </dl>
-
-                  <div class="note">
-                    <h4>Note</h4>
-                    <div>
-                      <p>See also <a href="https://github.com/linkedresearch/linkedresearch.org/labels/cloud">open issues</a>.</p>
-                    </div>
-                  </div>
                 </div>
               </section>
 
