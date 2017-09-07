@@ -144,7 +144,7 @@
 
                   <dl id="annotation-data-shape" rel="schema:hasPart" resource="annotation-data-shape">
                     <dt property="schema:name">Annotation data shape</dt>
-                    <dd property="schema:description">
+                    <dd id="annotation-data-shape-must" property="schema:description">
                       <p><code>MUST</code> include:</p>
                       <figure class="listing">
                         <pre><code>&lt;&gt;</code>
@@ -186,7 +186,7 @@
                       </ul>
                     </dd>
 
-                    <dd id="annotatoin-data-shape-may" property="schema:description">
+                    <dd id="annotation-data-shape-may" property="schema:description">
                       <p><code>MAY</code> include:</p>
                       <p>Anything else that may help with the reuse of this notification or discovery of the resources it refers to. This does not mean that the body of the referred resources should be copied here.</p>
                     </dd>
@@ -194,7 +194,32 @@
 
                   <dl id="citation-data-shape" rel="schema:hasPart" resource="citation-data-shape">
                     <dt property="schema:name">Citation data shape</dt>
-                    <dd property="schema:description">
+                    <dd id="citation-data-shape-must" property="schema:description">
+                      <p><code>MUST</code> include:</p>
+                      <figure class="listing">
+                        <pre><code>&lt;&gt;</code>
+<code>&lt;http://example.org/article#argument&gt;</code>
+<code>  cito:citesAsEvidence &lt;http://example.net/observation#results&gt; .</code></pre>
+                      </figure>
+
+                      <ul>
+                        <li>Inherit the <code>MUST</code>s of the <a href="#article-data-shape-must">article data shape</a></li>
+                        <li>The <q cite="http://purl.org/spar/cito/cites">citing entity cites the cited entity</q> in a specific or general way eg. <code>cito:citesAsEvidence</code>.</li>
+                      </ul>
+                    </dd>
+
+                    <dd id="citation-data-shape-should" property="schema:description">
+                      <p><code>SHOULD</code> include:</p>
+                      <ul>
+                        <li>Inherit the <code>SHOULD</code>s of the <a href="#article-data-shape-should">article data shape</a>.</li>
+                      </ul>
+                    </dd>
+
+                    <dd id="citation-data-shape-should" property="schema:description">
+                      <p><code>MAY</code> include:</p>
+                      <ul>
+                        <li>Inherit the <code>MAY</code>s of the <a href="#article-data-shape-may">article data shape</a>.</li>
+                      </ul>
                     </dd>
                   </dl>
 
