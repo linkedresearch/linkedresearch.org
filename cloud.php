@@ -60,9 +60,11 @@
             </div>
           </section>
 
-          <section id="requirements" rel="schema:hasPart" resource="#requirements">
-            <h2 property="schema:name">Requirements</h2>
+          <section id="notifications" rel="schema:hasPart" resource="#notifications">
+            <h2 property="schema:name">Notifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <p>LORC uses the <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. The visualisation in this article is dynamically constructed (with JavaScript and SVG) by consuming LORC’s Inbox. For LORC, notifications only need to <em>refer</em> to complete works and activities. Different applications can discover and get the contents of the Inbox, where each notification has a dereferenceable HTTP URL with its content represented in RDF.</p>
+
               <p>The requirements for a notification to be included in LORC’s Inbox and the graph are as follows:</p>
 
               <ul>
@@ -71,34 +73,39 @@
                 <li>A notification <em class="rfc2119">MUST</em> refer to resources that are accessible to anyone free of charge.</li>
               </ul>
 
-              <h3 id="what-are-notifications">What are notifications?</h3>
-              <p>LORC uses the LDN protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. The visualisation in this article is dynamically constructed (with JavaScript and SVG) by consuming LORC’s Inbox. For LORC, notifications only need to <em>refer</em> to complete works and activities. Different applications can discover and get the contents of the Inbox, where each notification has a dereferenceable HTTP URL with its content represented in RDF.</p>
+              <section id="notification-payload" rel="schema:hasPart" resource="notification-payload">
+                <h3 property="schema:name">Notification payload</h3>
+                <div property="schema:description">
+                  <ul>
+                    <li>A notification’s payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle.</li>
+                    <li>A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>.</li>
+                  </ul>
 
-              <h3 id="notification-payload">Notification payload</h3>
-              <ul>
-                <li>A notification’s payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle.</li>
-                <li>A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>.</li>
-              </ul>
+                  <div class="note">
+                    <h4>Note</h4>
+                    <div>
+                      <p>Note that the LDN protocol requires JSON-LD as baseline, and encourages content-negotiation with the server for the other serializations. In addition to JSON-LD, LORC's Inbox also accepts HTML+RDFa and Turtle serializations. Sender applications that wants to provide both human and machine-readable serialization may want to use HTML+RDFa.</p>
+                    </div>
+                  </div>
 
-              <div class="note">
-                <h4>Note</h4>
-                <div>
-                  <p>Note that the LDN protocol requires JSON-LD as baseline, and encourages content-negotiation with the server for the other serializations. In addition to JSON-LD, LORC's Inbox also accepts HTML+RDFa and Turtle serializations. Sender applications that wants to provide a both human and machine-readable serialization may want to use HTML+RDFa.</p>
+                  <div class="note">
+                    <h4>Note</h4>
+                    <div>
+                      <p>We will release data shapes for notifications so that you know exactly what can be sent, as well as help us to verify your notification. See also <a href="https://github.com/linkedresearch/linkedresearch.org/labels/cloud">open issues</a>.</p>
+                    </div>
+                  </div>
                 </div>
-              </div>
+              </section>
 
-              <div class="note">
-                <h4>Note</h4>
-                <div>
-                  <p>We will release data shapes for notifications so that you know exactly what can be sent, as well as help us to verify your notification. See also <a href="https://github.com/linkedresearch/linkedresearch.org/labels/cloud">open issues</a>.</p>
-                </div>
-              </div>
+              <section id="sending-notifications" rel="schema:hasPart" resource="sending-notifications">
+                <h3 property="schema:name">Sending notifications</h3>
+                <div property="schema:description">
+                  <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own. However, sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome.</p>
 
-              <h3 id="how-to-send-notifications">How to send notifications?</h3>
-              <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own. However, sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. Here are some examples using <cite>curl</cite>:</p>
+                  <p>Here are some examples using <cite>curl</cite>:</p>
 
-              <figure class="listing" id="figure-ldn-research-article-rdfa" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
-                <pre about="#figure-ldn-research-article-rdfa" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
+                  <figure class="listing" id="figure-ldn-research-article-rdfa" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
+                    <pre about="#figure-ldn-research-article-rdfa" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
 <code>--data-raw '&lt;!DOCTYPE html&gt;</code>
 <code>&lt;html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;</code>
 <code>  &lt;head&gt;</code>
@@ -112,11 +119,11 @@
 <code>  &lt;/body&gt;</code>
 <code>&lt;/html&gt;</code>
 <code>'</code></pre>
-                <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article with <code>curl</code> in HTML+RDFa.</figcaption>
-              </figure>
+                    <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article with <code>curl</code> in HTML+RDFa.</figcaption>
+                  </figure>
 
-              <figure class="listing" id="figure-ldn-research-article-announce" rel="schema:hasPart" resource="#figure-ldn-research-article-announce">
-                <pre about="#figure-ldn-research-article-announce" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/turtle' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
+                  <figure class="listing" id="figure-ldn-research-article-announce" rel="schema:hasPart" resource="#figure-ldn-research-article-announce">
+                    <pre about="#figure-ldn-research-article-announce" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/turtle' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
 <code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
 <code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt; .</code>
 <code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
@@ -131,19 +138,21 @@
 <code>  a oa:Annotation ;</code>
 <code>  oa:motivation oa:replying .</code>
 <code>'</code></pre>
-                <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="https:/www.w3.org/TR/annotation-vocab">Web Annotation vocabulary</a>) with <code>curl</code> in Turtle.</figcaption>
-              </figure>
+                    <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="https:/www.w3.org/TR/annotation-vocab">Web Annotation vocabulary</a>) with <code>curl</code> in Turtle.</figcaption>
+                  </figure>
 
-              <figure class="listing" id="figure-ldn-research-article-json-ld" rel="schema:hasPart" resource="#figure-ldn-research-article-json-ld">
-                <pre about="#figure-ldn-research-article-json-ld" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: application/ld+json' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
+                  <figure class="listing" id="figure-ldn-research-article-json-ld" rel="schema:hasPart" resource="#figure-ldn-research-article-json-ld">
+                    <pre about="#figure-ldn-research-article-json-ld" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: application/ld+json' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
 <code>--data-raw '{</code>
 <code>  "@id":"http://example.org/research-article",</code>
 <code>  "http://rdfs.org/sioc/ns#reply_of":</code>
 <code>    { "@id": "https://linkedresearch.org/calls" }</code>
 <code>}</code>
 <code>'</code></pre>
-                <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
-              </figure>
+                    <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
+                  </figure>
+                </div>
+              </section>
             </div>
           </section>
 
