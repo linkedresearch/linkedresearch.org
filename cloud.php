@@ -141,9 +141,54 @@
                     </dd>
                   </dl>
 
+
                   <dl id="annotation-data-shape" rel="schema:hasPart" resource="annotation-data-shape">
                     <dt property="schema:name">Annotation data shape</dt>
                     <dd property="schema:description">
+                      <p><code>MUST</code> include:</p>
+                      <figure class="listing">
+                        <pre><code>&lt;&gt;</code>
+<code>  a as:Announce ;</code>
+<code>  as:updated "2017-09-05T21:11:58.611Z"^^xsd:dateTime ;</code>
+<code>  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
+<code>  as:object &lt;http://example.org/annotation&gt; .</code>
+<code>  as:target &lt;http://example.net/article#introduction&gt; .</code>
+<code></code>
+<code>&lt;http://example.org/annotation&gt;</code>
+<code>  a oa:Annotation ;</code>
+<code>  oa:motivation oa:assessing .</code></pre>
+                      </figure>
+
+                      <ul>
+                        <li>The subject URI of the <code>as:Announce</code> is not explicitly declared (<code>&lt;&gt;</code>) because eventually it will be parsed as the notification's URL.</li>
+                        <li>A valid <code>xsd:dateTime</code> is expected for <code>as:updated</code>.</li>
+                        <li>CC0 1.0 Universal license is expected.</li>
+                        <li>The value of <code>as:object</code> is the primary object of the announce, ie. the annotation.</li>
+                        <li>The value of <code>as:target</code> is the target of the announce, ie. the annotated object.</li>
+                        <li><code>oa:Annotation</code> to indicate that the primary object is an annotation.</li>
+                        <li><code>oa:motivation</code> for the motivation of the annotation eg. assessment, a peer review.</li>
+                      </ul>
+                    </dd>
+
+                    <dd id="annotation-data-shape-should" property="schema:description">
+                      <p><code>SHOULD</code> include:</p>
+                      <figure class="listing">
+                        <pre><code>&lt;&gt;</code>
+<code>  as:actor &lt;http://csarven.ca/#i&gt; .</code>
+<code></code>
+<code>&lt;http://example.org/annotation&gt;</code>
+<code>  schema:license &lt;https://creativecommons.org/licenses/by/4.0/&gt; .</code></pre>
+                      </figure>
+
+                      <ul>
+                        <li><code>as:actor</code> is the URI of the agent that sent the notification. Normally a person, as opposed to software.</li>
+                        <li>URI of an open/free culture license on the annotation is expected.</li>
+                      </ul>
+                    </dd>
+
+                    <dd id="annotatoin-data-shape-may" property="schema:description">
+                      <p><code>MAY</code> include:</p>
+                      <p>Anything else that may help with the reuse of this notification or discovery of the resources it refers to. This does not mean that the body of the referred resources should be copied here.</p>
                     </dd>
                   </dl>
 
