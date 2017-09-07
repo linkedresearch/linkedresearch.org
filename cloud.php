@@ -166,8 +166,8 @@
                 <dt id="related-work">How is it different than related projects?</dt>
                 <dd>You tell us 😉 LORC focuses on building the scholarly graph from the ground-level, ie. individuals, groups or labs taking the initiative. LORC is aimed to be composed of mentions of original Linked Data resources available in full and free of charge. For example, metadata of an article, citations of content with restricted access, or simply desktop/print-centric resources, would not qualify. Hence, if the works are not available in the wild or part of the commons, then they do not exist as far as LORC is concerned.</dd>
 
-                <dt id="data-license">What is the license of LORC notifications and visualisations?</dt>
-                <dd>Both the LORC notifications and the visualisation is <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a>.</dd>
+                <dt id="data-license">What is the license of the visualisations?</dt>
+                <dd>The LORC visualisation uses the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a> license.</dd>
 
                 <dt id="notification-integrity">Will notifications be modified?</dt>
                 <dd>We have no reason to alter a notification as long as it meets the required shape.</dd>
