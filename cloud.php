@@ -97,7 +97,47 @@
 
                   <dl id="article-data-shape" rel="schema:hasPart" resource="article-data-shape">
                     <dt property="schema:name">Article data shape</dt>
-                    <dd property="schema:description">
+                    <dd id="article-data-shape-must" property="schema:description">
+                      <p><code>MUST</code> include:</p>
+                      <figure class="listing">
+                        <pre><code>&lt;&gt;</code>
+<code>  a as:Announce ;</code>
+<code>  as:updated "2017-09-05T21:11:58.611Z"^^xsd:dateTime ;</code>
+<code>  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
+<code>  as:object &lt;http://csarven.ca/dokieli-rww&gt; .</code>
+<code></code>
+<code>&lt;http://csarven.ca/dokieli-rww&gt;</code>
+<code>  a schema:ScholarlyArticle .</code></pre>
+                      </figure>
+
+                      <ul>
+                        <li>The subject URI of the <code>as:Announce</code> is not explicitly declared (<code>&lt;&gt;</code>) because eventually it will be parsed as the notification's URL.</li>
+                        <li>A valid <code>xsd:dateTime</code> is expected for <code>as:updated</code>.</li>
+                        <li>CC0 1.0 Universal license is expected.</li>
+                        <li>The value of <code>as:object</code> is the primary object of the announce, ie. the article.</li>
+                        <li>A class along the lines of <code>schema:ScholarlyArticle</code>, <code>sioc:Post</code>, <code>foaf:Document</code>, <code>sioc:Post</code>, <code>biblio:Paper</code>, <code>bibo:Document</code>, <code>as:Article</code>.</li>
+                      </ul>
+                    </dd>
+
+                    <dd id="article-data-shape-should" property="schema:description">
+                      <p><code>SHOULD</code> include:</p>
+                      <figure class="listing">
+                        <pre><code>&lt;&gt;</code>
+<code>  as:actor &lt;http://csarven.ca/#i&gt; .</code>
+<code></code>
+<code>&lt;http://csarven.ca/dokieli-rww&gt;</code>
+<code>  schema:license &lt;https://creativecommons.org/licenses/by/4.0/&gt; .</code></pre>
+                      </figure>
+
+                      <ul>
+                        <li><code>as:actor</code> is the URI of the agent that sent the notification. Normally a person, as opposed to software.</li>
+                        <li>URI of an open/free culture license on the article is expected.</li>
+                      </ul>
+                    </dd>
+
+                    <dd id="article-data-shape-may" property="schema:description">
+                      <p><code>MAY</code> include:</p>
+                      <p>Anything else that may help with the reuse of this notification or discovery of the resources it refers to. This does not mean that the body of the referred resources should be copied here.</p>
                     </dd>
                   </dl>
 
