@@ -87,11 +87,36 @@
                       <p>Note that the LDN protocol requires JSON-LD as baseline, and encourages content-negotiation with the server for the other serializations. In addition to JSON-LD, LORC's Inbox also accepts HTML+RDFa and Turtle serializations. Sender applications that wants to provide both human and machine-readable serialization may want to use HTML+RDFa.</p>
                     </div>
                   </div>
+                 </div>
+              </section>
+
+              <section id="notification-data-shape" rel="schema:hasPart" resource="notification-data-shape">
+                <h3 property="schema:name">Notification data shape</h3>
+                <div property="schema:description">
+                  <p>In this section we outline some common data shapes for notifications.</p>
+
+                  <dl id="article-data-shape" rel="schema:hasPart" resource="article-data-shape">
+                    <dt property="schema:name">Article data shape</dt>
+                    <dd property="schema:description">
+                    </dd>
+                  </dl>
+
+                  <dl id="annotation-data-shape" rel="schema:hasPart" resource="annotation-data-shape">
+                    <dt property="schema:name">Annotation data shape</dt>
+                    <dd property="schema:description">
+                    </dd>
+                  </dl>
+
+                  <dl id="citation-data-shape" rel="schema:hasPart" resource="citation-data-shape">
+                    <dt property="schema:name">Citation data shape</dt>
+                    <dd property="schema:description">
+                    </dd>
+                  </dl>
 
                   <div class="note">
                     <h4>Note</h4>
                     <div>
-                      <p>We will release data shapes for notifications so that you know exactly what can be sent, as well as help us to verify your notification. See also <a href="https://github.com/linkedresearch/linkedresearch.org/labels/cloud">open issues</a>.</p>
+                      <p>See also <a href="https://github.com/linkedresearch/linkedresearch.org/labels/cloud">open issues</a>.</p>
                     </div>
                   </div>
                 </div>
