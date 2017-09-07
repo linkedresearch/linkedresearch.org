@@ -77,8 +77,8 @@
                 <h3 property="schema:name">Notification payload</h3>
                 <div property="schema:description">
                   <ul>
-                    <li>A notification’s payload <em class="rfc2119">MUST</em> be serialized as HTML+RDFa, JSON-LD, or Turtle.</li>
-                    <li>A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/licenses/">Creative Commons license</a></cite>.</li>
+                    <li>A notification’s payload <em class="rfc2119">MUST</em> be serialized as either HTML+RDFa, JSON-LD, or Turtle, and use <code>text/html</code> or <code>application/xhtml+xml</code>, <code>application/ld+json</code>, <code>text/turtle</code> media types respectively in the HTTP <code>Content-Type</code> header.</li>
+                    <li>A notification <em class="rfc2119">MUST</em> use a <cite><a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a></cite> license.</li>
                   </ul>
 
                   <div class="note">
