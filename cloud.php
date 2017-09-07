@@ -140,6 +140,13 @@
                         <li><code>as:actor</code> is the URI of the agent that sent the notification. Normally a person, as opposed to software.</li>
                         <li>URI of an open/free culture license on the article is expected.</li>
                       </ul>
+
+                      <div class="note">
+                        <h4>Note</h4>
+                        <div>
+                          <p>The property for the license would normally match that of what is in article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="http://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
+                        </div>
+                      </div>
                     </dd>
 
                     <dd id="article-data-shape-may" property="schema:description">
@@ -191,6 +198,13 @@
                         <li><code>as:actor</code> is the URI of the agent that sent the notification. Normally a person, as opposed to software.</li>
                         <li>URI of an open/free culture license on the annotation is expected.</li>
                       </ul>
+
+                      <div class="note">
+                        <h4>Note</h4>
+                        <div>
+                          <p>The property for the license would normally match that of what is in article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="http://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
+                        </div>
+                      </div>
                     </dd>
 
                     <dd id="annotation-data-shape-may" property="schema:description">
