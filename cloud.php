@@ -84,7 +84,7 @@
                   <div class="note">
                     <h4>Note</h4>
                     <div>
-                      <p>Note that the LDN protocol requires JSON-LD as baseline, and encourages content-negotiation with the server for the other serializations. In addition to JSON-LD, LORC's Inbox also accepts HTML+RDFa and Turtle serializations. Sender applications that wants to provide both human and machine-readable serialization may want to use HTML+RDFa.</p>
+                      <p>Note that the LDN protocol requires JSON-LD as baseline, and encourages content-negotiation with the server for the other serializations. In addition to JSON-LD, LORC’s Inbox also accepts HTML+RDFa and Turtle serializations. Sender applications that wants to provide both human and machine-readable serialization may want to use HTML+RDFa.</p>
                     </div>
                   </div>
                  </div>
@@ -111,7 +111,7 @@
                       </figure>
 
                       <ul>
-                        <li>The subject URI of the <code>as:Announce</code> is not explicitly declared (<code>&lt;&gt;</code>) because eventually it will be parsed as the notification's URL.</li>
+                        <li>The subject URI of the <code>as:Announce</code> is not explicitly declared (<code>&lt;&gt;</code>) because eventually it will be parsed as the notification’s URL.</li>
                         <li>A valid <code>xsd:dateTime</code> is expected for <code>as:updated</code>.</li>
                         <li>CC0 1.0 Universal license is expected.</li>
                         <li>The value of <code>as:object</code> is the primary object of the announce, ie. the article.</li>
@@ -160,7 +160,7 @@
                       </figure>
 
                       <ul>
-                        <li>The subject URI of the <code>as:Announce</code> is not explicitly declared (<code>&lt;&gt;</code>) because eventually it will be parsed as the notification's URL.</li>
+                        <li>The subject URI of the <code>as:Announce</code> is not explicitly declared (<code>&lt;&gt;</code>) because eventually it will be parsed as the notification’s URL.</li>
                         <li>A valid <code>xsd:dateTime</code> is expected for <code>as:updated</code>.</li>
                         <li>CC0 1.0 Universal license is expected.</li>
                         <li>The value of <code>as:object</code> is the primary object of the announce, ie. the annotation.</li>
@@ -202,9 +202,16 @@
                       </figure>
 
                       <ul>
-                        <li>Inherit the <code>MUST</code>s of the <a href="#article-data-shape-must">article data shape</a></li>
-                        <li>The <q cite="http://purl.org/spar/cito/cites">citing entity cites the cited entity</q> in a specific or general way eg. <code>cito:citesAsEvidence</code>.</li>
+                        <li>Inherit the <code>MUST</code>s of the <a href="#article-data-shape-must">article data shape</a>.</li>
+                        <li>The <q cite="http://purl.org/spar/cito/cites">citing entity cites the cited entity</q> in a specific or general way eg. <code>cito:citesAsEvidence</code>, <code>schema:citation</code>.</li>
                       </ul>
+
+                      <div class="note">
+                        <h4>Note</h4>
+                        <div>
+                          <p>In order to foster better discovery, senders may want to use terms from the <cite><a href="http://purl.org/spar/cito/">Citation Typing Ontology</a></cite> (<abbr title="Citation Typing Ontology">CiTO</abbr>) or <cite>schema.org</cite>’s <cite><a href="http://schema.org/citation">citation</a></cite> property. Alternative citation properties are only permitted if they are mentioned in this section.</p>
+                        </div>
+                      </div>
                     </dd>
 
                     <dd id="citation-data-shape-should" property="schema:description">
