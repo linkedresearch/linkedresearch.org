@@ -197,8 +197,7 @@
                     <dd id="citation-data-shape-must" property="schema:description">
                       <p><code>MUST</code> include:</p>
                       <figure class="listing">
-                        <pre><code>&lt;&gt;</code>
-<code>&lt;http://example.org/article#argument&gt;</code>
+                        <pre><code>&lt;http://example.org/article#argument&gt;</code>
 <code>  cito:citesAsEvidence &lt;http://example.net/observation#results&gt; .</code></pre>
                       </figure>
 
