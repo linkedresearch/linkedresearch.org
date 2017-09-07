@@ -93,7 +93,14 @@
               <section id="notification-data-shape" rel="schema:hasPart" resource="notification-data-shape">
                 <h3 property="schema:name">Notification data shape</h3>
                 <div property="schema:description">
-                  <p>In this section we outline some common data shapes for notifications.</p>
+                  <p>In this section the data shapes for the following notifications are provided:</p>
+                  <nav>
+                    <ul>
+                      <li><a href="#article-data-shape">Article data shape</a></li>
+                      <li><a href="#annotation-data-shape">Annotation data shape</a></li>
+                      <li><a href="#citation-data-shape">Citation data shape</a></li>
+                    </ul>
+                  </nav>
 
                   <dl id="article-data-shape" rel="schema:hasPart" resource="article-data-shape">
                     <dt property="schema:name">Article data shape</dt>
