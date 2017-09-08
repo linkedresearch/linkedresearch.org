@@ -67,10 +67,15 @@
             <div datatype="rdf:HTML" property="schema:description">
               <p>LORC uses the <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. The visualisation in this article is dynamically constructed (with JavaScript and SVG) by consuming LORC’s Inbox. For LORC, notifications only need to <em>refer</em> to complete works and activities. Different applications can discover and get the contents of the Inbox, where each notification has a dereferenceable HTTP URL with its content represented in RDF.</p>
 
+              <dl id="conformance" el="schema:hasPart" resource="#conformance">
+                <dt property="skos:name">Conformance</dt>
+                <dd datatype="rdf:HTML" property="schema:description">The key words "<em class="rfc2119">MUST</em>", "<em class="rfc2119">SHOULD</em>", "<em class="rfc2119">MAY</em>" in this document are to be interpreted as described in <cite><a href="https://tools.ietf.org/html/rfc2119" rel="schema:citation">RFC2119</a></cite>.</dd>
+              </dl>
+
               <p>The requirements for a notification to be included in LORC’s Inbox and the graph are as follows:</p>
 
               <ul>
-                <li>A notification <em class="rfc2119">MUST</em> conform to one of the specified data shapes.</li>
+                <li>A notification <em class="rfc2119">MUST</em> conform to one of the specified <a href="#notification-data-shape">data shapes</a>.</li>
                 <li>A notification <em class="rfc2119">MUST</em> refer to resources that implement the <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data design principles</a></cite>.</li>
                 <li>A notification <em class="rfc2119">MUST</em> refer to resources that are accessible to anyone free of charge.</li>
               </ul>
@@ -268,7 +273,7 @@
             <div datatype="rdf:HTML" property="schema:description">
               <dl>
                 <dt id="lod-cloud">What about the <cite><a href="http://lod-cloud.net/">LOD Cloud</a></cite>?</dt>
-                <dd>LORC is only meant to put emphasis on a the scholarly domain with its own requirements. If the LOD Cloud wants to incorporate LORC, there are no constraints from this end.</dd>
+                <dd>LORC puts emphasis on a the scholarly domain with its own requirements. If the LOD Cloud wants to incorporate LORC, there are no constraints from this end.</dd>
 
                 <dt id="related-work">How is it different than related projects?</dt>
                 <dd>You tell us 😉 LORC focuses on building the scholarly graph from the ground-level, ie. individuals, groups or labs taking the initiative. LORC is aimed to be composed of mentions of original Linked Data resources available in full and free of charge. For example, metadata of an article, citations of content with restricted access, or simply desktop/print-centric resources, would not qualify. Hence, if the works are not available in the wild or part of the commons, then they do not exist as far as LORC is concerned.</dd>
