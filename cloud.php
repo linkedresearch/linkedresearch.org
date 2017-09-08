@@ -117,14 +117,14 @@
                     <dd id="article-data-shape-must" property="schema:description">
                       <p><code>MUST</code> include:</p>
                       <figure class="listing">
-                        <pre><code>&lt;&gt;</code>
-<code>  a as:Announce ;</code>
-<code>  as:updated "2017-09-05T21:11:58.611Z"^^xsd:dateTime ;</code>
-<code>  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
-<code>  as:object &lt;http://csarven.ca/dokieli-rww&gt; .</code>
-<code></code>
-<code>&lt;http://csarven.ca/dokieli-rww&gt;</code>
-<code>  a schema:ScholarlyArticle .</code></pre>
+                        <pre><code id="article-data-shape-must-L1">&lt;&gt;</code>
+<code id="article-data-shape-must-L2">  a as:Announce ;</code>
+<code id="article-data-shape-must-L3">  as:updated "2017-09-05T21:11:58.611Z"^^xsd:dateTime ;</code>
+<code id="article-data-shape-must-L4">  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
+<code id="article-data-shape-must-L5">  as:object &lt;http://csarven.ca/dokieli-rww&gt; .</code>
+<code id="article-data-shape-must-L6"></code>
+<code id="article-data-shape-must-L7">&lt;http://csarven.ca/dokieli-rww&gt;</code>
+<code id="article-data-shape-must-L8">  a schema:ScholarlyArticle .</code></pre>
                       </figure>
 
                       <ul>
@@ -166,16 +166,16 @@
                     <dd id="annotation-data-shape-must" property="schema:description">
                       <p><code>MUST</code> include:</p>
                       <figure class="listing">
-                        <pre><code>&lt;&gt;</code>
-<code>  a as:Announce ;</code>
-<code>  as:updated "2017-09-05T21:11:58.611Z"^^xsd:dateTime ;</code>
-<code>  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
-<code>  as:object &lt;http://example.org/annotation&gt; .</code>
-<code>  as:target &lt;http://example.net/article#introduction&gt; .</code>
-<code></code>
-<code>&lt;http://example.org/annotation&gt;</code>
-<code>  a oa:Annotation ;</code>
-<code>  oa:motivation oa:assessing .</code></pre>
+                        <pre><code id="annotation-data-shape-must-L1">&lt;&gt;</code>
+<code id="annotation-data-shape-must-L2">  a as:Announce ;</code>
+<code id="annotation-data-shape-must-L3">  as:updated "2017-09-05T21:11:58.611Z"^^xsd:dateTime ;</code>
+<code id="annotation-data-shape-must-L4">  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
+<code id="annotation-data-shape-must-L5">  as:object &lt;http://example.org/annotation&gt; .</code>
+<code id="annotation-data-shape-must-L6">  as:target &lt;http://example.net/article#introduction&gt; .</code>
+<code id="annotation-data-shape-must-L7"></code>
+<code id="annotation-data-shape-must-L8">&lt;http://example.org/annotation&gt;</code>
+<code id="annotation-data-shape-must-L9">  a oa:Annotation ;</code>
+<code id="annotation-data-shape-must-L10">  oa:motivation oa:assessing .</code></pre>
                       </figure>
 
                       <ul>
@@ -218,8 +218,8 @@
                     <dd id="citation-data-shape-must" property="schema:description">
                       <p><code>MUST</code> include:</p>
                       <figure class="listing">
-                        <pre><code>&lt;http://example.org/article#argument&gt;</code>
-<code>  cito:citesAsEvidence &lt;http://example.net/observation#results&gt; .</code></pre>
+                        <pre><code id="citation-data-shape-must-L1">&lt;http://example.org/article#argument&gt;</code>
+<code id="citation-data-shape-must-L2">  cito:citesAsEvidence &lt;http://example.net/observation#results&gt; .</code></pre>
                       </figure>
 
                       <ul>
