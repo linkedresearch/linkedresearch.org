@@ -223,7 +223,7 @@
                       </figure>
 
                       <ul>
-                        <li>Inherit the <code>MUST</code>s of the <a href="#article-data-shape-must">article data shape</a>, with the exception that the citing entity, eg. <samp>http://example.org/article#argument</samp> can be an instance of any class.</li>
+                        <li>Inherit <a href="#article-data-shape-must">article data shape</a>’s <code>MUST</code>s with the exception that the citing entity, eg. <samp>http://example.org/article#argument</samp> can be an instance of any class.</li>
                         <li>The <q cite="http://purl.org/spar/cito/cites">citing entity cites the cited entity</q> in a specific or general way eg. <code>cito:citesAsEvidence</code>, <code>schema:citation</code>.</li>
                       </ul>
 
@@ -238,7 +238,7 @@
                     <dd id="citation-data-shape-should" property="schema:description">
                       <p><code>SHOULD</code> include:</p>
                       <ul>
-                        <li>Inherit the <code>SHOULD</code>s of the <a href="#article-data-shape-should">article data shape</a>.</li>
+                        <li>Inherit <a href="#article-data-shape-should">article data shape</a>’s <code>SHOULD</code>s.</li>
                       </ul>
                     </dd>
                   </dl>
