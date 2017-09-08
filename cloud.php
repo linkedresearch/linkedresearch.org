@@ -285,10 +285,13 @@
                 <dd>The LORC visualisation uses the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a> license.</dd>
 
                 <dt id="notification-integrity">Will notifications be modified?</dt>
-                <dd>We have no reason to alter a notification as long as it meets the required shape.</dd>
+                <dd>We have no reason to alter a notification as long as it meets the requirements of a <a href="#notification-data-shape">notification data shape</a>.</dd>
 
-                <dt id="data-verification">How do you verify if a resource is accessible or free of charge?</dt>
+                <dt id="data-access">How do you verify if a resource is accessible or free of charge?</dt>
                 <dd>At this time, there is no automatic verification system to check this criteria. However, if we find out that it does not meet the criteria, it will be removed.</dd>
+
+                <dt id="data-quality">What can you say about data quality?</dt>
+                <dd>Notifications are just what they say they are. What matters are the resources the notifications refer to. If for example a citation notification does not exist at source (or never intended to), the notification will be eventually removed. <q>Anyone can say anything about anything</q>: consumers of the notifications are encouraged to verify the claims in the notifications for themselves.</dd>
 
                 <dt id="centralised-decentralised">Isn’t LORC a form of centralisation?</dt>
                 <dd>Of course it is. This is also a tangible solution, if anything, an experiment to understand the boundaries of what is possible. LORC should be seen as an instance of a service where it collect scholarly notifications. Different or specific scholarly communities are encouraged to create their own instances. We can talk about federation and distribution when we get there. If you have ideas on how to <q>decentralise</q> and do all this better, voice yourself and roll up your sleeves.</dd>
