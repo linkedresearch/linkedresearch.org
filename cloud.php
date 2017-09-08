@@ -255,57 +255,15 @@
               <section id="sending-notifications" rel="schema:hasPart" resource="sending-notifications">
                 <h3 property="schema:name">Sending notifications</h3>
                 <div property="schema:description">
-                  <p>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own. However, sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome.</p>
+                  <p>Notifications can be sent to LORC's Inbox in different ways:</p>
 
-                  <p>Here are some examples using <cite>curl</cite>:</p>
+                  <ul>
+                    <li>The <em>cool</em> way: A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own.</li>
 
-                  <figure class="listing" id="figure-ldn-research-article-rdfa" rel="schema:hasPart" resource="#figure-ldn-research-article-rdfa">
-                    <pre about="#figure-ldn-research-article-rdfa" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
-<code>--data-raw '&lt;!DOCTYPE html&gt;</code>
-<code>&lt;html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"&gt;</code>
-<code>  &lt;head&gt;</code>
-<code>    &lt;title&gt;“Title of Research Article” is a reply of “Call for Linked Research”&lt;/title&gt;</code>
-<code>    &lt;meta charset="utf-8" /&gt;</code>
-<code>  &lt;/head&gt;</code>
-<code>  &lt;body about="" prefix="as: https://www.w3.org/ns/activitystreams#" typeof="as:Announce"&gt;</code>
-<code>    &lt;p&gt;&lt;cite&gt;&lt;a href="http://example.org/research-article"&gt;Title of Research Article&lt;/a&gt;&lt;/cite&gt; is a reply of &lt;a about="http://example.org/research-article" rel="http://rdfs.org/sioc/ns#reply_of" href="https://linkedresearch.org/calls"&gt;Call for Linked Research&lt;/a&gt;.&lt;/p&gt;</code>
-<code>    &lt;p&gt;&lt;Announced by &lt;a href="http://csarven.ca/#i" rel="as:actor"&gt;Sarven&lt;/a&gt;&lt;/p&gt;</code>
-<code>    &lt;p&gt;&lt;Using &lt;a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="schema:license"&gt;CC BY 4.0&lt;/a&gt; license&lt;/p&gt;</code>
-<code>  &lt;/body&gt;</code>
-<code>&lt;/html&gt;</code>
-<code>'</code></pre>
-                    <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article with <code>curl</code> in HTML+RDFa.</figcaption>
-                  </figure>
+                    <li>Sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. For example, with <cite>curl</cite> it can be sent with <samp>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ --data-raw 'Replace this with your HTML+RDFa payload'</samp>. If the response is <code>HTTP/1.1 201 Created</code> you are good to go. The HTTP <code>Location</code> header value is where the notification can be dereferenced from. See more examples at <cite><a href="calls#web-first-call">Call for Linked Research</a></cite> and use LORC's Inbox; <code>https://linkedresearch.org/inbox/linkedresearch.org/cloud/</code>, for the request URL.</li>
 
-                  <figure class="listing" id="figure-ldn-research-article-announce" rel="schema:hasPart" resource="#figure-ldn-research-article-announce">
-                    <pre about="#figure-ldn-research-article-announce" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: text/turtle' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
-<code>--data-raw '@prefix as: &lt;https://www.w3.org/ns/activitystreams#&gt; .</code>
-<code>@prefix oa: &lt;http://www.w3.org/ns/oa#&gt; .</code>
-<code>@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .</code>
-<code>@prefix schema: &lt;http://schema.org/&gt; .</code>
-<code>&lt;&gt; a as:Announce ;</code>
-<code>  schema:license &lt;https://creativecommons.org/publicdomain/zero/1.0/&gt; ;</code>
-<code>  as:actor &lt;http://csarven.ca/#i&gt; ;</code>
-<code>  as:object &lt;http://example.org/research-article&gt; ;</code>
-<code>  as:target &lt;https://linkedresearch.org/calls&gt; ;</code>
-<code>  as:updated "2016-11-07T11:47:52.852Z"^^xsd:dateTime .</code>
-<code>&lt;http://example.org/research-article&gt;</code>
-<code>  a oa:Annotation ;</code>
-<code>  oa:motivation oa:replying .</code>
-<code>'</code></pre>
-                    <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="https:/www.w3.org/TR/annotation-vocab">Web Annotation vocabulary</a>) with <code>curl</code> in Turtle.</figcaption>
-                  </figure>
-
-                  <figure class="listing" id="figure-ldn-research-article-json-ld" rel="schema:hasPart" resource="#figure-ldn-research-article-json-ld">
-                    <pre about="#figure-ldn-research-article-json-ld" property="schema:description" typeof="fabio:Script"><code>curl -i -X POST -H'Content-Type: application/ld+json' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ \</code>
-<code>--data-raw '{</code>
-<code>  "@id":"http://example.org/research-article",</code>
-<code>  "http://rdfs.org/sioc/ns#reply_of":</code>
-<code>    { "@id": "https://linkedresearch.org/calls" }</code>
-<code>}</code>
-<code>'</code></pre>
-                    <figcaption property="schema:name">Example <a href="https://www.w3.org/TR/ldn/">Linked Data Notification</a> to announce the research article (using the <a href="http://rdfs.org/sioc/spec/">SIOC vocabulary</a>) with <code>curl</code> in JSON-LD.</figcaption>
-                  </figure>
+                    <li>If you are using tools like <cite><a href="https://dokie.li/">dokieli</a></cite>, notifications can be sent to LORC with the click of a button. To send a notification about the article, use the <q>Share</q> feature (from menu) and enter <code>https://linkedresearch.org/cloud</code> in the <q>To</q> field. Annotations and citations are soon to be automatic.</li>
+                  </ul>
                 </div>
               </section>
             </div>
