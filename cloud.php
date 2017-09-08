@@ -1,7 +1,7 @@
 <? $title = "Linked Open Research Cloud"; ?>
 <? include 'top.php'; ?>
     <main>
-      <article about="" typeof="schema:Article">
+      <article about="" typeof="schema:Article doap:Specification">
         <h1 property="schema:name"><?=$title;?></h1>
 
         <div datatype="rdf:HTML" id="content" property="schema:description">
@@ -12,7 +12,7 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-09-04T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-04T00:00:00Z" property="schema:dateModified">2017-09-04</time></dd>
+            <dd><time content="2017-09-08T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-08T00:00:00Z" property="schema:dateModified">2017-09-08</time></dd>
           </dl>
 
           <dl id="document-inbox">
@@ -30,6 +30,8 @@
               <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. By enabling scientific knowledge better findable and accessible, we can potentially increase their effectiveness and efficiency.</p>
             </div>
           </section>
+
+          <hr class="unicode-red-pill unicode-blue-pill" />
 
           <section id="keywords">
             <h2>Keywords</h2>
@@ -258,9 +260,9 @@
                   <p>Notifications can be sent to LORC's Inbox in different ways:</p>
 
                   <ul>
-                    <li>The <em>cool</em> way: A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own.</li>
+                    <li>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own.</li>
 
-                    <li>Sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. For example, with <cite>curl</cite> it can be sent with <samp>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ --data-raw 'Replace this with your HTML+RDFa payload'</samp>. If the response is <code>HTTP/1.1 201 Created</code> you are good to go. The HTTP <code>Location</code> header value is where the notification can be dereferenced from. See more examples at <cite><a href="calls#web-first-call">Call for Linked Research</a></cite> and use LORC's Inbox; <code>https://linkedresearch.org/inbox/linkedresearch.org/cloud/</code>, for the request URL.</li>
+                    <li>Sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. For example, using <cite>curl</cite> it can be sent with <samp>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ --data-raw 'Replace this with your HTML+RDFa payload'</samp>. If the response is <code>HTTP/1.1 201 Created</code> you are good to go. The HTTP <code>Location</code> header value is where the notification can be dereferenced from. See more examples at <cite><a href="calls#web-first-call">Call for Linked Research</a></cite> and use LORC's Inbox; <code>https://linkedresearch.org/inbox/linkedresearch.org/cloud/</code>, for the request URL.</li>
 
                     <li>If you are using tools like <cite><a href="https://dokie.li/">dokieli</a></cite>, notifications can be sent to LORC with the click of a button. To send a notification about the article, use the <q>Share</q> feature (from menu) and enter <code>https://linkedresearch.org/cloud</code> in the <q>To</q> field. Annotations and citations are soon to be automatic.</li>
                   </ul>
