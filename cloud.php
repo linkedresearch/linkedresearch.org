@@ -27,7 +27,7 @@
 
               <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data</a></cite>. It does this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation.</p>
 
-              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, funding information etc. By enabling scientific knowledge better findable and accessible, we can potentially increase their effectiveness and efficiency.</p>
+              <p>This article has an inbox to receive <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> (<abbr title="Linked Data Notifications">LDN</abbr>) about scholarly activities, eg. publication of scholarly articles, <cite><a href="https://www.w3.org/TR/annotation-model/">Web Annotation</a></cite> (like peer reviews, replies), citations, call for contributions, proceedings, scientific observations and workflows, arguments, funding information etc. By enabling scientific knowledge better findable and accessible, we can potentially increase their effectiveness and efficiency.</p>
             </div>
           </section>
 
@@ -101,6 +101,7 @@
                 <h3 property="schema:name">Notification data shape</h3>
                 <div property="schema:description">
                   <p>In this section the data shapes for the following notifications are provided:</p>
+
                   <nav>
                     <ul>
                       <li><a href="#article-data-shape">Article data shape</a></li>
@@ -222,7 +223,7 @@
                       </figure>
 
                       <ul>
-                        <li>Inherit the <code>MUST</code>s of the <a href="#article-data-shape-must">article data shape</a>.</li>
+                        <li>Inherit the <code>MUST</code>s of the <a href="#article-data-shape-must">article data shape</a>, with the exception that the citing entity, eg. <samp>http://example.org/article#argument</samp> can be an instance of any class.</li>
                         <li>The <q cite="http://purl.org/spar/cito/cites">citing entity cites the cited entity</q> in a specific or general way eg. <code>cito:citesAsEvidence</code>, <code>schema:citation</code>.</li>
                       </ul>
 
