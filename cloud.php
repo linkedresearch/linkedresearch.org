@@ -241,13 +241,6 @@
                         <li>Inherit the <code>SHOULD</code>s of the <a href="#article-data-shape-should">article data shape</a>.</li>
                       </ul>
                     </dd>
-
-                    <dd id="citation-data-shape-should" property="schema:description">
-                      <p><code>MAY</code> include:</p>
-                      <ul>
-                        <li>Inherit the <code>MAY</code>s of the <a href="#article-data-shape-may">article data shape</a>.</li>
-                      </ul>
-                    </dd>
                   </dl>
                 </div>
               </section>
