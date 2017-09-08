@@ -104,6 +104,8 @@
                     </ul>
                   </nav>
 
+                  <p>In addition to the required data shapes, notifications can include anything else that may help with its reuse and the discovery of the resources it refers to. This does not mean that the body of the referred resources should be copied here.</p>
+
                   <dl id="article-data-shape" rel="schema:hasPart" resource="article-data-shape">
                     <dt property="schema:name">Article data shape</dt>
                     <dd id="article-data-shape-must" property="schema:description">
@@ -149,11 +151,6 @@
                           <p>The property for the license would normally match that of what is in article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="http://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
                         </div>
                       </div>
-                    </dd>
-
-                    <dd id="article-data-shape-may" property="schema:description">
-                      <p><code>MAY</code> include:</p>
-                      <p>Anything else that may help with the reuse of this notification or discovery of the resources it refers to. This does not mean that the body of the referred resources should be copied here.</p>
                     </dd>
                   </dl>
 
@@ -207,11 +204,6 @@
                           <p>The property for the license would normally match that of what is in the article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="http://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
                         </div>
                       </div>
-                    </dd>
-
-                    <dd id="annotation-data-shape-may" property="schema:description">
-                      <p><code>MAY</code> include:</p>
-                      <p>Anything else that may help with the reuse of this notification or discovery of the resources it refers to. This does not mean that the body of the referred resources should be copied here.</p>
                     </dd>
                   </dl>
 
