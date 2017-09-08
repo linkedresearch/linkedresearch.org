@@ -257,12 +257,12 @@
               <section id="sending-notifications" rel="schema:hasPart" resource="sending-notifications">
                 <h3 property="schema:name">Sending notifications</h3>
                 <div property="schema:description">
-                  <p>Notifications can be sent to LORC's Inbox in different ways:</p>
+                  <p>Notifications can be sent to LORC’s Inbox in different ways:</p>
 
                   <ul>
                     <li>A typical LDN <em>sender</em> discovers the inbox of a target resource, eg. this article, so that the inbox URL is not hardcoded in sender’s application. There are conforming <a href="https://linkedresearch.org/ldn/tests/summary#sender">LDN sender</a> applications which you can use to send notifications, or you are welcome to use your own.</li>
 
-                    <li>Sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. For example, using <cite>curl</cite> it can be sent with <samp>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ --data-raw 'Replace this with your HTML+RDFa payload'</samp>. If the response is <code>HTTP/1.1 201 Created</code> you are good to go. The HTTP <code>Location</code> header value is where the notification can be dereferenced from. See more examples at <cite><a href="calls#web-first-call">Call for Linked Research</a></cite> and use LORC's Inbox; <code>https://linkedresearch.org/inbox/linkedresearch.org/cloud/</code>, for the request URL.</li>
+                    <li>Sending notifications directly into this article’s inbox (see the object of the <code>ldp:inbox</code> relation) is still welcome. For example, using <cite>curl</cite> it can be sent with <samp>curl -i -X POST -H'Content-Type: text/html' https://linkedresearch.org/inbox/linkedresearch.org/cloud/ --data-raw 'Replace this with your HTML+RDFa payload'</samp>. If the response is <code>HTTP/1.1 201 Created</code> you are good to go. The HTTP <code>Location</code> header value is where the notification can be dereferenced from. See more examples at <cite><a href="calls#web-first-call">Call for Linked Research</a></cite> and use LORC’s Inbox; <code>https://linkedresearch.org/inbox/linkedresearch.org/cloud/</code>, for the request URL.</li>
 
                     <li>If you are using tools like <cite><a href="https://dokie.li/">dokieli</a></cite>, notifications can be sent to LORC with the click of a button. To send a notification about the article, use the <q>Share</q> feature (from menu) and enter <code>https://linkedresearch.org/cloud</code> in the <q>To</q> field. Annotations and citations are soon to be automatic.</li>
                   </ul>
@@ -281,7 +281,7 @@
                 <dt id="related-work">How is it different than related projects?</dt>
                 <dd>You tell us 😉 LORC focuses on building the scholarly graph from the ground-level, ie. individuals, groups or labs taking the initiative. LORC is aimed to be composed of mentions of original Linked Data resources available in full and free of charge. For example, metadata of an article, citations of content with restricted access, or simply desktop/print-centric resources, would not qualify. Hence, if the works are not available in the wild or part of the commons, then they do not exist as far as LORC is concerned.</dd>
 
-                <dt id="data-license">What is the license of the visualisations?</dt>
+                <dt id="data-license">What is the license of the visualisation?</dt>
                 <dd>The LORC visualisation uses the <a href="https://creativecommons.org/publicdomain/zero/1.0/">CC0 1.0 Universal</a> license.</dd>
 
                 <dt id="notification-integrity">Will notifications be modified?</dt>
@@ -289,6 +289,9 @@
 
                 <dt id="data-verification">How do you verify if a resource is accessible or free of charge?</dt>
                 <dd>At this time, there is no automatic verification system to check this criteria. However, if we find out that it does not meet the criteria, it will be removed.</dd>
+
+                <dt id="centralised-decentralised">Isn’t LORC a form of centralisation?</dt>
+                <dd>Of course it is. This is also a tangible solution, if anything, an experiment to understand the boundaries of what is possible. LORC should be seen as an instance of a service where it collect scholarly notifications. Different or specific scholarly communities are encouraged to create their own instances. We can talk about federation and distribution when we get there. If you have ideas on how to <q>decentralise</q> and do all this better, voice yourself and roll up your sleeves.</dd>
 
                 <dt id="contact">Can I say, ask or do something?</dt>
                 <dd>You are invited to join the public <a href="https://gitter.im/linkedresearch/chat">chat</a> or raise an <a href="https://github.com/linkedresearch/linkedresearch.org/">issue</a>.</dd>
