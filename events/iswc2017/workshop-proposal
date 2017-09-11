@@ -49,7 +49,7 @@
 
                 <dl id="document-in-reply-to">
                     <dt>In Reply To</dt>
-                    <dd><a href="http://iswc2017.semanticweb.org/calls/call-for-workshop-proposals/" rel="sioc:reply_of">ISWC 2017 Call for Workshops</a></dd>
+                    <dd><a href="http://iswc2017.semanticweb.org/calls/call-for-workshop-proposals/" rel="as:inReplyTo">ISWC 2017 Call for Workshops</a></dd>
                 </dl>
 
                 <dl id="document-inbox">
