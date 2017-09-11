@@ -25,9 +25,9 @@
             <dd><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="schema:license" title="Creative Commons Zero">CC0 1.0 Universal</a></dd>
           </dl>
 
-          <section id="abstract">
-            <h2>Abstract</h2>
-            <div datatype="rdf:HTML" property="schema:abstract">
+          <section id="about">
+            <h2 property="schema:name">About</h2>
+            <div datatype="rdf:HTML" property="schema:description">
               <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. The knowledge industry can better address societal challenges by embracing the virtues of the Web via decentralisation and interconnectivity of our collective knowledge.</p>
 
               <p>The <dfn id="lorc">Linked Open Research Cloud</dfn> (<abbr title="Linked Open Research Cloud">LORC</abbr>) project aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of open <cite><a href="https://www.w3.org/DesignIssues/LinkedData">Linked Data</a></cite>. It pursues this by accepting notifications about scholarly activities, making them available for reuse, and generates an interactive visualisation for additional exploration. Consequently, LORC can assist researchers with their applications to discover pertinent scholarly information on the Web, and connect their knowledge with the global knowledge graph. For the wider scientific community, LORC can facilitate scientometrics studies and decision making based on the scholarly commons ecosystem.</p>
