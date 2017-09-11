@@ -118,7 +118,7 @@ h3 { line-height: 1.2; }
 
 body > footer { text-align: center; }
 body > footer dl { width: 100%; }
-#document-license dt { display: none; }
+body > footer dt { display: none; }
 
 @media screen and (min-width: 768px){
     body > header nav li { display:inline-block; text-align:center; }
