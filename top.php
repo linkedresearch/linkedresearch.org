@@ -11,7 +11,7 @@
     <link href="https://dokie.li/media/css/font-awesome.min.css" rel="stylesheet" media="all" />
     <script src="https://dokie.li/scripts/simplerdf.js"></script>
     <script src="https://dokie.li/scripts/medium-editor.min.js"></script>
-    <script src="https://dokie.li/scripts/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://dokie.li/scripts/do.js"></script>
   </head>
 
