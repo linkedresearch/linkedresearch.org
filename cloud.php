@@ -12,12 +12,17 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-09-08T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-08T00:00:00Z" property="schema:dateModified">2017-09-08</time></dd>
+            <dd><time content="2017-09-11T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-11T00:00:00Z" property="schema:dateModified">2017-09-11</time></dd>
           </dl>
 
           <dl id="document-inbox">
             <dt>Notifications Inbox</dt>
             <dd><a href="https://linkedresearch.org/inbox/linkedresearch.org/cloud/" rel="ldp:inbox">inbox/</a></dd>
+          </dl>
+
+          <dl id="document-license">
+            <dt>License</dt>
+            <dd><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="schema:license" title="Creative Commons Zero">CC0 1.0 Universal</a></dd>
           </dl>
 
           <section id="abstract">
