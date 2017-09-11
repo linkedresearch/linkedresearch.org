@@ -176,7 +176,7 @@
 <code>  &lt;meta charset="utf-8" /&gt;</code>
 <code>  &lt;/head&gt;</code>
 <code>  &lt;body&gt;</code>
-<code>  &lt;p&gt;&lt;cite&gt;&lt;a href="http://example.org/research-article"&gt;Title of Research Article&lt;/a&gt;&lt;/cite&gt; is a reply of &lt;a about="http://example.org/research-article" rel="http://rdfs.org/sioc/ns#reply_of" href="https://linkedresearch.org/calls"&gt;Call for Linked Research&lt;/a&gt;.&lt;/p&gt;</code>
+<code>  &lt;p&gt;&lt;cite&gt;&lt;a href="http://example.org/research-article"&gt;Title of Research Article&lt;/a&gt;&lt;/cite&gt; is a reply of &lt;a about="http://example.org/research-article" rel="https://www.w3.org/ns/activitystreams#inReplyTo" href="https://linkedresearch.org/calls"&gt;Call for Linked Research&lt;/a&gt;.&lt;/p&gt;</code>
 <code>  &lt;/body&gt;</code>
 <code>&lt;/html&gt;</code>
 <code>'</code>
@@ -212,7 +212,7 @@
 <code>https://linkedresearch.org/inbox/linkedresearch.org/calls/ \</code>
 <code>--data-raw '{</code>
 <code>  "@id":"http://example.org/research-article",</code>
-<code>  "http://rdfs.org/sioc/ns#reply_of":</code>
+<code>  "https://www.w3.org/ns/activitystreams#inReplyTo":</code>
 <code>  { "@id": "https://linkedresearch.org/calls" }</code>
 <code>}</code>
 <code>'</code>
