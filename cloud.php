@@ -5,6 +5,11 @@
         <h1 property="schema:name"><?=$title;?></h1>
 
         <div datatype="rdf:HTML" id="content" property="schema:description">
+          <dl id="document-identifier">
+            <dt>Identifier</dt>
+            <dd><a href="https://linkedresearch.org/cloud" rel="owl:sameAs">https://linkedresearch.org/cloud</a></dd>
+          </dl>
+
           <dl id="document-published">
             <dt>Published</dt>
             <dd><time content="2017-08-26T00:00:00Z" datatype="xsd:dateTime" datetime="2017-08-26T00:00:00Z" property="schema:datePublished">2017-08-26</time></dd>
