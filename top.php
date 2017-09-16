@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <title><?=isset($title) ? $title : "Linked Research"?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link href="media/css/makeitso.css" media="all" rel="stylesheet" title="MakeItSo" />
+    <link href="https://linkedresearch.org/media/css/makeitso.css" media="all" rel="stylesheet" title="MakeItSo" />
     <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
     <link href="https://dokie.li/media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
     <link href="https://dokie.li/media/css/do.css" rel="stylesheet" media="all" />
