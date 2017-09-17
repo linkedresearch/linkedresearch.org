@@ -87,19 +87,33 @@
             </div>
           </section>
 
+<section class="todo">
+  <h2>Todo</h2>
+  <div>
+<blockquote cite="https://www2018.thewebconf.org/call-for-papers/workshops-cfp/">
+<ul>
+<li>A concise title.</li>
+<li>The names, affiliations and contact information of the organizers. A typical workshop should count no more than three co-chairs affiliated with different organizations.</li>
+<li>Proposed duration of the workshop – half or full day. The organizers may exceptionally consider well justified 2-day workshops.</li>
+<li>Preference for a date; but, the proposal must not be conditioned on the workshop date, since it is likely that some workshops will not get their preferred date.</li>
+<li>A statement of the workshop: objective/goals.</li>
+<li>A statement detailing: Why is the workshop topic important? Why is the workshop timely? How is it relevant to WWW?</li>
+<li>A two-paragraph description of the workshop topic and themes.</li>
+<li>If the workshop was conducted before, where and when was it conducted? Please give details on number of attendees, number of submissions, and acceptance ratio. List any other related or same workshops being conducted in the same year, or were conducted, at any other venues.</li>
+<li>A description of the workshop format: How many papers do you hope to present, how many invited speakers, type of activities (e.g., short paper presentation, invited talks, demos, posters, etc.), and an approximate timeline (breaks should be synchronized with scheduled breaks if possible.)</li>
+<li>A description of how workshop submissions will be evaluated, and a tentative PC list (with indication of whether PC members have already been contacted and/or have expressed interest.)</li>
+<li>An indication on whether the workshop registration will be open to all interested registered parties or limited.</li>
+<li>A short bio of the workshop organizers, including a description of their qualifications relative to the topic area, and past experience in organizing/facilitating workshops or research meetings.</li>
+</ul>
+<p>From <a href="https://www2018.thewebconf.org/call-for-papers/workshops-cfp/">https://www2018.thewebconf.org/call-for-papers/workshops-cfp/</a></p>
+</blockquote>
+</div>
+</section>
+
           <section id="workshop-event">
             <h2 property="schema:name">Workshop Event</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <p>We expect a small room (max 40 seats) for the duration of a <strong>half day</strong> workshop with preference to have it held on 2018-04-23.</p>
-
-A statement of the workshop: objective/goals.
-A statement detailing: Why is the workshop topic important? Why is the workshop timely? How is it relevant to WWW?
-A two-paragraph description of the workshop topic and themes.
-If the workshop was conducted before, where and when was it conducted? Please give details on number of attendees, number of submissions, and acceptance ratio. List any other related or same workshops being conducted in the same year, or were conducted, at any other venues.
-A description of the workshop format: How many papers do you hope to present, how many invited speakers, type of activities (e.g., short paper presentation, invited talks, demos, posters, etc.), and an approximate timeline (breaks should be synchronized with scheduled breaks if possible.)
-A description of how workshop submissions will be evaluated, and a tentative PC list (with indication of whether PC members have already been contacted and/or have expressed interest.)
-An indication on whether the workshop registration will be open to all interested registered parties or limited.
-A short bio of the workshop organizers, including a description of their qualifications relative to the topic area, and past experience in organizing/facilitating workshops or research meetings.
             </div>
           </section>
 
