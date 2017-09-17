@@ -26,7 +26,7 @@
           </dl>
 
           <ul id="author-org">
-            <li id="University-of-Bonn"><sup>1</sup><a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Bonn, Germany</li>
+            <li id="University-of-Bonn"><sup>1</sup><a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Germany</li>
           </ul>
 
           <ul id="author-email">
@@ -41,7 +41,7 @@
 
         <dl id="document-in-reply-to">
           <dt>In Reply To</dt>
-          <dd><a href="https://www2018.thewebconf.org/call-for-papers/workshops-cfp/" rel="as:inReplyTo">The Web Conf 2018 Call for Workshops</a></dd>
+          <dd><a href="https://www2018.thewebconf.org/call-for-papers/workshops-cfp/" rel="as:inReplyTo">https://www2018.thewebconf.org/call-for-papers/workshops-cfp/</a></dd>
         </dl>
 
         <dl id="document-inbox">
