@@ -36,7 +36,7 @@
 
         <dl id="document-identifier">
           <dt>Identifier</dt>
-          <dd><a href="https://linkedresearch.org/events/the-web-confg-2018/workshop-proposal">https://linkedresearch.org/events/the-web-confg-2018/workshop-proposal</a></dd>
+          <dd><a href="https://linkedresearch.org/events/the-web-conf-2018/workshop-proposal">https://linkedresearch.org/events/the-web-conf-2018/workshop-proposal</a></dd>
         </dl>
 
         <dl id="document-in-reply-to">
@@ -51,24 +51,24 @@
 
         <dl id="document-published">
           <dt>Published</dt>
-          <dd><time datetime="2017-09-16" property="schema:datePublished" content="2017-09-16T00:00:00Z" datatype="xsd:dateTime">2017-09-16</time></dd>
+          <dd><time content="2017-09-16T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-16" property="schema:datePublished">2017-09-16</time></dd>
         </dl>
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time datetime="2017-09-17" property="schema:dateModified" content="2017-09-17T00:00:00Z" datatype="xsd:dateTime">2017-09-17</time></dd>
+          <dd><time content="2017-10-04T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-04" property="schema:dateModified">2017-10-04</time></dd>
         </dl>
 
         <dl id="document-license">
           <dt>License</dt>
-          <dd><a rel="schema:license" href="http://creativecommons.org/licenses/by/4.0/" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
+          <dd><a href="http://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
         </dl>
 
         <div id="content">
           <section id="abstract">
             <h2>Abstract</h2>
             <div datatype="rdf:HTML" property="schema:abstract">
-              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. This workshop aims to increase the awareness, discovery, and reuse of resources about scholarly communication on the Web in the form of open Linked Data.</p>
+              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. It is critical that scholarly communication and knowledge dissemination are not controlled by overpowered or centralised actors. The academic publishing ecosystem should be considered an ongoing conversation between experts, policy makers, implementers, and the general public. This workshop intends to bring together practitioners and researchers from a variety of different backgrounds in order to articulate requirements and discuss interoperability of smaller, more domain-specific solutions.</p>
             </div>
           </section>
 
@@ -109,26 +109,27 @@
                 <dd>2018-04-23</dd>
 
                 <dt>A statement of the workshop: objective/goals.</dt>
-                <dd>Its objective is to collect current research questions and proposed solutions for making scholarly information available and reusable, including activities like publishing, reviewing, call for contributions, proceedings. Its goal is to pave the way towards a research space where all information can be human and machine-readable. It specialises the <cite><a href="https://www.w3.org/DesignIssues/LinkedData.html">Linked Open Data</a></cite> principles for scientific and scholarly information.</dd>
+                <dd>It is critical that scholarly communication and knowledge dissemination are not controlled by overpowered or centralised actors. The workshop's objective is to collect current research questions and proposed solutions for making scholarly information available and reusable by means of decentralisation and interoperable solutions. This is in particular to having scholarly information both accessible and readable for humans and machines. The workshop's goal is to pave the way towards a scholarly space where contributors have ownership of their works (eg articles, peer-reviews), decide on access controls, and provide ways for their discovery, reuse and exchange via interoperable mechanisms. This workshop implements a specialisation of the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> principles for scientific and scholarly information on the Web. We will also investigate how Web conference can potentially work.</dd>
 
                 <dt>A statement detailing: Why is the workshop topic important? Why is the workshop timely? How is it relevant to WWW?</dt>
-                <dd>The topic is relevant because there are research and social activities that signal the need to pursue an ecosystem where scientific activity is accessible and reusable for free. This includes the application of initiatives in <q>Open Science</q>, <q>Open Access</q>, <q>Open Data</q>, <q>Linked Data</q>, and <q>Web Science</q>. This workshop is relevant to WWW because it studies the extensions and enhancements needed to make research activity more accessible on the Web.</dd>
+                <dd>The topic is important because there are research and social activities that signal the need to pursue an ecosystem where scientific activity is accessible and reusable for free without depending on central actors, eg. ACM. Moreover, there are global initiatives under the umbrella of <q>Open Science</q>, <q>Open Access</q>, <q>Open Data</q>, with high overlap on the necessity of this workshop. This workshop is relevant to WWW because it studies the extensions and enhancements needed to make research activity more accessible on the Web.</dd>
 
                 <dt>A two-paragraph description of the workshop topic and themes.</dt>
                 <dd>
-                  <p>We discuss the whole academic publishing and knowledge dissemination pipeline in the context of the Web. We are interested in contributions from those who want to integrate their solutions into a Web-based ecosystem for scholarly communication, and to find ways to connect and interoperate with solutions for other parts of the Linked Data pipeline.</p>
-                  <p>A single theme that will study the creation, reuse, remixing and sharing of research data and activities in the form of open Linked Data.</p>
+                  <p>We welcome contributions relevant to different units of scholarly information. That includes architecture and decentralisation of publications and reviews, pipelines for knowledge dissemination, mechanisms for discovery, as well as interfaces and interactions that has to do with the creation, reuse, remix, and sharing of research data and activities.</p>
+                  <p>The underlying theme is about making improving the state of human and machine-readability of scholarly information on the Web by literally enabling the dimension for decentralisation.</p>
                 </dd>
 
                 <dt>If the workshop was conducted before, where and when was it conducted? Please give details on number of attendees, number of submissions, and acceptance ratio. List any other related or same workshops being conducted in the same year, or were conducted, at any other venues.</dt>
-                <dd>This workshop was not conducted before. It shares themes with <cite><a href="https://linkedresearch.org/events/eswc2017/">Enabling Decentralised Scholarly Communication</a></cite> workshop at ESWC 2017, <cite><a href="http://events.linkeddata.org/ldow2017/">Linked Data on the Web</a></cite> workshop series at WWW, <cite><a href="https://web.archive.org/web/20170421141807/https://sociam.org/wow2017/">Web Observatories, Social Machines and Decentralisation</a></cite> workshop at WWW 2017, <cite><a href="http://iswc2017.desemweb.org/">Decentralizing the Semantic Web</a></cite>  and <cite><a href="https://semsci.github.io/semSci2017/">Enabling Open Semantic Science</a></cite> workshops at ISWC 2017.</dd>
+                <dd>This workshop, <cite><a href="https://linkedresearch.org/events/eswc2017/">Enabling Decentralised Scholarly Communication</a></cite> was last conducted at <a href="https://2017.eswc-conferences.org/program/tutorials-workshops#t18">ESWC 2017</a> as a half-day workshop, having approximately 30 attendees, 4 peer-reviewed articles and 3 alternative contributions. All contributions: articles and peer-reviews, are controlled by their respective authors at their own Webspaces, as well as archived. See the program (<a href="https://linkedresearch.org/events/eswc2017/">https://linkedresearch.org/events/eswc2017/</a>) with links to all works.</dd>
+                <dd>Based off the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> initiative, the following workshops have integrated its approach to contributions: <cite><a href="http://events.linkeddata.org/ldow2017/">Linked Data on the Web</a></cite> workshop series at WWW, <cite><a href="https://web.archive.org/web/20170421141807/https://sociam.org/wow2017/">Web Observatories, Social Machines and Decentralisation</a></cite> workshop at WWW 2017, <cite><a href="http://iswc2017.desemweb.org/">Decentralizing the Semantic Web</a></cite>  and <cite><a href="https://semsci.github.io/semSci2017/">Enabling Open Semantic Science</a></cite> workshops at ISWC 2017.</dd>
 
                 <dt>A description of the workshop format: How many papers do you hope to present, how many invited speakers, type of activities (e.g., short paper presentation, invited talks, demos, posters, etc.), and an approximate timeline (breaks should be synchronized with scheduled breaks if possible.)</dt>
                 <dd>
                   <ul>
                     <li>We plan to have 5-10 presentations based on reviewed and demonstrable articles.</li>
                     <li>We may have one or two invited speaker depending on the number of reviewed articles contributed to the workshop.</li>
-                    <li>Contributions can be of any length and form for both articles and reviews provided that they are accessible and consumable as Linked Data.</li>
+                    <li>Contributions can be of any length and form for both articles and reviews provided that they are accessible and consumable on the Web.</li>
                     <li>Timeline:
                       <ul>
                         <li>09:00 — 09:15: Introduction / Keynote</li>
@@ -141,8 +142,12 @@
                 </dd>
 
                 <dt>A description of how workshop submissions will be evaluated, and a tentative PC list (with indication of whether PC members have already been contacted and/or have expressed interest.)</dt>
-                <dd></dd>
-                <dd>Open and attributed reviews may be held by anyone. There is list of potential reviewers at <a href="https://linkedresearch.org/calls#reviewers">https://linkedresearch.org/calls#reviewers</a> that have expressed to provide open reviews.</dd>
+                <dd>
+                  <p>Submissions will be evaluated according to how well they support advancing the state of the Web towards becoming a fully-fledged ecosystem for scholarly communication. We strongly promote <em><a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">self-dogfooding</a></em>, and will prioritise submissions from authors who can demonstrate that they use their tooling or techniques in their own practice.</p>
+
+                  <p>We also promote decentralisation and data ownership, and encourage participants to submit their contribution by publishing a document at a domain they control or have sufficient authority on the URL, e.g., personal site at an university, and sending us the URL. Submissions <strong>should be</strong> in a format which best conveys the authors’ message - use any stylesheets and scripts as appropriate. There are no typical ‘paper’ constraints, e.g., template, pages, words, font-size. Contributions <em class="rfc2119">MUST</em> be made for and accessible from the Web. Desktop/print-centric <q>papers</q>, eg. <cite><a href="https://www2018.thewebconf.org/call-for-papers/research-tracks-cfp/">CFP for Research Tracks</a></cite> (The Web Conference 2018), will be rejected.</p>
+                </dd>
+                <dd>Open and attributed reviews may be held by anyone. There is list of potential reviewers (73 people at this time) from our Linked Research community at <a href="https://linkedresearch.org/calls#reviewers">https://linkedresearch.org/calls#reviewers</a> that have expressed to provide open reviews relevant to their areas of interest.</dd>
 
                 <dt>An indication on whether the workshop registration will be open to all interested registered parties or limited.</dt>
                 <dd>Open to all.</dd>
