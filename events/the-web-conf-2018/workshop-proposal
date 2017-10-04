@@ -2,7 +2,7 @@
 <html lang="en" xml:lang="en" xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Enabling Decentralisation Scholarly Communication</title>
+    <title>Enabling Decentralised Scholarly Communication</title>
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link href="https://dokie.li/media/css/basic.css" media="all" rel="stylesheet" title="Basic" />
     <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
@@ -17,20 +17,23 @@
   <body about="" prefix="rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns# rdfs: http://www.w3.org/2000/01/rdf-schema# owl: http://www.w3.org/2002/07/owl# xsd: http://www.w3.org/2001/XMLSchema# dcterms: http://purl.org/dc/terms/ dctypes: http://purl.org/dc/dcmitype/ foaf: http://xmlns.com/foaf/0.1/ pimspace: http://www.w3.org/ns/pim/space# cc: https://creativecommons.org/ns# skos: http://www.w3.org/2004/02/skos/core# prov: http://www.w3.org/ns/prov# qb: http://purl.org/linked-data/cube# schema: http://schema.org/ void: http://rdfs.org/ns/void# rsa: http://www.w3.org/ns/auth/rsa# cert: http://www.w3.org/ns/auth/cert# wgs: http://www.w3.org/2003/01/geo/wgs84_pos# bibo: http://purl.org/ontology/bibo/ sioc: http://rdfs.org/sioc/ns# doap: http://usefulinc.com/ns/doap# dbr: http://dbpedia.org/resource/ dbp: http://dbpedia.org/property/ sio: http://semanticscience.org/resource/ opmw: http://www.opmw.org/ontology/ deo: http://purl.org/spar/deo/ doco: http://purl.org/spar/doco/ cito: http://purl.org/spar/cito/ fabio: http://purl.org/spar/fabio/ oa: http://www.w3.org/ns/oa# as: https://www.w3.org/ns/activitystreams# ldp: http://www.w3.org/ns/ldp# solid: http://www.w3.org/ns/solid/terms# acl: http://www.w3.org/ns/auth/acl# dio: https://w3id.org/dio#" typeof="schema:CreativeWork sioc:Post prov:Entity">
     <main>
       <article about="" typeof="schema:Article">
-        <h1 property="schema:name">Enabling Decentralisation Scholarly Communication</h1>
+        <h1 property="schema:name">Enabling Decentralised Scholarly Communication</h1>
 
         <div id="authors">
           <dl id="author-name">
             <dt>Authors</dt>
             <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person">Sarven Capadisli</a></span><sup><a about="http://csarven.ca/#i" href="#author-org-1" rel="schema:memberOf" resource="http://dbpedia.org/resource/University_of_Bonn">1</a></sup><sup><a href="#author-email-1">✊</a></sup></dd>
+            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://public.lanl.gov/herbertv/profile/#me"><span about="" rel="schema:author"><a about="http://public.lanl.gov/herbertv/profile/#me" href="http://public.lanl.gov/herbertv/" property="schema:name" rel="schema:url" typeof="schema:Person">Herbert Van de Sompel</a></span><sup><a about="http://public.lanl.gov/herbertv/profile/#me" href="#author-org-1" rel="schema:memberOf" resource="http://dbpedia.org/resource/Los_Alamos_National_Laboratory">2</a></sup><sup><a href="#author-email-1">⌛</a></sup></dd>
           </dl>
 
           <ul id="author-org">
             <li id="University-of-Bonn"><sup>1</sup><a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Germany</li>
+            <li id="Los-Alamost-Nationa-Laboratory"><sup>2</sup><a about="http://dbpedia.org/resource/Los_Alamos_National_Laboratory" href="http://lanl.gov/" property="schema:name" rel="schema:url" typeof="schema:Organization">Los Alamos National Laboratory</a>, USA</li>
           </ul>
 
           <ul id="author-email">
             <li id="author-email-1"><sup>✊</sup><a about="http://csarven.ca/#i" href="mailto:info@csarven.ca" rel="schema:email">info@csarven.ca</a></li>
+            <li id="author-email-2"><sup>⌛</sup><a about="http://public.lanl.gov/herbertv/profile/#me" href="mailto:herbertv@lanl.gov" rel="schema:email">herbertv@lanl.gov</a></li>
           </ul>
         </div>
 
@@ -91,7 +94,7 @@
             <div datatype="rdf:HTML" property="schema:description">
               <dl>
                 <dt>A concise title.</dt>
-                <dd>Enabling Decentralisation Scholarly Communication</dd>
+                <dd>Enabling Decentralised Scholarly Communication</dd>
 
                 <dt>The names, affiliations and contact information of the organizers. A typical workshop should count no more than three co-chairs affiliated with different organizations.</dt>
                 <dd>
