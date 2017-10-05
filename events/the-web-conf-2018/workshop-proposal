@@ -11,6 +11,7 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" media="all" rel="stylesheet" />
     <script src="https://dokie.li/scripts/simplerdf.js"></script>
     <script src="https://dokie.li/scripts/medium-editor.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script src="https://dokie.li/scripts/do.js"></script>
   </head>
 
@@ -23,7 +24,7 @@
           <dl id="author-name">
             <dt>Authors</dt>
             <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person">Sarven Capadisli</a></span><sup><a about="http://csarven.ca/#i" href="#University-of-Bonn" rel="schema:memberOf" resource="http://dbpedia.org/resource/University_of_Bonn">1</a></sup><sup><a href="#author-email-1">✊</a></sup></dd>
-            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://public.lanl.gov/herbertv/profile/#me"><span about="" rel="schema:author"><a about="http://public.lanl.gov/herbertv/profile/#me" href="http://public.lanl.gov/herbertv/" property="schema:name" rel="schema:url" typeof="schema:Person">Herbert Van de Sompel</a></span><sup><a about="http://public.lanl.gov/herbertv/profile/#me" href="Los-Alamos-National-Laboratory" rel="schema:memberOf" resource="http://dbpedia.org/resource/Los_Alamos_National_Laboratory">2</a></sup><sup><a href="#author-email-1">⌛</a></sup></dd>
+            <dd id="Herbert-Van-de-Sompel" inlist="" rel="bibo:authorList" resource="http://public.lanl.gov/herbertv/profile/#me"><span about="" rel="schema:author"><a about="http://public.lanl.gov/herbertv/profile/#me" href="http://public.lanl.gov/herbertv/" property="schema:name" rel="schema:url" typeof="schema:Person">Herbert Van de Sompel</a></span><sup><a about="http://public.lanl.gov/herbertv/profile/#me" href="#Los-Alamos-National-Laboratory" rel="schema:memberOf" resource="http://dbpedia.org/resource/Los_Alamos_National_Laboratory">2</a></sup><sup><a href="#author-email-1">⌛</a></sup></dd>
           </dl>
 
           <ul id="author-org">
@@ -157,7 +158,7 @@
                 <dd>
                   <ul>
                     <li><a href="http://csarven.ca/">Sarven Capadisli</a>'s research includes the <cite><a href="https://linkedresearch.org/" rel="cito:citesForInformation">Linked Research</a></cite> initiative and the <cite><a href="https://dokie.li/" rel="cito:citesForInformation">dokieli</a></cite>. project. He is one of the chairs of <cite><a href="http://semstats.org/" rel="cito:citesForInformation">SemStats</a></cite> (ISWC), <cite><a href="https://linkedresearch.org/events/eswc2017/" rel="cito:citesForInformation">Enabling Decentralised Linked Research</a></cite> (ESWC), <cite><a href="http://events.linkeddata.org/ldow2017/" rel="cito:citesForInformation">Linked Data on the Web</a></cite> and <cite><a href="https://web.archive.org/web/20170421141807/https://sociam.org/wow2017/">Workshop on Web Observatories, Social Machines and Decentralisation</a></cite> (WWW) workshop series.</li>
-                    <li></li>
+                    <li><a href="http://public.lanl.gov/herbertv/">Herbert Van de Sompel</a> is the team leader of the Prototyping Team at the Research Library of the Los Alamos National Laboratory. More about Herbert at <a href="https://en.wikipedia.org/wiki/Herbert_Van_de_Sompel">Wikipedia</a> and <a href="http://public.lanl.gov/herbertv/bio/">LANL bio</a>.</li>
                     <li></li>
                   </ul>
                 </dd>
