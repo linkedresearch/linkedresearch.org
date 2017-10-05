@@ -22,13 +22,13 @@
         <div id="authors">
           <dl id="author-name">
             <dt>Authors</dt>
-            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person">Sarven Capadisli</a></span><sup><a about="http://csarven.ca/#i" href="#author-org-1" rel="schema:memberOf" resource="http://dbpedia.org/resource/University_of_Bonn">1</a></sup><sup><a href="#author-email-1">✊</a></sup></dd>
-            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://public.lanl.gov/herbertv/profile/#me"><span about="" rel="schema:author"><a about="http://public.lanl.gov/herbertv/profile/#me" href="http://public.lanl.gov/herbertv/" property="schema:name" rel="schema:url" typeof="schema:Person">Herbert Van de Sompel</a></span><sup><a about="http://public.lanl.gov/herbertv/profile/#me" href="#author-org-1" rel="schema:memberOf" resource="http://dbpedia.org/resource/Los_Alamos_National_Laboratory">2</a></sup><sup><a href="#author-email-1">⌛</a></sup></dd>
+            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://csarven.ca/#i"><span about="" rel="schema:creator schema:publisher schema:author"><a about="http://csarven.ca/#i" href="http://csarven.ca/" property="schema:name" rel="schema:url" typeof="schema:Person">Sarven Capadisli</a></span><sup><a about="http://csarven.ca/#i" href="#University-of-Bonn" rel="schema:memberOf" resource="http://dbpedia.org/resource/University_of_Bonn">1</a></sup><sup><a href="#author-email-1">✊</a></sup></dd>
+            <dd id="Sarven-Capadisli" inlist="" rel="bibo:authorList" resource="http://public.lanl.gov/herbertv/profile/#me"><span about="" rel="schema:author"><a about="http://public.lanl.gov/herbertv/profile/#me" href="http://public.lanl.gov/herbertv/" property="schema:name" rel="schema:url" typeof="schema:Person">Herbert Van de Sompel</a></span><sup><a about="http://public.lanl.gov/herbertv/profile/#me" href="Los-Alamos-National-Laboratory" rel="schema:memberOf" resource="http://dbpedia.org/resource/Los_Alamos_National_Laboratory">2</a></sup><sup><a href="#author-email-1">⌛</a></sup></dd>
           </dl>
 
           <ul id="author-org">
             <li id="University-of-Bonn"><sup>1</sup><a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Germany</li>
-            <li id="Los-Alamost-Nationa-Laboratory"><sup>2</sup><a about="http://dbpedia.org/resource/Los_Alamos_National_Laboratory" href="http://lanl.gov/" property="schema:name" rel="schema:url" typeof="schema:Organization">Los Alamos National Laboratory</a>, USA</li>
+            <li id="Los-Alamos-National-Laboratory"><sup>2</sup><a about="http://dbpedia.org/resource/Los_Alamos_National_Laboratory" href="http://lanl.gov/" property="schema:name" rel="schema:url" typeof="schema:Organization">Los Alamos National Laboratory</a>, USA</li>
           </ul>
 
           <ul id="author-email">
