@@ -59,19 +59,19 @@
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2017-10-04T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-04" property="schema:dateModified">2017-10-04</time></dd>
+          <dd><time content="2017-10-05T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-05" property="schema:dateModified">2017-10-05</time></dd>
         </dl>
 
         <dl id="document-license">
           <dt>License</dt>
-          <dd><a href="http://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
+          <dd><a href="https://creativecommons.org/licenses/by/4.0/" rel="schema:license" title="Creative Commons Attribution 4.0 Unported">CC BY 4.0</a></dd>
         </dl>
 
         <div id="content">
           <section id="abstract">
             <h2>Abstract</h2>
             <div datatype="rdf:HTML" property="schema:abstract">
-              <p>There is an abundance of scientific information on the Web. However, humans and machines have restricted access, are required to pay, or hindered to efficiently discover relations. It is critical that scholarly communication and knowledge dissemination are not controlled by overpowered or centralised actors. The academic publishing ecosystem should be considered an ongoing conversation between experts, policy makers, implementers, and the general public. This workshop intends to bring together practitioners and researchers from a variety of different backgrounds in order to articulate requirements and discuss interoperability of smaller, more domain-specific solutions.</p>
+              <p>The purpose of this workshop is the mobilisation of a core group of researchers and practitioners to investigate and work towards a decentralised, researcher-centric, interlinked, and Web-native scholarly communication system. A visible outcome is that this initiative can establish a forum where future research can continue to address socio-technical challenges, and promote their adoption.</p>
             </div>
           </section>
 
