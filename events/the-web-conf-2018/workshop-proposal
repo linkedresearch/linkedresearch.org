@@ -60,7 +60,7 @@
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2017-10-05T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-05" property="schema:dateModified">2017-10-05</time></dd>
+          <dd><time content="2017-10-07T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-07" property="schema:dateModified">2017-10-07</time></dd>
         </dl>
 
         <dl id="document-license">
@@ -112,7 +112,7 @@
                 <dd>A half day workshop.</dd>
 
                 <dt>Preference for a date; but, the proposal must not be conditioned on the workshop date, since it is likely that some workshops will not get their preferred date.</dt>
-                <dd>2018-04-23</dd>
+                <dd>2018-04-24</dd>
 
                 <dt>A statement of the workshop: objective/goals.</dt>
                 <dd>The workshop's objective is to bring to the fore perspectives, architectures, proposed components and overall solutions for a minimal viable platform for scholarly communication. The platform should at the same time make scholarly information available and reusable by means of interoperable, decentralised, web-based solutions and fulfil the core functions of scholarly communication (<cite><a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html" rel="cito:citesAsAuthority">registration, awareness, certification, archiving</a></cite>). The workshop's goal is to start paving the way for a <cite><a href="https://www.force11.org/scholarly-commons/principles" rel="cito:citesAsAuthority">scholarly commons</a></cite> where contributors have ownership of their works (eg articles, peer-reviews), decide on licenses and access controls, and provide ways that support discovery, reuse and exchange of their works via interoperable mechanisms. This workshop builds on the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> principles for scientific and scholarly information on the Web.</dd>
