@@ -31,7 +31,7 @@
           <ul id="author-org">
             <li id="University-of-Bonn"><sup>1</sup><a about="http://dbpedia.org/resource/University_of_Bonn" href="http://uni-bonn.de/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Bonn</a>, Germany</li>
             <li id="Los-Alamos-National-Laboratory"><sup>2</sup><a about="http://dbpedia.org/resource/Los_Alamos_National_Laboratory" href="http://lanl.gov/" property="schema:name" rel="schema:url" typeof="schema:Organization">Los Alamos National Laboratory</a>, USA</li>
-            <li id="University-of-Southampton"><sup>3</sup><a about="http://dbpedia.org/resource/University_of_Southampton" href="http://lanl.gov/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Southampton</a>, UK</li>
+            <li id="University-of-Southampton"><sup>3</sup><a about="http://dbpedia.org/resource/University_of_Southampton" href="http://ecs.soton.ac.uk/" property="schema:name" rel="schema:url" typeof="schema:Organization">University of Southampton</a>, UK</li>
           </ul>
 
           <ul id="author-email">
