@@ -255,7 +255,8 @@
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://aksw.org/AxelNgonga">Axel-Cyrille Ngonga Ngomo</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://brembs.net/">Björn Brembs</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://boris.villazon.terrazas.name/">Boris Villazón-Terrazas</a></li>
-                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://christinaharlow.com/">Christina Harlow</a></li>
+                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://christinaharlow.com/">Chris Hartgerink</a></li>
+                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://chjh.nl/">Christina Harlow</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://eis.iai.uni-bonn.de/ChristophLange">Christoph Lange</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://cgueret.github.io/">Christophe Gueret</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://danbri.org/">Dan Brickley</a></li>
