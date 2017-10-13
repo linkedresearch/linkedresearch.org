@@ -143,7 +143,7 @@
                         <li>A valid <code>xsd:dateTime</code> is expected for <code>as:updated</code>.</li>
                         <li>CC0 1.0 Universal license is expected.</li>
                         <li>The value of <code>as:object</code> is the primary object of the announce, ie. the article.</li>
-                        <li>A class along the lines of <code>schema:ScholarlyArticle</code>, <code>sioc:Post</code>, <code>foaf:Document</code>, <code>sioc:Post</code>, <code>biblio:Paper</code>, <code>bibo:Document</code>, <code>as:Article</code>.</li>
+                        <li>A class along the lines of <code>schema:ScholarlyArticle</code>, <code>sioc:Post</code>, <code>foaf:Document</code>, <code>biblio:Paper</code>, <code>bibo:Document</code>, <code>as:Article</code>.</li>
                       </ul>
                     </dd>
 
