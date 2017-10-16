@@ -23,12 +23,13 @@
             <h2>Keywords</h2>
             <div>
               <ul rel="schema:about">
-                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://en.wikipedia.org/wiki/Decentralization" resource="http://dbpedia.org/resource/Decentralization">Decentralisation</a></li>
-                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://en.wikipedia.org/wiki/Open_access" resource="http://dbpedia.org/resource/Open_access">Open Access</a></li>
-                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://en.wikipedia.org/wiki/Semantic_publishing" resource="http://dbpedia.org/resource/Semantic_publishing">Semantic publishing</a></li>
-                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://en.wikipedia.org/wiki/Social_machine" resource="http://dbpedia.org/resource/Social_machine">Social machine</a></li>
-                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://en.wikipedia.org/wiki/Social_web" resource="http://dbpedia.org/resource/Social_web">Social web</a></li>
-                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://en.wikipedia.org/wiki/Web_science" resource="http://dbpedia.org/resource/Web_science">Web Science</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Decentralization" resource="http://dbpedia.org/resource/Decentralization">Decentralisation</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Interoperability" resource="http://dbpedia.org/resource/Interoperability">Interoperability</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Open_science" resource="http://dbpedia.org/resource/Open_science">Open science</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Semantic_publishing" resource="http://dbpedia.org/resource/Semantic_publishing">Semantic publishing</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Social_machine" resource="http://dbpedia.org/resource/Social_machine">Social machine</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Social_web" resource="http://dbpedia.org/resource/Social_web">Social web</a></li>
+                <li><a href="https://en.wikipedia.org/wiki/Web_science" resource="http://dbpedia.org/resource/Web_science">Web Science</a></li>
               </ul>
             </div>
           </section>
