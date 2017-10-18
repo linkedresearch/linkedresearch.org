@@ -17,7 +17,7 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-09-11T00:00:00Z" datatype="xsd:dateTime" datetime="2017-09-11T00:00:00Z" property="schema:dateModified">2017-09-11</time></dd>
+            <dd><time content="2017-10-18T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-18T00:00:00Z" property="schema:dateModified">2017-10-18</time></dd>
           </dl>
 
           <dl id="document-inbox">
@@ -76,7 +76,7 @@
           <section id="notifications" rel="schema:hasPart" resource="#notifications">
             <h2 property="schema:name">Notifications</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>LORC uses the <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. The visualisation in this article is dynamically constructed (with JavaScript and SVG) by consuming LORC’s Inbox. For LORC, notifications only need to <em>refer</em> to complete works and activities. Different applications can discover and get the contents of the Inbox, where each notification has a dereferenceable HTTP URL with its content represented in RDF.</p>
+              <p>LORC uses the <cite><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a></cite> protocol to receive and serve notifications about scholarly resources, so that they can be discovered and consumed by different applications. The visualisation in this article is dynamically constructed (with JavaScript and SVG) by consuming the notifications in LORC’s Inbox. For LORC, notifications only need to <em>refer</em> to complete works and activities. Different applications can discover and get the contents of the Inbox, where each notification has an HTTP URL with its content represented in RDF.</p>
 
               <dl id="conformance" el="schema:hasPart" resource="#conformance">
                 <dt property="skos:name">Conformance</dt>
