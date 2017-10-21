@@ -158,7 +158,7 @@
                       </figure>
 
                       <ul>
-                        <li><code>as:actor</code> is the URI of the agent that sent the notification. Normally a person, as opposed to software.</li>
+                        <li><code>as:actor</code> is the URI of the agent that sent the notification.</li>
                         <li>URI of an open/free culture license on the article is expected.</li>
                       </ul>
 
