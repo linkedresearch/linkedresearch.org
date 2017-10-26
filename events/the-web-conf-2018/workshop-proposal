@@ -99,10 +99,10 @@
             <h2 property="schema:name">Workshop Structure</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <dl>
-                <dt>A concise title.</dt>
+                <dt id="title">A concise title.</dt>
                 <dd>Enabling Decentralised Scholarly Communication</dd>
 
-                <dt>The names, affiliations and contact information of the organizers. A typical workshop should count no more than three co-chairs affiliated with different organizations.</dt>
+                <dt id="organisers">The names, affiliations and contact information of the organizers. A typical workshop should count no more than three co-chairs affiliated with different organizations.</dt>
                 <dd>
                   <ul>
                     <li>Sarven Capadisli, University of Bonn, info@csarven.ca, <a href="http://csarven.ca/#i">http://csarven.ca/#i</a></li>
@@ -111,30 +111,30 @@
                   </ul>
                 </dd>
 
-                <dt>Proposed duration of the workshop – half or full day. The organizers may exceptionally consider well justified 2-day workshops.</dt>
+                <dt id="duration">Proposed duration of the workshop – half or full day. The organizers may exceptionally consider well justified 2-day workshops.</dt>
                 <dd>A half day workshop.</dd>
 
-                <dt>Preference for a date; but, the proposal must not be conditioned on the workshop date, since it is likely that some workshops will not get their preferred date.</dt>
+                <dt id="date">Preference for a date; but, the proposal must not be conditioned on the workshop date, since it is likely that some workshops will not get their preferred date.</dt>
                 <dd>2018-04-24</dd>
 
-                <dt>A statement of the workshop: objective/goals.</dt>
+                <dt id="objectives">A statement of the workshop: objective/goals.</dt>
                 <dd>The workshop’s  objective is to bring to the fore perspectives, architectures, proposed components and overall solutions for a minimal viable platform for scholarly communication. The platform should at the same time make scholarly information available and reusable by means of interoperable, decentralised, web-based solutions and fulfil the core functions of scholarly communication (<cite><a href="http://www.physik.uni-oldenburg.de/conferences/crisp97/roosendaal.html" rel="cito:citesAsAuthority">registration, awareness, certification, archiving</a></cite>). The workshop’s goal is to start paving the way for a <cite><a href="https://www.force11.org/scholarly-commons/principles" rel="cito:citesAsAuthority">scholarly commons</a></cite> where contributors have ownership of their works (eg articles, peer-reviews), decide on licenses and access controls, and provide ways that support discovery, reuse and exchange of their works via interoperable mechanisms. This workshop builds on the <cite><a href="https://linkedresearch.org/">Linked Research</a></cite> principles for scientific and scholarly information on the Web.</dd>
 
-                <dt>A statement detailing: Why is the workshop topic important? Why is the workshop timely? How is it relevant to WWW?</dt>
+                <dt id="relevance">A statement detailing: Why is the workshop topic important? Why is the workshop timely? How is it relevant to WWW?</dt>
                 <dd>Since the early days of the Internet and the Web, it has been recognised that the new technologies would enable the emergence of novel scholarly communication approaches (cf. <a href="https://doi.org/10.1087/09531519950145896" rel="cito:citesAsAuthority">Smith’s  deconstructed journal</a>, <a href="http://www.cs.cornell.edu/~ginsparg/physics/blurb/pg01unesco.html" rel="cito:citesAsAuthority">Ginsparg’s decoupling of publishing and review</a> in <a href="http://arXiv.org">arXiv.org</a>, <a href="http://www.ucalgary.ca/ejournal/archive/rachel/v5n1/article.html" rel="cito:citesAsAuthority">Harnad’s  subversive proposal</a>). To this date, however, the potential has only been marginally harnessed. Among others, due to the availability of a new realm of standards and technologies (eg resulting from W3C Social Web and Linked Data activities), the time is right to take stock and launch a concerted effort aimed at profound innovation. Crucial components seem to be in place to start working towards a decentralised, researcher-centric, interlinked, web-native scholarly communication system.</dd>
 
                 <dd>The topic is important because there is general agreement regarding the need to pursue an ecosystem where results of publicly-funded scientific endeavours are openly accessible and reusable for everyone. Many activities towards this goal are ongoing (cf Open Access, <cite><a href="https://www.force11.org/" rel="cito:citesAsRelated">FORCE11</a></cite>, <cite><a href="http://osinitiative.org/" rel="cito:citesAsRelated">OSI</a></cite>), some of which have been for many years. But most focus on important economic, legal, and policy matters yet shy away from technology. This workshop is informed and inspired by these activities and aims to add a technical voice to them. This workshop is relevant to <cite>The Web Conference</cite> because it explores a fundamental innovation of scholarly communication, which to date largely remains a scanned version of the paper-based journal system, by means of web standards and technologies. <cite>The Web Conference</cite> is an appropriate venue for this workshop due to the presence of international experts that can inform the discussion.</dd>
 
-                <dt>A two-paragraph description of the workshop topic and themes.</dt>
+                <dt id="topic">A two-paragraph description of the workshop topic and themes.</dt>
                 <dd>We welcome contributions relevant to different units of scholarly information and communication. This includes architecture and decentralisation of publications and reviews, pipelines for knowledge dissemination, mechanisms for discovery, as well as interfaces and interactions that has to do with the creation, reuse, remix, and sharing of research data and activities.</dd>
                 <dd>The underlying theme is about making improving the state of human and machine-readability of scholarly information on the Web by <em>enabling</em> the dimension for decentralisation.</dd>
                 <dd>An ongoing topic is the realisation of Minimum Viable Platforms that supports the emergence of a decentralised, contributor-centric scholarly communication system.</dd>
 
-                <dt>If the workshop was conducted before, where and when was it conducted? Please give details on number of attendees, number of submissions, and acceptance ratio. List any other related or same workshops being conducted in the same year, or were conducted, at any other venues.</dt>
+                <dt id="previous">If the workshop was conducted before, where and when was it conducted? Please give details on number of attendees, number of submissions, and acceptance ratio. List any other related or same workshops being conducted in the same year, or were conducted, at any other venues.</dt>
                 <dd>This workshop, <cite><a href="https://linkedresearch.org/events/eswc2017/" rel="cito:discusses">Enabling Decentralised Scholarly Communication</a></cite> was last conducted at <a href="https://2017.eswc-conferences.org/program/tutorials-workshops#t18">ESWC 2017</a> as a half-day workshop, having approximately 30 attendees, 4 peer-reviewed articles, 3 alternative contributions, and open discussions. All contributions: articles and peer-reviews, are controlled by their respective authors at their own Webspace and archived. See the program (<a href="https://linkedresearch.org/events/eswc2017/" rel="cito:citesForInformation">https://linkedresearch.org/events/eswc2017/</a>) with links to all works.</dd>
                 <dd>Based off the <cite><a href="https://linkedresearch.org/" rel="cito:citesAsAuthority">Linked Research</a></cite> initiative, the following workshops have integrated its approach to contributions: <cite><a href="http://events.linkeddata.org/ldow2017/" rel="cito:citesForInformation">Linked Data on the Web</a></cite> workshop series at WWW, <cite><a href="https://web.archive.org/web/20170421141807/https://sociam.org/wow2017/" rel="cito:citesForInformation">Web Observatories, Social Machines and Decentralisation</a></cite> workshop at WWW 2017, <cite><a href="http://iswc2017.desemweb.org/" rel="cito:citesForInformation">Decentralizing the Semantic Web</a></cite>  and <cite><a href="https://semsci.github.io/semSci2017/" rel="cito:citesForInformation">Enabling Open Semantic Science</a></cite> workshops at ISWC 2017.</dd>
 
-                <dt>A description of the workshop format: How many papers do you hope to present, how many invited speakers, type of activities (eg. short paper presentation, invited talks, demos, posters, etc.), and an approximate timeline (breaks should be synchronized with scheduled breaks if possible.)</dt>
+                <dt id="format">A description of the workshop format: How many papers do you hope to present, how many invited speakers, type of activities (eg. short paper presentation, invited talks, demos, posters, etc.), and an approximate timeline (breaks should be synchronized with scheduled breaks if possible.)</dt>
                 <dd>
                   <ul>
                     <li>We plan to have 5-10 presentations based on reviewed and demonstrable articles.</li>
@@ -151,15 +151,15 @@
                   </ul>
                 </dd>
 
-                <dt>A description of how workshop submissions will be evaluated, and a tentative PC list (with indication of whether PC members have already been contacted and/or have expressed interest.)</dt>
+                <dt id="evaluation">A description of how workshop submissions will be evaluated, and a tentative PC list (with indication of whether PC members have already been contacted and/or have expressed interest.)</dt>
                 <dd>Contributions will be evaluated according to how well they support advancing the state of the Web towards becoming a fully-fledged ecosystem for scholarly communication. We strongly promote <em><a href="https://en.wikipedia.org/wiki/Eating_your_own_dog_food">self-dogfooding</a></em>, and will prioritise contributions from authors who can demonstrate that they use their tooling or techniques in their own practice.</dd>
                 <dd>We also promote decentralisation and data ownership, and encourage participants to share their contribution by publishing a document at a domain they control or have sufficient authority on the URL, eg. personal site at an university, and sending us the URL. Contributions <em class="rfc2119">SHOULD</em> be in formats which best conveys the authors’ message. For example, use of HTML(+RDFa), CSS, JavaScript, and the rest of the Web stack, is highly encouraged. There are no typical ‘paper’ format constraints, eg. template, pages, words, font-size. Contributions <em class="rfc2119">MUST</em> be made <em>for</em> and <em>accessible</em> from the Web.</dd>
                 <dd>Open and attributed reviews may be held by anyone. There is list of potential reviewers (74 people at this time) from our Linked Research community at <a href="https://linkedresearch.org/calls#reviewers" rel="cito:citesAsEvidence">https://linkedresearch.org/calls#reviewers</a> that have expressed to provide open reviews relevant to their areas of interest.</dd>
 
-                <dt>An indication on whether the workshop registration will be open to all interested registered parties or limited.</dt>
+                <dt id="registration">An indication on whether the workshop registration will be open to all interested registered parties or limited.</dt>
                 <dd>Open to all.</dd>
 
-                <dt>A short bio of the workshop organizers, including a description of their qualifications relative to the topic area, and past experience in organizing/facilitating workshops or research meetings.</dt>
+                <dt id="bios">A short bio of the workshop organizers, including a description of their qualifications relative to the topic area, and past experience in organizing/facilitating workshops or research meetings.</dt>
                 <dd>
                   <ul>
                     <li><a href="http://csarven.ca/">Sarven Capadisli</a>’s  research includes the <cite><a href="https://linkedresearch.org/" rel="cito:citesForInformation">Linked Research</a></cite> initiative and the <cite><a href="https://dokie.li/" rel="cito:citesForInformation">dokieli</a></cite>. project. He is one of the chairs of <cite><a href="http://semstats.org/" rel="cito:citesForInformation">SemStats</a></cite> (ISWC), <cite><a href="https://linkedresearch.org/events/eswc2017/" rel="cito:citesForInformation">Enabling Decentralised Scholarly Communication</a></cite> (ESWC), <cite><a href="http://events.linkeddata.org/ldow2017/" rel="cito:citesForInformation">Linked Data on the Web</a></cite> and <cite><a href="https://web.archive.org/web/20170421141807/https://sociam.org/wow2017/">Workshop on Web Observatories, Social Machines and Decentralisation</a></cite> (WWW) workshop series.</li>
