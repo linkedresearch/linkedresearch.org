@@ -63,7 +63,7 @@
 
         <dl id="document-modified">
           <dt>Modified</dt>
-          <dd><time content="2017-10-13T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-13" property="schema:dateModified">2017-10-13</time></dd>
+          <dd><time content="2017-10-28T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-28" property="schema:dateModified">2017-10-28</time></dd>
         </dl>
 
         <dl id="document-license">
@@ -128,7 +128,7 @@
                 <dt id="topic">A two-paragraph description of the workshop topic and themes.</dt>
                 <dd>We welcome contributions relevant to different units of scholarly information and communication. This includes architecture and decentralisation of publications and reviews, pipelines for knowledge dissemination, mechanisms for discovery, as well as interfaces and interactions that has to do with the creation, reuse, remix, and sharing of research data and activities.</dd>
                 <dd>The underlying theme is about making improving the state of human and machine-readability of scholarly information on the Web by <em>enabling</em> the dimension for decentralisation.</dd>
-                <dd>An ongoing topic is the realisation of Minimum Viable Platforms that supports the emergence of a decentralised, contributor-centric scholarly communication system.</dd>
+                <dd>An ongoing topic is the realisation of minimal viable platforms that supports the emergence of a decentralised, contributor-centric scholarly communication system.</dd>
 
                 <dt id="previous">If the workshop was conducted before, where and when was it conducted? Please give details on number of attendees, number of submissions, and acceptance ratio. List any other related or same workshops being conducted in the same year, or were conducted, at any other venues.</dt>
                 <dd>This workshop, <cite><a href="https://linkedresearch.org/events/eswc2017/" rel="cito:discusses">Enabling Decentralised Scholarly Communication</a></cite> was last conducted at <a href="https://2017.eswc-conferences.org/program/tutorials-workshops#t18">ESWC 2017</a> as a half-day workshop, having approximately 30 attendees, 4 peer-reviewed articles, 3 alternative contributions, and open discussions. All contributions: articles and peer-reviews, are controlled by their respective authors at their own Webspace and archived. See the program (<a href="https://linkedresearch.org/events/eswc2017/" rel="cito:citesForInformation">https://linkedresearch.org/events/eswc2017/</a>) with links to all works.</dd>
