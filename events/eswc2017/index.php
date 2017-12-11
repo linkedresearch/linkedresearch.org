@@ -126,7 +126,7 @@
                 <h2>Who?</h2>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>The workshop organisers are <a href="http://csarven.ca/#i">Sarven Capadisli</a> (University of Bonn), <a href="https://rhiaro.co.uk/#me">Amy Guy</a> (University of Edinburgh) and <a href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a> (University of Oxford).</p>
-                  <p>Submissions will be reviewed by pioneering, non-anonymous individuals from <a href="https://linkedresearch.org/calls#reviewers">this list of reviewers</a>.</p>
+                  <p>Contributions will be reviewed by pioneering, non-anonymous individuals from <a href="https://linkedresearch.org/calls#reviewers">this list of reviewers</a>.</p>
                 </div>
               </section>
             </div>
