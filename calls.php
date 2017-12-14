@@ -267,6 +267,7 @@
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://antbase.org/agosticv_2003.html">Donat Agosti</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://eis.iai.uni-bonn.de/FabrizioOrlandi">Fabrizio Orlandi</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://www.atemezing.org/">Ghislain Atemezing</a></li>
+                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://www.fiz-karlsruhe.de/forschung/information-service-engineering/mitarbeiter-ise/prof-dr-harald-sack.html">Harald Sack</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://hectorcorrea.com/">Hector Correa</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://public.lanl.gov/herbertv/home/">Herbert Van de Sompel</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://www.ecs.soton.ac.uk/people/hg">Hugh Glaser</a></li>
