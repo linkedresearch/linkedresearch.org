@@ -131,4 +131,6 @@ body > footer dt { display: none; }
 
   #index main { overflow: hidden; }
   #index #content section { float: left; width: 50%; padding:0; }
+
+  #reviewers ul { column-count:3; }
 }
