@@ -3,114 +3,114 @@
 body { padding: 0; margin: 0; width: 100%; }
 
 body > header {
-    margin-top:0;
-    width: calc(100% - 6em);
-    margin-left: 3em;
+  margin-top:0;
+  width: calc(100% - 6em);
+  margin-left: 3em;
 }
 body > header nav ul {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 body > header nav li {
-    margin:0;
-    padding:0;
-    display:block;
-    text-align:left;
+  margin:0;
+  padding:0;
+  display:block;
+  text-align:left;
 }
 body > header nav li:before,
 body > header nav li:after {
-    content:"";
+  content:"";
 }
 body > header nav li a {
-    display: inline-block;
-    color: #000;
-    text-decoration: none;
-    padding-left:0.5em;
+  display: inline-block;
+  color: #000;
+  text-decoration: none;
+  padding-left:0.5em;
 }
 body > header nav li a:hover {
-    color: #009000;
+  color: #009000;
 }
 body > header nav li .fa {
-    line-height:1.4;
+  line-height:1.4;
 }
 
 main > article h1 {
-    background-color: #000;
-    background-image: url('/media/images/nebula.jpg');
-    background-position: 50%;
-    background-repeat: no-repeat;
+  background-color: #000;
+  background-image: url('/media/images/nebula.jpg');
+  background-position: 50%;
+  background-repeat: no-repeat;
 }
 h1 {
-    font-size: 2em;
-    padding: 0.5em;
-    margin: 0 0 1.5em 0;
-    color: white;
+  font-size: 2em;
+  padding: 0.5em;
+  margin: 0 0 1.5em 0;
+  color: white;
 }
 
 /* Homepage specific styles */
 #index main > article h1 {
-    margin-bottom:0;
-    padding: 2em 0;
-    overflow: hidden;
+  margin-bottom:0;
+  padding: 2em 0;
+  overflow: hidden;
 }
 #index main > article h1 {
-    font-size: 4em;
+  font-size: 4em;
 }
 #index main > article h2 {
-    margin: 0;
-    padding:0;
-    font-size: 2.4em;
-    font-weight: normal;
-    letter-spacing: 0.1em;
+  margin: 0;
+  padding:0;
+  font-size: 2.4em;
+  font-weight: normal;
+  letter-spacing: 0.1em;
 }
 #index #content ul {
-    list-style: none; padding: 0; margin: 0;
-    text-align: center;
-    background-color: rgba(228, 238, 233, 0.9);
+  list-style: none; padding: 0; margin: 0;
+  text-align: center;
+  background-color: rgba(228, 238, 233, 0.9);
 }
 #index #content li {
-    padding: 1em;
+  padding: 1em;
 }
 #index #content h3 {
-    margin-top:0;
-    font-size: 2em;
-    color: #153419; font-weight: normal;
+  margin-top:0;
+  font-size: 2em;
+  color: #153419; font-weight: normal;
 }
 #index #content ul i {
-    color: #153419;
-    margin-top: 0.5em;
+  color: #153419;
+  margin-top: 0.5em;
 }
 #index #index #content ul p {
-    margin: 0; font-size: 1.2em;
+  margin: 0; font-size: 1.2em;
 }
 
 #index #content ul p a:last-of-type, #index #content #what-is-this p a { 
-    background-color: #153419; color: #e4eee9; 
-    padding: 0.4em; border-radius: 0.8em; margin-top: 0.4em;
-    white-space: nowrap; display: inline-block; 
-    text-decoration: none; border: none;
-    font-size: 0.8em;
+  background-color: #153419; color: #e4eee9; 
+  padding: 0.4em; border-radius: 0.8em; margin-top: 0.4em;
+  white-space: nowrap; display: inline-block; 
+  text-decoration: none; border: none;
+  font-size: 0.8em;
 }
 #index #content ul p a:last-of-type:hover, #index #content #what-is-this p a:hover {
-    background-color: black;
+  background-color: black;
 }
 
 #index #content section {
-    width: 100%;
+  width: 100%;
 }
 #index #content section h2 {
-    margin-left: 0.75em;
+  margin-left: 0.75em;
 }
 #index #content section div {
-    margin: 0 2em 0 2em;
+  margin: 0 2em 0 2em;
 }
 #index #content #what-is-this p a {
-    font-size: 1em;
+  font-size: 1em;
 }
 
 article {
-    border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #eee;
 }
 article:last-of-type { border: none; }
 
@@ -121,14 +121,14 @@ body > footer dl { width: 100%; }
 body > footer dt { display: none; }
 
 @media screen and (min-width: 768px){
-    body > header nav li { display:inline-block; text-align:center; }
-    body > header nav li a { padding: 1.25em 0.25em 1.25em 1.25em; margin:0 1em 0 -1em; }
+  body > header nav li { display:inline-block; text-align:center; }
+  body > header nav li a { padding: 1.25em 0.25em 1.25em 1.25em; margin:0 1em 0 -1em; }
 
-    #index #content ul { overflow: hidden; }
-    #index #content ul li:nth-of-type(3n+4) { clear:both; }
-    #index #content ul li { float:left; width: 33.33%; padding: 0; margin-bottom:1em; }
-    #index #content ul li p { width:calc(100% - 6em); padding: 0 3em; }
+  #index #content ul { overflow: hidden; }
+  #index #content ul li:nth-of-type(3n+4) { clear:both; }
+  #index #content ul li { float:left; width: 33.33%; padding: 0; margin-bottom:1em; }
+  #index #content ul li p { width:calc(100% - 6em); padding: 0 3em; }
 
-    #index main { overflow: hidden; }
-    #index #content section { float: left; width: 50%; padding:0; }
+  #index main { overflow: hidden; }
+  #index #content section { float: left; width: 50%; padding:0; }
 }
