@@ -264,6 +264,7 @@
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://danieldmm.github.io/">Daniel Duma</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://about.me/daniel.mietchen">Daniel Mietchen</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://www.oerc.ox.ac.uk/people/dder">David De Roure</a></li>
+                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://kontokostas.com/">Dimitris Kontokostas</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://antbase.org/agosticv_2003.html">Donat Agosti</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://eis.iai.uni-bonn.de/FabrizioOrlandi">Fabrizio Orlandi</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://www.atemezing.org/">Ghislain Atemezing</a></li>
