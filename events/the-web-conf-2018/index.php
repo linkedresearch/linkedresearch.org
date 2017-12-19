@@ -36,6 +36,8 @@
 
               <p>The workshop will be held at the <cite><a href="https://www2018.thewebconf.org/">The Web Conf 2018</a></cite> and host invited talks and research presentations. If you would like to share your research at the workshop, respond to the <a href="https://linkedresearch.org/calls">call</a>, and we will ensure your contribution is reviewed accordingly. We encourage all research contributions (articles and reviews) to be part of the <cite><a href="https://linkedresearch.org/cloud">Linked Open Research Cloud</a></cite> (LORC). Check it out!</p>
 
+              <p>Social media hashtag: #LinkedResearch</p>
+
               <section id="how" rel="schema:hasPart" resource="#how">
                 <h3>How?</h3>
                 <div datatype="rdf:HTML" property="schema:description">
