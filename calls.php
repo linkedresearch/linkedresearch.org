@@ -270,6 +270,7 @@
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://hectorcorrea.com/">Hector Correa</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://public.lanl.gov/herbertv/home/">Herbert Van de Sompel</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://www.ecs.soton.ac.uk/people/hg">Hugh Glaser</a></li>
+                <li about="http://w3id.org/people/idafensp" typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://w3id.org/people/idafensp">Idafen Santana-Perez</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://people.csail.mit.edu/ilaria/">Ilaria Liccardi</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://eis.iai.uni-bonn.de/JeremyDebattista">Jeremy Debattista</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://zbw.eu/labs/en/user/joachim-neubert">Joachim Neubert</a></li>
