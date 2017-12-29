@@ -311,6 +311,7 @@
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://www.tkuhn.org/">Tobias Kuhn</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://twitter.com/no_reply">Tom Johnson</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://twitter.com/CaptSolo">Uldis Bojars</a></li>
+                <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://vioil.github.io/">Violeta Ilik</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="https://twitter.com/valexiev1">Vladimir Alexiev</a></li>
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://wouterbeek.com/">Wouter Beek</a></li>
               </ul>
