@@ -233,7 +233,7 @@
           <section id="reviewers" rel="schema:hasPart" resource="#reviewers">
             <h2 property="schema:name">Reviewers</h2>
             <div datatype="rdf:HTML" property="schema:description" resource="#reviewers" typeof="schema:Organization">
-              <p>These top folks have stepped up to pledge to provide public, open reviews on work that interests them, published according to Linked Research principles. Everyone is welcome to this list - just mention your interested in the <a href="https://gitter.im/linkedresearch/chat">public chat</a> or add yourself by making a <a href="https://github.com/linkedresearch/linkedresearch.org/">pull request</a>.</p>
+              <p>These folks have stepped up to pledge to provide public, open reviews on work that interests them, published according to Linked Research principles. Everyone is welcome - just mention your interest in the <a href="https://gitter.im/linkedresearch/chat">public chat</a> or add yourself by making a <a href="https://github.com/linkedresearch/linkedresearch.org/">pull request</a>.</p>
 
               <ul rel="schema:member">
                 <li typeof="schema:Person"><a rel="schema:url" property="schema:name" xml:lang="" lang="" href="http://www.uebertext.org/">Adrian Pohl</a></li>
