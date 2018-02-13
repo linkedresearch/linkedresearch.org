@@ -69,38 +69,17 @@
                   <ul>
                     <li>09:00 — 09:15: Hello world!</li>
 
-                    <li>09:15 — 09:30: Invited Talk</li>
-
-                    <li>09:30 — 09:45: Invited Talk</li>
-
-                    <li>09:45 — 10:00: Invited Talk</li>
+                    <li>09:15 — 09:45: Invited Talk</li>
 
                     <li>10:00 — 10:30: Invited Talk</li>
 
                     <li>10:30 — 11:00: Take a break</li>
 
-                    <li>10:15 — 11:30: Invited Talk</li>
+                    <li>11:00 — 11:30: Invited Talk</li>
 
-                    <li>11:30 — 11:45: <cite>Article</cite> [archived], Authors
-                      <dl>
-                        <dt>Reviews</dt>
-                        <dd>Review [archived], Author</dd>
-                      </dl>
-                    </li>
+                    <li>11:30 — 12:00: Invited Talk</li>
 
-                    <li>12:00 — 12:15: <cite>Article</cite> [archived], Authors
-                      <dl>
-                        <dt>Reviews</dt>
-                        <dd>Review [archived], Author</dd>
-                      </dl>
-                    </li>
-
-                    <li>12:15 — 12:30: <cite>Article</cite> [archived], Authors
-                      <dl>
-                        <dt>Reviews</dt>
-                        <dd>Review [archived], Author</dd>
-                      </dl>
-                    </li>
+                    <li>12:00 — 12:30: Invited Talk</li>
 
                     <li>12:30 — ∞: Make it so!</li>
                   </ul>
