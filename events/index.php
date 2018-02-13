@@ -18,6 +18,14 @@
             <h2 property="schema:name">Events in planning</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <ul>
+                <li id="the-web-conf-2018">
+                  <p><cite><a href="https://www2018.thewebconf.org/">The Web Conf 2018</a></cite> Workshop <cite><a href="https://linkedresearch.org/events/the-web-conf-2018/">Researcher Centric Scholarly Communication</a></cite> (mid April 2018) organised by <a href="http://users.ecs.soton.ac.uk/wh/">Dame Wendy Hall</a>, <a href="https://hvdsomp.info/profile#me">Herbert Van de Sompel</a>, and <a href="http://csarven.ca/#i">Sarven Capadisli</a>.</p>
+                </li>
+
+                <li id="ldow-2018">
+                  <p>LDOW (Linked Data on the Web) at The Web Conf (April 2017): <a href="http://events.linkeddata.org/ldow2018/" rel="rdfs:seeAlso">LDOW 2016</a> raises the challenge for <q>Pioneering the Linked Open Research Cloud</q>, and promotes decentralisation and data ownership, and encourages participants to submit their contribution by publishing a document at a domain they control or consider sufficiently authoritative.</p>
+                </li>
+
                 <li id="iswc-2017">
                   <p>DeSemWeb (Workshop on Decentralizing the Semantic Web) at ISWC 2017 (end of October 2017): <a href="http://iswc2017.desemweb.org/" rel="rdfs:seeAlso">DeSemWeb</a> takes a radical perspective by focusing solely on decentralized and client-side applications, to counterbalance the centralized discourse of other tracks.</p>
                 </li>
