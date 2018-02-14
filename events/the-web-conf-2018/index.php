@@ -64,7 +64,7 @@
               <section id="program" rel="schema:hasPart" resource="#program">
                 <h3>Program</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p><strong>Draft</strong> timeline for the invited talks.</p>
+                  <p><strong>Draft</strong> timeline for the invited talks. Talk topics to be added soon.</p>
 
                   <ul>
                     <li>09:00 — 09:15: Hello world!</li>
