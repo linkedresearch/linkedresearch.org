@@ -64,18 +64,18 @@
               <section id="program" rel="schema:hasPart" resource="#program">
                 <h3>Program</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>Draft timeline..</p>
+                  <p><strong>Draft</strong> timeline for the invited talks.</p>
 
                   <ul>
                     <li>09:00 — 09:15: Hello world!</li>
 
-                    <li>09:15 — 09:45: Invited Talk</li>
+                    <li>09:15 — 10:00: <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
 
-                    <li>10:00 — 10:30: Invited Talk</li>
+                    <li>10:00 — 10:30: <a href="https://rhiara.co.uk/">Amy Guy</a></li>
 
                     <li>10:30 — 11:00: Take a break</li>
 
-                    <li>11:00 — 11:30: Invited Talk</li>
+                    <li>11:00 — 11:30: <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
 
                     <li>11:30 — 12:00: Invited Talk</li>
 
