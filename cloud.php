@@ -186,7 +186,7 @@
 <code id="annotation-data-shape-must-L7"></code>
 <code id="annotation-data-shape-must-L8">&lt;http://example.org/annotation&gt;</code>
 <code id="annotation-data-shape-must-L9">  a oa:Annotation ;</code>
-<code id="annotation-data-shape-must-L10">  oa:motivation oa:assessing .</code></pre>
+<code id="annotation-data-shape-must-L10">  oa:motivatedBy oa:assessing .</code></pre>
                       </figure>
 
                       <ul>
@@ -196,7 +196,7 @@
                         <li>The value of <code>as:object</code> is the primary object of the announce, ie. the annotation.</li>
                         <li>The value of <code>as:target</code> is the target of the announce, ie. the annotated object.</li>
                         <li><code>oa:Annotation</code> to indicate that the primary object is an annotation.</li>
-                        <li><code>oa:motivation</code> for the motivation of the annotation eg. assessment, a peer review.</li>
+                        <li><code>oa:motivatedBy</code> for the motivation of the annotation eg. assessment, a peer review.</li>
                       </ul>
                     </dd>
 
