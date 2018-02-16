@@ -17,7 +17,7 @@
 
           <dl id="document-modified">
             <dt>Modified</dt>
-            <dd><time content="2017-10-18T00:00:00Z" datatype="xsd:dateTime" datetime="2017-10-18T00:00:00Z" property="schema:dateModified">2017-10-18</time></dd>
+            <dd><time content="2018-02-16T00:00:00Z" datatype="xsd:dateTime" datetime="2018-02-16T00:00:00Z" property="schema:dateModified">2018-02-16</time></dd>
           </dl>
 
           <dl id="document-inbox">
@@ -70,6 +70,22 @@
                   <p>We have just started. Making the LORC look comprehensible is <a href="https://github.com/linkedresearch/linkedresearch.org/labels/cloud">an ongoing work</a>. If you would like to make your ideas tangible, please get involved!</p>
                 </div>
               </div>
+            </div>
+          </section>
+
+          <section id="document-convention" inlist="" rel="schema:hasPart" resource="#document-convention">
+            <h2 property="schema:name">Document Convention</h2>
+            <div datatype="rdf:HTML" property="schema:description">
+              <dl>
+                <dt><code>as</code></dt>
+                <dd><a href="https://www.w3.org/ns/activitystreams">https://www.w3.org/ns/activitystreams#</a></dd>
+                <dt><code>cito</code></dt>
+                <dd><a href="http://purl.org/spar/cito/">http://purl.org/spar/cito/</a></dd>
+                <dt><code>oa</code></dt>
+                <dd><a href="http://www.w3.org/ns/activitystreams">http://www.w3.org/ns/activitystreams#</a></dd>
+                <dt><code>schema</code></dt>
+                <dd><a href="http://schema.org/">http://schema.org/</a></dd>
+              </dl>
             </div>
           </section>
 
