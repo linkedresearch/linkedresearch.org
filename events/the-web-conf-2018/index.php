@@ -71,7 +71,7 @@
 
                     <li>09:15 — 10:00: <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
 
-                    <li>10:00 — 10:30: <a href="https://rhiara.co.uk/">Amy Guy</a></li>
+                    <li>10:00 — 10:30: Invited talk</li>
 
                     <li>10:30 — 11:00: Take a break</li>
 
