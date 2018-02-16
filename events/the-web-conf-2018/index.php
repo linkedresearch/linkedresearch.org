@@ -89,7 +89,7 @@
               <section id="who" rel="schema:hasPart" resource="#who">
                 <h2>Who?</h2>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p>The workshop organisers are <a href="http://csarven.ca/#i">Sarven Capadisli</a> (University of Bonn), <a href="https://hvdsomp.info/profile#me">Herbert Van de Sompel</a> (Los Alamos National Laboratory) and <a href="http://users.ecs.soton.ac.uk/wh/">Wendy Hall</a> (University of Southampton).</p>
+                  <p>The workshop organisers are <a href="http://csarven.ca/#i">Sarven Capadisli</a> (TIB Leibniz Information Centre for Science and Technology), <a href="https://hvdsomp.info/profile#me">Herbert Van de Sompel</a> (Los Alamos National Laboratory) and <a href="http://users.ecs.soton.ac.uk/wh/">Dame Wendy Hall</a> (University of Southampton).</p>
 
                   <p>Research contributions will be reviewed by these great <a href="https://linkedresearch.org/calls#reviewers">individuals</a>, and their contributions will be publicly accessible.</p>
                 </div>
