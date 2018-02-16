@@ -82,7 +82,7 @@
                 <dt><code>cito</code></dt>
                 <dd><a href="http://purl.org/spar/cito/">http://purl.org/spar/cito/</a></dd>
                 <dt><code>oa</code></dt>
-                <dd><a href="http://www.w3.org/ns/activitystreams">http://www.w3.org/ns/activitystreams#</a></dd>
+                <dd><a href="http://www.w3.org/ns/oa">http://www.w3.org/ns/oa#</a></dd>
                 <dt><code>schema</code></dt>
                 <dd><a href="http://schema.org/">http://schema.org/</a></dd>
               </dl>
