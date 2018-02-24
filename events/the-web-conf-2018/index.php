@@ -77,7 +77,7 @@
 
                     <li>11:00 — 11:30: <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
 
-                    <li>11:30 — 12:00: Invited Talk</li>
+                    <li>11:30 — 12:00: <a href="http://chjh.nl/">Chris Hartgerink</a></li>
 
                     <li>12:00 — 12:30: Invited Talk</li>
 
