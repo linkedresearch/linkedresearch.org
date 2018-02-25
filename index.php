@@ -45,7 +45,7 @@
               <i class="fa fa-3x fa-plug"></i>
               <h3>Help and motivate</h3>
               <p>Encourage others to practice Linked Research. If you run a journal, conference or workshop, accept online, Web-centric contributions; publish machine-readable proceedings; open up the review process.</p>
-              <p><a href="/events">Who is doing this?</a></p>
+              <p><a href="/events/">Who is doing this?</a></p>
             </li>
             <li>
               <i class="fa fa-3x fa-puzzle-piece"></i>
