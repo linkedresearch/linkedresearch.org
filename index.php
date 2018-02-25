@@ -23,13 +23,12 @@
             <li>
               <i class="fa fa-3x fa-bullhorn"></i>
               <h3>Announcements</h3>
-              <p>Publicise your work so that individuals, organisations and software can discover it.</p><p><a href="/articles">Here's ours</a></p>
+              <p>Publicise your work so that individuals, organisations and software can discover it.</p><p><a href="/cloud">See the cloud</a></p>
             </li>
             <li>
               <i class="fa fa-3x fa-comments-o"></i>
               <h3>Feedback</h3>
               <p>Have an open comments policy so that anyone can review and generate discussion around your work.</p>
-              <p><a href="/faq#how-to-reply">We do</a></p>
             </li>
             <li>
               <i class="fa fa-3x fa-gift"></i>
@@ -39,14 +38,14 @@
             <li>
               <i class="fa fa-3x fa-rocket"></i>
               <h3>Question current practices</h3>
-              <p>Reject information silos, paywalls, academic box-ticking, and archaic and artificial barriers. Be the change; publish your research with an open license, and openly review the work of others.</p>
-              <p><a href="/venues#people">You are not alone</a></p>
+              <p>Reject information silos, paywalls, academic box-ticking, and archaic and artificial barriers. Be the change; publish your research using a free culture license, and openly review the work of others.</p>
+              <p><a href="/calls#reviewers">You are not alone</a></p>
             </li>
             <li>
               <i class="fa fa-3x fa-plug"></i>
               <h3>Help and motivate</h3>
-              <p>Encourage others to practice Linked Research. If you run a journal, conference or workshop, accept online, Web-friendly and interactive submission; publish your proceedings with machine-readable data; open up the review process.</p>
-              <p><a href="/venues">Who is doing this?</a></p>
+              <p>Encourage others to practice Linked Research. If you run a journal, conference or workshop, accept online, Web-centric contributions; publish machine-readable proceedings; open up the review process.</p>
+              <p><a href="/events">Who is doing this?</a></p>
             </li>
             <li>
               <i class="fa fa-3x fa-puzzle-piece"></i>
