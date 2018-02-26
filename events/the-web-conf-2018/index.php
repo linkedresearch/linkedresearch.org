@@ -69,15 +69,15 @@
                   <ul>
                     <li>09:00 — 09:15: Hello world!</li>
 
-                    <li>09:15 — 10:00: <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
+                    <li>09:15 — 10:00: <cite>Building a Researcher-centric world on the user-centric platform, Solid</cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
 
-                    <li>10:00 — 10:30: Invited talk</li>
+                    <li>10:00 — 10:30: Christine Chichester and Antonis Loizou</li>
 
                     <li>10:30 — 11:00: Take a break</li>
 
                     <li>11:00 — 11:30: <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
 
-                    <li>11:30 — 12:00: <a href="http://chjh.nl/">Chris Hartgerink</a></li>
+                    <li>11:30 — 12:00: <cite>Verified, shared, modular research communication with the Dat protocol</cite>, <a href="http://chjh.nl/">Chris Hartgerink</a></li>
 
                     <li>12:00 — 12:30: Invited Talk</li>
 
