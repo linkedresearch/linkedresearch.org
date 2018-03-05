@@ -64,14 +64,14 @@
               <section id="program" rel="schema:hasPart" resource="#program">
                 <h3>Program</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-                  <p><strong>Draft</strong> timeline for the invited talks. Talk topics to be added soon.</p>
+                  <p><strong>Draft</strong> timeline for the invited talks.</p>
 
                   <ul>
                     <li>09:00 — 09:15: Hello world!</li>
 
-                    <li>09:15 — 10:00: <cite>Building a Researcher-centric world on the user-centric platform, Solid</cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
+                    <li>09:15 — 10:00: <cite>Building a researcher-centric world on the user-centric platform, Solid</cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
 
-                    <li>10:00 — 10:30: Christine Chichester and Antonis Loizou</li>
+                    <li>10:00 — 10:30: <cite>Providing incentives for data reuse</cite>, Christine Chichester and Antonis Loizou</li>
 
                     <li>10:30 — 11:00: Take a break</li>
 
@@ -79,7 +79,9 @@
 
                     <li>11:30 — 12:00: <cite>Verified, shared, modular research communication with the Dat protocol</cite>, <a href="http://chjh.nl/">Chris Hartgerink</a></li>
 
-                    <li>12:00 — 12:30: Invited Talk</li>
+                    <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite>, <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
+
+                    <li>12:15 — 12:30: TBD</li>
 
                     <li>12:30 — ∞: Make it so!</li>
                   </ul>
