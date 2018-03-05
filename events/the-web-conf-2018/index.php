@@ -77,7 +77,7 @@
 
                     <li>11:00 — 11:30: <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
 
-                    <li>11:30 — 12:00: <cite>Verified, shared, modular research communication with the Dat protocol</cite>, <a href="http://chjh.nl/">Chris Hartgerink</a></li>
+                    <li>11:30 — 12:00: <cite><a href="https://dat-com-chris.hashbase.io/">Verified, shared, modular research communication with the Dat protocol</a></cite>, <a href="http://chjh.nl/">Chris Hartgerink</a></li>
 
                     <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite>, <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
 
