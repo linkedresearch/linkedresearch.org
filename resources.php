@@ -98,7 +98,7 @@
                     <li>Profile: <a href="http://xmlns.com/foaf/0.1/">Friend of a Friend</a></li>
                     <li>Publishing and referencing: <a href="http://purl.org/ontology/bibo/">Bibliographic Ontology Specification</a>, <a href="http://purl.org/spar">Semantic Publishing and Referencing Ontologies</a></li>
                     <li>Annotations: <a href="http://www.w3.org/ns/oa">Web Annotations</a></li>
-                    <li>Inbox for notifications: Linked Data Notifications (via LDP)</li>
+                    <li>Inbox for notifications: <a href="https://www.w3.org/TR/ldn/">Linked Data Notifications</a> (via LDP)</li>
                     <li>Social activities: <a href="http://rdfs.org/sioc/ns">Semantically-Interlinked Online Communities</a>, <a href="https://www.w3.org/ns/activitystreams">ActivityStreams</a>, <a href="http://purl.org/net/pingback/">Pingback</a></li>
 
 
