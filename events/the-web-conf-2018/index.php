@@ -81,7 +81,7 @@
 
                     <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite>, <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
 
-                    <li>12:15 — 12:30: TBD</li>
+                    <li>12:15 — 12:30: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite>, Vincent Puig, Giacomo Gilmozzi</li>
 
                     <li>12:30 — ∞: Make it so!</li>
                   </ul>
