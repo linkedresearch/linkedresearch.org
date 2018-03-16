@@ -69,7 +69,7 @@
                   <ul>
                     <li>09:00 — 09:15: Hello world!</li>
 
-                    <li>09:15 — 10:00: <cite>Building a researcher-centric world on the user-centric platform, Solid</cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
+                    <li>09:15 — 10:00: <cite>Building a researcher-centric world on the user-centric platform, <a href="https://solid.mit.edu/">Solid</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
 
                     <li>10:00 — 10:30: <cite>Providing incentives for data reuse</cite>, Christine Chichester and Antonis Loizou</li>
 
