@@ -75,13 +75,13 @@
 
                     <li>10:30 — 11:00: Take a break</li>
 
-                    <li>11:00 — 11:30: <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
+                    <li>11:00 — 11:30: <cite><a href="https://www.researchresearch.com/news/article/?articleId=1373351">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</a></cite> [<a href="http://archive.is/2HwCI">archived</a>], <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
 
-                    <li>11:30 — 12:00: <cite><a href="https://dat-com-chris.hashbase.io/">Verified, shared, modular research communication with the Dat protocol</a></cite>, <a href="http://chjh.nl/">Chris Hartgerink</a></li>
+                    <li>11:30 — 12:00: <cite><a href="https://dat-com-chris.hashbase.io/">Verified, shared, modular research communication with the Dat protocol</a></cite> [<a href="https://web.archive.org/web/20180316145316/https://dat-com-chris.hashbase.io/">archived</a>], <a href="http://chjh.nl/">Chris Hartgerink</a></li>
 
-                    <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite>, <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
+                    <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite> [<a href="https://web.archive.org/web/20180303092741/https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">archived</a>], <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
 
-                    <li>12:15 — 12:30: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite>, Vincent Puig, Giacomo Gilmozzi</li>
+                    <li>12:15 — 12:30: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite> [<a href="https://web.archive.org/web/20180316145613/http://nextleap.eu/articles/linkedresearch.html">archived</a>], Vincent Puig, Giacomo Gilmozzi</li>
 
                     <li>12:30 — ∞: Make it so!</li>
                   </ul>
