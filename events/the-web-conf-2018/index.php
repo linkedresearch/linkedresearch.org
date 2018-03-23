@@ -67,13 +67,15 @@
                   <p><strong>Draft</strong> timeline for the invited talks.</p>
 
                   <ul>
-                    <li>09:00 — 09:15: Hello world!</li>
+                    <li>09:00 — 09:10: Hello world!</li>
 
-                    <li>09:15 — 10:00: <cite>Building a researcher-centric world on the user-centric platform, <a href="https://solid.mit.edu/">Solid</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
+                    <li>09:10 — 09:40: <cite>Building a researcher-centric world on the user-centric platform, <a href="https://solid.mit.edu/">Solid</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
 
-                    <li>10:00 — 10:30: <cite>Providing incentives for data reuse</cite>, Christine Chichester and Antonis Loizou</li>
+                    <li>09:40 — 10:00: <cite>Use cases for an open platform for cooperation in academia</cite>, <a href="http://bblfish.net/">Henry Story</a></li>
 
-                    <li>10:30 — 11:00: Take a break</li>
+                    <li>10:00 — 10:20: <cite>Providing incentives for data reuse</cite>, Christine Chichester and Antonis Loizou</li>
+
+                    <li>10:20 — 11:00: Take a break</li>
 
                     <li>11:00 — 11:30: <cite><a href="https://www.researchresearch.com/news/article/?articleId=1373351">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</a></cite> [<a href="http://archive.is/2HwCI">archived</a>], <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
 
@@ -81,9 +83,9 @@
 
                     <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite> [<a href="https://web.archive.org/web/20180303092741/https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">archived</a>], <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
 
-                    <li>12:15 — 12:30: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite> [<a href="https://web.archive.org/web/20180316145613/http://nextleap.eu/articles/linkedresearch.html">archived</a>], Vincent Puig, Giacomo Gilmozzi</li>
+                    <li>12:05 — 12:20: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite> [<a href="https://web.archive.org/web/20180316145613/http://nextleap.eu/articles/linkedresearch.html">archived</a>], Vincent Puig, Giacomo Gilmozzi</li>
 
-                    <li>12:30 — ∞: Make it so!</li>
+                    <li>12:20 — ∞: Make it so!</li>
                   </ul>
                 </div>
               </section>
