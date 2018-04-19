@@ -73,7 +73,7 @@
 
                     <li>09:40 — 10:00: <cite>Use cases for an open platform for cooperation in academia</cite>, <a href="http://bblfish.net/">Henry Story</a></li>
 
-                    <li>10:00 — 10:20: <cite>Providing incentives for data reuse</cite>, Christine Chichester and Antonis Loizou</li>
+                    <li>10:00 — 10:20: <cite><a href="https://datafair.xyz/incentivizing-data-reuse">Incentivizing data reuse</a></cite> [<a href="https://web.archive.org/web/20180419074835/https://datafair.xyz/incentivizing-data-reuse/">archived</a>], Christine Chichester and Antonis Loizou</li>
 
                     <li>10:20 — 11:00: Take a break</li>
 
