@@ -98,6 +98,17 @@
                   <p>Research contributions will be reviewed by these great <a href="https://linkedresearch.org/calls#reviewers">individuals</a>, and their contributions will be publicly accessible.</p>
                 </div>
               </section>
+                
+              <section id="notes" rel="schema:hasPart" resource="#notes">
+                <h2>Notes</h2>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>The session will be minuted at <a href="https://public.etherpad-mozilla.org/p/lr-webconf2018">this etherpad</a>. Anyone is welcome to contribute notes and corrections.</p>
+                  <p>If you do not wish to be minuted, please say so when you speak. It's also helpful to mention your name when you speak, for the scribe.</p>
+                </div>
+              </section>
+                
+                
+                
             </div>
           </section>
         </div>
