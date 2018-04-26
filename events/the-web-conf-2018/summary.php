@@ -229,7 +229,7 @@
 <p>The most simple thing you might do is give a statement about how you were involved in a publication.</p>
 <p>I think this is a promising candidate for solving our quality issues with scholarly metadata as well. It sets straight the incentive structure of this whole thing. you don't have to rely on some editor where you are the corresponding author where you tell them who was involved and what is the right order. Then later it ends all in some aggregator and nobody takes care of what is there because it's just a brand name Springer and some fixed names. But actually people who were involved speak directly about how they were involved, to each other, without any detours.</p>
 <p>From a business level perspective it's like levelling the playing field. From innovation theory they told us that with the WWW in the 90s it was all about being able to be innovative without having to ask anybody. This peer to peer characteristic of the WWW initially. Something of this is into this blockchain thing as well. It's permissionless innovation, that is to say there is nobody who has privileged access to the information stored on ethereum.</p>
-<p>Some of the ideas in these slides are covered in this article: https://bit.ly/blockchain-commons
+<p>Some of the ideas in these slides are covered in this article: <a href="https://bit.ly/blockchain-commons">https://bit.ly/blockchain-commons</a></p>
 
 <p>Q&amp;A:</p>
 
@@ -266,8 +266,8 @@
 <p>Beaker browser is making great progress. Decentralised web databases built on top of the DAT protocol. Some really cool specs coming up. Engaged in how to make this accessible to as many people as possible, also who don't have continuous access to the internet. Approx 50% of people in the world don' t have access.</p>
 <p>Takeaways: check out these two projects. They are key to changes we'll see in the next few years.</p>
 <p>We can have persistent p2p hosted webpages with end to end encryption.</p>
-<p>Taking that to scholarly comms. We have textbooks which provide little detail but certainty of findings. We have journals with more detail and still certainty. What can we do now? 
-It's similar to nanopublications but a tiny bit different.</p>
+<p>Taking that to scholarly comms. We have textbooks which provide little detail but certainty of findings. We have journals with more detail and still certainty. What can we do now?</p>
+<p>It's similar to nanopublications but a tiny bit different.</p>
 <p>I was thinking about adding a layer - modules for now - that are highly uncertain but provide a lot of detail. We make the research cycle the thing we communicate. We split the different pieces of the research cycle and embed the chronology of the research cycle back into the way we communicate. Pieces start linking back to each other to provide provenance, and a network of these research outputs. We can be more granular in the way we contribute. Add one node at the very end, it's a data node, it's now a replication. The person being replicated gets recognised because that node is more important, and we incentivise someone who wants to replicate because all the information and materials they need are available and open. A replication is very unlikely to get published currently.</p>
 <p>If we keep doing this we can start getting towards this network which we can do network analysis on. From a practical standpoint is very useful because we're now stuck with these bad metrics for researchers, so if we can start providing a more question driven way of evaluating researchers. Compute the density in a network. Add a module which connects two old modules. Spark our own creativity in creating new research. maybe you have to combine two pieces of code and you don't see how it would work but you can look at how it could work.</p>
 <p>We fulfil the scholarly functions in a more broad way. We could register all findings. We don't select based on results, communicate as we go.</p>
