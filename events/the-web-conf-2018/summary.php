@@ -27,13 +27,13 @@
                 <li><dfn><abbr title="Henry Story">HS</abbr>: Henry Story</dfn></li>
                 <li><dfn><abbr title="Christine Chichester">HS</abbr>: Christine Chichester</dfn></li>
                 <li><dfn><abbr title="Eric Prud'hommeaux">EP</abbr>: Eric Prud'hommeaux</dfn></li>
-                <li><dfn><abbr title="ELisabeth Lex">EL</abbr>: ELisabeth Lex</dfn></li>
+                <li><dfn><abbr title="ELisabeth Lex">EL</abbr>: Elisabeth Lex</dfn></li>
                 <li><dfn><abbr title="Hanna Cwiek-Kupczynska">HC</abbr>: Hanna Cwiek-Kupczynska</dfn></li>
                 <li><dfn><abbr title="Hideaki Takeda">HT</abbr>: Hideaki Takeda</dfn></li>
                 <li><dfn><abbr title="Giacomo Gilmozzi">GG</abbr>: Giacomo Gilmozzi</dfn></li>
                 <li><dfn><abbr title="Claudia H Gutierrez">CG</abbr>: Claudia H Gutierrez</dfn></li>
 
-                <li><dfn><abbr title="??">LH</abbr>: ??</dfn></li>
+                <li><dfn><abbr title="??">LH</abbr>: Lambert Heller</dfn></li>
 
                 <li>??: </li>
 
@@ -95,7 +95,7 @@
 <p>That's how I'd like us to do our researcher centric scholarly communication.</p>
 <p>Questions?</p>
 <p>By the way, other people who know about this, *points at Ruben* has been recently deeply immersed in the Solid architecture.</p>
-<p>Q&amp;A:</p>
+<h4>Q&amp;A:</h4>
 
 <p><strong>AL</strong>: You can create all these RDF documents, is there a way to merge these things, integrate from more than one file?</p>
 <p><strong>TBL</strong>: Absolutely, you can merge it by .. one of the goals is for example I should be able to store photos in any event, so yeah..</p>
@@ -130,7 +130,8 @@
 <p>I'll start with epistemology. What is knowledge? It started with Plato asking this question in Athens. Asking citizens do you even know what knowledge is? Taking a step back and asking about the concepts. He came up with if you know something if you believe it, it has to be justified. About 2000 years of discussions, and I want to go straight to a 1981 improvement by Nozick in Philosophical Explanations, the third definition is this modal logic definitions. If it weren't the case that P then you wouldn't believe that P. This type of explanation only made sense because modal knowledge in the 60s and 70s became coherent, mathematised.. the most interesting thing for us now is the counter-factual part of modal logic. 'fake news'. how do you explain if kangaroos had no tails then they would topple over, what are the truth conditions of these types of statements. Neighbourhood semantics. In all possible worlds, they have a distance relationship, some are closer than others. In category theory there are ways of explaining this, this is part of my thesis.</p>
 <p>What does it mean when you say if kangaroos had no tails they would topple over. In the closest possible world in which kangaroos have no tails, then if they topple over it's true.</p>
 <p>What's the point of that? He's trying to deal with skepticism. The problem of skepticism is.. how do you know that you're not a brain in a vat? That the aliens haven't come and made you think that you're listening to this conversation. There's no way you can exclude that possibility. If you think of knowledge as excluding all possibilities incompatible with your belief. If you can't exclude this, how do you ever know anything? We have this problem in security circles, if you don't know something is secure against all attacks, you can't be secure about anything, a system can always fail. A whole bunch of films about this, Matrix..</p>
-<p>When we say things like I have 5 pounds in my pocket, I know it because if I didn't have 5 pounds in my pocket it's not because the aliens are kidnapping me, it's probably because I spent it on a coffee. I can track the truth of that. We keep a system in our mind to keep track of where we are in the world. Perhaps this is a solution. We can know, according to Nozick, things about the everyday world, even if we can never exclude the possibility of aliens.</p>
+<p>When we say things like I have 5 pounds in my pocket, I know it because if I didn't have 5 pounds in my pocket it's not because the aliens are kidnapping me, it's probably because I spent it on a 
+    . I can track the truth of that. We keep a system in our mind to keep track of where we are in the world. Perhaps this is a solution. We can know, according to Nozick, things about the everyday world, even if we can never exclude the possibility of aliens.</p>
 <p>So we can relax right?</p>
 <p>But what if they did come?</p>
 <p>What would you do?</p>
@@ -149,7 +150,7 @@
 <p>Above that, you have institutions, the Leviathan. Composed of army, schools, universities. you have individuals using these apps that are working within organisations and across organisations. This is where I want to suggest we can already make an improvement by rethinking the web browser a little bit. This will help us deal a little bit with the fake news problem.</p>
 <p>Currently when you go to a website you do not know, you can guess if it's a fake or real website. You can check the SSL certificate but that just verifies the domain. What's missing is a web of trust. What I suggest is that we use these institutions, the state, to create a new institutional web of trust, where the UK for example would have a root anchor of trust and have links to all the major institutions or databases for example. There is a database in the UK for companies. It would link to them and when you go to a website it can have a link to the government page saying this is the government linking to me and your browser could find this link and travel back to its root anchor of trust and say good, if you trust the UK government, then you can believe that they say this is a university or a company.. this is a news site, we don't know where it comes from but it's publishing  news. Then we can see it's a news organisation registered under American law. Browsers could go further and get more information, see who the owners are and what the share value is. You could see this being in the browser.</p>
 <p>We could have an institutional web of trust that ties into the personal web of trust when we build these social networks. Technically that's not difficult it's just a question of will. Of getting a few nations coming together.. politically complicated but technically simple. Why are Amazon and apple so big? it's because they've imprinted in your mind through huge amounts of advertising that they're reliable. How can a small company do the same? you need to use the organs of the state to build the trust system.</p>
-<p>Q&amp;A:</p>
+<h4>Q&amp;A:</h4>
 <p><strong>DS</strong>: To me what you just described is more authentication than trust. Authentication is a first step to trust but trust goes further than that.</p>
 <p><strong>HS</strong>: Authentication is.. we have public cryptography. No, here the trust is the trust that you have that a website is part of.. if you have a trust anchor and it's one that eg. a government has given out to all its citizens to add to their browser, they will be able to verify a certain amount of claims about what types of institutions you're linking to. This is a trust thing because you have a legal system which you can change if something goes wrong.. in the database if there's a mistake.. there's a whole system of many human being working together to help guarantee to you that this thing is working.</p>
 <p><strong>AL</strong>: Assuming a benevolent government</p>
@@ -193,7 +194,7 @@
 <p>Also we're making communication channels so the providers can communicate with the reusers. The way we can instill trust is having people talk to each other. When you can talk to someone about the data they're providing you feel you can trust them.</p>
 <p>When people reuse people benefit. They can do their cleaning activities, not everyone is adept at this. The people who are can reuse the data can clean it and they are rewarded when they put the data back into the pool.</p>
 <p>These are the three ways we can incentivise people to make their data available.</p>
-<p>Q&amp;A:</p>
+<h4>Q&amp;A:</h4>
 
 <p><strong>EP</strong>: In the spirit of decentralisation, you could still participate in nanopublications if you're outside of your network. The degree to which you can get references.. when you have one nanopublication and you get another one that contradicts it, is there a forward reference or do you need a database query to get that? If you got your network of distributed databases, and other people are taking advantage of the decentralised nature of it and have their own nanopubs externally is there some convention for cross-referenceing so you can find the next version?</p>
 <p><strong>AL</strong>: for the first part when it turns out that mosquitoes don't transmit malaria, you could have a nanopub where you assert that the other one is wrong. Or you can say that mosquitoes don't transmit malaria and rely on a third nanopub to say that this nanopub is more trusty than the other one.</p>
@@ -211,8 +212,6 @@
 <p><strong>EP</strong>: Everybody thought you can protect your identifiers with purl.org then it was down for 6 months... when you're positioning yourself in an ecosystem.. the juxtaposition between decentralisation and distribution is important. You need to emphasise that you're a component of this ecosystem, but you can participate in it externally as well. It's not mandatory that this system be there forever, and that makes it more secure.</p>
 <p><strong>HC</strong>: This mechanism for cleaning data. Sounds tricky. How can you be sure that the person who takes the data and modifies it in a correct and right way so that it's not modified somehow more than necessary or changes something or the intention of the author. Any formal procedure so you can be sure?</p>
 <p><strong>AL</strong>: How do you choose which of the ten listings of the same product you're gonna buy on ebay? Same answer. I clean some data and put it up for sale, people buy it or not, and review it. We rely on these personal dynamics. Someone is providing data for sale, interested parties can ask them questions. If the reuser trusts it enough.</p>
-
-<p>>>>> COFFEE. Back at 1105.</p>
                 </div>
               </section>
 
@@ -250,7 +249,7 @@
 <p>From a business level perspective it's like levelling the playing field. From innovation theory they told us that with the WWW in the 90s it was all about being able to be innovative without having to ask anybody. This peer to peer characteristic of the WWW initially. Something of this is into this blockchain thing as well. It's permissionless innovation, that is to say there is nobody who has privileged access to the information stored on Ethereum.</p>
 <p>Some of the ideas in these slides are covered in this article: <a href="https://bit.ly/blockchain-commons">https://bit.ly/blockchain-commons</a></p>
 
-<p>Q&amp;A:</p>
+<h4>Q&amp;A:</h4>
 
 <p><strong>HT</strong>: you mentioned ORCID. It's a mix.. one side is for publishers but also working for publishers. I think also an organisation can assert employment.. functionality .. what's the difference.. is automatic mechanism like blockchain better compared to ORCID?</p>
 <p><strong>LH</strong>: That's a tough question. On a very basic layer you can make sure every researcher can set up their own decentralised identifier on the blockchain. And then you can have in an ideal world (just a vision) on top of that, have an organisation - like ORCID today - curating, taking care for a certain subset of these decentralised identifiers. For instance you can imagine asserting research institutions to their researchers, okay this decentralised identifier is in fact that person who works for our department. Then on top of that you can go up and build beautiful certification infrastructures, and have something like ORCID which takes care of profiles from a lot of institutions. But there's a layer of independence and having *ultimate* control that is removed from the organisation like ORCID.</p>
@@ -314,7 +313,7 @@
 <p>We can also easily create a profile. Literally just click on it.. choose who to follow. Generates a public key on the DAT network.</p>
 <p>You can install Beaker and try this out yourself.</p>
 
-<p>Q&amp;A:</p>
+<h4>Q&amp;A:</h4>
 
 <p><strong>??</strong>: you are using bit.ly as a shortlink.. I don't know how reliable that is. Real comment - difference between <code>data://</code> and <code>dat://</code> ? And how is topic of module?
 CH: The researcher chooses what to put in the module. Because the network is open by design you can start crawling that information and provide new services to help discovery. We flip from selling access to information to selling services to help consume information, so researchers can look through everything</p>
@@ -375,7 +374,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p>Thanks to my collaborators!</p>
 <p><a href="http://openuphub.eu/community/blog/item/ecommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">http://openuphub.eu/community/blog/item/ecommender-systems-as-enabling-technology-to-interlink-scholarly-information-2</a></p>
 
-<p>Q&amp;A:</p>
+<h4>Q&amp;A:</h4>
 
 <p><strong>CH</strong>: How many links there are?</p>
 <p><strong>EL</strong>: The collaborative filtering approach does not work that well because a lot of university names are written differently so it thinks they are different. And a lot of projects annotated as only one institution working on it. There could be way more links in the data.</p>
@@ -414,7 +413,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p>Also developing a discussion forum. In this forum contributors will have the possibility to discuss relevance of different definitions and engage with controversies.</p>
 <p>Another function which is being developed is the automatic editorialization and publication of abstract in a predetermined format with data collected via annotations, the creation of conceptual map summing up the consensus or the dissensus and also automatic to-do-lists based on the action category (act:expertise, act:meeting, etc.).</p>
 <p>The last thing I want to say is we're trying to build this digital tool in a project, a decentralised network for our platform. That can help a local community to engage in this kind of controversies in order to create local shareable knowledge.</p>
-<p>Q&amp;A:</p>
+<h4>Q&amp;A:</h4>
 
 <p><strong>HS</strong>: you're using this annotation thing, using the Annotation Protocol from W3C? Does that use LDP?</p>
 <p><strong>GG</strong>: Yep</p>
@@ -430,7 +429,6 @@ GG: Yes. Right now we're using private small groups because of the research aims
 
 <p><strong>AG</strong>~ I don't think the rest of this needs to be scribed ~</p>
 
-<p>>>>>> LUNCH :-)</p>
                 </div>
               </section>
 
