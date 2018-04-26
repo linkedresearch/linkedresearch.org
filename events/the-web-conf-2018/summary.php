@@ -321,7 +321,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>??</strong>: you have little pieces and you can reuse them</p>
 <p><strong>CH</strong>: Say you have a full research cycle in this way. At the end you can say take the text based modules an compile them into an article.</p>
 
-<p><strong>JD</strong>: Relationship to publishers? You could take over and have the articles here as well. Are you thinking of working with any publishers or conferences?
+<p><strong>JD</strong>: Relationship to publishers? You could take over and have the articles here as well. Are you thinking of working with any publishers or conferences?</p>
 <p><strong>CH</strong>: A lot of these things have this zero sum decision. If you publish open access you can't publish in other journals. It could work if publishers wanted it to. It's a layer underneath. It's a social question we have to answer. I imagine there's pushback with publishers like we saw with preprints.</p>
 <p><strong>JD</strong>: Are you changing citations?</p>
 <p><strong>CH</strong>: You can still cite within a module, but there is a lot of improvement. how the modules are filled in is very important. Important to make citations at the client side. If you render the citations clientside you can start verifying, if you cite a module a researcher doesn't claim that article anymore you can automatically see that that has been rescinded. When you read it.</p>
