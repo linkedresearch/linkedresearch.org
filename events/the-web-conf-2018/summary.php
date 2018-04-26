@@ -48,7 +48,7 @@
 <h3>09:00 — 09:10: Hello world!</h3>
 
 <p><strong>SC</strong>: Good morning and welcome. This is along the same theme as other Linked Research workshops we started last year at ESWC. A lot of thematic overlap, but this year it's more focussed on how we get researchers to have more control over the contributions that they make in any aspect of scholarly communication.</p>
-All the talks are invited talks, no peer review.</p>
+<p>All the talks are invited talks, no peer review.</p>
 <p>There's a summary or article for each presentation; they're archived and link to the authors' websites.</p>
 <p>Time for the talks includes question. We can be casual about when the breaks are, and have more questions at the end.</p>
 <p>The theme is really to find out what the core characteristics of enabling a web space that puts the researcher in the center.</p>
@@ -88,7 +88,7 @@ All the talks are invited talks, no peer review.</p>
 <p>That's how I'd like us to do our researcher centric scholarly communication.</p>
 <p>Questions?</p>
 <p>By the way, other people who know about this, *points at Ruben* has been recently deeply immersed in the Solid architecture.</p>
-<p>Q&A:</p>
+<p>Q&amp;A:</p>
 
 <p><strong>AL</strong>: You can create all these RDF documents, is there a way to merge these things, integrate from more than one file?</p>
 <p><strong>TBL</strong>: Absolutely, you can merge it by .. one of the goals is for example I should be able to store photos in any event, so yeah..</p>
@@ -138,7 +138,7 @@ All the talks are invited talks, no peer review.</p>
 <p>Above that, you have institutions, the leviathon. Composed of army, schools, universities. you have individuals using these apps that are working within organisations and across organisations. This is where I want to suggest we can already make an improvement by rethinking the web browser a little bit. This will help us deal a little bit with the fake news problem.</p>
 <p>Currently when you go to a website you do not know, you can guess if it's a fake or real website. You can check the SSL certificate but that just verifies the domain. What's missing is a web of trust. What I suggest is that we use these institutions, the state, to create a new institutional web of trust, where the UK for example would have a root anchor of trust and have links to all the major institutions or datbases for example. There is a database in the UK for companies. It would link to them and when you go to a website it can have a link to the government page saying this is the government linking to me and your browser could find this link and travel back to its root anchor of trust and say good, if you trust the UK government, then you can believe that they say this is a university or a company.. this is a news site, we don't know where it comes from but it's publishing  news. Then we can see it's a news organisation registered under American law. Browsers could go further and get more information, see who the owners are and what the share value is. You could see this being in the browser.</p>
 <p>We could have an institutional web of trust that ties into the personal web of trust when we build these social networks. Technically that's not difficult it's just a question of will. Of getting a few nations coming together.. politically complicated but technically simple. Why are amazon and apple so big? it's because they've imprinted in your mind through huge amounts of advertising that they're reliable. How can a small company do the same? you need to use the organs of the state to build the trust system.</p>
-<p>Q&A:</p>
+<p>Q&amp;A:</p>
 <p><strong>DS</strong>: To me what you just described is more authentication than trust. Authentication is a first step to trust but trust goes further than that.</p>
 <p><strong>HS</strong>: Authentication is.. we have public cryptography. No, here the trust is the trust that you have that a website is part of.. if you have a trust anchor and it's one that eg. a government has given out to all its citizens to add to their browser, they will be able to verify a certain amount of claims about what types of institutions you're linking to. This is a trust thing because you have a legal system which you can change if something goes wrong.. in the database if there's a mistake.. there's a whole system of many human being working together to help guarantee to you that this thing is working.</p>
 <p><strong>AL</strong>: Assuming a benevolent government</p>
@@ -178,7 +178,7 @@ All the talks are invited talks, no peer review.</p>
 <p>Also we're making communication channels so the providers can communicate with the reusers. The way we can instill trust is having people talk to each other. When you can talk to someone about the data they're providing you feel you can trust them.</p>
 <p>When people reuse people benefit. They can do their cleaning activities, not everyone is adept at this. The people who are can reuse the data can clean it and they are rewarded when they put the data back into the pool.</p>
 <p>These are the three ways we can incentivise people to make their data available.</p>
-<p>Q&A:</p>
+<p>Q&amp;A:</p>
 
 <p><strong>EP</strong>: In the spirit of decentralisation, you could still participate in nanopublications if you're outside of your network. The degree to which you can get references.. when you have one nanopublication and you get another one that contradictis it, is there a forward reference or do you need a database query to get that? If you got your network of distributed databases, and other people are taking advantage of the decentralised nature of it and have their own nanopubs externally is there some convention for crossreferenceing so you can find the next version?</p>
 <p><strong>AL</strong>: for the first part when it turns out that mosquitoes don't transmit malaria, you could have a nanopub where you assert that the other one is wrong. Or you can say that mosquioties don't transmit malaria and rely on a third nanopub to say that this nanopub is more trusty than the other one.</p>
@@ -231,7 +231,7 @@ All the talks are invited talks, no peer review.</p>
 <p>From a business level perspective it's like levelling the playing field. From innovation theory they told us that with the WWW in the 90s it was all about being able to be innovative without having to ask anybody. This peer to peer characteristic of the WWW initially. Something of this is into this blockchain thing as well. It's permissionless innovation, that is to say there is nobody who has privileged access to the information stored on ethereum.</p>
 <p>Some of the ideas in these slides are covered in this article: https://bit.ly/blockchain-commons
 
-<p>Q&A:</p>
+<p>Q&amp;A:</p>
 
 <p><strong>HT</strong>: you mentioned ORCID. It's a mix.. one side is for publishers but also working for publishers. I think also an organisation can assert employment.. functionality .. what's the difference.. is automatic mechanism like blockchain better compared to ORCID?</p>
 <p><strong>LH</strong>: That's a tough question. On a very basic layer you can make sure every researcher can set up their own decentralised identifier on the blockchain. And then you can have in an ideal world (just a vision) on top of that, have an organisation - like ORCID today - curating, taking care for a certain subset of these decentralised identifiers. For instance you can imagine asserting research institutions to their researchers, okay this decentralised identifier is in fact that person who works for our department. Then on top of that you can go up and build beautiful certificaton infrastructures, and have something like ORCID which takes care of profiles from a lot of institutions. But there's a layer of independence and having *ultimate* control that is removed from the organisation like ORCID.</p>
@@ -291,7 +291,7 @@ It's similar to nanopublications but a tiny bit different.</p>
 <p>We can also easily create a profile. Literally just click on it.. choose who to follow. Generates a public key on the DAT network.</p>
 <p>You can install Beaker and try this out yourself.</p>
 
-<p>Q&A:</p>
+<p>Q&amp;A:</p>
 
 <p><strong>??</strong>: you are using bit.ly as a shortlink.. I don't know how reliable that is. Real comment - difference between data:// and dat:// ? And how is topic of module?
 CH: The researcher chooses what to put in the module. Because the network is open by design you can start crawling that information and provide new services to help discovery. We flip from selling access to information to selling services to help consume information, so researchers can look through everything</p>
@@ -348,7 +348,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p>Thanks to my collaborators!</p>
 <p><a href="http://openuphub.eu/community/blog/item/ecommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">http://openuphub.eu/community/blog/item/ecommender-systems-as-enabling-technology-to-interlink-scholarly-information-2</a></p>
 
-<p>Q&A:</p>
+<p>Q&amp;A:</p>
 
 <p><strong>CH</strong>: How many links there are? 
 <p><strong>EL</strong>: The collaborative filtering approach does not work that well because a lot of university names are written differently so it thinks they are different. And a lot of projects annotated as only one institution working on it. There could be way more links in the data.</p>
@@ -357,19 +357,19 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>??</strong>: Do you know the ?? EU project, trying to give information about all the outputs of internet related projects? But actually they just started.</p>
 <p><strong>EL</strong>: this is a very rich resource of information which is currently just kept somehwere. you could not really benefit form it. It's so competitive to run .. we should connect even more information. Open science is now a priority with the EU commission. They give a lot of public funding to scientists, so they want to make it more accessible to the general public.  A great way to spread the truth of science and move forward.</p>
 <p>
-<p><strong>??</strong>: Tomorrow she's going to be an interesting panel, international project tracks.</p>
+<p><strong>??</strong>: Tomorrow she's going to be in an interesting panel, international project tracks.</p>
 
 
 <h3>12:05 — 12:20: Contributive Research: Hypothes.is Implementation for Academic research Purpose, Giacomo Gilmozzi</h3>
 
-<p><strong>GG</strong>: The philosopher takes a step back before starting to speak about something. It seems like we spoke a lot about the publication of articles and dissemination on the Web. I'm working at IRI, directed by Bernard Stiegler, who is a philosopher interested in techniques. We explores the field of digital studies, in the sense of a new « organology of  knowledge » appearing with the digital, which requires specific studies and concepts, and which shifts the whole contemporary episteme. More precisely -> we investigates the field of cultural and cognitive  technologies from a digital humanities point of view. Furthermore, we participate in the development of new devices and technologies to facilitate contributions and collaborative critique; to provide solutions for editorial and social interaction in the domains of culture and knowledge. Investigate the field of cultural and cognitive technologies from a digital humanities point of view.</p>
+<p><strong>GG</strong>: The philosopher takes a step back before starting to speak about something. It seems like we spoke a lot about the publication of articles and dissemination on the Web. I'm working at IRI, directed by Bernard Stiegler, who is a philosopher interested in techniques. We explores the field of digital studies, in the sense of a new « organology of knowledge » appearing with the digital, which requires specific studies and concepts, and which shifts the whole contemporary episteme. More precisely -> we investigates the field of cultural and cognitive  technologies from a digital humanities point of view. Furthermore, we participate in the development of new devices and technologies to facilitate contributions and collaborative critique; to provide solutions for editorial and social interaction in the domains of culture and knowledge. Investigate the field of cultural and cognitive technologies from a digital humanities point of view.</p>
 <p>Develop applications to facilitiate the critique.</p>
 <p>The tools we developed cover 3 different types of media. A space and a tool for improving the knowledge building process, and the sharing process.</p>
 <p>1. Video annotation.</p>
 <p>Ligne de Temps, timeline, usable via Twitter. We have a streaming video and we can use Twitter to contribute and take annotations online simultaneously. We can do the same thing with Polemic Tweet even when the video is not recorded, we can use the time on Twitter to put all the annotations on the video once the video is on the web. It's also usable with offline annotator IRI Notes and with Renkan, mapping using images and links.</p>
-<p>2. Images annotation
+<p>2. Images annotation</p>
 IconoLabl which is the follow up of the JocondeLab (with inria). Contributive platform where contributors have access to different images from museums and help to index that, putting keywords, developing a shared knowledge.</p>
-<p>3. Text annotation
+<p>3. Text annotation</p>
 We're based on the hypothesis project, open source software, giving users a conversation layer over the entire web without the need of any underlying software.</p>
 <p>This is what it looks like on the webconf webpage. This is a normal webpage, if you open it with the hypothesis URL you have this banner on the right hand side. Basically annotating and sharing with public or with groups. I found someone that annotated it already. So I added another annotation and of course this is not meant to be used with normal websites but with academic persons reading articles on the net to share commen knowledge.</p>
 <p>On top of basic features we started to implement other functions. Meta categories, important keyword, commentary, trouble, with different colours.</p>
@@ -382,8 +382,7 @@ We're based on the hypothesis project, open source software, giving users a conv
 <p>Also developing a discussion forum. In this forum contributors will have the possibility to discuss relevance of different definitions and engage with controversies.</p>
 <p>Another function which is being developed is the automatic editorialization and publication of abstract in a predetermined format with data collected via annotations, the creation of conceptual map summing up the consensus or the dissensus and also automatic to-do-lists based on the action category (act:expertise, act:meeting, etc.).</p>
 <p>The last thing I want to say is we're trying to build this digital tool in a project, a decentralised network for our platform. That can help a local community to engage in this kind of controversies in order to create local shareable knowledge.</p>
-<p>
-Q&A:
+<p>Q&amp;A:</p>
     
 <p><strong>HS</strong>: you're using this annotation thing, using the Annotation Protocol from W3C? Does that use LDP?</p>
 <p><strong>GG</strong>: Yep</p>
