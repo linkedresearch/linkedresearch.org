@@ -124,7 +124,7 @@
 <p>But what if they did come?</p>
 <p>What would you do?</p>
 <p>You might want to go to the gym according to this ad.</p>
-<p>Henry's going crazy here, right. But this might be a situation we could be in? 
+<p>Henry's going crazy here, right. But this might be a situation we could be in?</p>
 <p>We are externalising our memories on computers, in the cloud. That's where the aliens are coming from. The cloud is not in our hands, it's in aliens' hands. It's' so easy to change information in the cloud, on a computer which you don't have control over. In ancient greece if you wanted to change the law you had to hammer it in the wall, hard to do that without anybody noticing. But now it would be quite easy.</p>
 <p>You might think I'd remember what I wrote and I'd notice this. But large organisations, there's a whole theory about how they come to be. Started with families and clans. Moved to larger organisations, like cities to states, came with the ability to read and write laws and have externalised memory. Requires it to be able to cohere.</p>
 <p>The leviathon itself is composed of externalised memories. Like telecoms companies when you call them they know you've done something because it's in their computer. You can call anyone and they'll keep track of what you talk about, what youv'e done. Made up of lots of people who use this externalised memory.</p>
@@ -315,7 +315,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>CH</strong>: Yes. You can also blacklist some links.</p>
 <p><strong>TBL</strong>: That is quite a large social arrangement. You're replacing the social apparatus, researchgate, algorithms with software.</p>
 <p><strong>CH</strong>: I agree that sometime the content will be too big, so we need a way to curate this and it's a social problem we need to tackle.</p>
-<p><strong>TBL</strong>: A lot of it is about establishing a large community of people who will promise to look after it for a long time, and they only have to look after the things they
+<p><strong>TBL</strong>: A lot of it is about establishing a large community of people who will promise to look after it for a long time, and they only have to look after the things they</p>
 <p><strong>CH</strong>: It lowers the cost to get started with it cos you just need the dat link.  By iterating across these use cases you can start finding out how these use cases work.</p>
 <p><strong>LH</strong>: What do you think about tokenisation of network resources? In related communities, IPFS has this popular content of being incentivised by receiving a token for giving up some of your bandwidth for the network and in turn you get this token.. what do you think about this?</p>
 <p>Where are the differences in the approaches?</p>
@@ -350,7 +350,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 
 <p>Q&amp;A:</p>
 
-<p><strong>CH</strong>: How many links there are? 
+<p><strong>CH</strong>: How many links there are?</p>
 <p><strong>EL</strong>: The collaborative filtering approach does not work that well because a lot of university names are written differently so it thinks they are different. And a lot of projects annotated as only one institution working on it. There could be way more links in the data.</p>
 <p><strong>??</strong>: Have you ever tried to use the ?? services as the API? I'll talk to you later.</p>
 <p><strong>EL</strong>: Currently not, we should talk.</p>
@@ -383,7 +383,7 @@ We're based on the hypothesis project, open source software, giving users a conv
 <p>Another function which is being developed is the automatic editorialization and publication of abstract in a predetermined format with data collected via annotations, the creation of conceptual map summing up the consensus or the dissensus and also automatic to-do-lists based on the action category (act:expertise, act:meeting, etc.).</p>
 <p>The last thing I want to say is we're trying to build this digital tool in a project, a decentralised network for our platform. That can help a local community to engage in this kind of controversies in order to create local shareable knowledge.</p>
 <p>Q&amp;A:</p>
-    
+
 <p><strong>HS</strong>: you're using this annotation thing, using the Annotation Protocol from W3C? Does that use LDP?</p>
 <p><strong>GG</strong>: Yep</p>
 <p><strong>TBL</strong>: no (shakes head)</p>
