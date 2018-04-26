@@ -402,7 +402,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p>2. Images annotation</p>
 IconoLabl which is the follow up of the JocondeLab (with Inria). Contributive platform where contributors have access to different images from museums and help to index that, putting keywords, developing a shared knowledge.</p>
 <p>3. Text annotation</p>
-We're based on the hypothesis project, open source software, giving users a conversation layer over the entire web without the need of any underlying software.</p>
+<p>We're based on the hypothesis project, open source software, giving users a conversation layer over the entire web without the need of any underlying software.</p>
 <p>This is what it looks like on TheWebConf webpage. This is a normal webpage, if you open it with the hypothesis URL you have this banner on the right hand side. Basically annotating and sharing with public or with groups. I found someone that annotated it already. So I added another annotation and of course this is not meant to be used with normal websites but with academic persons reading articles on the net to share common knowledge.</p>
 <p>On top of basic features we started to implement other functions. Meta categories, important keyword, commentary, trouble, with different colours.</p>
 <p>You can see annotations with metacategories so people who start to look at that can understand what are we talking about. Maybe human rights consideration is one important word so it's a keyword.</p>
