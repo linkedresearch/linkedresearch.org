@@ -383,7 +383,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>EL</strong>: Currently not, we should talk.</p>
 <p><strong>??</strong>: Do you know the ?? EU project, trying to give information about all the outputs of internet related projects? But actually they just started.</p>
 <p><strong>EL</strong>: this is a very rich resource of information which is currently just kept somehwere. you could not really benefit form it. It's so competitive to run .. we should connect even more information. Open science is now a priority with the EU commission. They give a lot of public funding to scientists, so they want to make it more accessible to the general public.  A great way to spread the truth of science and move forward.</p>
-<p>
+
 <p><strong>??</strong>: Tomorrow she's going to be in an interesting panel, international project tracks.</p>
 
                 </div>
