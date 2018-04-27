@@ -1,5 +1,5 @@
-<? $title = "ESWC 2017 Panel"; ?>
-<? include '../../top.php'; ?>
+<?php $title = "ESWC 2017 Panel"; ?>
+<?php include '../../top.php'; ?>
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name"><?=$title;?></h1>
@@ -90,4 +90,4 @@
         </div>
       </article>
     </main>
-<? include '../../end.php'; ?>
+<?php include '../../end.php'; ?>

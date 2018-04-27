@@ -1,5 +1,5 @@
-<? $title = "Linked Research at ESWC 2017"; ?>
-<? include '../../top.php'; ?>
+<?php $title = "Linked Research at ESWC 2017"; ?>
+<?php include '../../top.php'; ?>
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name"><?=$title;?></h1>
@@ -25,7 +25,7 @@
               <p>Linked Research is coming to <a href="http://2017.eswc-conferences.org">ESWC</a>! This means that if you respond to the <a href="https://linkedresearch.org/calls#call-for-enabling-linked-research">Call for Enabling Linked Research</a> and indicate that you wish to present on our workshop day we will ensure your contribution is reviewed accordingly.</p>
 
               <section id="program" rel="schema:hasPart" resource="#program">
-                <h3>Program</h3>
+                <h3 propery="schema:name">Program</h3>
                 <div datatype="rdf:HTML" property="schema:description">
                   <p>This event was <a about="" rel="rdfs:seeAlso" href="summary">transcribed</a>.</p>
 
@@ -134,4 +134,4 @@
         </div>
       </article>
     </main>
-<? include '../../end.php'; ?>
+<?php include '../../end.php'; ?>

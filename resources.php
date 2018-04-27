@@ -1,5 +1,5 @@
-<? $title = "Linked Research resources"; ?>
-<? include 'top.php'; ?>
+<?php $title = "Linked Research resources"; ?>
+<?php include 'top.php'; ?>
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name"><?=$title;?></h1>
@@ -169,4 +169,4 @@
         </div>
       </article>
     </main>
-<? include 'end.php'; ?>
+<?php include 'end.php'; ?>

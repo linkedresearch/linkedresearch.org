@@ -1,5 +1,5 @@
-<? $title = "Linked Research meetups and events"; ?>
-<? include '../top.php'; ?>
+<?php $title = "Linked Research meetups and events"; ?>
+<?php include '../top.php'; ?>
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name"><?=$title;?></h1>
@@ -52,4 +52,4 @@
         </div>
       </article>
     </main>
-<? include '../end.php'; ?>
+<?php include '../end.php'; ?>

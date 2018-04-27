@@ -1,6 +1,6 @@
-<? $title = "Linked Research articles"; ?>
-<? include 'top.php'; ?>
-<? include 'articles-data.php'; ?>
+<?php $title = "Linked Research articles"; ?>
+<?php include 'top.php'; ?>
+<?php include 'articles-data.php'; ?>
     <main>
       <article about="" typeof="as:Collection">
         <h1 property="schema:name"><?=$title;?></h1>
@@ -24,4 +24,4 @@
         <?endforeach?>
       </article>
     </main>
-<? include 'end.php'; ?>
+<?php include 'end.php'; ?>

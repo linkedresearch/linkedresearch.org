@@ -1,5 +1,5 @@
-<? $title = "Linked Open Research Cloud"; ?>
-<? include 'top.php'; ?>
+<?php $title = "Linked Open Research Cloud"; ?>
+<?php include 'top.php'; ?>
     <main>
       <article about="" typeof="schema:Article doap:Specification">
         <h1 property="schema:name"><?=$title;?></h1>
@@ -322,4 +322,4 @@
         </div>
       </article>
     </main>
-<? include 'end.php'; ?>
+<?php include 'end.php'; ?>
