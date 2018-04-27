@@ -64,7 +64,7 @@
 
                     <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite> [<a href="https://web.archive.org/web/20180303092741/https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">archived</a>], <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
 
-                    <li>12:05 — 12:20: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite> [<a href="https://web.archive.org/web/20180316145613/http://nextleap.eu/articles/linkedresearch.html">archived</a>], Giacomo Gilmozzi and Vincent Puig</li>
+                    <li>12:05 — 12:20: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic Research Purpose</a></cite> [<a href="https://web.archive.org/web/20180316145613/http://nextleap.eu/articles/linkedresearch.html">archived</a>], Giacomo Gilmozzi and Vincent Puig</li>
 
                     <li>12:20 — ∞: Make it so!</li>
                   </ul>

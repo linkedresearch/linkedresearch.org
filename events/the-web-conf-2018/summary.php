@@ -34,9 +34,9 @@
                 <li><dfn><abbr title="Chris Hartgerink">CH</abbr>: Chris Hartgerink</dfn></li>
                 <li><dfn><abbr title="Daniel Schwabe">DS</abbr>: Daniel Schwabe</dfn></li>
                 <li><dfn><abbr title="Henry Story">HS</abbr>: Henry Story</dfn></li>
-                <li><dfn><abbr title="Christine Chichester">HS</abbr>: Christine Chichester</dfn></li>
+                <li><dfn><abbr title="Christine Chichester">CC</abbr>: Christine Chichester</dfn></li>
                 <li><dfn><abbr title="Eric Prud'hommeaux">EP</abbr>: Eric Prud'hommeaux</dfn></li>
-                <li><dfn><abbr title="Lamber Heller">LH</abbr>: Lambert Heller</dfn></li>
+                <li><dfn><abbr title="Lambert Heller">LH</abbr>: Lambert Heller</dfn></li>
                 <li><dfn><abbr title="ELisabeth Lex">EL</abbr>: Elisabeth Lex</dfn></li>
                 <li><dfn><abbr title="Hanna Cwiek-Kupczynska">HC</abbr>: Hanna Cwiek-Kupczynska</dfn></li>
                 <li><dfn><abbr title="Hideaki Takeda">HT</abbr>: Hideaki Takeda</dfn></li>
@@ -52,20 +52,19 @@
 
 
           <section id="transcript" rel="schema:hasPart" resource="#transcript">
-            <h2 property="schema:name">Complete transcript of talks and discussions</h2>
+            <h2 property="schema:name">Transcript of talks and discussions</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <section id="hello-world" rel="schema:hasPart" resource="#hello-world">
                 <h3 property="schema:name">Hello world!</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<p><strong>SC</strong>: Good morning and welcome. This is along the same theme as other Linked Research workshops we started last year at ESWC. A lot of thematic overlap, but this year it's more focussed on how we get researchers to have more control over the contributions that they make in any aspect of scholarly communication.</p>
+<p><strong>SC</strong>: Good morning and welcome. This is along the same theme as other Linked Research workshops, like the one last year at ESWC. A lot of thematic overlap, but this year it's more focussed on how we get researchers to have more control over the contributions that they make in any aspect of scholarly communication.</p>
 <p>All the talks are invited talks, no peer review.</p>
 <p>There's a summary or article for each presentation; they're archived and link to the authors' websites.</p>
 <p>Time for the talks includes question. We can be casual about when the breaks are, and have more questions at the end.</p>
 <p>The theme is really to find out what the core characteristics of enabling a web space that puts the researcher in the centre.</p>
 <p>Eventually we'll publish these notes on the website.</p>
 <p>If you want to tweet, please do. Hashtag is #LinkedResearch.</p>
-<p>It would be nice to have lunch together, this is only a half day workshop.</p>
-
+<p>It would be nice to have lunch together, this is only a half day workshop - we can't solve all the problems, especially we've been at this for about 3 decades.</p>
 <p><strong>WH</strong>: It's exciting to be here! Back in Lyon with a full conference and a real buzz about WebConf this year. This is just as important as it was 29 years ago. As Sarven said, we have been trying to open up scholarly communication for about 30 years. Every since the Web was invented.</p>
 <p>I worked with Stevan Harnad who wrote his subversive proposal in about 94/95. He wrote a proposal that said we've got this amazing platform called the Web, we can all put our publications on it, we can self publish and peer review and link it all together, and it won't cost anything.</p>
 <p>That was 30 years ago and the story has been amazingly complicated.</p>
@@ -82,9 +81,9 @@
 
 
               <section id="researcher-centric-solid" rel="schema:hasPart" resource="#researcher-centric-solid">
-                <h3 property="schema:name">Building a researcher-centric world on the user-centric platform, Solid, Tim Berners-Lee</h3>
+                <h3 property="schema:name">Building a researcher-centric world on the user-centric platform, Solid</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<p>Hi everybody, thanks for coming. Welcome. I put these slides into a meetulator, an organisational thing yesterday...</p>
+<p><strong>TBL</strong>: Hi everybody, thanks for coming. Welcome. I put these slides into a meetulator, an organisational thing yesterday...</p>
 <p>All this is RDF of course (demo-ing meeting management system). The easiest way of doing I've found is to use Solid.</p>
 <p>This is an SVG, when you find it on the Web you'll be able to read it better.</p>
 <p>Let me tell you about what Solid is.</p>
@@ -103,8 +102,8 @@
 <p>That's how I'd like us to do our researcher centric scholarly communication.</p>
 <p>Questions?</p>
 <p>By the way, other people who know about this, *points at Ruben* has been recently deeply immersed in the Solid architecture.</p>
-<h4>Q&amp;A:</h4>
 
+<h4>Q&amp;A:</h4>
 <p><strong>AL</strong>: You can create all these RDF documents, is there a way to merge these things, integrate from more than one file?</p>
 <p><strong>TBL</strong>: Absolutely, you can merge it by .. one of the goals is for example I should be able to store photos in any event, so yeah..</p>
 <p><strong>AL</strong>: You can SPARQL on top of all the RDF files?</p>
@@ -123,18 +122,19 @@
 <p><strong>TBL</strong>: You'd have to steal someone's private key.</p>
 <p><strong>WH</strong>: That's a technical answer.. most people in the world are not going to understand that... let's take this offline.</p>
 
-<p><mark>INTERLUDE (Henry, Sarven, and Tim up on the podium)</mark>: How many computer scientists, including inventor of Web, does it take to work the projector?</p>
                 </div>
               </section>
 
+<hr />
+<p><mark>Interlude (Henry, Sarven, and Tim up on the podium)</mark>: How many computer scientists, including inventor of Web, does it take to work the projector?</p>
+<hr />
 
               <section id="epistemology-in-the-cloud" rel="schema:hasPart" resource="#epistemology-in-the-cloud">
-                <h3 property="schema:name">Epistemology in the Cloud, Henry Story</h3>
+                <h3 property="schema:name">Epistemology in the Cloud</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<p>Slides and paper: <a href="http://bblfish.net/blog/2018/04/21/">http://bblfish.net/blog/2018/04/21/</a></p>
-
+<p><strong>HS</strong>: Slides and paper: <a href="http://bblfish.net/blog/2018/04/21/">http://bblfish.net/blog/2018/04/21/</a></p>
 <p>Thank you for inviting me. I've been working on lots of parts of Solid for a long time. I study philosophy initially, I did computing when I was 13 and I studied philosophy, then back to computing, then back to philosophy when I discovered the Semantic Web. I worked on the LDP part, security part, WebID part, read write part. Doing a PhD in Southampton now.</p>
-<p>Some people might not have the background, the problem with explaining Solid is explaining why you need this. This is what philsophy is best at. Why do we need decentralised computing?</p>
+<p>Some people might not have the background, the problem with explaining Solid is explaining why you need this. This is what philosophy is best at. Why do we need decentralised computing?</p>
 <p>I'll start with epistemology. What is knowledge? It started with Plato asking this question in Athens. Asking citizens do you even know what knowledge is? Taking a step back and asking about the concepts. He came up with if you know something if you believe it, it has to be justified. About 2000 years of discussions, and I want to go straight to a 1981 improvement by Nozick in Philosophical Explanations, the third definition is this modal logic definitions. If it weren't the case that P then you wouldn't believe that P. This type of explanation only made sense because modal knowledge in the 60s and 70s became coherent, mathematised.. the most interesting thing for us now is the counter-factual part of modal logic. 'fake news'. how do you explain if kangaroos had no tails then they would topple over, what are the truth conditions of these types of statements. Neighbourhood semantics. In all possible worlds, they have a distance relationship, some are closer than others. In category theory there are ways of explaining this, this is part of my thesis.</p>
 <p>What does it mean when you say if kangaroos had no tails they would topple over. In the closest possible world in which kangaroos have no tails, then if they topple over it's true.</p>
 <p>What's the point of that? He's trying to deal with skepticism. The problem of skepticism is.. how do you know that you're not a brain in a vat? That the aliens haven't come and made you think that you're listening to this conversation. There's no way you can exclude that possibility. If you think of knowledge as excluding all possibilities incompatible with your belief. If you can't exclude this, how do you ever know anything? We have this problem in security circles, if you don't know something is secure against all attacks, you can't be secure about anything, a system can always fail. A whole bunch of films about this, Matrix..</p>
@@ -157,6 +157,7 @@
 <p>Above that, you have institutions, the Leviathan. Composed of army, schools, universities. you have individuals using these apps that are working within organisations and across organisations. This is where I want to suggest we can already make an improvement by rethinking the web browser a little bit. This will help us deal a little bit with the fake news problem.</p>
 <p>Currently when you go to a website you do not know, you can guess if it's a fake or real website. You can check the SSL certificate but that just verifies the domain. What's missing is a web of trust. What I suggest is that we use these institutions, the state, to create a new institutional web of trust, where the UK for example would have a root anchor of trust and have links to all the major institutions or databases for example. There is a database in the UK for companies. It would link to them and when you go to a website it can have a link to the government page saying this is the government linking to me and your browser could find this link and travel back to its root anchor of trust and say good, if you trust the UK government, then you can believe that they say this is a university or a company.. this is a news site, we don't know where it comes from but it's publishing  news. Then we can see it's a news organisation registered under American law. Browsers could go further and get more information, see who the owners are and what the share value is. You could see this being in the browser.</p>
 <p>We could have an institutional web of trust that ties into the personal web of trust when we build these social networks. Technically that's not difficult it's just a question of will. Of getting a few nations coming together.. politically complicated but technically simple. Why are Amazon and apple so big? it's because they've imprinted in your mind through huge amounts of advertising that they're reliable. How can a small company do the same? you need to use the organs of the state to build the trust system.</p>
+
 <h4>Q&amp;A:</h4>
 <p><strong>DS</strong>: To me what you just described is more authentication than trust. Authentication is a first step to trust but trust goes further than that.</p>
 <p><strong>HS</strong>: Authentication is.. we have public cryptography. No, here the trust is the trust that you have that a website is part of.. if you have a trust anchor and it's one that eg. a government has given out to all its citizens to add to their browser, they will be able to verify a certain amount of claims about what types of institutions you're linking to. This is a trust thing because you have a legal system which you can change if something goes wrong.. in the database if there's a mistake.. there's a whole system of many human being working together to help guarantee to you that this thing is working.</p>
@@ -171,13 +172,12 @@
 
 
               <section id="incentivizing-data-reuse" rel="schema:hasPart" resource="#incentivizing-data-reuse">
-                <h3 property="schema:name">Incentivizing data reuse, Christine Chichester and Antonis Loizou</h3>
+                <h3 property="schema:name">Incentivizing data reuse</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<p><a href="https://datafair.xyz/">datafair.xyz</a></p>
-
+<p><strong>CC</strong>: <a href="https://datafair.xyz/">datafair.xyz</a></p>
 <p>A marketplace for data. I'm going to talk about how we are dealing with some of the pain points data providers have.</p>
 <p>You probably all know, I don't think this is revolutionary. Data reuse saves money. Looking at the cost of acquiring some data sets, up to 900$k just to acquire data. There's another paper about doing a 24 hour reacall survey, this one cost up to $2mil. Why not reuse that data once you have your answer from the first use?</p>
-<p>It saves time. If you odn't have to regenerate the data it saves time because it's already there.</p>
+<p>It saves time. If you don't have to regenerate the data it saves time because it's already there.</p>
 <p>We all could agree that it's the ethical thing to do to reuse data. You don't want to do an experiment on laboratory animals a second time if you already did it once. That's not very ethical.</p>
 <p>Some different initiatives out there, one called FAIR - Findable, Accessible, Interoperable, Reusable. Guidelines for providers. It's a lot of things to do. I would say oh my god, I'm a data provider, you want me to do all that? It's a lot of stuff for a data provider. It's not necessarily easy.</p>
 <p>I'd be collecting the data and then I'd have a dataset. I'd have to follow those bazillion rules on the last slide, just to organise, describe and license my data just to put it in the data pool. That's a heavy burden, not necessarily the things I do. You're weighing me down with all those guidelines I have to follow.</p>
@@ -201,12 +201,11 @@
 <p>Also we're making communication channels so the providers can communicate with the reusers. The way we can instill trust is having people talk to each other. When you can talk to someone about the data they're providing you feel you can trust them.</p>
 <p>When people reuse people benefit. They can do their cleaning activities, not everyone is adept at this. The people who are can reuse the data can clean it and they are rewarded when they put the data back into the pool.</p>
 <p>These are the three ways we can incentivise people to make their data available.</p>
-<h4>Q&amp;A:</h4>
 
+<h4>Q&amp;A:</h4>
 <p><strong>EP</strong>: In the spirit of decentralisation, you could still participate in nanopublications if you're outside of your network. The degree to which you can get references.. when you have one nanopublication and you get another one that contradicts it, is there a forward reference or do you need a database query to get that? If you got your network of distributed databases, and other people are taking advantage of the decentralised nature of it and have their own nanopubs externally is there some convention for cross-referencing so you can find the next version?</p>
 <p><strong>AL</strong>: for the first part when it turns out that mosquitoes don't transmit malaria, you could have a nanopub where you assert that the other one is wrong. Or you can say that mosquitoes don't transmit malaria and rely on a third nanopub to say that this nanopub is more trusty than the other one.</p>
 <p>When it comes to decentralisation, the servers exchange data between them so they're all on the same index. If you don't want to be part of this, but create nanopublications on your own machine, you can refer to any others in the network. If they descirbe yours, they can refer back to you. If you don't have immutable URIs that's breaking it.</p>
-
 <p><strong>EL</strong>: There are certain repositories available like [figshare, zenodo, OpenAIRE ]. Do we build another platform where we store data, or is the idea we make these platforms like a common repository?</p>
 <p><strong>CC</strong>: There are different platforms, and some of them have different goals. We're not building things for everyone to have their own, but different people need different incentives. On a lot of those you're forced to put your data. If you try to search it it can be quite difficult. Some of that data could also be put on our system where we help you with certain goals where we're making a connection. You can take someone's data and they don't know, it's impossible to get your stuff answered and work with the data provider. This is just a different way with different incentives.</p>
 <p><strong>EL</strong>: In terms of citations, credit for scientists, is this on your agenda? When I do the effort to make a great dataset I want some scientific credit.</p>
@@ -222,18 +221,21 @@
                 </div>
               </section>
 
+<hr />
+<p>Break</p>
+<hr />
 
               <section id="blockchain-based-educational-certificates" rel="schema:hasPart" resource="#blockchain-based-educational-certificates">
-                <h3 property="schema:name">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction, Lambert Heller</h3>
+                <h3 property="schema:name">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<p>Thank you for inviting me. I will try to make the case that we have an issue with data ownership when it comes to review and general research assessment and stuff like that. I will try to make the case that blockchain is at least a very good candidate for delivering a solution to that. Before I dive into this question let me briefly point out that I'm not a web scientists but a that I work in an academic library. What I have mostly done in the past 5 years with my group (the Open Science Lab) is that we promoted and enhanced VIVO. Linked Open Data approach to current research information systems. We have a workshop coming up in Hannover in autumn.</p>
+<p><strong>LH</strong>: Thank you for inviting me. I will try to make the case that we have an issue with data ownership when it comes to review and general research assessment and stuff like that. I will try to make the case that blockchain is at least a very good candidate for delivering a solution to that. Before I dive into this question let me briefly point out that I'm not a web scientists but a that I work in an academic library. What I have mostly done in the past 5 years with my group (the Open Science Lab) is that we promoted and enhanced VIVO. Linked Open Data approach to current research information systems. We have a workshop coming up in Hannover in autumn.</p>
 <p>To dive into this question. As you know, research assessment has many elements. one of the most atomic core elements is peer review. Many other instances where you give attribution that somebody made a small very particular contribution to a collaborative work, or kind of mutual assessments that happen all the time. We already know that we have a huge systemic issue with research assessment right now. Senior researchers who frequently serve their role on committees that decide on hiring, tenure, promotion, etc, very often rely on proxies for research assessment like the impact factor which is really damaging to research.</p>
 <p>It's clear to me that a lot of this has to be addressed on a policy level. Please by the way make sure that your institution signs up to the San Francisco declaration on research assessment (<a href="https://sfdora.org/">https://sfdora.org/</a>) which points out that research should be assessed on its own merits and not on impact factor junk data.</p>
 <p>My point is that this should maybe not only be addressed on a policy level, but also some level we should talk about here. This is .. let me first point out two very huge developments in the area of research assessment from the last few years. One thing is that since we have these Facebook style systems of scholarly profiles like ResearchGate who kind of won this game and maybe a little bit academia.edu we have mutual assessment of researchers at scale. There are millions of people on these services maintaining their own profile, do statements about attribution, etc.</p>
 <p>This is very ambivalent. On the one hand it's interesting to see that finally the web itself becomes a platform for doing this kind of stuff. Mostly the individual researchers are in the driver's seat of that. Do this by clicking on things by themselves. On the other hand all of the data that you give ResearchGate is owned by this one company in Berlin. They don't have any open data policies, they don't follow any standards, they don't even allow you to download your own data and reuse it anywhere else. Just try.</p>
 <p>We have an exciting development, ORCID. This is for one time a concerted effort of the big publishers and libraries, things like arXiv.org and so on to make sure that you can disambiguate between researchers, who is who and who did what.</p>
 <p>There are issues with ORCID as well.</p>
-<p>It turns out that ORCID relies mostly on data that is governed by big publishers. They have huge metadata qualitiy issues. They started "metadata 2020" to address this issue. This is not a pet problem for me as a librarian, but a real issue. If you want to have real discoverable reusable data, make sure that metadata is good quality. You need to set the incentives, and get researchers to take care of their own metadata in an easy way. ORCID really try to do something about this, many of the big parties involved, and allow researchers to go into their profile and change things> But only after the fact. The primary source is always what publishers do. This is a systemic problem.</p>
+<p>It turns out that ORCID relies mostly on data that is governed by big publishers. They have huge metadata qualitiy issues. They started "metadata 2020" to address this issue. This is not a pet problem for me as a librarian, but a real issue. If you want to have real discoverable reusable data, make sure that metadata is good quality. You need to set the incentives, and get researchers to take care of their own metadata in an easy way. ORCID really try to do something about this, many of the big parties involved, and allow researchers to go into their profile and change things. But only after the fact. The primary source is always what publishers do. This is a systemic problem.</p>
 <p>An interesting situation. My hypothesis is that we have an issue with data ownership in this area. You can decide either you turn to ResearchGate or stuff like that which gives you the possibility to take care of your own data, then you have this one company sitting in Berlin owning all that data. Or you set your bets on ORCID, then you have open data but it's largely governed by big publishers. I hope you see the problem here? A problem with data ownership.</p>
 <p>So now to something seemingly completely different. Clearly John Domingue and other people in the audience could be much better at explaining this than me.</p>
 <p>About 2 years ago some people, MIT Media Lab and OU later, came up with an open standard for issuing educational certificates backed by blockchain. The idea here, briefly, it's like a student/learner setting up a profile, feels like setting up a profile on Facebook. Tim already mentioned crypto apps on your phone where you have a key pair, this is very common today. So you set up a profile which is a node on a peer to peer network, in the case of the OU the Ethereum network, and the next step is that you make a claim and you ask your learning institution to verify that claim. They are represented by another node on the same network and you have a transaction between these two. This is a timestamped transaction. This is stored on millions of computers worldwide almost instantly. There's a cost to it. It's not much but it's not for free. Once it is there, and this is very interesting, it is highly highly redundant. It's hard to imagine whatever happens to Ethereum in the future that this one proof completely goes away and is nowhere else stored. Maybe a global nuclear war, but this is really broadly distributed.</p>
@@ -241,8 +243,8 @@
 <p>More general, three assumptions. Already great work being done about these learning centric portable educational certificates by macauthor foundation and Mozilla foundation - open badges.</p>
 <p>We don't have to reinvent the wheel here. This is a semantic layer on this.</p>
 <p>We have this covered with open badges, we have the semantic layer covered.</p>
-<p>We have to established verifiable claims. As it turns out there is a w3c working group covering this.</p>
-<p>And then we have, you should have closer look into, the concept of self-sovereign identities, also covered by a w3c working group. This idea of having an identity where you not rely on some third party. Maybe not even somebody who runs a server where some of your personal data is stored. It puts in focus the autonomy of being the owner of your personal data.</p>
+<p>We have to established verifiable claims. As it turns out there is a W3C working group covering this.</p>
+<p>And then we have, you should have closer look into, the concept of self-sovereign identities, also covered by a W3C working group. This idea of having an identity where you not rely on some third party. Maybe not even somebody who runs a server where some of your personal data is stored. It puts in focus the autonomy of being the owner of your personal data.</p>
 <p>A footnote - have a look at Shermin Voshmgir's article about this. Shouldn't even call this self sovereign identity but individuals and their personal data, which you know from concepts like the EU privacy protection law.</p>
 <p>What we have here as an option within the whole concept of self-sovereign identity is decentralised identifiers.</p>
 <p>Here you have this more generalised concept I mentioned earlier, this idea of being free to join this peer to peer network for a modest fee. What is a really elegant and interesting point? It's not for free. Counter-intuitive. How can something be highly accessible but not for free. We assume that when something is really open it should be for free at the same time.</p>
@@ -252,34 +254,29 @@
 <p>Also admit it, blockchain is over-hyped. Makes it so complicated to discuss this issue and what the benefits might be.</p>
 <p>The perspective is to let every researcher make statements openly without any detours and without having to rely on any particular platform. That's the beauty of it. Just refer to some document (even a nanopub maybe) with its hash and make a transaction out of it.</p>
 <p>The most simple thing you might do is give a statement about how you were involved in a publication.</p>
-<p>I think this is a promising candidate for solving our quality issues with scholarly metadata as well. It sets straight the incentive structure of this whole thing. you don't have to rely on some editor where you are the corresponding author where you tell them who was involved and what is the right order. Then later it ends all in some aggregator and nobody takes care of what is there because it's just a brand name Springer and some fixed names. But actually people who were involved speak directly about how they were involved, to each other, without any detours.</p>
+<p>I think this is a promising candidate for solving our quality issues with scholarly metadata as well. It sets straight the incentive structure of this whole thing. You don't have to rely on some editor where you are the corresponding author where you tell them who was involved and what is the right order. Then later it ends all in some aggregator and nobody takes care of what is there because it's just a brand name Springer and some fixed names. But actually people who were involved speak directly about how they were involved, to each other, without any detours.</p>
 <p>From a business level perspective it's like levelling the playing field. From innovation theory they told us that with the WWW in the 90s it was all about being able to be innovative without having to ask anybody. This peer to peer characteristic of the WWW initially. Something of this is into this blockchain thing as well. It's permissionless innovation, that is to say there is nobody who has privileged access to the information stored on Ethereum.</p>
 <p>Some of the ideas in these slides are covered in this article: <a href="https://bit.ly/blockchain-commons">https://bit.ly/blockchain-commons</a></p>
 
 <h4>Q&amp;A:</h4>
-
 <p><strong>HT</strong>: you mentioned ORCID. It's a mix.. one side is for publishers but also working for publishers. I think also an organisation can assert employment.. functionality .. what's the difference.. is automatic mechanism like blockchain better compared to ORCID?</p>
 <p><strong>LH</strong>: That's a tough question. On a very basic layer you can make sure every researcher can set up their own decentralised identifier on the blockchain. And then you can have in an ideal world (just a vision) on top of that, have an organisation - like ORCID today - curating, taking care for a certain subset of these decentralised identifiers. For instance you can imagine asserting research institutions to their researchers, okay this decentralised identifier is in fact that person who works for our department. Then on top of that you can go up and build beautiful certification infrastructures, and have something like ORCID which takes care of profiles from a lot of institutions. But there's a layer of independence and having *ultimate* control that is removed from the organisation like ORCID.</p>
 <p><strong>HT</strong>: So the blockchain is like a basic layer to make information trust? So some activity on top of such architecture. Yeah, yeah.</p>
 <p><strong>LH</strong>: This is a huge achievement, ORCID in place, but it could be better if an individual researcher doesn't have to rely on them. It should be even possible to fork ORCID, why not. Why not say I get this it's a great effort, but there's some detail I would do other, and make your own ORCID fork. This would be easier with this vision in mind.</p>
 <p><strong>CG</strong>: How do you integrate this with commercial management research systems like PURE or Converis which when they handle the vCards of their researchers?</p>
 <p><strong>LH</strong>: First I'd like to point out if you consider working with PURE or Converis consider to switch to VIVO because this is free software which does the same but with LOD. We considered already in the VIVO community some activity around blockchain as well. Statements about what researchers do, and some link to a proof from a source, saying about metadata provenance. Where does a statement come from? Has something really been reviewed by timbl, you can check with an external source, where does it come from. It would not change so much something like PURE or VIVO, by their nature they are a showcase set up by an institution, but the assertions would be backed by data from different sources.</p>
-
 <p><strong>TBL</strong>: It's useful to separate some of these things. Partly it's good idea to store things in Linked Data. Use VIVO and so on and where we need ontologies that VIVO doesn't cover we can have common ontologies. You can write down you took this course and got this grade. Digital signature, one of the things that Solid or DID will give you down the line is the ability to figure out which keys to trust when you see something signed. Whether it's signed by someone you trust. Signing Linked Data is important. Should be standard, should be in the libraries. I should be able to just write a piece of LD about you and sign it. It doesn't matter where you put it. Let's separate the signing with.. you have a link to the private key you'll never see, signing is really important. But putting it on the blockchain, a Solid server, send it by email - whenever you.. I know blockchain is very trendy at the moment, but you're postponing the question in a way. If you store this things on the websites of universities, what happens if all universities go away in the future? What happens when Ethereum becomes less cool? And your particular blockchain.. to maintain this system you have to maintain the blockchain. You have to rely on the people maintaining that blockchain. If the market crashes, you have no-one maintaining it before. or you're sharing the system with other crazy people who may not be academic. Kids use it for shooting each other on videogames.. hashing each shot, you're maintaining their bandwidth. It's not taken care of by divine presence, it's taking care of by a community that you're part of. I'd separate the idea of signing things with where it's stored. Signing Linked Data is valuable, separate from the blockchain. Signing it gives it the integrity. You don't have to put it on the blockchain.</p>
 <p><strong>LH</strong>: Clearly these are two separate questions. What web infrastructure for sure. Maybe a question of where to put your trust in the long run. Institutions can put their trust behind something in the long run and they can make sure at least.</p>
-
 <p><strong>JD</strong>: I agree with TBL. You have to differentiate between.. a blockchain is just a technology and it can sit anywhere. I'd be interested to see if you could implement functionality of a blockchain on Solid..</p>
 <p><strong>TBL</strong>: We have a masters student doing this.</p>
                 </div>
               </section>
 
 
-
               <section id="verified-shared-modular-research" rel="schema:hasPart" resource="#verified-shared-modular-research">
-                <h3 property="schema:name">Verified, shared, modular research communication with the Dat protocol, Chris Hartgerink</h3>
+                <h3 property="schema:name">Verified, shared, modular research communication with the Dat protocol</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<p>Slides: <a href="https://bit.ly/webconf-chris">https://bit.ly/webconf-chris</a></p>
-
+<p><strong>CH</strong>: Slides: <a href="https://bit.ly/webconf-chris">https://bit.ly/webconf-chris</a></p>
 <p>This is work I'm doing with the Mozilla science lab. A psychologist by training, and an applied statistician. I'm approaching today with a meta point of view with a lot of the issues we have nowadays.</p>
 <p>What we want to communicate most of the time is the empirical research cycle. In the article format we lose a lot of information. We lose data, predictions, code. We don't get recognition for it as researchers. We reconstruct the research cycle after the fact. People start fooling themselves, changing predictions based on results. That invalidates the empirical research cycle and we start cutting corners.</p>
 <p>But if we look back and see how we communicate, we don't see if this is happening. this is a key issue.</p>
@@ -321,12 +318,10 @@
 <p>You can install Beaker and try this out yourself.</p>
 
 <h4>Q&amp;A:</h4>
-
 <p><strong>??</strong>: you are using bit.ly as a shortlink.. I don't know how reliable that is. Real comment - difference between <code>data://</code> and <code>dat://</code> ? And how is topic of module?
 CH: The researcher chooses what to put in the module. Because the network is open by design you can start crawling that information and provide new services to help discovery. We flip from selling access to information to selling services to help consume information, so researchers can look through everything</p>
 <p><strong>??</strong>: you have little pieces and you can reuse them</p>
 <p><strong>CH</strong>: Say you have a full research cycle in this way. At the end you can say take the text based modules an compile them into an article.</p>
-
 <p><strong>JD</strong>: Relationship to publishers? You could take over and have the articles here as well. Are you thinking of working with any publishers or conferences?</p>
 <p><strong>CH</strong>: A lot of these things have this zero sum decision. If you publish open access you can't publish in other journals. It could work if publishers wanted it to. It's a layer underneath. It's a social question we have to answer. I imagine there's pushback with publishers like we saw with preprints.</p>
 <p><strong>JD</strong>: Are you changing citations?</p>
@@ -335,8 +330,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>CH</strong>: One of the key things I think is going to be important is curation. For example say I want to know what you're recommending. Peer review journals have a large curation role. That could still be a role of publishers as they change with this.</p>
 <p><strong>SC</strong>: Like overlay</p>
 <p><strong>CH</strong>: Exactly</p>
-
-<p><strong>TBL</strong>: With DAT I get the DAT software I can look up dat:// URLs who.. what is the community of people I have to rely on for that to work? Can you compare it IPFS and can you say to what extent is everything stored everywhere?</p>
+<p><strong>TBL</strong>: With DAT I get the DAT software I can look up <code>dat://</code> URLs who.. what is the community of people I have to rely on for that to work? Can you compare it IPFS and can you say to what extent is everything stored everywhere?</p>
 <p><strong>CH</strong>: DAT uses sparser applications so you can just get the metadata about the files and request just a specific file. You can also do full replication. I think libraries could come in to provide persistent hosting or data repositories so that information can stay available on the network. Like torrents you need seeders. can we identify persistent seeders?</p>
 <p><strong>TBL</strong>: If I use it for putting all my porn films on it how do you distinguish.. how does the community .. you have to spend your resources to make sure my porn films are available. What's wrong with this picture?</p>
 <p><strong>CH</strong>: This is where curation comes in. Say a university wants to rehost all this content and just puts everything in Alice's network up to 3 degrees of separation. If you start hosting your porn outside of this network that library won't host it.</p>
@@ -349,7 +343,6 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>LH</strong>: What do you think about tokenisation of network resources? In related communities, IPFS has this popular content of being incentivised by receiving a token for giving up some of your bandwidth for the network and in turn you get this token.. what do you think about this?</p>
 <p>Where are the differences in the approaches?</p>
 <p><strong>CH</strong>: I think it's a valuable approach. In a common space we should start out from the point that people invested in the ?? to get the social dilemma to a sustainable point. People who really draw a lot of the bandwidth you can start looking at that, and then you get back to the firewall.. a library notices a person requesting hundreds of gb in a few hours they can block the IP.</p>
-
 <p><strong>HS</strong>: This setup requires a private/public key, you don't want that to be just on one computer cause you're going to use more than one computer. You have to move the private keys around in order to continue editing.</p>
 <p><strong>CH</strong>: You can have one private key for your personal key, one for your mobile, that all have access to the same profile - multi-writer.</p>
                 </div>
@@ -357,9 +350,9 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 
 
               <section id="recommender-systems" rel="schema:hasPart" resource="#recommender-systems">
-                <h3 property="schema:name">Recommender Systems as Enabling Technology to Interlink Scholarly Information, Elisabeth Lex</h3>
+                <h3 property="schema:name">Recommender Systems as Enabling Technology to Interlink Scholarly Information</h3>
                 <div datatype="rdf:HTML" property="schema:description">
-<p>Our idea is to use recommender systems to link scholarly information. There is a lot of content out there, lots of great open access content. The EU commission is really focussing on making the outputs of projects as open as possible. Data about publications, about scholars, projects. You're probably aware of FAIR.. all these aspects are very important. We're focussing on increasing findability of scientific outputs. Great potential to spark scientific collaborations.</p>
+<p><strong>EL</strong>: Our idea is to use recommender systems to link scholarly information. There is a lot of content out there, lots of great open access content. The EU commission is really focussing on making the outputs of projects as open as possible. Data about publications, about scholars, projects. You're probably aware of FAIR.. all these aspects are very important. We're focussing on increasing findability of scientific outputs. Great potential to spark scientific collaborations.</p>
 <p>OpenAIRE project, started in 2009, the intention to support researchers on EU projects in making their stuff open access. Guidelines and infrastructure. They have a portal where you can put your publications. It's growing now. The idea is to have this project as an open science infrastructure, integrated in the EU open science pilot.</p>
 <p>All the technology of OpenAIRE is cc-by. What's interesting for us is the different types of data in there. High level high quality metadata for projects. Certain applications to search, some visualisations.</p>
 <p>We proposed to them a recommender services that can be easily integrated into the portal. Should spark scientific collaboration. We want to achieve linking of scholarly communication through contextualisation.</p>
@@ -382,23 +375,19 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><a href="http://openuphub.eu/community/blog/item/ecommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">http://openuphub.eu/community/blog/item/ecommender-systems-as-enabling-technology-to-interlink-scholarly-information-2</a></p>
 
 <h4>Q&amp;A:</h4>
-
 <p><strong>CH</strong>: How many links there are?</p>
 <p><strong>EL</strong>: The collaborative filtering approach does not work that well because a lot of university names are written differently so it thinks they are different. And a lot of projects annotated as only one institution working on it. There could be way more links in the data.</p>
 <p><strong>??</strong>: Have you ever tried to use the ?? services as the API? I'll talk to you later.</p>
 <p><strong>EL</strong>: Currently not, we should talk.</p>
 <p><strong>??</strong>: Do you know the ?? EU project, trying to give information about all the outputs of internet related projects? But actually they just started.</p>
 <p><strong>EL</strong>: this is a very rich resource of information which is currently just kept somewhere. you could not really benefit form it. It's so competitive to run .. we should connect even more information. Open science is now a priority with the EU commission. They give a lot of public funding to scientists, so they want to make it more accessible to the general public.  A great way to spread the truth of science and move forward.</p>
-
 <p><strong>??</strong>: Tomorrow she's going to be in an interesting panel, international project tracks.</p>
-
                 </div>
               </section>
 
 
-
               <section id="contributive-research" rel="schema:hasPart" resource="#contributive-research">
-                <h3 property="schema:name">Contributive Research: Hypothes.is Implementation for Academic research Purpose, Giacomo Gilmozzi</h3>
+                <h3 property="schema:name">Contributive Research: Hypothes.is Implementation for Academic Research Purpose</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>GG</strong>: The philosopher takes a step back before starting to speak about something. It seems like we spoke a lot about the publication of articles and dissemination on the Web. I'm working at IRI, directed by Bernard Stiegler, who is a philosopher interested in techniques. We explores the field of digital studies, in the sense of a new « organology of knowledge » appearing with the digital, which requires specific studies and concepts, and which shifts the whole contemporary episteme. More precisely -> we investigates the field of cultural and cognitive  technologies from a digital humanities point of view. Furthermore, we participate in the development of new devices and technologies to facilitate contributions and collaborative critique; to provide solutions for editorial and social interaction in the domains of culture and knowledge. Investigate the field of cultural and cognitive technologies from a digital humanities point of view.</p>
 <p>Develop applications to facilitate the critique.</p>
@@ -420,25 +409,24 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p>Also developing a discussion forum. In this forum contributors will have the possibility to discuss relevance of different definitions and engage with controversies.</p>
 <p>Another function which is being developed is the automatic editorialization and publication of abstract in a predetermined format with data collected via annotations, the creation of conceptual map summing up the consensus or the dissensus and also automatic to-do-lists based on the action category (act:expertise, act:meeting, etc.).</p>
 <p>The last thing I want to say is we're trying to build this digital tool in a project, a decentralised network for our platform. That can help a local community to engage in this kind of controversies in order to create local shareable knowledge.</p>
-<h4>Q&amp;A:</h4>
 
+<h4>Q&amp;A:</h4>
 <p><strong>HS</strong>: you're using this annotation thing, using the Annotation Protocol from W3C? Does that use LDP?</p>
 <p><strong>GG</strong>: Yep</p>
 <p><strong>TBL</strong>: no (shakes head)</p>
 <p><strong>SC</strong>: I would say no.. they have their own homebaked API, but also a Web Annotation data exposed. To get to it you have to manually add .jsonld to the URL. You can't really machine discover the annotations. They were part of the WA WG but on the implementation side it's not fully implemented.</p>
-
 <p><strong>SC</strong>: Are you using the hypothesis servers for the data?</p>
 <p><strong>GG</strong>: No. Local copy.</p>
 <p><strong>SC</strong>: Is that information accessible and discoverable by anyone on the web?</p>
 <p><strong>GG</strong>: Yes. Right now we're using private small groups because of the research aims.</p>
 <p><strong>SC</strong>: I think the next interesting thing is that stuff stored on hypothesis and stuff stored with IRI are discoverable using the same mechanism. But really cool.</p>
 <p><strong>HS</strong>: In my paper I mention Bernard Stiegler at least 4 times. how do you bring the organs of the state into the web browser. Perhaps you can find someone at IRI who can help...</p>
-
-<p><strong>AG</strong>~ I don't think the rest of this needs to be scribed ~</p>
-
                 </div>
               </section>
-
+<hr/>
+<aside>
+<p>(<strong>AG</strong>: I don't think the rest of this needs to be scribed.)</p>
+</aside>
             </div>
           </section>
         </div>
