@@ -1,5 +1,5 @@
-<? $title = "Researcher Centric Scholarly Communication at The Web Conf 2018"; ?>
-<? include '../../top.php'; ?>
+<?php $title = "Researcher Centric Scholarly Communication at The Web Conf 2018"; ?>
+<?php include '../../top.php'; ?>
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name"><?=$title;?></h1>
@@ -38,6 +38,41 @@
 
               <p>Social media hashtag: #LinkedResearch</p>
 
+              <hr />
+
+              <section id="program" rel="schema:hasPart" resource="#program">
+                <h3>Program</h3>
+                <div datatype="rdf:HTML" property="schema:description">
+                  <p>This event was <a about="" rel="rdfs:seeAlso" href="summary">transcribed</a>.</p>
+
+                  <p>Timeline for the invited talks.</p>
+
+                  <ul>
+                    <li>09:00 — 09:10: Hello world!</li>
+
+                    <li>09:10 — 09:40: <cite>Building a researcher-centric world on the user-centric platform, <a href="https://solid.mit.edu/">Solid</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
+
+                    <li>09:40 — 10:00: <cite><a href="http://bblfish.net/blog/2018/04/21/Epistemology%20In%20the%20Cloud.pdf">Epistemology in the Cloud</a></cite>, <a href="http://bblfish.net/">Henry Story</a></li>
+
+                    <li>10:00 — 10:20: <cite><a href="https://datafair.xyz/incentivizing-data-reuse">Incentivizing data reuse</a></cite> [<a href="https://web.archive.org/web/20180419074835/https://datafair.xyz/incentivizing-data-reuse/">archived</a>], Christine Chichester and Antonis Loizou</li>
+
+                    <li>10:20 — 11:00: Take a break</li>
+
+                    <li>11:00 — 11:30: <cite><a href="https://www.researchresearch.com/news/article/?articleId=1373351">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</a></cite> [<a href="http://archive.is/2HwCI">archived</a>], <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
+
+                    <li>11:30 — 12:00: <cite><a href="https://dat-com-chris.hashbase.io/">Verified, shared, modular research communication with the Dat protocol</a></cite> [<a href="https://web.archive.org/web/20180316145316/https://dat-com-chris.hashbase.io/">archived</a>], <a href="http://chjh.nl/">Chris Hartgerink</a></li>
+
+                    <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite> [<a href="https://web.archive.org/web/20180303092741/https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">archived</a>], <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
+
+                    <li>12:05 — 12:20: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite> [<a href="https://web.archive.org/web/20180316145613/http://nextleap.eu/articles/linkedresearch.html">archived</a>], Giacomo Gilmozzi and Vincent Puig</li>
+
+                    <li>12:20 — ∞: Make it so!</li>
+                  </ul>
+                </div>
+              </section>
+
+              <hr />
+
               <section id="how" rel="schema:hasPart" resource="#how">
                 <h3>How?</h3>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -61,35 +96,6 @@
                 </div>
               </section>
 
-              <section id="program" rel="schema:hasPart" resource="#program">
-                <h3>Program</h3>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p><strong>Draft</strong> timeline for the invited talks.</p>
-
-                  <ul>
-                    <li>09:00 — 09:10: Hello world!</li>
-
-                    <li>09:10 — 09:40: <cite>Building a researcher-centric world on the user-centric platform, <a href="https://solid.mit.edu/">Solid</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
-
-                    <li>09:40 — 10:00: <cite><a href="http://bblfish.net/blog/2018/04/21/Epistemology%20In%20the%20Cloud.pdf">Epistemology in the Cloud</a></cite>, <a href="http://bblfish.net/">Henry Story</a></li>
-
-                    <li>10:00 — 10:20: <cite><a href="https://datafair.xyz/incentivizing-data-reuse">Incentivizing data reuse</a></cite> [<a href="https://web.archive.org/web/20180419074835/https://datafair.xyz/incentivizing-data-reuse/">archived</a>], Christine Chichester and Antonis Loizou</li>
-
-                    <li>10:20 — 11:00: Take a break</li>
-
-                    <li>11:00 — 11:30: <cite><a href="https://www.researchresearch.com/news/article/?articleId=1373351">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</a></cite> [<a href="http://archive.is/2HwCI">archived</a>], <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></li>
-
-                    <li>11:30 — 12:00: <cite><a href="https://dat-com-chris.hashbase.io/">Verified, shared, modular research communication with the Dat protocol</a></cite> [<a href="https://web.archive.org/web/20180316145316/https://dat-com-chris.hashbase.io/">archived</a>], <a href="http://chjh.nl/">Chris Hartgerink</a></li>
-
-                    <li>12:00 — 12:15: <cite><a href="https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></cite> [<a href="https://web.archive.org/web/20180303092741/https://www.openuphub.eu/community/blog/item/recommender-systems-as-enabling-technology-to-interlink-scholarly-information-2">archived</a>], <a href="http://www.elisabethlex.info/">Elisabeth Lex</a></li>
-
-                    <li>12:05 — 12:20: <cite><a href="http://nextleap.eu/articles/linkedresearch.html">Contributive Research: Hypothes.is Implementation for Academic research Purpose</a></cite> [<a href="https://web.archive.org/web/20180316145613/http://nextleap.eu/articles/linkedresearch.html">archived</a>], Vincent Puig, Giacomo Gilmozzi</li>
-
-                    <li>12:20 — ∞: Make it so!</li>
-                  </ul>
-                </div>
-              </section>
-
               <section id="who" rel="schema:hasPart" resource="#who">
                 <h2>Who?</h2>
                 <div datatype="rdf:HTML" property="schema:description">
@@ -98,20 +104,10 @@
                   <p>Research contributions will be reviewed by these great <a href="https://linkedresearch.org/calls#reviewers">individuals</a>, and their contributions will be publicly accessible.</p>
                 </div>
               </section>
-                
-              <section id="notes" rel="schema:hasPart" resource="#notes">
-                <h2>Notes</h2>
-                <div datatype="rdf:HTML" property="schema:description">
-                  <p>The session will be minuted at <a href="https://public.etherpad-mozilla.org/p/lr-webconf2018">this etherpad</a>. Anyone is welcome to contribute notes and corrections.</p>
-                  <p>If you do not wish to be minuted, please say so when you speak. It's also helpful to mention your name when you speak, for the scribe.</p>
-                </div>
-              </section>
-                
-                
-                
+
             </div>
           </section>
         </div>
       </article>
     </main>
-<? include '../../end.php'; ?>
+<?php include '../../end.php'; ?>

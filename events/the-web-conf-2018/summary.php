@@ -1,19 +1,28 @@
-<? $title = "Linked Research at The Web Conf 2018"; ?>
-<? include '../../top.php'; ?>
+<?php $title = "Summary of Researcher-Centric Scholarly Communication workshop at The Web Conf 2018"; ?>
+<?php include '../../top.php'; ?>
     <main>
       <article about="" typeof="schema:Article">
         <h1 property="schema:name"><?=$title;?></h1>
 
+        <dl id="document-see-also">
+          <dt>See Also</dt>
+          <dd><a href="https://linkedresaerch.org/events/the-web-conf-2018/" rel="rdfs:seeAlso">Workshop</a></dd>
+        </dl>
+
+        <dl id="document-derived-from">
+          <dt>Derived From</dt>
+          <dd><a href="https://public.etherpad-mozilla.org/p/lr-webconf2018" rel="prov:wasDerivedFrom">Etherpad</a></dd>
+        </dl>
+
         <div datatype="rdf:HTML" id="content" property="schema:description">
-          <section id="rcsc-summary" rel="schema:hasPart" resource="#rcsc-summary">
+          <section id="summary" rel="schema:hasPart" resource="#summary">
             <h2 property="schema:name">Summary</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The <em>Researcher-Centric Scholarly Communication</em> workshop (aka #LinkedResearch) workshop took place at <cite>The Web Conf</cite>, on 24th April 2018, from 09:00 to 12:40. We had seven invited talks, and the session attracted around 30 participants.</p>
-
+              <p>The <em>Researcher-Centric Scholarly Communication</em> workshop (aka #LinkedResearch) took place at <cite><a href="https://www2018.thewebconf.org/">The Web Conf</a></cite>, on 24th April 2018, from 09:00 to 12:40. We had seven invited talks, and the session attracted around 30 participants.</p>
             </div>
           </section>
 
-          <section id="rcsc-participants" rel="schema:hasPart" resource="#rcsc-participants">
+          <section id="participants" rel="schema:hasPart" resource="#participants">
             <h2 property="schema:name">Participants</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <ul>
@@ -27,27 +36,26 @@
                 <li><dfn><abbr title="Henry Story">HS</abbr>: Henry Story</dfn></li>
                 <li><dfn><abbr title="Christine Chichester">HS</abbr>: Christine Chichester</dfn></li>
                 <li><dfn><abbr title="Eric Prud'hommeaux">EP</abbr>: Eric Prud'hommeaux</dfn></li>
+                <li><dfn><abbr title="Lamber Heller">LH</abbr>: Lambert Heller</dfn></li>
                 <li><dfn><abbr title="ELisabeth Lex">EL</abbr>: Elisabeth Lex</dfn></li>
                 <li><dfn><abbr title="Hanna Cwiek-Kupczynska">HC</abbr>: Hanna Cwiek-Kupczynska</dfn></li>
                 <li><dfn><abbr title="Hideaki Takeda">HT</abbr>: Hideaki Takeda</dfn></li>
                 <li><dfn><abbr title="Giacomo Gilmozzi">GG</abbr>: Giacomo Gilmozzi</dfn></li>
                 <li><dfn><abbr title="Claudia H Gutierrez">CG</abbr>: Claudia H Gutierrez</dfn></li>
 
-                <li><dfn><abbr title="??">LH</abbr>: Lambert Heller</dfn></li>
-
                 <li>??: </li>
-
-                <li>... we didn't take names, so if you're missing <a href="https://github.com/linkedresearch/linkedresearch.org">PR to add yourself</a> or contact <a href="https://rhiaro.co.uk/">rhiaro</a> or <a href="http://csarven.ca/">csarven</a></li>
               </ul>
+
+              <p>We did not take all the names, so if you're missing, please <a href="https://github.com/linkedresearch/linkedresearch.org">PR to add yourself</a> or contact <a href="https://rhiaro.co.uk/">rhiaro</a> or <a href="http://csarven.ca/">csarven</a>.</p>
             </div>
           </section>
 
 
-          <section id="rcsc-transcript" rel="schema:hasPart" resource="#rcsc-transcript">
+          <section id="transcript" rel="schema:hasPart" resource="#transcript">
             <h2 property="schema:name">Complete transcript of talks and discussions</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <section id="hello-world" rel="schema:hasPart" resource="#hello-world">
-                <h3 property="schema:name">09:00 — 09:10: Hello world!</h3>
+                <h3 property="schema:name">Hello world!</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>SC</strong>: Good morning and welcome. This is along the same theme as other Linked Research workshops we started last year at ESWC. A lot of thematic overlap, but this year it's more focussed on how we get researchers to have more control over the contributions that they make in any aspect of scholarly communication.</p>
 <p>All the talks are invited talks, no peer review.</p>
@@ -62,7 +70,7 @@
 <p>I worked with Stevan Harnad who wrote his subversive proposal in about 94/95. He wrote a proposal that said we've got this amazing platform called the Web, we can all put our publications on it, we can self publish and peer review and link it all together, and it won't cost anything.</p>
 <p>That was 30 years ago and the story has been amazingly complicated.</p>
 <p>Market forces are strong. People want to defend their companies. They employ people and have shareholders, and we understand that, but I find it so hard to believe that here we are in 2018 still struggling to create a global repository of scholarly comms that's all linked up.</p>
-<p>The physicists were there before us, that's what Stevan knew. The physicists were already putting their preprints onto the system through the Web. Nobody ever used a physicist for putting a preprint online. The arXiv flourishes, and the journal community still flourishes.</p>
+<p>The physicists were there before us, that's what Stevan knew. The physicists were already putting their preprints onto the system through the Web. Nobody ever sued a physicist for putting a preprint online. The arXiv flourishes, and the journal community still flourishes.</p>
 <p>We've somehow got into a world where we pay the publishers thousands of $$ to publish in a hybrid journal, sometimes several times. It's mad!</p>
 <p>We don't yet have a community where everything is available in a preprint format and an official format. We don't have somewhere we can search and link with this amazing new 'Linked Data'.. We don't have a global repository. Doesn't have to be centralised, we all know it can be distributed, we know how to make this stuff work, but it's about winning hearts and minds.</p>
 <p>Here we are at this workshop saying let's get this vision again. That's why I've backed Sarven. This is the biggest one of these we've had. This is about how we as a community persuade people that this is the right thing to do, and we can avoid paying lots of money .. I'm saying this as the chair of a conference committee that makes you pay lots of $$.. but we try to ensure throughout .. I'll tell you a secret, although we have gone for many years with the ACM, to publish the proceedings. There are some costs on putting lots of papers up in a format everyone can see. They're about as green as you can get without being totally green. We have a special deal with the ACM that let's us put the conference proceedings up and we have stuck with the principles of open publication for this conference since the first one in 1994. I could talk forever about this, I've had my couple of minutes. I just want to say I'm excited to have everybody here, we have an opportunity now to really make this work. Computer scientists are beginning to use arXiv, the ACM are encouraging preprints. It's about getting peoples' mindsets over. We absolutely have to have peer review. It has to be organised, self organising takes a lot from the community. We will all benefit if we have an open access repository of Linked Data of scholarly communication. It will benefit the world enormously</p>
@@ -74,13 +82,13 @@
 
 
               <section id="researcher-centric-solid" rel="schema:hasPart" resource="#researcher-centric-solid">
-                <h3 property="schema:name">09:10 — 09:40: Building a researcher-centric world on the user-centric platform, Solid, Tim Berners-Lee</h3>
+                <h3 property="schema:name">Building a researcher-centric world on the user-centric platform, Solid, Tim Berners-Lee</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p>Hi everybody, thanks for coming. Welcome. I put these slides into a meetulator, an organisational thing yesterday...</p>
 <p>All this is RDF of course (demo-ing meeting management system). The easiest way of doing I've found is to use Solid.</p>
 <p>This is an SVG, when you find it on the Web you'll be able to read it better.</p>
 <p>Let me tell you about what Solid is.</p>
-<p>It's an attitude towards the social control of data. We use read-write technology to separate the apps from the data source. The data source have a common API. Instead of the Facebook, the Twitter, strava, Easychair APIs, we say anybody who builds apps that use Solid they will use this common API. That socially has the effect that when you download a new app it says to you hey where do you want this data? You can say these are notes I'm taking so I'll put it in the Solid store I have at university. Or these photos are personal, so I'll keep them on my home server, I'm responsible for backing that up. It's identical from the apps point of view, the API is the same, but from my point of view I can be responsible or my work is responsible for maintaining it. There are reasons for having more than one personal datastore. Personal cloud is not new. You could use Dropbox.. Maybe Dropbox will implement Solid.</p>
+<p>It's an attitude towards the social control of data. We use read-write technology to separate the apps from the data source. The data source have a common API. Instead of the Facebook, the Twitter, Strava, Easychair APIs, we say anybody who builds apps that use Solid they will use this common API. That socially has the effect that when you download a new app it says to you hey where do you want this data? You can say these are notes I'm taking so I'll put it in the Solid store I have at university. Or these photos are personal, so I'll keep them on my home server, I'm responsible for backing that up. It's identical from the apps point of view, the API is the same, but from my point of view I can be responsible or my work is responsible for maintaining it. There are reasons for having more than one personal datastore. Personal cloud is not new. You could use Dropbox.. Maybe Dropbox will implement Solid.</p>
 <p>The Web we had originally a big green block in the middle of the architecture diagrams. A lot of these specs are .. the lower part are just Web, HTTP, things we already know. RDF, SPARQL. You can read form these things like a file system. it's a bit like WebDAV except if you have a file in there that's an RDF file you can query it like a database. The way that programs work is that as the user is modifying things then .. the user of the app uses some sort of stack of code which goes through a number of things we've built in Solid. These things are based on angular or react, we have some common code in libraries (that you can help us maintain!) to do authentication, there's rdflib.. There's a bunch of code you don't have to write when you build the app you can use libraries for various different levels. We have our own Solid UI stack but you don't have to use it. it's got Panes - an applet that drives a particular type.</p>
 <p>The idea about the server, you can certainly help on GitHub(node-solid-server) you can install it and use it or help us maintain it. You can install it in a mode where it's a server just for you, or a server which will allow whoever you like to get their subdomains. You might be running on mycool.stuff and your family members will get Alice.mycool.stuff and bob.mycool.stuff. You can go to solid.community and get yourself a subdomain of that and try it out. Talk to us on gitter if it's not working.. some of this is fairly new stuff.</p>
 <p>For example this thing (on screen) is a meeting. Anybody remember the tabulator? There is some tabulator code still in this somewhere.</p>
@@ -121,23 +129,22 @@
 
 
               <section id="epistemology-in-the-cloud" rel="schema:hasPart" resource="#epistemology-in-the-cloud">
-                <h3 property="schema:name">09:40 — 10:00: Epistemology in the Cloud, Henry Story</h3>
+                <h3 property="schema:name">Epistemology in the Cloud, Henry Story</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p>Slides and paper: <a href="http://bblfish.net/blog/2018/04/21/">http://bblfish.net/blog/2018/04/21/</a></p>
 
-<p>Thank you for inviting me. I've been working on lots of parts of Solid for a long time. I study philosophy intially, I did computing when I was 13 and I studied philosophy, then back to computing, then back to philosophy when I discovered the Semantic Web. I worked on the LDP part, security part, WebID part, read write part. Doing a PhD in Southampton now.</p>
+<p>Thank you for inviting me. I've been working on lots of parts of Solid for a long time. I study philosophy initially, I did computing when I was 13 and I studied philosophy, then back to computing, then back to philosophy when I discovered the Semantic Web. I worked on the LDP part, security part, WebID part, read write part. Doing a PhD in Southampton now.</p>
 <p>Some people might not have the background, the problem with explaining Solid is explaining why you need this. This is what philsophy is best at. Why do we need decentralised computing?</p>
 <p>I'll start with epistemology. What is knowledge? It started with Plato asking this question in Athens. Asking citizens do you even know what knowledge is? Taking a step back and asking about the concepts. He came up with if you know something if you believe it, it has to be justified. About 2000 years of discussions, and I want to go straight to a 1981 improvement by Nozick in Philosophical Explanations, the third definition is this modal logic definitions. If it weren't the case that P then you wouldn't believe that P. This type of explanation only made sense because modal knowledge in the 60s and 70s became coherent, mathematised.. the most interesting thing for us now is the counter-factual part of modal logic. 'fake news'. how do you explain if kangaroos had no tails then they would topple over, what are the truth conditions of these types of statements. Neighbourhood semantics. In all possible worlds, they have a distance relationship, some are closer than others. In category theory there are ways of explaining this, this is part of my thesis.</p>
 <p>What does it mean when you say if kangaroos had no tails they would topple over. In the closest possible world in which kangaroos have no tails, then if they topple over it's true.</p>
 <p>What's the point of that? He's trying to deal with skepticism. The problem of skepticism is.. how do you know that you're not a brain in a vat? That the aliens haven't come and made you think that you're listening to this conversation. There's no way you can exclude that possibility. If you think of knowledge as excluding all possibilities incompatible with your belief. If you can't exclude this, how do you ever know anything? We have this problem in security circles, if you don't know something is secure against all attacks, you can't be secure about anything, a system can always fail. A whole bunch of films about this, Matrix..</p>
-<p>When we say things like I have 5 pounds in my pocket, I know it because if I didn't have 5 pounds in my pocket it's not because the aliens are kidnapping me, it's probably because I spent it on a 
-    . I can track the truth of that. We keep a system in our mind to keep track of where we are in the world. Perhaps this is a solution. We can know, according to Nozick, things about the everyday world, even if we can never exclude the possibility of aliens.</p>
+<p>When we say things like I have 5 pounds in my pocket, I know it because if I didn't have 5 pounds in my pocket it's not because the aliens are kidnapping me, it's probably because I spent it on a coffee. I can track the truth of that. We keep a system in our mind to keep track of where we are in the world. Perhaps this is a solution. We can know, according to Nozick, things about the everyday world, even if we can never exclude the possibility of aliens.</p>
 <p>So we can relax right?</p>
 <p>But what if they did come?</p>
 <p>What would you do?</p>
 <p>You might want to go to the gym according to this ad.</p>
 <p>Henry's going crazy here, right. But this might be a situation we could be in?</p>
-<p>We are externalising our memories on computers, in the cloud. That's where the aliens are coming from. The cloud is not in our hands, it's in aliens' hands. It's' so easy to change information in the cloud, on a computer which you don't have control over. In ancient Greece if you wanted to change the law you had to hammer it in the wall, hard to do that without anybody noticing. But now it would be quite easy.</p>
+<p>We are externalising our memories on computers, in the cloud. That's where the aliens are coming from. The cloud is not in our hands, it's in aliens' hands. It's so easy to change information in the cloud, on a computer which you don't have control over. In ancient Greece if you wanted to change the law you had to hammer it in the wall, hard to do that without anybody noticing. But now it would be quite easy.</p>
 <p>You might think I'd remember what I wrote and I'd notice this. But large organisations, there's a whole theory about how they come to be. Started with families and clans. Moved to larger organisations, like cities to states, came with the ability to read and write laws and have externalised memory. Requires it to be able to cohere.</p>
 <p>The Leviathan itself is composed of externalised memories. Like telecoms companies when you call them they know you've done something because it's in their computer. You can call anyone and they'll keep track of what you talk about, what you've done. Made up of lots of people who use this externalised memory.</p>
 <p>So if you want to make sure that aliens aren't going to take over your brain, you need a server at home. A box with an open operating system so that you know that people aren't coming and changing your data. If your computer can control your home.</p>
@@ -164,7 +171,7 @@
 
 
               <section id="incentivizing-data-reuse" rel="schema:hasPart" resource="#incentivizing-data-reuse">
-                <h3 property="schema:name">10:00 — 10:20: Incentivizing data reuse, Christine Chichester and Antonis Loizou</h3>
+                <h3 property="schema:name">Incentivizing data reuse, Christine Chichester and Antonis Loizou</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><a href="https://datafair.xyz/">datafair.xyz</a></p>
 
@@ -179,13 +186,13 @@
 <p>Different incentives for different people. My dog wouldn't go a step with a camo sweater.</p>
 <p>It's not very motivating.</p>
 <p>We try to help with some of these things.</p>
-<p>Improving data exposure and promotion with nanopublications. We want to help these providers by using shareable persistent URIs. W're trying to instill the trust by making a communication channel between providers and reusers. opens the possibilities for collaboration. Putting in place the mechanism for communication. could be some market driven incentive. Right now if you're funded by NIH you're forced to do it, that's imposition. I don't know if forcing is a very good incentive. But there are other market types of incentives. Hopefully datafair can offer this. As well as the incentive that your dataset could be improved. There could be other reusers who pick them up and do this cleaning for you. And they have an incentive to do that because it's an activity that they can be rewarded for monetarily.</p>
+<p>Improving data exposure and promotion with nanopublications. We want to help these providers by using shareable persistent URIs. We're trying to instill the trust by making a communication channel between providers and reusers. opens the possibilities for collaboration. Putting in place the mechanism for communication. could be some market driven incentive. Right now if you're funded by NIH you're forced to do it, that's imposition. I don't know if forcing is a very good incentive. But there are other market types of incentives. Hopefully datafair can offer this. As well as the incentive that your dataset could be improved. There could be other reusers who pick them up and do this cleaning for you. And they have an incentive to do that because it's an activity that they can be rewarded for monetarily.</p>
 <p>Nanopublications - this is how we are helping a data provider achieve a FAIR dataset, or achieve some of those objectives.</p>
 <p>It's a formal way in RDF (three named graphs) to represent a small scientific assertion. We typically give the example of 'malaria is transmitted by mosquitoes'. One graph in the nanopublication, also a provenance graph, and also publication info about the specific publication info about the nanopublication as a whole.</p>
 <p>In the case of datafair, what are we doing here? Assert that a dataset is published by a certain provider, has a license, a download URL, and was derived from a certain source.</p>
 <p>The provenance for that assertion is that it was generated a certain time, attributed to a certain data provider, comes from a certain place.</p>
 <p>The publication info is about the whole nanopublication, attributed to us because we add this when people put their data in our marketplace.</p>
-<p>Also rely on something else. A trusty URI (Tobias Kuhn). Verifiable, immutable and permanent URIs. You have the URI, a module identifier, and a cryptographic hash. If you add this to indicate your nanopublication, you can then verify it, the hash is on the content of the nanopublication. If you find the nanopublication and the hash doesn't match, then you know that somehow it was corrupted or something happened. Nanopublications are supposed to be immutable anyway. You want to say malaria is transmitted by mosquoties, you find out it's not true, you write a new one and reference that it replaces the old one.</p>
+<p>Also rely on something else. A trusty URI (Tobias Kuhn). Verifiable, immutable and permanent URIs. You have the URI, a module identifier, and a cryptographic hash. If you add this to indicate your nanopublication, you can then verify it, the hash is on the content of the nanopublication. If you find the nanopublication and the hash doesn't match, then you know that somehow it was corrupted or something happened. Nanopublications are supposed to be immutable anyway. You want to say malaria is transmitted by mosquitoes, you find out it's not true, you write a new one and reference that it replaces the old one.</p>
 <p>One trusty URI for the nanopub, one for the dataset itself.</p>
 <p>Look up the nanopublication with the trusty URI.. look up the assertion, use the download URI in the assertion to find back the dataset.</p>
 <p>What do we do with nanopublications?</p>
@@ -196,7 +203,7 @@
 <p>These are the three ways we can incentivise people to make their data available.</p>
 <h4>Q&amp;A:</h4>
 
-<p><strong>EP</strong>: In the spirit of decentralisation, you could still participate in nanopublications if you're outside of your network. The degree to which you can get references.. when you have one nanopublication and you get another one that contradicts it, is there a forward reference or do you need a database query to get that? If you got your network of distributed databases, and other people are taking advantage of the decentralised nature of it and have their own nanopubs externally is there some convention for cross-referenceing so you can find the next version?</p>
+<p><strong>EP</strong>: In the spirit of decentralisation, you could still participate in nanopublications if you're outside of your network. The degree to which you can get references.. when you have one nanopublication and you get another one that contradicts it, is there a forward reference or do you need a database query to get that? If you got your network of distributed databases, and other people are taking advantage of the decentralised nature of it and have their own nanopubs externally is there some convention for cross-referencing so you can find the next version?</p>
 <p><strong>AL</strong>: for the first part when it turns out that mosquitoes don't transmit malaria, you could have a nanopub where you assert that the other one is wrong. Or you can say that mosquitoes don't transmit malaria and rely on a third nanopub to say that this nanopub is more trusty than the other one.</p>
 <p>When it comes to decentralisation, the servers exchange data between them so they're all on the same index. If you don't want to be part of this, but create nanopublications on your own machine, you can refer to any others in the network. If they descirbe yours, they can refer back to you. If you don't have immutable URIs that's breaking it.</p>
 
@@ -217,7 +224,7 @@
 
 
               <section id="blockchain-based-educational-certificates" rel="schema:hasPart" resource="#blockchain-based-educational-certificates">
-                <h3 property="schema:name">11:00 — 11:30: Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction, Lambert Heller</h3>
+                <h3 property="schema:name">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction, Lambert Heller</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p>Thank you for inviting me. I will try to make the case that we have an issue with data ownership when it comes to review and general research assessment and stuff like that. I will try to make the case that blockchain is at least a very good candidate for delivering a solution to that. Before I dive into this question let me briefly point out that I'm not a web scientists but a that I work in an academic library. What I have mostly done in the past 5 years with my group (the Open Science Lab) is that we promoted and enhanced VIVO. Linked Open Data approach to current research information systems. We have a workshop coming up in Hannover in autumn.</p>
 <p>To dive into this question. As you know, research assessment has many elements. one of the most atomic core elements is peer review. Many other instances where you give attribution that somebody made a small very particular contribution to a collaborative work, or kind of mutual assessments that happen all the time. We already know that we have a huge systemic issue with research assessment right now. Senior researchers who frequently serve their role on committees that decide on hiring, tenure, promotion, etc, very often rely on proxies for research assessment like the impact factor which is really damaging to research.</p>
@@ -269,7 +276,7 @@
 
 
               <section id="verified-shared-modular-research" rel="schema:hasPart" resource="#verified-shared-modular-research">
-                <h3 property="schema:name">11:30 — 12:00: Verified, shared, modular research communication with the Dat protocol, Chris Hartgerink</h3>
+                <h3 property="schema:name">Verified, shared, modular research communication with the Dat protocol, Chris Hartgerink</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p>Slides: <a href="https://bit.ly/webconf-chris">https://bit.ly/webconf-chris</a></p>
 
@@ -325,7 +332,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>JD</strong>: Are you changing citations?</p>
 <p><strong>CH</strong>: You can still cite within a module, but there is a lot of improvement. how the modules are filled in is very important. Important to make citations at the client side. If you render the citations clientside you can start verifying, if you cite a module a researcher doesn't claim that article anymore you can automatically see that that has been rescinded. When you read it.</p>
 <p><strong>SC</strong>: If we can get certification out of this as well and if you can self-register or self publish, what would the role be of the publisher? The third party? This allows anyone to register and we have the certification mechanism to make sure that it's a legit contribution.</p>
-<p><strong>CH</strong>: One of the key things I think is going to be important is curation. For example say I want to know what you're recommending. Peer review journals have a large curation role. That oculd still be a role of publishers as they change with this.</p>
+<p><strong>CH</strong>: One of the key things I think is going to be important is curation. For example say I want to know what you're recommending. Peer review journals have a large curation role. That could still be a role of publishers as they change with this.</p>
 <p><strong>SC</strong>: Like overlay</p>
 <p><strong>CH</strong>: Exactly</p>
 
@@ -350,7 +357,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 
 
               <section id="recommender-systems" rel="schema:hasPart" resource="#recommender-systems">
-                <h3 property="schema:name">12:00 — 12:15: Recommender Systems as Enabling Technology to Interlink Scholarly Information, Elisabeth Lex</h3>
+                <h3 property="schema:name">Recommender Systems as Enabling Technology to Interlink Scholarly Information, Elisabeth Lex</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p>Our idea is to use recommender systems to link scholarly information. There is a lot of content out there, lots of great open access content. The EU commission is really focussing on making the outputs of projects as open as possible. Data about publications, about scholars, projects. You're probably aware of FAIR.. all these aspects are very important. We're focussing on increasing findability of scientific outputs. Great potential to spark scientific collaborations.</p>
 <p>OpenAIRE project, started in 2009, the intention to support researchers on EU projects in making their stuff open access. Guidelines and infrastructure. They have a portal where you can put your publications. It's growing now. The idea is to have this project as an open science infrastructure, integrated in the EU open science pilot.</p>
@@ -381,7 +388,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>??</strong>: Have you ever tried to use the ?? services as the API? I'll talk to you later.</p>
 <p><strong>EL</strong>: Currently not, we should talk.</p>
 <p><strong>??</strong>: Do you know the ?? EU project, trying to give information about all the outputs of internet related projects? But actually they just started.</p>
-<p><strong>EL</strong>: this is a very rich resource of information which is currently just kept somehwere. you could not really benefit form it. It's so competitive to run .. we should connect even more information. Open science is now a priority with the EU commission. They give a lot of public funding to scientists, so they want to make it more accessible to the general public.  A great way to spread the truth of science and move forward.</p>
+<p><strong>EL</strong>: this is a very rich resource of information which is currently just kept somewhere. you could not really benefit form it. It's so competitive to run .. we should connect even more information. Open science is now a priority with the EU commission. They give a lot of public funding to scientists, so they want to make it more accessible to the general public.  A great way to spread the truth of science and move forward.</p>
 
 <p><strong>??</strong>: Tomorrow she's going to be in an interesting panel, international project tracks.</p>
 
@@ -391,7 +398,7 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 
 
               <section id="contributive-research" rel="schema:hasPart" resource="#contributive-research">
-                <h3 property="schema:name">12:05 — 12:20: Contributive Research: Hypothes.is Implementation for Academic research Purpose, Giacomo Gilmozzi</h3>
+                <h3 property="schema:name">Contributive Research: Hypothes.is Implementation for Academic research Purpose, Giacomo Gilmozzi</h3>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>GG</strong>: The philosopher takes a step back before starting to speak about something. It seems like we spoke a lot about the publication of articles and dissemination on the Web. I'm working at IRI, directed by Bernard Stiegler, who is a philosopher interested in techniques. We explores the field of digital studies, in the sense of a new « organology of knowledge » appearing with the digital, which requires specific studies and concepts, and which shifts the whole contemporary episteme. More precisely -> we investigates the field of cultural and cognitive  technologies from a digital humanities point of view. Furthermore, we participate in the development of new devices and technologies to facilitate contributions and collaborative critique; to provide solutions for editorial and social interaction in the domains of culture and knowledge. Investigate the field of cultural and cognitive technologies from a digital humanities point of view.</p>
 <p>Develop applications to facilitate the critique.</p>
@@ -418,12 +425,12 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>HS</strong>: you're using this annotation thing, using the Annotation Protocol from W3C? Does that use LDP?</p>
 <p><strong>GG</strong>: Yep</p>
 <p><strong>TBL</strong>: no (shakes head)</p>
-<p><strong>SC</strong>: I would say no.. they have their own homebaked API, but also a Web Annotation data explosed. To get to it you have to manually add .jsonld to the URL. You can't really machine discover the annotations. They were part of the WA WG but on the implementation side it's not fully implemented.</p>
+<p><strong>SC</strong>: I would say no.. they have their own homebaked API, but also a Web Annotation data exposed. To get to it you have to manually add .jsonld to the URL. You can't really machine discover the annotations. They were part of the WA WG but on the implementation side it's not fully implemented.</p>
 
 <p><strong>SC</strong>: Are you using the hypothesis servers for the data?</p>
 <p><strong>GG</strong>: No. Local copy.</p>
-<p><strong>SC</strong>: Is that information accessible and discoverable by anyone on the web?
-GG: Yes. Right now we're using private small groups because of the research aims.</p>
+<p><strong>SC</strong>: Is that information accessible and discoverable by anyone on the web?</p>
+<p><strong>GG</strong>: Yes. Right now we're using private small groups because of the research aims.</p>
 <p><strong>SC</strong>: I think the next interesting thing is that stuff stored on hypothesis and stuff stored with IRI are discoverable using the same mechanism. But really cool.</p>
 <p><strong>HS</strong>: In my paper I mention Bernard Stiegler at least 4 times. how do you bring the organs of the state into the web browser. Perhaps you can find someone at IRI who can help...</p>
 
@@ -437,4 +444,4 @@ GG: Yes. Right now we're using private small groups because of the research aims
         </div>
       </article>
     </main>
-<? include '../../end.php'; ?>
+<?php include '../../end.php'; ?>
