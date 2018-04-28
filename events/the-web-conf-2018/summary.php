@@ -122,12 +122,11 @@
 <p><strong>TBL</strong>: You'd have to steal someone's private key.</p>
 <p><strong>WH</strong>: That's a technical answer.. most people in the world are not going to understand that... let's take this offline.</p>
 
+<hr />
+<p>🎩 <mark>Interlude (Henry, Sarven, and Tim up on the podium)</mark>: How many computer scientists, including inventor of Web, does it take to work the projector?</p>
                 </div>
               </section>
 
-<hr />
-<p><mark>Interlude (Henry, Sarven, and Tim up on the podium)</mark>: How many computer scientists, including inventor of Web, does it take to work the projector?</p>
-<hr />
 
               <section id="epistemology-in-the-cloud" rel="schema:hasPart" resource="#epistemology-in-the-cloud">
                 <h3 property="schema:name">Epistemology in the Cloud</h3>
@@ -218,12 +217,12 @@
 <p><strong>EP</strong>: Everybody thought you can protect your identifiers with purl.org then it was down for 6 months... when you're positioning yourself in an ecosystem.. the juxtaposition between decentralisation and distribution is important. You need to emphasise that you're a component of this ecosystem, but you can participate in it externally as well. It's not mandatory that this system be there forever, and that makes it more secure.</p>
 <p><strong>HC</strong>: This mechanism for cleaning data. Sounds tricky. How can you be sure that the person who takes the data and modifies it in a correct and right way so that it's not modified somehow more than necessary or changes something or the intention of the author. Any formal procedure so you can be sure?</p>
 <p><strong>AL</strong>: How do you choose which of the ten listings of the same product you're gonna buy on ebay? Same answer. I clean some data and put it up for sale, people buy it or not, and review it. We rely on these personal dynamics. Someone is providing data for sale, interested parties can ask them questions. If the reuser trusts it enough.</p>
+
+<hr />
+<p>🙌 Break</p>
                 </div>
               </section>
 
-<hr />
-<p>Break</p>
-<hr />
 
               <section id="blockchain-based-educational-certificates" rel="schema:hasPart" resource="#blockchain-based-educational-certificates">
                 <h3 property="schema:name">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</h3>
@@ -421,12 +420,12 @@ CH: The researcher chooses what to put in the module. Because the network is ope
 <p><strong>GG</strong>: Yes. Right now we're using private small groups because of the research aims.</p>
 <p><strong>SC</strong>: I think the next interesting thing is that stuff stored on hypothesis and stuff stored with IRI are discoverable using the same mechanism. But really cool.</p>
 <p><strong>HS</strong>: In my paper I mention Bernard Stiegler at least 4 times. how do you bring the organs of the state into the web browser. Perhaps you can find someone at IRI who can help...</p>
+
+<hr />
+<p>(😜 <strong>AG</strong>: I don't think the rest of this needs to be scribed.)</p>
+
                 </div>
               </section>
-<hr/>
-<aside>
-<p>(<strong>AG</strong>: I don't think the rest of this needs to be scribed.)</p>
-</aside>
             </div>
           </section>
         </div>
