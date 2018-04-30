@@ -1,6 +1,12 @@
 @import url('https://dokie.li/media/css/basic.css');
 
-body { padding: 0; margin: 0; width: 100%; }
+main > article h1,
+body > footer {
+max-width:99vw;
+margin-left: calc(-50vw + 50%);
+margin-right: calc(-50vw + 50%);
+}
+
 
 body > header {
   margin-top:0;
