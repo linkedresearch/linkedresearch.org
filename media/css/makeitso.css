@@ -55,6 +55,9 @@ h1 {
 }
 
 /* Homepage specific styles */
+#index body {
+max-width:initial;
+}
 #index main > article h1 {
   margin-bottom:0;
   padding: 2em 0;
