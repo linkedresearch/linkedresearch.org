@@ -7,7 +7,6 @@ margin-left: calc(-50vw + 50%);
 margin-right: calc(-50vw + 50%);
 }
 
-
 body > header {
   margin-top:0;
   width: calc(100% - 6em);
@@ -49,9 +48,9 @@ main > article h1 {
 }
 h1 {
   font-size: 2em;
-  padding: 0.5em;
+  padding: 0.5em 0;
   margin: 0 0 1.5em 0;
-  color: white;
+  color: #fff;
 }
 
 /* Homepage specific styles */
@@ -130,6 +129,13 @@ body > footer dl { width: 100%; }
 body > footer dt { display: none; }
 
 @media screen and (min-width: 768px){
+  main > article h1,
+  body > footer {
+    max-width:99.5vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+  }
+
   body > header nav li { display:inline-block; text-align:center; }
   body > header nav li a { padding: 1.25em 0.25em 1.25em 1.25em; margin:0 1em 0 -1em; }
 
