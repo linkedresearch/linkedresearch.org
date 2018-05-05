@@ -15,10 +15,19 @@
         </dl>
 
         <div datatype="rdf:HTML" id="content" property="schema:description">
-          <section id="summary" rel="schema:hasPart" resource="#summary">
-            <h2 property="schema:name">Summary</h2>
+          <dl id="document-event" rel="schema:hasPart" resource="#event">
+             <dt resource="#event" typeof="schema:Event">Event</dt>
+             <dd property="schema:description"><span property="schema:name">Researcher Centric Scholarly Communication</span> took place at <cite><a href="https://www2018.thewebconf.org/" rel="schema:isPartOf">The Web Conf</a> 2018</cite>.</dd>
+             <dt>Location</dt>
+             <dd rel="schema:location" resource="http://dbpedia.org/resource/Lyon">Lyon, Paris</dd>
+             <dt>Date</dt>
+             <dd>On 2018-04-28 from <time datatype="xsd:dateTime" datetime="2018-04-24T08:00:00Z" property="schema:startDate">09:00</time> to <time datatype="xsd:dateTime" datetime="2018-04-24T11:50:00Z" property="schema:startDate">12:50</time></dd>
+          </dl>
+
+          <section id="event" rel="schema:hasPart" resource="#event">
+            <h2 property="schema:name">Event</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <p>The <em>Researcher-Centric Scholarly Communication</em> workshop (aka #LinkedResearch) took place at <cite><a href="https://www2018.thewebconf.org/">The Web Conf</a></cite>, on 24th April 2018, from 09:00 to 12:40. We had seven invited talks, and the session attracted around 30 participants.</p>
+              <p>The <em>Researcher-Centric Scholarly Communication</em> workshop (aka #LinkedResearch) took place at <cite><a href="https://www2018.thewebconf.org/">The Web Conf</a></cite>, on 24th April 2018, from 09:00 to 12:40. We had seven invited talks, and the session attracted around 30 participants. The even was <a href=#transcript">transcribed</a>.</p>
             </div>
           </section>
 
