@@ -21,7 +21,7 @@
              <dt>Location</dt>
              <dd rel="schema:location" resource="http://dbpedia.org/resource/Lyon">Lyon, Paris</dd>
              <dt>Date</dt>
-             <dd>On 2018-04-28 from <time datatype="xsd:dateTime" datetime="2018-04-24T08:00:00Z" property="schema:startDate">09:00</time> to <time datatype="xsd:dateTime" datetime="2018-04-24T11:50:00Z" property="schema:endDate">12:50</time></dd>
+             <dd>On 2018-04-28 from <time content="2018-04-24T08:00:00Z" datatype="xsd:dateTime" datetime="2018-04-24T08:00:00Z" property="schema:startDate">09:00</time> to <time content="2018-04-24T11:50:00Z" datatype="xsd:dateTime" datetime="2018-04-24T11:50:00Z" property="schema:endDate">12:50</time></dd>
           </dl>
 
           <section id="participants" rel="schema:hasPart" resource="#participants">
