@@ -25,23 +25,24 @@
           <section id="participants" rel="schema:hasPart" resource="#participants">
             <h2 property="schema:name">Participants</h2>
             <div datatype="rdf:HTML" property="schema:description">
-              <ul>
-                <li><dfn><abbr title="Sarven Capadisli">SC</abbr>: Sarven Capadisli (chair)</dfn></li>
-                <li><dfn><abbr title="Dame Wendy Hall">WH</abbr>: Dame Wendy Hall (chair)</dfn></li>
-                <li><dfn><abbr title="Tim Berners-Lee">TBL</abbr>: Tim Berners-Lee</dfn></li>
-                <li><dfn><abbr title="Antonis Loizou">AL</abbr>: Antonis Loizou</dfn></li>
-                <li><dfn><abbr title="John Domingue">JD</abbr>: John Domingue</dfn></li>
-                <li><dfn><abbr title="Chris Hartgerink">CH</abbr>: Chris Hartgerink</dfn></li>
-                <li><dfn><abbr title="Daniel Schwabe">DS</abbr>: Daniel Schwabe</dfn></li>
-                <li><dfn><abbr title="Henry Story">HS</abbr>: Henry Story</dfn></li>
-                <li><dfn><abbr title="Christine Chichester">CC</abbr>: Christine Chichester</dfn></li>
-                <li><dfn><abbr title="Eric Prud'hommeaux">EP</abbr>: Eric Prud'hommeaux</dfn></li>
-                <li><dfn><abbr title="Lambert Heller">LH</abbr>: Lambert Heller</dfn></li>
-                <li><dfn><abbr title="ELisabeth Lex">EL</abbr>: Elisabeth Lex</dfn></li>
-                <li><dfn><abbr title="Hanna Cwiek-Kupczynska">HC</abbr>: Hanna Cwiek-Kupczynska</dfn></li>
-                <li><dfn><abbr title="Hideaki Takeda">HT</abbr>: Hideaki Takeda</dfn></li>
-                <li><dfn><abbr title="Giacomo Gilmozzi">GG</abbr>: Giacomo Gilmozzi</dfn></li>
-                <li><dfn><abbr title="Claudia H. Gutierrez">CG</abbr>: Claudia H. Gutierrez</dfn></li>
+              <ul rel="schema:member">
+                <li about="http://csarven.ca/#i"><dfn id="Sarven-Capadisli"><abbr title="Sarven Capadisli">SC</abbr>: <a href="http://csarven.ca/">Sarven Capadisli</a> (chair)</dfn></li>
+                <li about="#Wendy-Hall"><dfn id="Wendy-Hall"><abbr title="Dame Wendy Hall">WH</abbr>: <a href="http://users.ecs.soton.ac.uk/wh/" lang="" property="schema:name" rel="schema:url" xml:lang="">Dame Wendy Hall</a> (chair)</dfn></li>
+                <li about="https://rhiaro.co.uk/#me"><dfn id="Amy-Guy"><abbr title="Amy Guy">AG</abbr>: <a href="https://rhiaro.co.uk">Amy Guy</a> (scibe)</dfn></li>
+                <li about="https://www.w3.org/People/Berners-Lee/card#i"><dfn id="Tim Berners-Lee"><abbr title="Tim Berners-Lee">TBL</abbr>: <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></dfn></li>
+                <li about="#Antonis-Loizou"><dfn id="Antonis-Loizou"><abbr title="Antonis Loizou">AL</abbr>: <a href="https://datafair.xyz/" lang="" property="schema:name" rel="schema:url" xml:lang="">Antonis Loizou</a></dfn></li>
+                <li about="http://data.open.ac.uk/person/2482a533b100c51b082644502f2b86e0"><dfn id="John-Domingue"><abbr title="John Domingue">JD</abbr>: <a href="http://people.kmi.open.ac.uk/domingue/">John Domingue</a></dfn></li>
+                <li about="https://orcid.org/0000-0003-1050-6809"><dfn><abbr title="Chris-Hartgerink">CH</abbr>: <a href="http://chjh.nl/" lang="" property="schema:name" rel="schema:url" xml:lang="">Chris Hartgerink</a></dfn></li>
+                <li about="#Claudia-H-Gutiérrez"><dfn id="Claudia-H-Gutiérrez"><abbr title="Claudia H. Gutiérrez">CG</abbr>: <a href="http://www.uc.cl/" lang="" property="schema:name" rel="schema:url" xml:lang="">Claudia H. Gutiérrez</a></dfn></li>
+                <li about="http://www-di.inf.puc-rio.br/schwabe/foaf-schwabe.rdf#me"><dfn id="Daniel-Schwabe"><abbr title="Daniel Schwabe">DS</abbr>: <a href="http://www-di.inf.puc-rio.br/schwabe/">Daniel Schwabe</a></dfn></li>
+                <li about="http://bblfish.net/people/henry/card#me"><dfn id="Henry-Story"><abbr title="Henry Story">HS</abbr>: <a href="http://bblfish.net/">Henry Story</a></dfn></li>
+                <li about="#Christine-Chichester"><dfn id="Christine-Chichester"><abbr title="Christine Chichester">CC</abbr>: <a href="https://datafair.xyz/" lang="" property="schema:name" rel="schema:url" xml:lang="">Christine Chichester</a></dfn></li>
+                <li about="#Eric-Prud-hommeaux"><dfn id="Eric-Prud-hommeaux"><abbr title="Eric Prud'hommeaux">EP</abbr>: <a href="https://www.w3.org/People/Eric/" lang="" property="schema:name" rel="schema:url" xml:lang="">Eric Prud'hommeaux</a></dfn></li>
+                <li about="https://vivo.tib.eu/fis/individual/n0000-0003-0232-7085"><dfn id="Lambert-Heller"><abbr title="Lambert Heller">LH</abbr>: <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></dfn></li>
+                <li about="#ELisabeth-Lex"><dfn id="ELisabeth-Lex"><abbr title="ELisabeth Lex">EL</abbr>: <a href="http://www.elisabethlex.info/" lang="" property="schema:name" rel="schema:url" xml:lang="">Elisabeth Lex</a></dfn></li>
+                <li about="#Hanna Ćwiek-Kupczyńska"><dfn id="Hanna-Ćwiek-Kupczyńska"><abbr title="Hanna Cwiek-Kupczynska">HC</abbr>: <a href="https://www.rd-alliance.org/users/hanna-cwiek-kupczynska" lang="" property="schema:name" rel="schema:url" xml:lang="">Hanna Ćwiek-Kupczyńska</a></dfn></li>
+                <li about="https://orcid.org/0000-0002-2909-7163"><dfn id="Hideaki-Takeda"><abbr title="Hideaki Takeda">HT</abbr>: <a href="http://www-kasm.nii.ac.jp/~takeda/">Hideaki Takeda</a></dfn></li>
+                <li about="#Giacomo-Gilmozzi"><dfn id="Giacomo-Gilmozzi"><abbr title="Giacomo Gilmozzi">GG</abbr>: <a href="http://nextleap.eu/" lang="" property="schema:name" rel="schema:url" xml:lang="">Giacomo Gilmozzi</a></dfn></li>
 
                 <li>??: </li>
               </ul>
@@ -67,8 +68,13 @@
                 </ul>
               </nav>
 
-              <section id="hello-world" rel="schema:hasPart" resource="#hello-world">
+              <section id="hello-world" rel="schema:hasPart" resource="#hello-world" typeof="schema:Event">
                 <h3 property="schema:name">Hello world!</h3>
+                <dl class="presenter">
+                  <dt>Presenters</dt>
+                  <dd><a href="http://csarven.ca/#i" rel="schema:performer">Sarven Capadisli</a></dd>
+                  <dd><a href="#Wendy-Hall" rel="schema:performer">Dame Wendy Hall</a></dd>
+                </dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>SC</strong>: Good morning and welcome. This is along the same theme as other Linked Research workshops, like the one last year at ESWC. A lot of thematic overlap, but this year it's more focussed on how we get researchers to have more control over the contributions that they make in any aspect of scholarly communication.</p>
 <p>All the talks are invited talks, no peer review.</p>
@@ -93,8 +99,12 @@
               </section>
 
 
-              <section id="researcher-centric-solid" rel="schema:hasPart" resource="#researcher-centric-solid">
+              <section id="researcher-centric-solid" rel="schema:hasPart" resource="#researcher-centric-solid" typeof="schema:Event">
                 <h3 property="schema:name">Building a researcher-centric world on the user-centric platform, Solid</h3>
+                <dl class="presenter">
+                  <dt>Presenters</dt>
+                  <dd><a href="https://www.w3.org/People/Berners-Lee/card#i" rel="schema:performer">Tim Berners-Lee</a></dd>
+                </dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>TBL</strong>: Hi everybody, thanks for coming. Welcome. I put these slides into a meetulator, an organisational thing yesterday...</p>
 <p>All this is RDF of course (demo-ing meeting management system). The easiest way of doing I've found is to use Solid.</p>
@@ -141,8 +151,12 @@
               </section>
 
 
-              <section id="epistemology-in-the-cloud" rel="schema:hasPart" resource="#epistemology-in-the-cloud">
+              <section id="epistemology-in-the-cloud" rel="schema:hasPart" resource="#epistemology-in-the-cloud" typeof="schema:Event">
                 <h3 property="schema:name">Epistemology in the Cloud</h3>
+                <dl class="presenter">
+                  <dt>Presenters</dt>
+                  <dd><a href="http://bblfish.net/people/henry/card#me" rel="schema:performer">Henry Story</a></dd>
+                </dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>HS</strong>: Slides and paper: <a href="http://bblfish.net/blog/2018/04/21/">http://bblfish.net/blog/2018/04/21/</a></p>
 <p>Thank you for inviting me. I've been working on lots of parts of Solid for a long time. I study philosophy initially, I did computing when I was 13 and I studied philosophy, then back to computing, then back to philosophy when I discovered the Semantic Web. I worked on the LDP part, security part, WebID part, read write part. Doing a PhD in Southampton now.</p>
@@ -183,8 +197,12 @@
               </section>
 
 
-              <section id="incentivizing-data-reuse" rel="schema:hasPart" resource="#incentivizing-data-reuse">
+              <section id="incentivizing-data-reuse" rel="schema:hasPart" resource="#incentivizing-data-reuse" typeof="schema:Event">
                 <h3 property="schema:name">Incentivizing data reuse</h3>
+<dl class="presenter">
+  <dt>Presenters</dt>
+  <dd><a href="#Christine-Chichester" rel="schema:performer">Christine Chichester</a></dd>
+</dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>CC</strong>: <a href="https://datafair.xyz/">datafair.xyz</a></p>
 <p>A marketplace for data. I'm going to talk about how we are dealing with some of the pain points data providers have.</p>
@@ -237,8 +255,12 @@
               </section>
 
 
-              <section id="blockchain-based-educational-certificates" rel="schema:hasPart" resource="#blockchain-based-educational-certificates">
+              <section id="blockchain-based-educational-certificates" rel="schema:hasPart" resource="#blockchain-based-educational-certificates" typeof="schema:Event">
                 <h3 property="schema:name">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</h3>
+                <dl class="presenter">
+                  <dt>Presenters</dt>
+                  <dd><a href="#Lambert-Heller" rel="schema:performer">Lambert Heller</a></dd>
+                </dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>LH</strong>: Thank you for inviting me. I will try to make the case that we have an issue with data ownership when it comes to review and general research assessment and stuff like that. I will try to make the case that blockchain is at least a very good candidate for delivering a solution to that. Before I dive into this question let me briefly point out that I'm not a web scientists but a that I work in an academic library. What I have mostly done in the past 5 years with my group (the Open Science Lab) is that we promoted and enhanced VIVO. Linked Open Data approach to current research information systems. We have a workshop coming up in Hannover in autumn.</p>
 <p>To dive into this question. As you know, research assessment has many elements. one of the most atomic core elements is peer review. Many other instances where you give attribution that somebody made a small very particular contribution to a collaborative work, or kind of mutual assessments that happen all the time. We already know that we have a huge systemic issue with research assessment right now. Senior researchers who frequently serve their role on committees that decide on hiring, tenure, promotion, etc, very often rely on proxies for research assessment like the impact factor which is really damaging to research.</p>
@@ -285,8 +307,12 @@
               </section>
 
 
-              <section id="verified-shared-modular-research" rel="schema:hasPart" resource="#verified-shared-modular-research">
+              <section id="verified-shared-modular-research" rel="schema:hasPart" resource="#verified-shared-modular-research" typeof="schema:Event">
                 <h3 property="schema:name">Verified, shared, modular research communication with the Dat protocol</h3>
+                <dl class="presenter">
+                  <dt>Presenters</dt>
+                  <dd><a href="#Chris-Hartgerink" rel="schema:performer">Chris Hartgerink</a></dd>
+                </dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>CH</strong>: Slides: <a href="https://bit.ly/webconf-chris">https://bit.ly/webconf-chris</a></p>
 <p>This is work I'm doing with the Mozilla science lab. A psychologist by training, and an applied statistician. I'm approaching today with a meta point of view with a lot of the issues we have nowadays.</p>
@@ -361,8 +387,12 @@
               </section>
 
 
-              <section id="recommender-systems" rel="schema:hasPart" resource="#recommender-systems">
+              <section id="recommender-systems" rel="schema:hasPart" resource="#recommender-systems" typeof="schema:Event">
                 <h3 property="schema:name">Recommender Systems as Enabling Technology to Interlink Scholarly Information</h3>
+                <dl class="presenter">
+                  <dt>Presenters</dt>
+                  <dd><a href="#ELisabeth-Lex" rel="schema:performer">Elisabeth Lex</a></dd>
+                </dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>EL</strong>: Our idea is to use recommender systems to link scholarly information. There is a lot of content out there, lots of great open access content. The EU commission is really focussing on making the outputs of projects as open as possible. Data about publications, about scholars, projects. You're probably aware of FAIR.. all these aspects are very important. We're focussing on increasing findability of scientific outputs. Great potential to spark scientific collaborations.</p>
 <p>OpenAIRE project, started in 2009, the intention to support researchers on EU projects in making their stuff open access. Guidelines and infrastructure. They have a portal where you can put your publications. It's growing now. The idea is to have this project as an open science infrastructure, integrated in the EU open science pilot.</p>
@@ -398,8 +428,12 @@
               </section>
 
 
-              <section id="contributive-research" rel="schema:hasPart" resource="#contributive-research">
+              <section id="contributive-research" rel="schema:hasPart" resource="#contributive-research" typeof="schema:Event">
                 <h3 property="schema:name">Contributive Research: Hypothes.is Implementation for Academic Research Purpose</h3>
+                <dl class="presenter">
+                  <dt>Presenters</dt>
+                  <dd><a href="#Giacomo-Gilmozzi" rel="schema:performer">Giacomo Gilmozzi</a></dd>
+                </dl>
                 <div datatype="rdf:HTML" property="schema:description">
 <p><strong>GG</strong>: The philosopher takes a step back before starting to speak about something. It seems like we spoke a lot about the publication of articles and dissemination on the Web. I'm working at IRI, directed by Bernard Stiegler, who is a philosopher interested in techniques. We explores the field of digital studies, in the sense of a new « organology of knowledge » appearing with the digital, which requires specific studies and concepts, and which shifts the whole contemporary episteme. More precisely -> we investigates the field of cultural and cognitive  technologies from a digital humanities point of view. Furthermore, we participate in the development of new devices and technologies to facilitate contributions and collaborative critique; to provide solutions for editorial and social interaction in the domains of culture and knowledge. Investigate the field of cultural and cognitive technologies from a digital humanities point of view.</p>
 <p>Develop applications to facilitate the critique.</p>
