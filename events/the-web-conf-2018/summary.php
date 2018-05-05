@@ -54,6 +54,19 @@
           <section id="transcript" rel="schema:hasPart" resource="#transcript">
             <h2 property="schema:name">Transcript of talks and discussions</h2>
             <div datatype="rdf:HTML" property="schema:description">
+              <nav>
+                <ul>
+                  <li><a href="#hello-world">Hello world!</a></li>
+                  <li><a href="#researcher-centric-solid">Building a researcher-centric world on the user-centric platform, Solid</a></li>
+                  <li><a href="#epistemology-in-the-cloud">Epistemology in the Cloud</a></li>
+                  <li><a href="#incentivizing-data-reuse">Incentivizing data reuse</a></li>
+                  <li><a href="#blockchain-based-educational-certificates">Blockchain based educational certificates as a model for a P2P commons of scholarly metadata interaction</a></li>
+                  <li><a href="#verified-shared-modular-research">Verified, shared, modular research communication with the Dat protocol</a></li>
+                  <li><a href="#recommender-systems">Recommender Systems as Enabling Technology to Interlink Scholarly Information</a></li>
+                  <li><a href="#contributive-research">Contributive Research: Hypothes.is Implementation for Academic Research Purpose</a></li>
+                </ul>
+              </nav>
+
               <section id="hello-world" rel="schema:hasPart" resource="#hello-world">
                 <h3 property="schema:name">Hello world!</h3>
                 <div datatype="rdf:HTML" property="schema:description">
