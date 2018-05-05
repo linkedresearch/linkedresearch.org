@@ -52,7 +52,7 @@
 
                     <li>09:10 — 09:40: <cite>Building a researcher-centric world on the user-centric platform, <a href="https://solid.mit.edu/">Solid</a></cite>, <a href="https://www.w3.org/People/Berners-Lee/">Tim Berners-Lee</a></li>
 
-                    <li>09:40 — 10:00: <cite><a href="http://bblfish.net/blog/2018/04/21/Epistemology%20In%20the%20Cloud.pdf">Epistemology in the Cloud</a></cite>, <a href="http://bblfish.net/">Henry Story</a></li>
+                    <li>09:40 — 10:00: <cite><a href="http://bblfish.net/blog/2018/04/21/index.html">Epistemology in the Cloud</a></cite>, [<a href="https://web.archive.org/web/20180505151827/http://bblfish.net/blog/2018/04/21/index.html">archive</a>], <a href="http://bblfish.net/">Henry Story</a></li>
 
                     <li>10:00 — 10:20: <cite><a href="https://datafair.xyz/incentivizing-data-reuse">Incentivizing data reuse</a></cite> [<a href="https://web.archive.org/web/20180419074835/https://datafair.xyz/incentivizing-data-reuse/">archived</a>], Christine Chichester and Antonis Loizou</li>
 
