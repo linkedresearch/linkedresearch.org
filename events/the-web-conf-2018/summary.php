@@ -40,7 +40,7 @@
                 <li about="#Eric-Prud-hommeaux"><dfn id="Eric-Prud-hommeaux"><abbr title="Eric Prud'hommeaux">EP</abbr>: <a href="https://www.w3.org/People/Eric/" lang="" property="schema:name" rel="schema:url" xml:lang="">Eric Prud'hommeaux</a></dfn></li>
                 <li about="https://vivo.tib.eu/fis/individual/n0000-0003-0232-7085"><dfn id="Lambert-Heller"><abbr title="Lambert Heller">LH</abbr>: <a href="https://vivo.tib.eu/fis/display/n0000-0003-0232-7085">Lambert Heller</a></dfn></li>
                 <li about="#ELisabeth-Lex"><dfn id="ELisabeth-Lex"><abbr title="ELisabeth Lex">EL</abbr>: <a href="http://www.elisabethlex.info/" lang="" property="schema:name" rel="schema:url" xml:lang="">Elisabeth Lex</a></dfn></li>
-                <li about="#Hanna Ćwiek-Kupczyńska"><dfn id="Hanna-Ćwiek-Kupczyńska"><abbr title="Hanna Cwiek-Kupczynska">HC</abbr>: <a href="https://www.rd-alliance.org/users/hanna-cwiek-kupczynska" lang="" property="schema:name" rel="schema:url" xml:lang="">Hanna Ćwiek-Kupczyńska</a></dfn></li>
+                <li about="#Hanna-Ćwiek-Kupczyńska"><dfn id="Hanna-Ćwiek-Kupczyńska"><abbr title="Hanna Cwiek-Kupczynska">HC</abbr>: <a href="https://www.rd-alliance.org/users/hanna-cwiek-kupczynska" lang="" property="schema:name" rel="schema:url" xml:lang="">Hanna Ćwiek-Kupczyńska</a></dfn></li>
                 <li about="https://orcid.org/0000-0002-2909-7163"><dfn id="Hideaki-Takeda"><abbr title="Hideaki Takeda">HT</abbr>: <a href="http://www-kasm.nii.ac.jp/~takeda/">Hideaki Takeda</a></dfn></li>
                 <li about="#Giacomo-Gilmozzi"><dfn id="Giacomo-Gilmozzi"><abbr title="Giacomo Gilmozzi">GG</abbr>: <a href="http://nextleap.eu/" lang="" property="schema:name" rel="schema:url" xml:lang="">Giacomo Gilmozzi</a></dfn></li>
 
