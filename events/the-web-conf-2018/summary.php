@@ -21,15 +21,8 @@
              <dt>Location</dt>
              <dd rel="schema:location" resource="http://dbpedia.org/resource/Lyon">Lyon, Paris</dd>
              <dt>Date</dt>
-             <dd>On 2018-04-28 from <time datatype="xsd:dateTime" datetime="2018-04-24T08:00:00Z" property="schema:startDate">09:00</time> to <time datatype="xsd:dateTime" datetime="2018-04-24T11:50:00Z" property="schema:startDate">12:50</time></dd>
+             <dd>On 2018-04-28 from <time datatype="xsd:dateTime" datetime="2018-04-24T08:00:00Z" property="schema:startDate">09:00</time> to <time datatype="xsd:dateTime" datetime="2018-04-24T11:50:00Z" property="schema:endDate">12:50</time></dd>
           </dl>
-
-          <section id="event" rel="schema:hasPart" resource="#event">
-            <h2 property="schema:name">Event</h2>
-            <div datatype="rdf:HTML" property="schema:description">
-              <p>The <em>Researcher-Centric Scholarly Communication</em> workshop (aka #LinkedResearch) took place at <cite><a href="https://www2018.thewebconf.org/">The Web Conf</a></cite>, on 24th April 2018, from 09:00 to 12:40. We had seven invited talks, and the session attracted around 30 participants. The even was <a href=#transcript">transcribed</a>.</p>
-            </div>
-          </section>
 
           <section id="participants" rel="schema:hasPart" resource="#participants">
             <h2 property="schema:name">Participants</h2>
