@@ -181,7 +181,7 @@
                       <div class="note">
                         <h4>Note</h4>
                         <div>
-                          <p>The property for the license would normally match that of what is in article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="https://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
+                          <p>The property for the license would normally match that of what is in article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="http://purl.org/dc/terms/rights">dcterms:rights</a></cite>, <cite><a href="https://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
                         </div>
                       </div>
                     </dd>
@@ -234,7 +234,7 @@
                       <div class="note">
                         <h4>Note</h4>
                         <div>
-                          <p>The property for the license would normally match that of what is in the article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="http://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
+                          <p>The property for the license would normally match that of what is in the article, hence it is not enforced here. Senders may want to use eg. <cite><a href="http://schema.org/license">schema:license</a></cite>, <cite><a href="http://purl.org/dc/terms/license">dcterms:license</a></cite>, <cite><a href="http://purl.org/dc/terms/rights">dcterms:rights</a></cite>, <cite><a href="http://creativecommons.org/ns#license">cc:license</a></cite>, <cite><a href="http://usefulinc.com/ns/doap#license">doap:license</a></cite>.</p>
                         </div>
                       </div>
                     </dd>
