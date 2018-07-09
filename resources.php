@@ -110,6 +110,7 @@
                     <li>Multi-dimensional data: <a href="https://www.w3.org/TR/vocab-data-cube/">RDF Data Cube vocabulary</a></li>
                     <li>Dataset metadata: <a href="http://rdf-vocabulary.ddialliance.org/discovery.html">DDI-RDF Discovery Vocabulary</a></li>
                     <li>Life Sciences: <a href="http://www.ontobee.org/">Ontobee</a>, eg. <a href="http://semanticscience.org/ontology/sio.owl">Semanticscience Integrated Ontology</a></li>
+                    <li>Tagging and Aggregation: <a href="https://tagteam.harvard.edu/">TagTeam</a></li>
                   </ul>
 
                   <p>This is not meant to be a complete list. See also the <a href="http://lov.okfn.org/dataset/lov/">Linked Open Vocabularies</a>.</p>
