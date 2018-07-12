@@ -66,7 +66,7 @@
                 <div datatype="rdf:HTML" property="schema:description">
                   <ul>
                     <li><a href="https://dokie.li/">dokieli</a>: sharing and sending of notifications to document authors about interactions (e.g., reviews, citations).</li>
-                    <li><a href="https://linkedresearch.org/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for notifications in RDF.</li>
+                    <li><a href="https://www.w3.org/TR/ldn/">Linked Data Notifications (LDN)</a>: A W3C standard for notifications in RDF.</li>
                   </ul>
                 </div>
               </section>
