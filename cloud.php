@@ -73,7 +73,7 @@
             </div>
           </section>
 
-          <section id="document-convention" inlist="" rel="schema:hasPart" resource="#document-convention">
+          <section id="document-convention" rel="schema:hasPart" resource="#document-convention">
             <h2 property="schema:name">Document Convention</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <dl>
