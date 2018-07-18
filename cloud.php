@@ -60,7 +60,7 @@
             <h2 propert="schema:name">Graph</h2>
             <div datatype="rdf:HTML" property="schema:description">
               <figure id="linked-open-research-cloud" rel="schema:hasPart" resource="#figure-centralised-decentralised-architectures">
-                <script>document.addEventListener('DOMContentLoaded', function(){ DO.U.showInboxGraph(null, '#linked-open-research-cloud', {'license': 'https://creativecommons.org/publicdomain/zero/1.0/', 'filter': { 'predicates': [ 'https://www.w3.org/ns/activitystreams#object', 'https://www.w3.org/ns/activitystreams#target', 'https://www.w3.org/ns/activitystreams#inReplyTo'] }}); });</script>
+                <script>document.addEventListener('DOMContentLoaded', function(){ DO.U.showGraph(null, '#linked-open-research-cloud', {'license': 'https://creativecommons.org/publicdomain/zero/1.0/', 'filter': { 'predicates': [ 'https://www.w3.org/ns/activitystreams#object', 'https://www.w3.org/ns/activitystreams#target', 'https://www.w3.org/ns/activitystreams#inReplyTo'] }}); });</script>
                 <figcaption property="schema:name">Linked Open Research Cloud</figcaption>
               </figure>
 
