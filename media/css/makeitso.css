@@ -32,9 +32,11 @@ body > header nav li a {
   color: #000;
   text-decoration: none;
   padding-left:0.5em;
+  border:0;
 }
 body > header nav li a:hover {
   color: #009000;
+  background-color:inherit;
 }
 body > header nav li .fa {
   line-height:1.4;
