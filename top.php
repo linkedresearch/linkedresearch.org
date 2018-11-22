@@ -8,8 +8,7 @@
     <link href="https://dokie.li/media/css/lncs.css" media="all" rel="stylesheet alternate" title="LNCS" />
     <link href="https://dokie.li/media/css/acm.css" media="all" rel="stylesheet alternate" title="ACM" />
     <link href="https://dokie.li/media/css/do.css" rel="stylesheet" media="all" />
-    <link href="https://dokie.li/media/css/font-awesome.min.css" rel="stylesheet" media="all" />
-    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
     <script src="https://dokie.li/scripts/do.js"></script>
   </head>
 
