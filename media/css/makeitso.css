@@ -38,7 +38,7 @@ body > header nav li a:hover {
   color: #009000;
   background-color:inherit;
 }
-body > header nav li .fa {
+body > header nav li i, {
   line-height:1.4;
 }
 
