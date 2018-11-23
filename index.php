@@ -6,49 +6,49 @@
         <div datatype="rdf:HTML" id="content" property="schema:description">
           <ul id="parts">
             <li>
-              <i class="fa fa-3x fa-universal-access"></i>
+              <i class="fas fa-3x fa-universal-access"></i>
               <h3>Publications</h3>
               <p>Publish your research in a space you control, on your own terms. You do not need permission to make your work accessible to all.</p>
             </li>
             <li>
-              <i class="fa fa-3x fa-anchor"></i>
+              <i class="fas fa-3x fa-anchor"></i>
               <h3>Unique Identifiers</h3>
               <p>Create unique identifiers for everything you think is important, from data objects to sections of prose, so others can refer to and reuse them.</p>
             </li>
             <li>
-              <i class="fa fa-3x fa-link"></i>
+              <i class="fas fa-3x fa-link"></i>
               <h3>Reusability and Links</h3>
               <p>Reuse and link to other research and data so nothing goes to waste or is reinvented. Keep a machine-readable trace of inspirations and derivations.</p>
             </li>
             <li>
-              <i class="fa fa-3x fa-bullhorn"></i>
+              <i class="fas fa-3x fa-bullhorn"></i>
               <h3>Announcements</h3>
               <p>Publicise your work so that individuals, organisations and software can discover it.</p><p><a href="/cloud">See the cloud</a></p>
             </li>
             <li>
-              <i class="fa fa-3x fa-comments-o"></i>
+              <i class="fas fa-3x fa-comments"></i>
               <h3>Feedback</h3>
               <p>Have an open comments policy so that anyone can review and generate discussion around your work.</p>
             </li>
             <li>
-              <i class="fa fa-3x fa-gift"></i>
+              <i class="fas fa-3x fa-gift"></i>
               <h3>User experience</h3>
               <p>Create great UX for your readers. Consider tailoring how you present your work to different audiences and contexts, adding interactive elements and digital and print views.</p>
             </li>
             <li>
-              <i class="fa fa-3x fa-rocket"></i>
+              <i class="fas fa-3x fa-rocket"></i>
               <h3>Question current practices</h3>
               <p>Reject information silos, paywalls, academic box-ticking, and archaic and artificial barriers. Be the change; publish your research using a free culture license, and openly review the work of others.</p>
               <p><a href="/calls#reviewers">You are not alone</a></p>
             </li>
             <li>
-              <i class="fa fa-3x fa-plug"></i>
+              <i class="fas fa-3x fa-plug"></i>
               <h3>Help and motivate</h3>
               <p>Encourage others to practice Linked Research. If you run a journal, conference or workshop, accept online, Web-centric contributions; publish machine-readable proceedings; open up the review process.</p>
               <p><a href="/events/">Who is doing this?</a></p>
             </li>
             <li>
-              <i class="fa fa-3x fa-puzzle-piece"></i>
+              <i class="fas fa-3x fa-puzzle-piece"></i>
               <h3>Resources</h3>
               <p>Tools, techniques and resources for Linked Research are under ongoing development, and many venues are moving towards accepting work in non-traditional formats.</p>
               <p><a href="/resources">Find out more</a></p>
