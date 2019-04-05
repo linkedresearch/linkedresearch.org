@@ -221,7 +221,6 @@
                       <figure class="listing">
                         <pre><code>&lt;&gt;</code>
 <code>  as:actor &lt;http://csarven.ca/#i&gt; .</code>
-<code></code>
 <code>&lt;http://example.org/annotation&gt;</code>
 <code>  schema:license &lt;https://creativecommons.org/licenses/by/4.0/&gt; .</code></pre>
                       </figure>
