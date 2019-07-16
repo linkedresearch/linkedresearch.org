@@ -17,11 +17,9 @@
       <nav>
         <ul>
           <li><i class="fas fa-home"></i><a href="/">Home</a></li>
-          <li><i class="fas fa-certificate"></i><a href="/rfc">RFC</a></li>
           <li><i class="fas fa-compass"></i><a href="/cloud">Cloud</a></li>
           <li><i class="fas fa-bullhorn"></i><a href="/calls">Calls</a></li>
           <li><i class="fas fa-globe"></i><a href="/events/">Events</a></li>
-          <li><i class="fas fa-puzzle-piece"></i><a href="/resources">Resources</a></li>
           <li><i class="fab fa-oai"></i><a href="https://github.com/linkedresearch/linkedresearch.org/">Source</a></li>
         </ul>
       </nav>
