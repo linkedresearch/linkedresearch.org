@@ -7,5 +7,5 @@ Redirect /event/www2017/proposal /events/www2017/workshop-proposal
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 
-RewriteRule ^events/(.*?)/(.*?)$ /events/$1/$2.php [L,NC,QSA]
-RewriteRule ^(articles|calls|resources|venues|faq|rfc|cloud)$ /$1.php [L,NC,QSA]
+RewriteRule ^events/(.*?)/(.*?)$ /events/$1/$2.html [L,NC,QSA]
+RewriteRule ^(calls|cloud)$ /$1.html [L,NC,QSA]
