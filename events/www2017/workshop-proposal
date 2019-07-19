@@ -47,11 +47,6 @@
                     <dd><a href="http://www.www2017.com.au/call-for-papers/workshops.php" rel="as:inReplyTo">WWW2017 Call for Workshops</a></dd>
                 </dl>
 
-                <dl id="document-inbox">
-                    <dt>Notifications Inbox</dt>
-                    <dd><a href="https://linkedresearch.org/inbox/" rel="ldp:inbox">inbox/</a></dd>
-                </dl>
-
                 <dl id="document-published">
                     <dt>Published</dt>
                     <dd><time datetime="2016-10-19" property="schema:datePublished" content="2016-10-19T00:00:00Z" datatype="xsd:dateTime">2016-10-19</time></dd>
